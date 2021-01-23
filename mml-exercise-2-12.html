@@ -22,21 +22,21 @@
     var CONFIG = {"hostname":"clanlu.com","root":"/","scheme":"Mist","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"always","padding":18,"offset":12,"onmobile":true},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="Chapter 2 Linear Algebra#2.1, #2.2, #2.3, #2.4, #2.5, #2.6, #2.7, #2.8, #2.9, #2.10, #2.11, #2.12, #2.13, #2.14, #2.15, #2.16, #2.17, #2.18, #2.19, #2.20">
+  <meta name="description" content="Solution to Mathematics for Machine learning Chapter 2 Exercise 2.12">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Solution to Mathematics for Machine learning">
-<meta property="og:url" content="http://clanlu.com/mml-solution-manual.html">
+<meta property="og:title" content="Find a basis of the intersection of two vector spaces">
+<meta property="og:url" content="http://clanlu.com/mml-exercise-2-12.html">
 <meta property="og:site_name" content="Math for Machine Learning">
-<meta property="og:description" content="Chapter 2 Linear Algebra#2.1, #2.2, #2.3, #2.4, #2.5, #2.6, #2.7, #2.8, #2.9, #2.10, #2.11, #2.12, #2.13, #2.14, #2.15, #2.16, #2.17, #2.18, #2.19, #2.20">
+<meta property="og:description" content="Solution to Mathematics for Machine learning Chapter 2 Exercise 2.12">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2021-01-22T03:50:49.000Z">
-<meta property="article:modified_time" content="2021-01-23T21:04:33.990Z">
+<meta property="article:published_time" content="2021-01-23T20:45:38.453Z">
+<meta property="article:modified_time" content="2021-01-23T20:47:37.469Z">
 <meta property="article:author" content="Clanlu">
-<meta property="article:tag" content="Solution Manual">
-<meta property="article:tag" content="Solution Content">
+<meta property="article:tag" content="Vector Space">
+<meta property="article:tag" content="Basis">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="http://clanlu.com/mml-solution-manual.html">
+<link rel="canonical" href="http://clanlu.com/mml-exercise-2-12.html">
 
 
 <script id="page-configurations">
@@ -49,7 +49,7 @@
   };
 </script>
 
-  <title>Solution to Mathematics for Machine learning | Math for Machine Learning</title>
+  <title>Find a basis of the intersection of two vector spaces | Math for Machine Learning</title>
   
 
 
@@ -169,7 +169,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
-    <link itemprop="mainEntityOfPage" href="http://clanlu.com/mml-solution-manual.html">
+    <link itemprop="mainEntityOfPage" href="http://clanlu.com/mml-exercise-2-12.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="https://cdn.jsdelivr.net/gh/MathPage/gitalk/img/yin-yang.jpg">
@@ -182,7 +182,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          Solution to Mathematics for Machine learning
+          Find a basis of the intersection of two vector spaces
         </h1>
 
         <div class="post-meta">
@@ -191,16 +191,10 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">Posted on</span>
+              
 
-              <time title="Created: 2021-01-21 22:50:49" itemprop="dateCreated datePublished" datetime="2021-01-21T22:50:49-05:00">2021-01-21</time>
+              <time title="Created: 2021-01-23 15:45:38 / Modified: 15:47:37" itemprop="dateCreated datePublished" datetime="2021-01-23T15:45:38-05:00">2021-01-23</time>
             </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2021-01-23 16:04:33" itemprop="dateModified" datetime="2021-01-23T16:04:33-05:00">2021-01-23</time>
-              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="far fa-folder"></i>
@@ -208,6 +202,10 @@
               <span class="post-meta-item-text">In</span>
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
                   <a href="/categories/Machine-Learning/" itemprop="url" rel="index"><span itemprop="name">Machine Learning</span></a>
+                </span>
+                  , 
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Machine-Learning/Linear-Algebra/" itemprop="url" rel="index"><span itemprop="name">Linear Algebra</span></a>
                 </span>
             </span>
 
@@ -229,14 +227,17 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <h3 id="Chapter-2-Linear-Algebra"><a href="#Chapter-2-Linear-Algebra" class="headerlink" title="Chapter 2 Linear Algebra"></a>Chapter 2 Linear Algebra</h3><p><a href="/mml-exercise-2-1.html">#2.1</a>, <a href="/mml-exercise-2-2.html">#2.2</a>, <a href="/mml-exercise-2-3.html">#2.3</a>, <a href="/mml-exercise-2-4.html">#2.4</a>, <a href="/mml-exercise-2-5.html">#2.5</a>, <a href="/mml-exercise-2-6.html">#2.6</a>, <a href="/mml-exercise-2-7.html">#2.7</a>, <a href="/mml-exercise-2-8.html">#2.8</a>, <a href="/mml-exercise-2-9.html">#2.9</a>, <a href="/mml-exercise-2-10.html">#2.10</a>, <a href="/mml-exercise-2-11.html">#2.11</a>, <a href="/mml-exercise-2-12.html">#2.12</a>, <a href="/mml-exercise-2-13.html">#2.13</a>, <a href="/mml-exercise-2-14.html">#2.14</a>, #2.15, #2.16, #2.17, #2.18, #2.19, #2.20</p>
+        <div class="note info">
+            <p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 2 Exercise 2.12</strong></p>
+          </div>
+
 <a id="more"></a>
 
-<h3 id="Chapter-3-Analytic-Geometry"><a href="#Chapter-3-Analytic-Geometry" class="headerlink" title="Chapter 3 Analytic Geometry"></a>Chapter 3 Analytic Geometry</h3><p><a href="/mml-exercise-3-1.html">#3.1</a>, <a href="/mml-exercise-3-2.html">#3.2</a>, <a href="/mml-exercise-3-3.html">#3.3</a>, <a href="/mml-exercise-3-4.html">#3.4</a>, #3.5, #3.6, #3.7, #3.8, <a href="/mml-exercise-3-9.html">#3.9</a>, #3.10</p>
-<h3 id="Chapter-4-Matrix-Decompositions"><a href="#Chapter-4-Matrix-Decompositions" class="headerlink" title="Chapter 4 Matrix Decompositions"></a>Chapter 4 Matrix Decompositions</h3><p><a href="/mml-exercise-4-1.html">#4.1</a>, #4.2, #4.3, #4.4, #4.5, #4.6, #4.7, #4.8, #4.9, #4.10, #4.11, #4.12</p>
-<h3 id="Chapter-5-Vector-Calculus"><a href="#Chapter-5-Vector-Calculus" class="headerlink" title="Chapter 5 Vector Calculus"></a>Chapter 5 Vector Calculus</h3><p><a href="/mml-exercise-5-1.html">#5.1</a>, <a href="/mml-exercise-5-2.html">#5.2</a>, <a href="/mml-exercise-5-3.html">#5.3</a>, <a href="/mml-exercise-5-4.html">#5.4</a>, #5.5, #5.6, #5.7, #5.8, #5.9</p>
-<h3 id="Chapter-6-Probability-and-Distributions"><a href="#Chapter-6-Probability-and-Distributions" class="headerlink" title="Chapter 6 Probability and Distributions"></a>Chapter 6 Probability and Distributions</h3><p>#6.1, #6.2, #6.3, #6.4, #6.5, #6.6, #6.7, #6.8, #6.9, #6.10, #6.11, #6.12, #6.13</p>
-<h3 id="Chapter-7-Continuous-Optimazation"><a href="#Chapter-7-Continuous-Optimazation" class="headerlink" title="Chapter 7 Continuous Optimazation"></a>Chapter 7 Continuous Optimazation</h3><p>#7.1, #7.2, #7.3, #7.4, #7.5, #7.6, #7.7, #7.8, #7.9, #7.10, #7.11</p>
+<p>Solution:</p>
+<p>We write the given vectors as $v_1, \dots v_6$ from left to right. Firstly, observe that $\dim(U_1)=2$ and $\dim(U_2)=2$ (compute the rank of $\left[v_1|v_2|v_3\right]$, then $\left[v_4|v_5|v_6\right]$). Since we can write $$v_3= \frac13 (v_1-2v_2)\quad\text{and}\quad v_6=-v_4-2v_5,$$ we need not consider $v_3$ and $v_6$ any further.</p>
+<p>Now, if we find the rank of $\left[v_1|v_2|v_4|v_5\right]$, we get 3, so $\dim(U_1+U_2)=3$. Therefore, $$\dim(U_1\cap U_2) = 2+2-3=1.$$ Hence, to find a basis of $U_1 \cap U_2$, we need only find any non-zero vector in the space.</p>
+<p>Let $0\neq v \in U_1\cap U_2$. Then we can write $v=\alpha_1v_1 + \alpha_2v_2$, and $v=\alpha_4v_4 + \alpha_5v_5$. Subtracting these equations, we have $$0=\alpha_1v_1 + \alpha_2v_2 -\alpha_4v_4 - \alpha_5v_5.$$ Remember we want a non-zero solution for $v$, and observe that the rank of $\left[v_1|v_2|v_4\right]$ is 3 (i.e. these three vectors are linearly independent). Hence we can take $\alpha_5=9$, say (this means we don’t have fractions later, but there’s no way to know this a priori!), and solve for the other $\alpha_i$’s. Using Gaussian elimination, we obtain $\alpha_1=4$, $\alpha_2=10$ and $\alpha_4 = -6$. Thus $$\begin{equation*} v=4v_1+10v_2 = -6v_4+9v_5 = \begin{bmatrix} 24\\-6\\-12\\-6 \end{bmatrix}. \end{equation*}$$</p>
+<p>Finally, we can write our basis of $U_1\cap U_2$ as just $\{ v \}$.</p>
 <script type="text/javascript">
 amzn_assoc_placement = "adunit0";
 amzn_assoc_search_bar = "true";
@@ -258,13 +259,31 @@ amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
     
     
       
+  <div class="popular-posts-header">You may also like.</div>
+  <ul class="popular-posts">
+    <li class="popular-posts-item">
+      <div class="popular-posts-title"><a href="/mml-exercise-2-14.html" rel="bookmark">Find a basis of the intersection of two solution spaces II</a></div>
+    </li>
+    <li class="popular-posts-item">
+      <div class="popular-posts-title"><a href="/mml-exercise-2-13.html" rel="bookmark">Find a basis of the intersection of two solution spaces</a></div>
+    </li>
+    <li class="popular-posts-item">
+      <div class="popular-posts-title"><a href="/mml-exercise-2-10.html" rel="bookmark">Determine if vectors are linearly independent</a></div>
+    </li>
+    <li class="popular-posts-item">
+      <div class="popular-posts-title"><a href="/mml-exercise-2-11.html" rel="bookmark">Write a vector as a linear combination of other vectors</a></div>
+    </li>
+    <li class="popular-posts-item">
+      <div class="popular-posts-title"><a href="/mml-exercise-2-9.html" rel="bookmark">Determine if a subset is a subspace</a></div>
+    </li>
+  </ul>
 
 
       <footer class="post-footer">
           
           <div class="post-tags">
-              <a href="/tags/Solution-Manual/" rel="tag"><i class="fa fa-tag"></i> Solution Manual</a>
-              <a href="/tags/Solution-Content/" rel="tag"><i class="fa fa-tag"></i> Solution Content</a>
+              <a href="/tags/Vector-Space/" rel="tag"><i class="fa fa-tag"></i> Vector Space</a>
+              <a href="/tags/Basis/" rel="tag"><i class="fa fa-tag"></i> Basis</a>
           </div>
 
         
@@ -273,12 +292,12 @@ amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="/mml-exercise-5-4.html" rel="prev" title="Compute the Taylor polynomials of trigonometric functions">
-      <i class="fa fa-chevron-left"></i> Compute the Taylor polynomials of trigonometric functions
+    <a href="/mml-exercise-2-2.html" rel="prev" title="Verify a set with certain binary operation is an Abelian group II">
+      <i class="fa fa-chevron-left"></i> Verify a set with certain binary operation is an Abelian group II
     </a></div>
       <div class="post-nav-item">
-    <a href="/mml-exercise-3-4.html" rel="next" title="Angles between two vectors using difference inner products">
-      Angles between two vectors using difference inner products <i class="fa fa-chevron-right"></i>
+    <a href="/mml-exercise-2-13.html" rel="next" title="Find a basis of the intersection of two solution spaces">
+      Find a basis of the intersection of two solution spaces <i class="fa fa-chevron-right"></i>
     </a></div>
     </div>
       </footer>
@@ -338,7 +357,6 @@ amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#Chapter-2-Linear-Algebra"><span class="nav-number">1.</span> <span class="nav-text">Chapter 2 Linear Algebra</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Chapter-3-Analytic-Geometry"><span class="nav-number">2.</span> <span class="nav-text">Chapter 3 Analytic Geometry</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Chapter-4-Matrix-Decompositions"><span class="nav-number">3.</span> <span class="nav-text">Chapter 4 Matrix Decompositions</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Chapter-5-Vector-Calculus"><span class="nav-number">4.</span> <span class="nav-text">Chapter 5 Vector Calculus</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Chapter-6-Probability-and-Distributions"><span class="nav-number">5.</span> <span class="nav-text">Chapter 6 Probability and Distributions</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Chapter-7-Continuous-Optimazation"><span class="nav-number">6.</span> <span class="nav-text">Chapter 7 Continuous Optimazation</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
