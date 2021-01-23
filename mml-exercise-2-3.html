@@ -22,21 +22,21 @@
     var CONFIG = {"hostname":"clanlu.com","root":"/","scheme":"Mist","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"always","padding":18,"offset":12,"onmobile":true},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="Solution to Mathematics for Machine learning Chapter 3 Exercise 3.9             Solution:   a. Let $\mathbf x&#x3D;[x_1,\dots,x_n]^\top$ and $\mathbf y&#x3D;[1,\dots,1]^\top \in\mathbb R^n$. Then $">
+  <meta name="description" content="Solution to Mathematics for Machine learning Chapter 2 Exercise 2.3             Solution: Let $A_1 &#x3D; \begin{bmatrix} 1 &amp; x_1 &amp; y_1 \\ 0 &amp; 1 &amp; z_1 \\ 0 &amp; 0 &amp; 1 \end">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Naive applications of Cauchy-Schwarz inequality">
-<meta property="og:url" content="http://clanlu.com/mml-exercise-3-9.html">
+<meta property="og:title" content="Verify a set with matrices is a group">
+<meta property="og:url" content="http://clanlu.com/mml-exercise-2-3.html">
 <meta property="og:site_name" content="Math for Machine Learning">
-<meta property="og:description" content="Solution to Mathematics for Machine learning Chapter 3 Exercise 3.9             Solution:   a. Let $\mathbf x&#x3D;[x_1,\dots,x_n]^\top$ and $\mathbf y&#x3D;[1,\dots,1]^\top \in\mathbb R^n$. Then $">
+<meta property="og:description" content="Solution to Mathematics for Machine learning Chapter 2 Exercise 2.3             Solution: Let $A_1 &#x3D; \begin{bmatrix} 1 &amp; x_1 &amp; y_1 \\ 0 &amp; 1 &amp; z_1 \\ 0 &amp; 0 &amp; 1 \end">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2021-01-22T03:50:49.000Z">
-<meta property="article:modified_time" content="2021-01-22T04:26:29.043Z">
+<meta property="article:modified_time" content="2021-01-23T04:20:35.408Z">
 <meta property="article:author" content="Clanlu">
-<meta property="article:tag" content="Inner Product">
-<meta property="article:tag" content="Cauchy-Schwarz inequality">
+<meta property="article:tag" content="Matrix">
+<meta property="article:tag" content="Group">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="http://clanlu.com/mml-exercise-3-9.html">
+<link rel="canonical" href="http://clanlu.com/mml-exercise-2-3.html">
 
 
 <script id="page-configurations">
@@ -49,7 +49,7 @@
   };
 </script>
 
-  <title>Naive applications of Cauchy-Schwarz inequality | Math for Machine Learning</title>
+  <title>Verify a set with matrices is a group | Math for Machine Learning</title>
   
 
 
@@ -169,7 +169,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
-    <link itemprop="mainEntityOfPage" href="http://clanlu.com/mml-exercise-3-9.html">
+    <link itemprop="mainEntityOfPage" href="http://clanlu.com/mml-exercise-2-3.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="https://cdn.jsdelivr.net/gh/MathPage/gitalk/img/yin-yang.jpg">
@@ -182,7 +182,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          Naive applications of Cauchy-Schwarz inequality
+          Verify a set with matrices is a group
         </h1>
 
         <div class="post-meta">
@@ -191,10 +191,16 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">Posted on</span>
-              
 
-              <time title="Created: 2021-01-21 22:50:49 / Modified: 23:26:29" itemprop="dateCreated datePublished" datetime="2021-01-21T22:50:49-05:00">2021-01-21</time>
+              <time title="Created: 2021-01-21 22:50:49" itemprop="dateCreated datePublished" datetime="2021-01-21T22:50:49-05:00">2021-01-21</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2021-01-22 23:20:35" itemprop="dateModified" datetime="2021-01-22T23:20:35-05:00">2021-01-22</time>
+              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="far fa-folder"></i>
@@ -228,12 +234,16 @@
 
       
         <div class="note info">
-            <p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 3 Exercise 3.9</strong></p>
+            <p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 2 Exercise 2.3</strong></p>
           </div>
 
-<p>Solution:  </p>
-<p>a. Let $\mathbf x=[x_1,\dots,x_n]^\top$ and $\mathbf y=[1,\dots,1]^\top \in\mathbb R^n$. Then $$\langle \mathbf x, \mathbf y\rangle=x_1+\dots+x_n=1,$$ $$\langle \mathbf x, \mathbf x\rangle = x_1^2+\dots+x_n^2,$$ $$\langle \mathbf y, \mathbf y\rangle = 1+\dots+1=n.$$Applying the Cauchy-Schwarz inequality, we have $$\langle \mathbf x, \mathbf x\rangle\langle \mathbf y, \mathbf y\rangle\geqslant (\langle \mathbf x, \mathbf y\rangle)^2,$$which implies that $$n\sum_{i=1}^n x_i^2\geqslant 1.$$Therefore, we obtain $\sum_{i=1}^n x_i^2\geqslant \frac{1}{n}$. </p>
-<p>b. Let $\mathbf x=[\sqrt{x_1},\dots,\sqrt{x_n}]^\top$ and $\mathbf y=[1/\sqrt{x_1},\dots,1/\sqrt{x_n}]^\top \in\mathbb R^n$. Then $$\langle \mathbf x, \mathbf y\rangle = 1+\dots+1=n,$$ $$\langle \mathbf x, \mathbf x\rangle = x_1+\dots+x_n=1,$$ $$\langle \mathbf y, \mathbf y\rangle =\frac{1}{x_1}+\cdots+\frac{1}{x_n}.$$Applying the Cauchy-Schwarz inequality, we have $$\langle \mathbf x, \mathbf x\rangle\langle \mathbf y, \mathbf y\rangle\geqslant (\langle \mathbf x, \mathbf y\rangle)^2,$$which implies that $$1\sum_{i=1}^n\dfrac{1}{x_i}\geqslant n^2.$$Therefore, we obtain $\sum_{i=1}^n \frac{1}{x_i}\geqslant n^2$.</p>
+<p>Solution:</p>
+<p>Let $A_1 = \begin{bmatrix} 1 &amp; x_1 &amp; y_1 \\ 0 &amp; 1 &amp; z_1 \\ 0 &amp; 0 &amp; 1 \end{bmatrix}$ and $A_2 = \begin{bmatrix} 1 &amp; x_2 &amp; y_2 \\ 0 &amp; 1 &amp; z_2 \\ 0 &amp; 0 &amp; 1 \end{bmatrix} \in \mathcal{G}$.</p>
+<p>Then $$A_1A_2 = \begin{bmatrix} 1 &amp; x_1+x_2 &amp; y_1+x_1z_2+y_2 \\ 0 &amp; 1 &amp; z_1+z_2 \\ 0 &amp; 0 &amp; 1 \end{bmatrix} \in\mathcal{G},$$ so we have closure.</p>
+<p>Associativity follows from the associativity of standard matrix multiplication.</p>
+<p>Letting $x=y=z=0$, observe that the identity is in $\mathcal{G}$.</p>
+<p>Finally, if we take $x_2 = -x_1$, $z_2 = -z_1$, and $y_2 = -y_1-x_1z_2$, then observe that $A_1A_2 = I_3$, and thus inverses are of the required form! Therefore, $\mathcal{G} $ is a group.</p>
+<p>The group is not abelian, e.g. take $x_1=z_2=1$ and everything else to be $0$. Then multiplying these matrices in the other order (i.e. $x_2=z_1=1$) gives a different answer.</p>
 <script type="text/javascript">
 amzn_assoc_placement = "adunit0";
 amzn_assoc_search_bar = "true";
@@ -258,16 +268,13 @@ amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
   <div class="popular-posts-header">You may also like.</div>
   <ul class="popular-posts">
     <li class="popular-posts-item">
-      <div class="popular-posts-title"><a href="/mml-exercise-3-1.html" rel="bookmark">Verify Inner Product by Direct Computation</a></div>
+      <div class="popular-posts-title"><a href="/mml-exercise-2-4.html" rel="bookmark">Compute products of Matrices</a></div>
     </li>
     <li class="popular-posts-item">
-      <div class="popular-posts-title"><a href="/mml-exercise-3-3.html" rel="bookmark">Distances between two vectors using difference inner products</a></div>
+      <div class="popular-posts-title"><a href="/mml-exercise-2-5.html" rel="bookmark">Solve systems of inhomogenous linear equations</a></div>
     </li>
     <li class="popular-posts-item">
-      <div class="popular-posts-title"><a href="/mml-exercise-3-2.html" rel="bookmark">Check if a Bilinear form is an Inner Product</a></div>
-    </li>
-    <li class="popular-posts-item">
-      <div class="popular-posts-title"><a href="/mml-exercise-3-4.html" rel="bookmark">Angles between two vectors using difference inner products</a></div>
+      <div class="popular-posts-title"><a href="/mml-exercise-2-1.html" rel="bookmark">Verify a set with certain binary operation is an Abelian group</a></div>
     </li>
   </ul>
 
@@ -300,8 +307,8 @@ amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
       <footer class="post-footer">
           
           <div class="post-tags">
-              <a href="/tags/Inner-Product/" rel="tag"><i class="fa fa-tag"></i> Inner Product</a>
-              <a href="/tags/Cauchy-Schwarz-inequality/" rel="tag"><i class="fa fa-tag"></i> Cauchy-Schwarz inequality</a>
+              <a href="/tags/Matrix/" rel="tag"><i class="fa fa-tag"></i> Matrix</a>
+              <a href="/tags/Group/" rel="tag"><i class="fa fa-tag"></i> Group</a>
           </div>
 
         
@@ -310,12 +317,12 @@ amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="/mml-exercise-2-3.html" rel="prev" title="Verify a set with matrices is a group">
-      <i class="fa fa-chevron-left"></i> Verify a set with matrices is a group
+    <a href="/mml-solution-manual.html" rel="prev" title="Solution to Mathematics for Machine learning">
+      <i class="fa fa-chevron-left"></i> Solution to Mathematics for Machine learning
     </a></div>
       <div class="post-nav-item">
-    <a href="/mml-exercise-5-1.html" rel="next" title="Compute derivative using product rule and chain rule">
-      Compute derivative using product rule and chain rule <i class="fa fa-chevron-right"></i>
+    <a href="/mml-exercise-3-9.html" rel="next" title="Naive applications of Cauchy-Schwarz inequality">
+      Naive applications of Cauchy-Schwarz inequality <i class="fa fa-chevron-right"></i>
     </a></div>
     </div>
       </footer>
