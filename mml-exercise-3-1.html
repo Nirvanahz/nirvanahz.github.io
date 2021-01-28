@@ -30,7 +30,7 @@
 <meta property="og:description" content="Solution to Mathematics for Machine learning Chapter 3 Exercise 3.1">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2021-01-22T03:50:49.000Z">
-<meta property="article:modified_time" content="2021-01-23T16:18:00.658Z">
+<meta property="article:modified_time" content="2021-01-28T04:32:42.616Z">
 <meta property="article:author" content="Clanlu">
 <meta property="article:tag" content="Inner Product">
 <meta name="twitter:card" content="summary">
@@ -127,7 +127,7 @@
   </li>
         <li class="menu-item menu-item-tags">
 
-    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>Tags<span class="badge">30</span></a>
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>Tags<span class="badge">35</span></a>
 
   </li>
         <li class="menu-item menu-item-categories">
@@ -137,7 +137,7 @@
   </li>
         <li class="menu-item menu-item-archives">
 
-    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives<span class="badge">32</span></a>
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives<span class="badge">36</span></a>
 
   </li>
   </ul>
@@ -198,7 +198,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2021-01-23 11:18:00" itemprop="dateModified" datetime="2021-01-23T11:18:00-05:00">2021-01-23</time>
+                <time title="Modified: 2021-01-27 23:32:42" itemprop="dateModified" datetime="2021-01-27T23:32:42-05:00">2021-01-27</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -242,7 +242,21 @@
 <p>Firstly, we check it is symmetric. Note that $$\langle \mathbf x,\mathbf y\rangle = x_1y_1-(x_1y_2+x_2y_1)+2(x_2y_2)$$ and $$\langle \mathbf y,\mathbf x\rangle = y_1x_1-(y_1x_2+y_2x_1)+2(y_2x_2),$$it is clear that $\langle \mathbf x,\mathbf y\rangle=\langle \mathbf y,\mathbf x\rangle$.</p>
 <p>Secondly, we check it is bilinear. Let $\mathbf z=[z_1,z_2]^\top$, then for any real numbers $a,b$ we have\begin{align*}\langle a\mathbf x+b\mathbf y,\mathbf z\rangle=&amp;\ \langle [ax_1+by_1,ax_2+by_2]^\top,[z_1,z_2]^\top\rangle \\ =&amp;\ (ax_1+by_1)z_1-(ax_1+by_1)z_2-(ax_2+by_2)z_1+2(ax_2+by_2)z_2\\=&amp;\ (ax_1z_1-ax_1z_2-ax_2z_1+2ax_2z_2)+(by_1z_1-by_1z_2-by_2z_1+2by_2z_2)\\=&amp;\ a(x_1z_1-x_1z_2-x_2z_1+2x_2z_2)+b(y_1z_1-y_1z_2-y_2z_1+2y_2z_2)\\=&amp;\ a\langle \mathbf x,\mathbf z\rangle+b\langle \mathbf y,\mathbf z\rangle.\end{align*} Use the symmetry shown above, we have\begin{align*}\langle \mathbf x,a\mathbf y+b\mathbf z\rangle=&amp;\ \langle a\mathbf y+b\mathbf z,\mathbf x\rangle \\ = &amp;\ a\langle \mathbf y,\mathbf x\rangle + b\langle \mathbf z,\mathbf x\rangle \\ = &amp;\ a\langle \mathbf x,\mathbf y\rangle + b\langle \mathbf x,\mathbf z\rangle.\end{align*}In the second equality, we used the linearity shown above on the first component. The last equality comes from the symmetry of $\langle ,\rangle$.</p>
 <p>Finally, we prove it is positive-definite. We have \begin{align*}\langle \mathbf x,\mathbf x\rangle=&amp;\ x_1x_1-(x_1x_2+x_2x_1)+2x_2x_2\\ = &amp;\ x_1^2-2x_1x_2+2x_2^2=(x_1-x_2)^2+x_2^2,\end{align*}which is always non-negative and can only be zero if $x_2=0$ and $x_1=x_2$. This confirms it is positive-definite.</p>
-
+<script type="text/javascript">
+amzn_assoc_placement = "adunit0";
+amzn_assoc_search_bar = "true";
+amzn_assoc_tracking_id = "linearalgeb0e-20";
+amzn_assoc_search_bar_position = "bottom";
+amzn_assoc_ad_mode = "search";
+amzn_assoc_ad_type = "smart";
+amzn_assoc_marketplace = "amazon";
+amzn_assoc_region = "US";
+amzn_assoc_title = "Shop Related Products";
+amzn_assoc_default_search_phrase = "Linear Algebra";
+amzn_assoc_default_category = "All";
+amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
+</script><br />
+<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>
     </div>
 
     
@@ -258,13 +272,19 @@
       <div class="popular-posts-title"><a href="/mml-exercise-3-3.html" rel="bookmark">Distances between two vectors using difference inner products</a></div>
     </li>
     <li class="popular-posts-item">
-      <div class="popular-posts-title"><a href="/mml-exercise-3-5.html" rel="bookmark">Orthogonal projection and distance in Euclidean space</a></div>
-    </li>
-    <li class="popular-posts-item">
       <div class="popular-posts-title"><a href="/mml-exercise-3-4.html" rel="bookmark">Angles between two vectors using difference inner products</a></div>
     </li>
     <li class="popular-posts-item">
+      <div class="popular-posts-title"><a href="/mml-exercise-3-5.html" rel="bookmark">Orthogonal projection and distance in Euclidean space</a></div>
+    </li>
+    <li class="popular-posts-item">
+      <div class="popular-posts-title"><a href="/mml-exercise-3-8.html" rel="bookmark">Computation using Gram-Schmidt method</a></div>
+    </li>
+    <li class="popular-posts-item">
       <div class="popular-posts-title"><a href="/mml-exercise-3-9.html" rel="bookmark">Naive applications of Cauchy-Schwarz inequality</a></div>
+    </li>
+    <li class="popular-posts-item">
+      <div class="popular-posts-title"><a href="/mml-exercise-3-6.html" rel="bookmark">Orthogonal projection and distance in Euclidean space II</a></div>
     </li>
   </ul>
 
@@ -281,8 +301,8 @@
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="/mml-exercise-3-2.html" rel="prev" title="Check if a Bilinear form is an Inner Product">
-      <i class="fa fa-chevron-left"></i> Check if a Bilinear form is an Inner Product
+    <a href="/mml-exercise-2-1.html" rel="prev" title="Verify a set with certain binary operation is an Abelian group">
+      <i class="fa fa-chevron-left"></i> Verify a set with certain binary operation is an Abelian group
     </a></div>
       <div class="post-nav-item">
     <a href="/mml-exercise-2-3.html" rel="next" title="Verify a set with matrices is a group">
@@ -361,7 +381,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">32</span>
+          <span class="site-state-item-count">36</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
@@ -374,7 +394,7 @@
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">30</span>
+        <span class="site-state-item-count">35</span>
         <span class="site-state-item-name">tags</span></a>
       </div>
   </nav>
