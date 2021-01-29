@@ -129,7 +129,7 @@
   </li>
         <li class="menu-item menu-item-tags">
 
-    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>Tags<span class="badge">35</span></a>
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>Tags<span class="badge">38</span></a>
 
   </li>
         <li class="menu-item menu-item-categories">
@@ -139,7 +139,7 @@
   </li>
         <li class="menu-item menu-item-archives">
 
-    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives<span class="badge">36</span></a>
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives<span class="badge">39</span></a>
 
   </li>
   </ul>
@@ -218,6 +218,20 @@
               <span class="post-meta-item-text">Views: </span>
               <span id="busuanzi_value_page_pv"></span>
             </span>
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Valine: </span>
+    
+    <a title="valine" href="/mml-exercise-2-20.html#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/mml-exercise-2-20.html" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
 
         </div>
       </header>
@@ -276,34 +290,34 @@ amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
   <div class="popular-posts-header">You may also like.</div>
   <ul class="popular-posts">
     <li class="popular-posts-item">
-      <div class="popular-posts-title"><a href="/mml-exercise-2-13.html" rel="bookmark">Find a basis of the intersection of two solution spaces</a></div>
-    </li>
-    <li class="popular-posts-item">
-      <div class="popular-posts-title"><a href="/mml-exercise-2-12.html" rel="bookmark">Find a basis of the intersection of two vector spaces</a></div>
-    </li>
-    <li class="popular-posts-item">
       <div class="popular-posts-title"><a href="/mml-exercise-2-15.html" rel="bookmark">Find a basis of the intersection of two solution spaces III</a></div>
     </li>
     <li class="popular-posts-item">
       <div class="popular-posts-title"><a href="/mml-exercise-2-14.html" rel="bookmark">Find a basis of the intersection of two solution spaces II</a></div>
     </li>
     <li class="popular-posts-item">
-      <div class="popular-posts-title"><a href="/mml-exercise-2-18.html" rel="bookmark">Properties of automorphisms of vector space</a></div>
+      <div class="popular-posts-title"><a href="/mml-exercise-2-16.html" rel="bookmark">Determine if maps are linear mappings</a></div>
     </li>
     <li class="popular-posts-item">
       <div class="popular-posts-title"><a href="/mml-exercise-2-19.html" rel="bookmark">Computations of an automorphism of vector space</a></div>
     </li>
     <li class="popular-posts-item">
-      <div class="popular-posts-title"><a href="/mml-exercise-2-16.html" rel="bookmark">Determine if maps are linear mappings</a></div>
+      <div class="popular-posts-title"><a href="/mml-exercise-2-13.html" rel="bookmark">Find a basis of the intersection of two solution spaces</a></div>
     </li>
     <li class="popular-posts-item">
       <div class="popular-posts-title"><a href="/mml-exercise-2-17.html" rel="bookmark">Computations involving a linear mapping</a></div>
     </li>
     <li class="popular-posts-item">
+      <div class="popular-posts-title"><a href="/mml-exercise-2-12.html" rel="bookmark">Find a basis of the intersection of two vector spaces</a></div>
+    </li>
+    <li class="popular-posts-item">
+      <div class="popular-posts-title"><a href="/mml-exercise-2-18.html" rel="bookmark">Properties of automorphisms of vector space</a></div>
+    </li>
+    <li class="popular-posts-item">
       <div class="popular-posts-title"><a href="/mml-exercise-2-11.html" rel="bookmark">Write a vector as a linear combination of other vectors</a></div>
     </li>
     <li class="popular-posts-item">
-      <div class="popular-posts-title"><a href="/mml-exercise-2-9.html" rel="bookmark">Determine if a subset is a subspace</a></div>
+      <div class="popular-posts-title"><a href="/mml-exercise-2-10.html" rel="bookmark">Determine if vectors are linearly independent</a></div>
     </li>
   </ul>
 
@@ -341,6 +355,7 @@ amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
 
           </div>
           
+    <div class="comments" id="valine-comments"></div>
 
 <script>
   window.addEventListener('tabs:register', () => {
@@ -402,7 +417,7 @@ amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">36</span>
+          <span class="site-state-item-count">39</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
@@ -415,7 +430,7 @@ amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">35</span>
+        <span class="site-state-item-count">38</span>
         <span class="site-state-item-name">tags</span></a>
       </div>
   </nav>
@@ -572,6 +587,35 @@ amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
     
 
   
+
+
+<script>
+NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
+  NexT.utils.getScript('//unpkg.com/valine/dist/Valine.min.js', () => {
+    var GUEST = ['nick', 'mail', 'link'];
+    var guest = 'nick,mail';
+    guest = guest.split(',').filter(item => {
+      return GUEST.includes(item);
+    });
+    new Valine({
+      el         : '#valine-comments',
+      verify     : false,
+      notify     : false,
+      appId      : 'NiGogDw3Y2N3dlHWQv2hvo9J-MdYXbMMI',
+      appKey     : 'mnW7WwT4VchGPby8o6RkscP8',
+      placeholder: "Just go go! (Comment supports Mathjax/LaTeX)",
+      avatar     : 'identicon',
+      meta       : guest,
+      pageSize   : '10' || 10,
+      visitor    : false,
+      lang       : 'en' || 'zh-cn',
+      path       : location.pathname,
+      recordIP   : true,
+      serverURLs : ''
+    });
+  }, window.Valine);
+});
+</script>
 
 </body>
 </html>
