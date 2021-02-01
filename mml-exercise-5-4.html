@@ -14,7 +14,7 @@
   <meta name="google-site-verification" content="QwkaXRmtLDcpnplkqLLbHXuGI_1YM2UsB-0U7gstP9Y">
 
 <link rel="stylesheet" href="/css/main.css">
-<script data-ad-client="ca-pub-5289197296725423" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Mate:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
 <link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
 
@@ -252,7 +252,6 @@
     <div class="post-body" itemprop="articleBody">
 
       
-
         <div class="note info">
             <p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 5 Exercise 5.4</strong></p>
           </div>
@@ -287,10 +286,10 @@ amzn_assoc_search_bar_position = "bottom";
       <div class="popular-posts-title"><a href="/mml-exercise-5-1.html" rel="bookmark">Compute derivative using product rule and chain rule</a></div>
     </li>
     <li class="popular-posts-item">
-      <div class="popular-posts-title"><a href="/mml-exercise-5-3.html" rel="bookmark">Compute derivative of the function defining normal distribution</a></div>
+      <div class="popular-posts-title"><a href="/mml-exercise-5-2.html" rel="bookmark">Compute the derivative of the logistic sigmoid</a></div>
     </li>
     <li class="popular-posts-item">
-      <div class="popular-posts-title"><a href="/mml-exercise-5-2.html" rel="bookmark">Compute the derivative of the logistic sigmoid</a></div>
+      <div class="popular-posts-title"><a href="/mml-exercise-5-3.html" rel="bookmark">Compute derivative of the function defining normal distribution</a></div>
     </li>
   </ul>
 
@@ -312,8 +311,8 @@ amzn_assoc_search_bar_position = "bottom";
       <i class="fa fa-chevron-left"></i> Mathematics for Machine learning Solution Manual
     </a></div>
       <div class="post-nav-item">
-    <a href="/mml-exercise-5-2.html" rel="next" title="Compute the derivative of the logistic sigmoid">
-      Compute the derivative of the logistic sigmoid <i class="fa fa-chevron-right"></i>
+    <a href="/mml-exercise-5-3.html" rel="next" title="Compute derivative of the function defining normal distribution">
+      Compute derivative of the function defining normal distribution <i class="fa fa-chevron-right"></i>
     </a></div>
     </div>
       </footer>
@@ -505,51 +504,55 @@ amzn_assoc_search_bar_position = "bottom";
 
   
       
-<script type="text/x-mathjax-config">
 
-  MathJax.Hub.Config({
-    tex2jax: {
-      inlineMath: [ ['$', '$'], ['\\(', '\\)'] ],
-      processEscapes: true,
-      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
-    },
-    TeX: {
-      equationNumbers: {
-        autoNumber: 'AMS'
-      }
-    },
-    messageStyle: "none"
-  });
-
-  MathJax.Hub.Register.StartupHook('TeX Jax Ready', function() {
-    MathJax.InputJax.TeX.prefilterHooks.Add(function(data) {
-      if (data.display) {
-        var next = data.script.nextSibling;
-        while (next && next.nodeName.toLowerCase() === '#text') {
-          next = next.nextSibling;
-        }
-        if (next && next.nodeName.toLowerCase() === 'br') {
-          next.parentNode.removeChild(next);
-        }
-      }
-    });
-  });
-
-  MathJax.Hub.Queue(function() {
-    var all = MathJax.Hub.getAllJax(), i;
-    for (i = 0; i < all.length; i += 1) {
-      element = document.getElementById(all[i].inputID + '-Frame').parentNode;
-      if (element.nodeName.toLowerCase() == 'li') {
-        element = element.parentNode;
-      }
-      element.classList.add('has-jax');
-    }
-  });
-</script>
 <script>
-  NexT.utils.getScript('//cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS-MML_HTMLorMML', () => {
-    MathJax.Hub.Typeset();
-  }, window.MathJax);
+  if (typeof MathJax === 'undefined') {
+    window.MathJax = {
+      loader: {
+        source: {
+          '[tex]/amsCd': '[tex]/amscd',
+          '[tex]/AMScd': '[tex]/amscd'
+        }
+      },
+      tex: {
+        inlineMath: {'[+]': [['$', '$']]},
+        tags: 'ams'
+      },
+      options: {
+        renderActions: {
+          findScript: [10, doc => {
+            document.querySelectorAll('script[type^="math/tex"]').forEach(node => {
+              const display = !!node.type.match(/; *mode=display/);
+              const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+              const text = document.createTextNode('');
+              node.parentNode.replaceChild(text, node);
+              math.start = {node: text, delim: '', n: 0};
+              math.end = {node: text, delim: '', n: 0};
+              doc.math.push(math);
+            });
+          }, '', false],
+          insertedScript: [200, () => {
+            document.querySelectorAll('mjx-container').forEach(node => {
+              let target = node.parentNode;
+              if (target.nodeName.toLowerCase() === 'li') {
+                target.parentNode.classList.add('has-jax');
+              }
+            });
+          }, '', false]
+        }
+      }
+    };
+    (function () {
+      var script = document.createElement('script');
+      script.src = '//cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js';
+      script.defer = true;
+      document.head.appendChild(script);
+    })();
+  } else {
+    MathJax.startup.document.state(0);
+    MathJax.texReset();
+    MathJax.typeset();
+  }
 </script>
 
     

@@ -14,7 +14,7 @@
   <meta name="google-site-verification" content="QwkaXRmtLDcpnplkqLLbHXuGI_1YM2UsB-0U7gstP9Y">
 
 <link rel="stylesheet" href="/css/main.css">
-<script data-ad-client="ca-pub-5289197296725423" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Mate:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
 <link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
 
@@ -36,9 +36,9 @@
 <meta property="article:modified_time" content="2021-01-29T22:30:22.061Z">
 <meta property="article:author" content="Clanlu">
 <meta property="article:tag" content="Function">
-<meta property="article:tag" content="Optimization">
 <meta property="article:tag" content="Extreme Value">
 <meta property="article:tag" content="Calculus">
+<meta property="article:tag" content="Optimization">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://cdn.jsdelivr.net/gh/MathPage/gitalk/img/mml7-1-1-1.gif">
 
@@ -251,7 +251,6 @@
     <div class="post-body" itemprop="articleBody">
 
       
-
         <div class="note info">
             <p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 7 Exercise 7.1</strong></p>
           </div>
@@ -289,10 +288,10 @@ amzn_assoc_title = "Shop Related Products";
       <div class="popular-posts-title"><a href="/mml-exercise-2-16.html" rel="bookmark">Determine if maps are linear mappings</a></div>
     </li>
     <li class="popular-posts-item">
-      <div class="popular-posts-title"><a href="/mml-exercise-7-6.html" rel="bookmark">Derive the dual linear program using Lagrange duality</a></div>
+      <div class="popular-posts-title"><a href="/mml-exercise-7-7.html" rel="bookmark">Derive the dual linear program using Lagrange duality II</a></div>
     </li>
     <li class="popular-posts-item">
-      <div class="popular-posts-title"><a href="/mml-exercise-7-7.html" rel="bookmark">Derive the dual linear program using Lagrange duality II</a></div>
+      <div class="popular-posts-title"><a href="/mml-exercise-7-6.html" rel="bookmark">Derive the dual linear program using Lagrange duality</a></div>
     </li>
   </ul>
 
@@ -301,9 +300,9 @@ amzn_assoc_title = "Shop Related Products";
           
           <div class="post-tags">
               <a href="/tags/Function/" rel="tag"><i class="fa fa-tag"></i> Function</a>
-              <a href="/tags/Optimization/" rel="tag"><i class="fa fa-tag"></i> Optimization</a>
               <a href="/tags/Extreme-Value/" rel="tag"><i class="fa fa-tag"></i> Extreme Value</a>
               <a href="/tags/Calculus/" rel="tag"><i class="fa fa-tag"></i> Calculus</a>
+              <a href="/tags/Optimization/" rel="tag"><i class="fa fa-tag"></i> Optimization</a>
           </div>
 
         
@@ -509,51 +508,55 @@ amzn_assoc_title = "Shop Related Products";
 
   
       
-<script type="text/x-mathjax-config">
 
-  MathJax.Hub.Config({
-    tex2jax: {
-      inlineMath: [ ['$', '$'], ['\\(', '\\)'] ],
-      processEscapes: true,
-      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
-    },
-    TeX: {
-      equationNumbers: {
-        autoNumber: 'AMS'
-      }
-    },
-    messageStyle: "none"
-  });
-
-  MathJax.Hub.Register.StartupHook('TeX Jax Ready', function() {
-    MathJax.InputJax.TeX.prefilterHooks.Add(function(data) {
-      if (data.display) {
-        var next = data.script.nextSibling;
-        while (next && next.nodeName.toLowerCase() === '#text') {
-          next = next.nextSibling;
-        }
-        if (next && next.nodeName.toLowerCase() === 'br') {
-          next.parentNode.removeChild(next);
-        }
-      }
-    });
-  });
-
-  MathJax.Hub.Queue(function() {
-    var all = MathJax.Hub.getAllJax(), i;
-    for (i = 0; i < all.length; i += 1) {
-      element = document.getElementById(all[i].inputID + '-Frame').parentNode;
-      if (element.nodeName.toLowerCase() == 'li') {
-        element = element.parentNode;
-      }
-      element.classList.add('has-jax');
-    }
-  });
-</script>
 <script>
-  NexT.utils.getScript('//cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS-MML_HTMLorMML', () => {
-    MathJax.Hub.Typeset();
-  }, window.MathJax);
+  if (typeof MathJax === 'undefined') {
+    window.MathJax = {
+      loader: {
+        source: {
+          '[tex]/amsCd': '[tex]/amscd',
+          '[tex]/AMScd': '[tex]/amscd'
+        }
+      },
+      tex: {
+        inlineMath: {'[+]': [['$', '$']]},
+        tags: 'ams'
+      },
+      options: {
+        renderActions: {
+          findScript: [10, doc => {
+            document.querySelectorAll('script[type^="math/tex"]').forEach(node => {
+              const display = !!node.type.match(/; *mode=display/);
+              const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+              const text = document.createTextNode('');
+              node.parentNode.replaceChild(text, node);
+              math.start = {node: text, delim: '', n: 0};
+              math.end = {node: text, delim: '', n: 0};
+              doc.math.push(math);
+            });
+          }, '', false],
+          insertedScript: [200, () => {
+            document.querySelectorAll('mjx-container').forEach(node => {
+              let target = node.parentNode;
+              if (target.nodeName.toLowerCase() === 'li') {
+                target.parentNode.classList.add('has-jax');
+              }
+            });
+          }, '', false]
+        }
+      }
+    };
+    (function () {
+      var script = document.createElement('script');
+      script.src = '//cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js';
+      script.defer = true;
+      document.head.appendChild(script);
+    })();
+  } else {
+    MathJax.startup.document.state(0);
+    MathJax.texReset();
+    MathJax.typeset();
+  }
 </script>
 
     

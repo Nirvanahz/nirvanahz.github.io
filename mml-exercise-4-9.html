@@ -14,7 +14,7 @@
   <meta name="google-site-verification" content="QwkaXRmtLDcpnplkqLLbHXuGI_1YM2UsB-0U7gstP9Y">
 
 <link rel="stylesheet" href="/css/main.css">
-<script data-ad-client="ca-pub-5289197296725423" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Mate:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
 <link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
 
@@ -34,9 +34,9 @@
 <meta property="article:modified_time" content="2021-01-30T17:27:31.264Z">
 <meta property="article:author" content="Clanlu">
 <meta property="article:tag" content="Matrix">
+<meta property="article:tag" content="SVD">
 <meta property="article:tag" content="Eigenvector">
 <meta property="article:tag" content="Eigenvalue">
-<meta property="article:tag" content="SVD">
 <meta name="twitter:card" content="summary">
 
 <link rel="canonical" href="http://clanlu.com/mml-exercise-4-9.html">
@@ -248,7 +248,6 @@
     <div class="post-body" itemprop="articleBody">
 
       
-
         <div class="note info">
             <p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 4 Exercise 4.9</strong></p>
           </div>
@@ -282,13 +281,13 @@ amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
   <div class="popular-posts-header">You may also like.</div>
   <ul class="popular-posts">
     <li class="popular-posts-item">
-      <div class="popular-posts-title"><a href="/mml-exercise-4-12.html" rel="bookmark">The largest singular value of a matrix</a></div>
-    </li>
-    <li class="popular-posts-item">
       <div class="popular-posts-title"><a href="/mml-exercise-4-10.html" rel="bookmark">Find the best rank-1 approximation of a matrix</a></div>
     </li>
     <li class="popular-posts-item">
       <div class="popular-posts-title"><a href="/mml-exercise-4-11.html" rel="bookmark">$AA^T$ and $A^TA$ has the same nonzero eigenvalues</a></div>
+    </li>
+    <li class="popular-posts-item">
+      <div class="popular-posts-title"><a href="/mml-exercise-4-12.html" rel="bookmark">The largest singular value of a matrix</a></div>
     </li>
     <li class="popular-posts-item">
       <div class="popular-posts-title"><a href="/mml-exercise-4-8.html" rel="bookmark">Find the singular value decomposition of a matrix</a></div>
@@ -303,10 +302,10 @@ amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
       <div class="popular-posts-title"><a href="/mml-exercise-4-5.html" rel="bookmark">Diagonalisability is unrelated to invertibility</a></div>
     </li>
     <li class="popular-posts-item">
-      <div class="popular-posts-title"><a href="/mml-exercise-4-7.html" rel="bookmark">Determine matrices if they are diagonalisable II</a></div>
+      <div class="popular-posts-title"><a href="/mml-exercise-4-6.html" rel="bookmark">Compute eigenspaces of matrices and determine if they are diagonalisable</a></div>
     </li>
     <li class="popular-posts-item">
-      <div class="popular-posts-title"><a href="/mml-exercise-4-6.html" rel="bookmark">Compute eigenspaces of matrices and determine if they are diagonalisable</a></div>
+      <div class="popular-posts-title"><a href="/mml-exercise-4-7.html" rel="bookmark">Determine matrices if they are diagonalisable II</a></div>
     </li>
     <li class="popular-posts-item">
       <div class="popular-posts-title"><a href="/mml-exercise-2-3.html" rel="bookmark">Verify a set with matrices is a group</a></div>
@@ -318,9 +317,9 @@ amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
           
           <div class="post-tags">
               <a href="/tags/Matrix/" rel="tag"><i class="fa fa-tag"></i> Matrix</a>
+              <a href="/tags/SVD/" rel="tag"><i class="fa fa-tag"></i> SVD</a>
               <a href="/tags/Eigenvector/" rel="tag"><i class="fa fa-tag"></i> Eigenvector</a>
               <a href="/tags/Eigenvalue/" rel="tag"><i class="fa fa-tag"></i> Eigenvalue</a>
-              <a href="/tags/SVD/" rel="tag"><i class="fa fa-tag"></i> SVD</a>
           </div>
 
         
@@ -526,51 +525,55 @@ amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
 
   
       
-<script type="text/x-mathjax-config">
 
-  MathJax.Hub.Config({
-    tex2jax: {
-      inlineMath: [ ['$', '$'], ['\\(', '\\)'] ],
-      processEscapes: true,
-      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
-    },
-    TeX: {
-      equationNumbers: {
-        autoNumber: 'AMS'
-      }
-    },
-    messageStyle: "none"
-  });
-
-  MathJax.Hub.Register.StartupHook('TeX Jax Ready', function() {
-    MathJax.InputJax.TeX.prefilterHooks.Add(function(data) {
-      if (data.display) {
-        var next = data.script.nextSibling;
-        while (next && next.nodeName.toLowerCase() === '#text') {
-          next = next.nextSibling;
-        }
-        if (next && next.nodeName.toLowerCase() === 'br') {
-          next.parentNode.removeChild(next);
-        }
-      }
-    });
-  });
-
-  MathJax.Hub.Queue(function() {
-    var all = MathJax.Hub.getAllJax(), i;
-    for (i = 0; i < all.length; i += 1) {
-      element = document.getElementById(all[i].inputID + '-Frame').parentNode;
-      if (element.nodeName.toLowerCase() == 'li') {
-        element = element.parentNode;
-      }
-      element.classList.add('has-jax');
-    }
-  });
-</script>
 <script>
-  NexT.utils.getScript('//cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS-MML_HTMLorMML', () => {
-    MathJax.Hub.Typeset();
-  }, window.MathJax);
+  if (typeof MathJax === 'undefined') {
+    window.MathJax = {
+      loader: {
+        source: {
+          '[tex]/amsCd': '[tex]/amscd',
+          '[tex]/AMScd': '[tex]/amscd'
+        }
+      },
+      tex: {
+        inlineMath: {'[+]': [['$', '$']]},
+        tags: 'ams'
+      },
+      options: {
+        renderActions: {
+          findScript: [10, doc => {
+            document.querySelectorAll('script[type^="math/tex"]').forEach(node => {
+              const display = !!node.type.match(/; *mode=display/);
+              const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+              const text = document.createTextNode('');
+              node.parentNode.replaceChild(text, node);
+              math.start = {node: text, delim: '', n: 0};
+              math.end = {node: text, delim: '', n: 0};
+              doc.math.push(math);
+            });
+          }, '', false],
+          insertedScript: [200, () => {
+            document.querySelectorAll('mjx-container').forEach(node => {
+              let target = node.parentNode;
+              if (target.nodeName.toLowerCase() === 'li') {
+                target.parentNode.classList.add('has-jax');
+              }
+            });
+          }, '', false]
+        }
+      }
+    };
+    (function () {
+      var script = document.createElement('script');
+      script.src = '//cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js';
+      script.defer = true;
+      document.head.appendChild(script);
+    })();
+  } else {
+    MathJax.startup.document.state(0);
+    MathJax.texReset();
+    MathJax.typeset();
+  }
 </script>
 
     

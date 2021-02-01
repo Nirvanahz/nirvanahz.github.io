@@ -2,7 +2,7 @@
   --body-bg-color: #fff;
   --content-bg-color: #f5f5f5;
   --card-bg-color: #f5f5f5;
-  --text-color: #222;
+  --text-color: #555;
   --blockquote-color: #666;
   --link-color: #555;
   --link-hover-color: #222;
@@ -14,9 +14,9 @@
   --btn-default-bg: transparent;
   --btn-default-color: var(--link-color);
   --btn-default-border-color: var(--link-color);
-  --btn-default-hover-bg: #222;
-  --btn-default-hover-color: #fff;
-  --btn-default-hover-border-color: #222;
+  --btn-default-hover-bg: transparent;
+  --btn-default-hover-color: var(--link-hover-color);
+  --btn-default-hover-border-color: var(--link-hover-color);
 }
 html {
   line-height: 1.15; /* 1 */
@@ -57,7 +57,7 @@ code,
 kbd,
 samp {
   font-family: monospace, monospace; /* 1 */
-  font-size: 0.8em; /* 2 */
+  font-size: 1em; /* 2 */
 }
 small {
   font-size: 80%;
@@ -167,7 +167,7 @@ template {
   display: none;
 }
 ::selection {
-  background: #1da1f2;
+  background: #262a30;
   color: #eee;
 }
 html,
@@ -177,7 +177,7 @@ body {
 body {
   background: var(--body-bg-color);
   color: var(--text-color);
-  font-family: 'Mate', Arial, Helvetica, "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Mate', "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 1em;
   line-height: 2;
 }
@@ -193,7 +193,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Mate', Arial, Helvetica, "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Mate', "PingFang SC", "Microsoft YaHei", sans-serif;
   font-weight: bold;
   line-height: 1.5;
   margin: 20px 0 15px;
@@ -297,7 +297,6 @@ th,
 td {
   font-weight: normal;
   padding: 8px;
-  text-align: left;
   vertical-align: middle;
 }
 th,
@@ -392,7 +391,7 @@ pre {
 }
 pre,
 code {
-  font-family: consolas, Menlo, monospace, Arial, Helvetica, "PingFang SC", "Microsoft YaHei";
+  font-family: consolas, Menlo, monospace, "PingFang SC", "Microsoft YaHei";
 }
 code {
   background: #eee;
@@ -581,7 +580,7 @@ pre .javascript .function {
   margin-bottom: 10px;
 }
 .post-body .label {
-  color: #222;
+  color: #555;
   display: inline;
   padding: 0 2px;
 }
@@ -1009,7 +1008,7 @@ pre .javascript .function {
 }
 .site-meta {
   flex-grow: 1;
-  text-align: center;
+  text-align: left;
 }
 @media (max-width: 767px) {
   .site-meta {
@@ -1028,7 +1027,7 @@ pre .javascript .function {
   color: var(--brand-hover-color);
 }
 .site-title {
-  font-family: 'Mate', Arial, Helvetica, "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Mate', "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 1.375em;
   font-weight: normal;
   margin: 0;
@@ -1213,7 +1212,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #ff0d79;
+  background: #ffe018;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -1524,22 +1523,16 @@ pre .javascript .function {
   .content-wrap {
     padding: initial !important;
   }
-  .posts-expand .post-title {
-    font-size: 1.2em !important;
-  }
   .posts-expand .post-meta {
     margin: 3px 0 10px 0 !important;
   }
   .post-block {
     margin-top: initial !important;
-    padding: 8px 8px 8px !important;
+    padding: 8px 18px 8px !important;
   }
   .posts-collapse {
     margin-left: 0;
     margin-right: 0;
-  }
-  .post-body {
-    font-size: 0.9em;
   }
   .post-body h1,
   .post-body h2,
@@ -1599,7 +1592,7 @@ pre .javascript .function {
   transition-timing-function: ease-in-out;
 }
 .back-to-top {
-  background: linear-gradient(to right, #ff5483, #ffae0c);
+  background: #222;
   bottom: -100px;
   box-sizing: border-box;
   color: #fff;
@@ -1625,7 +1618,7 @@ pre .javascript .function {
   }
 }
 .post-body {
-  font-family: 'Mate', Arial, Helvetica, "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Mate', "PingFang SC", "Microsoft YaHei", sans-serif;
   overflow-wrap: break-word;
   word-wrap: break-word;
 }
@@ -1923,7 +1916,7 @@ pre .javascript .function {
 }
 .posts-expand .post-meta {
   color: #999;
-  font-family: 'Mate', Arial, Helvetica, "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Mate', "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 0.75em;
   margin: 3px 0 60px 0;
   text-align: center;
@@ -2045,10 +2038,10 @@ pre .javascript .function {
   width: 90%;
 }
 .reward-container button {
-  background: #ff2a2a;
-  border: 0;
-  border-radius: 5px;
-  color: #fff;
+  background: transparent;
+  border: 1px solid #fc6423;
+  border-radius: 0;
+  color: #fc6423;
   cursor: pointer;
   line-height: 2;
   outline: 0;
@@ -2056,7 +2049,9 @@ pre .javascript .function {
   vertical-align: text-top;
 }
 .reward-container button:hover {
-  background: #f55;
+  background: #fc6423;
+  border: 1px solid transparent;
+  color: #fa9366;
 }
 #qr {
   padding-top: 20px;
@@ -2355,7 +2350,7 @@ hr {
   padding: 10px 0;
 }
 .footer-inner {
-  text-align: center;
+  text-align: left;
 }
 @media (max-width: 767px) {
   .footer-inner {
@@ -2461,7 +2456,7 @@ hr {
 }
 .posts-expand.index .post-title,
 .posts-expand.index .post-meta {
-  text-align: center;
+  text-align: left;
 }
 @media (max-width: 767px) {
   .posts-expand.index .post-title,
@@ -2481,6 +2476,9 @@ hr {
 .posts-expand .post-title,
 .posts-expand .post-meta {
   text-align: center;
+}
+.posts-expand .post-body img {
+  margin-left: 0;
 }
 .posts-expand .post-tags {
   text-align: left;
