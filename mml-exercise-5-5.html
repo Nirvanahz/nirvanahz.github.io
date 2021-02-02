@@ -31,7 +31,7 @@
 <meta property="og:description" content="Solution to Mathematics for Machine learning Chapter 5 Exercise 5.5">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2021-02-01T02:33:06.874Z">
-<meta property="article:modified_time" content="2021-02-01T02:36:12.059Z">
+<meta property="article:modified_time" content="2021-02-02T05:39:10.805Z">
 <meta property="article:author" content="Clanlu">
 <meta property="article:tag" content="Derivative">
 <meta property="article:tag" content="Jacobian">
@@ -133,7 +133,7 @@
   </li>
         <li class="menu-item menu-item-tags">
 
-    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>Tags<span class="badge">53</span></a>
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>Tags<span class="badge">54</span></a>
 
   </li>
         <li class="menu-item menu-item-categories">
@@ -143,7 +143,7 @@
   </li>
         <li class="menu-item menu-item-archives">
 
-    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives<span class="badge">54</span></a>
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives<span class="badge">58</span></a>
 
   </li>
   </ul>
@@ -196,10 +196,16 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">Posted on</span>
-              
 
-              <time title="Created: 2021-01-31 21:33:06 / Modified: 21:36:12" itemprop="dateCreated datePublished" datetime="2021-01-31T21:33:06-05:00">2021-01-31</time>
+              <time title="Created: 2021-01-31 21:33:06" itemprop="dateCreated datePublished" datetime="2021-01-31T21:33:06-05:00">2021-01-31</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2021-02-02 00:39:10" itemprop="dateModified" datetime="2021-02-02T00:39:10-05:00">2021-02-02</time>
+              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="far fa-folder"></i>
@@ -255,8 +261,10 @@
 <p>Solution: </p>
 <p><strong>Part a</strong></p>
 <p>We can see below that $\dfrac{\partial f_1}{\partial x}$ has dimension $1\times2$; $\dfrac{\partial f_2}{\partial x}$ has dimension $1\times n$; and $\dfrac{\partial f_3}{\partial x}$ has dimension $n^2\times n$.</p>
+<hr>
 <p><strong>Part b</strong></p>
 <p>We have $$\frac{\partial f_1}{\partial x} = \begin{bmatrix} \cos(x_1)\cos(x_2)&amp;-\sin(x_1)\sin(x_2) \end{bmatrix};$$ $$\frac{\partial f_2}{\partial x} = y^{\mathsf{T}}.$$ (Remember, $y$ is a column vector!)</p>
+<hr>
 <p><strong>Part c</strong></p>
 <p>Note that $xx^{\mathsf{T}}$ is the matrix $$\begin{bmatrix} x_1^2 &amp; x_1x_2 &amp; \cdots &amp; x_1x_n \\ x_2x_1 &amp; x_2^2 &amp; \cdots &amp; x_2x_n \\ \vdots &amp; \vdots &amp; \ddots &amp; \vdots \\ x_nx_1 &amp; x_nx_2 &amp; \cdots &amp; x_n^2 \end{bmatrix}.$$ Thus its derivative will be a higher-order tensor. However, if we consider the matrix to be an $n^2$-dimensional object in its own right, we can compute the Jacobian. Its first row consists of $$\begin{bmatrix} 2x_1 &amp; x_2 &amp; \cdots &amp; x_n | x _2 &amp; 0 &amp;\cdots &amp; 0 | \cdots | x_n&amp;0&amp;\cdots&amp;0 \end{bmatrix} ,$$ where I have inserted a vertical bar every $n$ columns, to aid readability.</p>
 <script type="text/javascript">
@@ -283,16 +291,28 @@ amzn_assoc_search_bar_position = "bottom";
   <div class="popular-posts-header">You may also like.</div>
   <ul class="popular-posts">
     <li class="popular-posts-item">
-      <div class="popular-posts-title"><a href="/mml-exercise-5-3.html" rel="bookmark">Compute derivative of the function defining normal distribution</a></div>
-    </li>
-    <li class="popular-posts-item">
       <div class="popular-posts-title"><a href="/mml-exercise-5-2.html" rel="bookmark">Compute the derivative of the logistic sigmoid</a></div>
     </li>
     <li class="popular-posts-item">
       <div class="popular-posts-title"><a href="/mml-exercise-5-4.html" rel="bookmark">Compute the Taylor polynomials of trigonometric functions</a></div>
     </li>
     <li class="popular-posts-item">
+      <div class="popular-posts-title"><a href="/mml-exercise-5-6.html" rel="bookmark">Differentiate vector-valued functions with respect to vector-valued variables</a></div>
+    </li>
+    <li class="popular-posts-item">
       <div class="popular-posts-title"><a href="/mml-exercise-5-1.html" rel="bookmark">Compute derivative using product rule and chain rule</a></div>
+    </li>
+    <li class="popular-posts-item">
+      <div class="popular-posts-title"><a href="/mml-exercise-5-8.html" rel="bookmark">Differentiate vector-valued functions with respect to vector-valued variables III</a></div>
+    </li>
+    <li class="popular-posts-item">
+      <div class="popular-posts-title"><a href="/mml-exercise-5-9.html" rel="bookmark">compute the gradient for a multivariable function</a></div>
+    </li>
+    <li class="popular-posts-item">
+      <div class="popular-posts-title"><a href="/mml-exercise-5-3.html" rel="bookmark">Compute derivative of the function defining normal distribution</a></div>
+    </li>
+    <li class="popular-posts-item">
+      <div class="popular-posts-title"><a href="/mml-exercise-5-7.html" rel="bookmark">Differentiate vector-valued functions with respect to vector-valued variables II</a></div>
     </li>
   </ul>
 
@@ -313,7 +333,10 @@ amzn_assoc_search_bar_position = "bottom";
     <a href="/iala-solution-manual.html" rel="prev" title="Solution Manual to Introduction to Applied Linear Algebra">
       <i class="fa fa-chevron-left"></i> Solution Manual to Introduction to Applied Linear Algebra
     </a></div>
-      <div class="post-nav-item"></div>
+      <div class="post-nav-item">
+    <a href="/mml-exercise-5-6.html" rel="next" title="Differentiate vector-valued functions with respect to vector-valued variables">
+      Differentiate vector-valued functions with respect to vector-valued variables <i class="fa fa-chevron-right"></i>
+    </a></div>
     </div>
       </footer>
     
@@ -388,7 +411,7 @@ amzn_assoc_search_bar_position = "bottom";
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">54</span>
+          <span class="site-state-item-count">58</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
@@ -401,7 +424,7 @@ amzn_assoc_search_bar_position = "bottom";
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">53</span>
+        <span class="site-state-item-count">54</span>
         <span class="site-state-item-name">tags</span></a>
       </div>
   </nav>
