@@ -34,6 +34,44 @@ amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
       </tags>
   </entry>
   <entry>
+    <title>Verify a set with certain binary operation is an Abelian group</title>
+    <url>//mml-exercise-2-1.html</url>
+    <content><![CDATA[<div class="note info">
+            <p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 2 Exercise 2.1</strong></p>
+          </div>
+
+<a id="more"></a>
+
+<p>Solution:</p>
+<p>a. We check conditions in Definition 2.7 and the commutativity. Note that \begin{equation}\label{2.1.2}a\star b=(a+1)(b+1)-1.\end{equation} (1) Closure of $\mathbb R\setminus \{-1\}$ under $\star$: if $a,b\in\mathbb R\setminus \{-1\}$, then $(a+1)(b+1)\ne 0$. Therefore $ab+a+b\ne -1$, which shows $a\star b\in \mathbb R\setminus \{-1\}$.</p>
+<p>(2) Associativity: if $a,b,c\in\mathbb R\setminus \{-1\}$, then it follows from \eqref{2.1.2} that \begin{align*}(a\star b)\star c = &amp;\ ((a+1)(b+1)-1)\star c\\ =&amp; \ (a+1)(b+1)(c+1)-1\end{align*}and \begin{align*}a\star(b\star c)=&amp;\ a\star((b+1)(c+1)-1)\\ = &amp;\ (a+1)(b+1)(c+1)-1.\end{align*}Thus $(a\star b)\star c=a\star(b\star c)$.</p>
+<p>(3) Neural element: if $a\in\mathbb R\setminus \{-1\}$, then $$a\star 0= a\cdot 0+a+0=a$$and $$0\star a=0\cdot a +0+a=a.$$ (4) Inverse element: if $a\in\mathbb R\setminus \{-1\}$, then $a+1\ne 0$ and we have $a^{-1}=\dfrac{1}{a+1}-1$. This can be checked directly using \eqref{2.1.2}.</p>
+<p>(5) Commutativity: if $a,b\in\mathbb R\setminus \{-1\}$, it is clear from \eqref{2.1.2} that \begin{align*}a\star b= &amp;\ (a+1)(b+1)-1\\= &amp;\ (b+1)(a+1)-1=b\star a.\end{align*} b. Recall the computation from part a.(2), we have $$3\star x \star x = (3+1)(x+1)(x+1)-1.$$Hence we have to it reduces to solve $$4(x+1)^2=16,$$which gives $x+1=\pm 2$. We have $x=1$ or $x=-3$.</p>
+<script type="text/javascript">
+amzn_assoc_placement = "adunit0";
+amzn_assoc_search_bar = "true";
+amzn_assoc_tracking_id = "linearalgeb0e-20";
+amzn_assoc_search_bar_position = "bottom";
+amzn_assoc_ad_mode = "search";
+amzn_assoc_ad_type = "smart";
+amzn_assoc_marketplace = "amazon";
+amzn_assoc_region = "US";
+amzn_assoc_title = "Shop Related Products";
+amzn_assoc_default_search_phrase = "Linear Algebra";
+amzn_assoc_default_category = "All";
+amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
+</script><br />
+<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
+      <categories>
+        <category>Machine Learning</category>
+        <category>Linear Algebra</category>
+      </categories>
+      <tags>
+        <tag>Abelian Group</tag>
+        <tag>Group</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Determine if vectors are linearly independent</title>
     <url>//mml-exercise-2-10.html</url>
     <content><![CDATA[<div class="note info">
@@ -108,44 +146,6 @@ amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
       <tags>
         <tag>Vector Space</tag>
         <tag>Linear Combination</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Verify a set with certain binary operation is an Abelian group</title>
-    <url>//mml-exercise-2-1.html</url>
-    <content><![CDATA[<div class="note info">
-            <p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 2 Exercise 2.1</strong></p>
-          </div>
-
-<a id="more"></a>
-
-<p>Solution:</p>
-<p>a. We check conditions in Definition 2.7 and the commutativity. Note that \begin{equation}\label{2.1.2}a\star b=(a+1)(b+1)-1.\end{equation} (1) Closure of $\mathbb R\setminus \{-1\}$ under $\star$: if $a,b\in\mathbb R\setminus \{-1\}$, then $(a+1)(b+1)\ne 0$. Therefore $ab+a+b\ne -1$, which shows $a\star b\in \mathbb R\setminus \{-1\}$.</p>
-<p>(2) Associativity: if $a,b,c\in\mathbb R\setminus \{-1\}$, then it follows from \eqref{2.1.2} that \begin{align*}(a\star b)\star c = &amp;\ ((a+1)(b+1)-1)\star c\\ =&amp; \ (a+1)(b+1)(c+1)-1\end{align*}and \begin{align*}a\star(b\star c)=&amp;\ a\star((b+1)(c+1)-1)\\ = &amp;\ (a+1)(b+1)(c+1)-1.\end{align*}Thus $(a\star b)\star c=a\star(b\star c)$.</p>
-<p>(3) Neural element: if $a\in\mathbb R\setminus \{-1\}$, then $$a\star 0= a\cdot 0+a+0=a$$and $$0\star a=0\cdot a +0+a=a.$$ (4) Inverse element: if $a\in\mathbb R\setminus \{-1\}$, then $a+1\ne 0$ and we have $a^{-1}=\dfrac{1}{a+1}-1$. This can be checked directly using \eqref{2.1.2}.</p>
-<p>(5) Commutativity: if $a,b\in\mathbb R\setminus \{-1\}$, it is clear from \eqref{2.1.2} that \begin{align*}a\star b= &amp;\ (a+1)(b+1)-1\\= &amp;\ (b+1)(a+1)-1=b\star a.\end{align*} b. Recall the computation from part a.(2), we have $$3\star x \star x = (3+1)(x+1)(x+1)-1.$$Hence we have to it reduces to solve $$4(x+1)^2=16,$$which gives $x+1=\pm 2$. We have $x=1$ or $x=-3$.</p>
-<script type="text/javascript">
-amzn_assoc_placement = "adunit0";
-amzn_assoc_search_bar = "true";
-amzn_assoc_tracking_id = "linearalgeb0e-20";
-amzn_assoc_search_bar_position = "bottom";
-amzn_assoc_ad_mode = "search";
-amzn_assoc_ad_type = "smart";
-amzn_assoc_marketplace = "amazon";
-amzn_assoc_region = "US";
-amzn_assoc_title = "Shop Related Products";
-amzn_assoc_default_search_phrase = "Linear Algebra";
-amzn_assoc_default_category = "All";
-amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
-</script><br />
-<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
-      <categories>
-        <category>Machine Learning</category>
-        <category>Linear Algebra</category>
-      </categories>
-      <tags>
-        <tag>Abelian Group</tag>
-        <tag>Group</tag>
       </tags>
   </entry>
   <entry>
@@ -397,20 +397,16 @@ amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
       </tags>
   </entry>
   <entry>
-    <title>Computations of an automorphism of vector space</title>
-    <url>//mml-exercise-2-19.html</url>
+    <title>Properties of automorphisms of vector space</title>
+    <url>//mml-exercise-2-18.html</url>
     <content><![CDATA[<div class="note info">
-            <p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 2 Exercise 2.19</strong></p>
+            <p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 2 Exercise 2.18</strong></p>
           </div>
 
 <a id="more"></a>
 
 <p>Solution:</p>
-<p><strong>Part a</strong></p>
-<p>Note that $\mathsf{rank}(A_\Phi) = 3$, so $\ker(\Phi)=\{0\}$ and $\mathsf{Im}(\Phi)=\mathbb{R}^3$.</p>
-<p><strong>Part b</strong></p>
-<p>Let $P$ be the change of basis matrix from the standard basis of $B$ to $\mathbb{R}^3$. Then $$P=\begin{bmatrix} 1&amp;1&amp;1\\ 1&amp;2&amp;0\\ 1&amp;1&amp;0 \end{bmatrix}.$$</p>
-<p>The matrix $\overline{A_\Phi}$ is given by $$P^{-1}A_\Phi P = \begin{bmatrix} 6&amp;9&amp;1\\-3&amp;-5&amp;0\\-1&amp;-1&amp;0 \end{bmatrix}.$$</p>
+<p>We have two automorphisms, which means they map linearly and bijectively from the space, $E$, to itself. The maps therefore both have kernel $\{0\}$ (by injectivity) and image $E$ (by surjectivity). From this, we immediately deduce that $\ker(f)\cap \mathsf{Im}(g) = \{0\}$, indeed. Similarly, we deduce that $g\circ f$ also has kernel $\{0\}$ and image $E$, as required. Note that we didn’t need the condition that $f\circ g = \mathsf{id}_E$.</p>
 <script type="text/javascript">
 amzn_assoc_placement = "adunit0";
 amzn_assoc_search_bar = "true";
@@ -437,16 +433,20 @@ amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
       </tags>
   </entry>
   <entry>
-    <title>Properties of automorphisms of vector space</title>
-    <url>//mml-exercise-2-18.html</url>
+    <title>Computations of an automorphism of vector space</title>
+    <url>//mml-exercise-2-19.html</url>
     <content><![CDATA[<div class="note info">
-            <p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 2 Exercise 2.18</strong></p>
+            <p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 2 Exercise 2.19</strong></p>
           </div>
 
 <a id="more"></a>
 
 <p>Solution:</p>
-<p>We have two automorphisms, which means they map linearly and bijectively from the space, $E$, to itself. The maps therefore both have kernel $\{0\}$ (by injectivity) and image $E$ (by surjectivity). From this, we immediately deduce that $\ker(f)\cap \mathsf{Im}(g) = \{0\}$, indeed. Similarly, we deduce that $g\circ f$ also has kernel $\{0\}$ and image $E$, as required. Note that we didn’t need the condition that $f\circ g = \mathsf{id}_E$.</p>
+<p><strong>Part a</strong></p>
+<p>Note that $\mathsf{rank}(A_\Phi) = 3$, so $\ker(\Phi)=\{0\}$ and $\mathsf{Im}(\Phi)=\mathbb{R}^3$.</p>
+<p><strong>Part b</strong></p>
+<p>Let $P$ be the change of basis matrix from the standard basis of $B$ to $\mathbb{R}^3$. Then $$P=\begin{bmatrix} 1&amp;1&amp;1\\ 1&amp;2&amp;0\\ 1&amp;1&amp;0 \end{bmatrix}.$$</p>
+<p>The matrix $\overline{A_\Phi}$ is given by $$P^{-1}A_\Phi P = \begin{bmatrix} 6&amp;9&amp;1\\-3&amp;-5&amp;0\\-1&amp;-1&amp;0 \end{bmatrix}.$$</p>
 <script type="text/javascript">
 amzn_assoc_placement = "adunit0";
 amzn_assoc_search_bar = "true";
@@ -1255,6 +1255,41 @@ amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
       </tags>
   </entry>
   <entry>
+    <title>Compute the determinant using Laplace expansion and Sarrus rule</title>
+    <url>//mml-exercise-4-1.html</url>
+    <content><![CDATA[<div class="note info">
+            <p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 4 Exercise 4.1</strong></p>
+          </div>
+
+<a id="more"></a>
+
+<p>Solution: By Laplace expansion using the first row, we have \begin{align*}\det(A)=&amp;\ 1\cdot \begin{vmatrix}4 &amp; 6\\ 2 &amp; 4\end{vmatrix}-3\cdot \begin{vmatrix}2 &amp; 6\\ 0 &amp; 4\end{vmatrix} + 5\cdot \begin{vmatrix}2 &amp; 4\\ 0 &amp; 2\end{vmatrix}\\=&amp;\ 1(4\cdot 4-6\cdot 2)-3\cdot(2\cdot 4-6\cdot 0)+5\cdot(2\cdot 2-4\cdot 0)\\ =&amp; \ 4-3\cdot 8+5\cdot 4=0.\end{align*}</p>
+<p>Or by Sarrus rule, we have \begin{align*}\det(A)=&amp;\ 1\cdot 4\cdot 4+2\cdot 2\cdot 5+0\cdot 3\cdot 6-0\cdot 4\cdot 5-1\cdot 2\cdot 6-2\cdot 3\cdot 4\\=&amp;\ 16+20-12-24=0.\end{align*}</p>
+<script type="text/javascript">
+amzn_assoc_placement = "adunit0";
+amzn_assoc_search_bar = "true";
+amzn_assoc_tracking_id = "linearalgeb0e-20";
+amzn_assoc_search_bar_position = "bottom";
+amzn_assoc_ad_mode = "search";
+amzn_assoc_ad_type = "smart";
+amzn_assoc_marketplace = "amazon";
+amzn_assoc_region = "US";
+amzn_assoc_title = "Shop Related Products";
+amzn_assoc_default_search_phrase = "Linear Algebra";
+amzn_assoc_default_category = "All";
+amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
+</script><br />
+<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
+      <categories>
+        <category>Machine Learning</category>
+        <category>Linear Algebra</category>
+      </categories>
+      <tags>
+        <tag>Determinant</tag>
+        <tag>Laplace Expansion</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Find the best rank-1 approximation of a matrix</title>
     <url>//mml-exercise-4-10.html</url>
     <content><![CDATA[<div class="note info">
@@ -1293,16 +1328,19 @@ amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
       </tags>
   </entry>
   <entry>
-    <title>Compute the determinant using Laplace expansion and Sarrus rule</title>
-    <url>//mml-exercise-4-1.html</url>
+    <title>$AA^T$ and $A^TA$ has the same nonzero eigenvalues</title>
+    <url>//mml-exercise-4-11.html</url>
     <content><![CDATA[<div class="note info">
-            <p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 4 Exercise 4.1</strong></p>
+            <p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 4 Exercise 4.11</strong></p>
           </div>
 
 <a id="more"></a>
 
-<p>Solution: By Laplace expansion using the first row, we have \begin{align*}\det(A)=&amp;\ 1\cdot \begin{vmatrix}4 &amp; 6\\ 2 &amp; 4\end{vmatrix}-3\cdot \begin{vmatrix}2 &amp; 6\\ 0 &amp; 4\end{vmatrix} + 5\cdot \begin{vmatrix}2 &amp; 4\\ 0 &amp; 2\end{vmatrix}\\=&amp;\ 1(4\cdot 4-6\cdot 2)-3\cdot(2\cdot 4-6\cdot 0)+5\cdot(2\cdot 2-4\cdot 0)\\ =&amp; \ 4-3\cdot 8+5\cdot 4=0.\end{align*}</p>
-<p>Or by Sarrus rule, we have \begin{align*}\det(A)=&amp;\ 1\cdot 4\cdot 4+2\cdot 2\cdot 5+0\cdot 3\cdot 6-0\cdot 4\cdot 5-1\cdot 2\cdot 6-2\cdot 3\cdot 4\\=&amp;\ 16+20-12-24=0.\end{align*}</p>
+<p>Solution: We start by showing that if $\lambda\neq 0$ is an eigenvalue of $\boldsymbol{A}\boldsymbol A^\top$ then it is also a non-zero eigenvalue of $\boldsymbol A^\top\boldsymbol A$. </p>
+<p>Let $\lambda\neq 0$ be an eigenvalue of $\boldsymbol A\boldsymbol A^\top$ and $\vec q$ be a corresponding eigenvector, i.e., $(\boldsymbol A\boldsymbol A^\top)\vec q = \lambda\vec q$. Then </p>
+<p>\begin{align*}<br>(\boldsymbol A^\top\boldsymbol A)\boldsymbol A^\top\vec q = \boldsymbol A^\top(\boldsymbol A\boldsymbol A^\top \vec q) = \boldsymbol A^\top(\lambda \vec q) = \lambda \boldsymbol A^\top\vec q.<br>\end{align*} </p>
+<p><em>We now need to show that $\boldsymbol A^\top\vec q\neq 0$ before we can conclude that $\lambda$ is an eigenvalue of $\boldsymbol A^\top\boldsymbol A$.</em></p>
+<p>Assume $\boldsymbol A^\top\vec q = \vec 0$. Then it would follow that $$\boldsymbol A\boldsymbol A^\top\vec q = \vec 0,$$ which contradicts $$\boldsymbol A\boldsymbol A^\top\vec q = \lambda\vec q\neq \vec 0$$ since $\vec q$ is an eigenvector of $\boldsymbol A\boldsymbol A^\top$ with associated eigenvalue $\lambda$. Therefore, $\vec q\neq \vec 0$, which implies that $\boldsymbol A^\top\vec q\neq \vec 0$. Therefore, $\lambda$ is an eigenvalue of $\boldsymbol A^\top\boldsymbol A$ with $\boldsymbol A^\top\vec q$ as the corresponding eigenvector.</p>
 <script type="text/javascript">
 amzn_assoc_placement = "adunit0";
 amzn_assoc_search_bar = "true";
@@ -1323,24 +1361,22 @@ amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
         <category>Linear Algebra</category>
       </categories>
       <tags>
-        <tag>Determinant</tag>
-        <tag>Laplace Expansion</tag>
+        <tag>Matrix</tag>
+        <tag>SVD</tag>
+        <tag>Eigenvector</tag>
+        <tag>Eigenvalue</tag>
       </tags>
   </entry>
   <entry>
-    <title>$AA^T$ and $A^TA$ has the same nonzero eigenvalues</title>
-    <url>//mml-exercise-4-11.html</url>
+    <title>The largest singular value of a matrix</title>
+    <url>//mml-exercise-4-12.html</url>
     <content><![CDATA[<div class="note info">
-            <p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 4 Exercise 4.11</strong></p>
+            <p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 4 Exercise 4.12</strong></p>
           </div>
 
 <a id="more"></a>
 
-<p>Solution: We start by showing that if $\lambda\neq 0$ is an eigenvalue of $\boldsymbol{A}\boldsymbol A^\top$ then it is also a non-zero eigenvalue of $\boldsymbol A^\top\boldsymbol A$. </p>
-<p>Let $\lambda\neq 0$ be an eigenvalue of $\boldsymbol A\boldsymbol A^\top$ and $\vec q$ be a corresponding eigenvector, i.e., $(\boldsymbol A\boldsymbol A^\top)\vec q = \lambda\vec q$. Then </p>
-<p>\begin{align*}<br>(\boldsymbol A^\top\boldsymbol A)\boldsymbol A^\top\vec q = \boldsymbol A^\top(\boldsymbol A\boldsymbol A^\top \vec q) = \boldsymbol A^\top(\lambda \vec q) = \lambda \boldsymbol A^\top\vec q.<br>\end{align*} </p>
-<p><em>We now need to show that $\boldsymbol A^\top\vec q\neq 0$ before we can conclude that $\lambda$ is an eigenvalue of $\boldsymbol A^\top\boldsymbol A$.</em></p>
-<p>Assume $\boldsymbol A^\top\vec q = \vec 0$. Then it would follow that $$\boldsymbol A\boldsymbol A^\top\vec q = \vec 0,$$ which contradicts $$\boldsymbol A\boldsymbol A^\top\vec q = \lambda\vec q\neq \vec 0$$ since $\vec q$ is an eigenvector of $\boldsymbol A\boldsymbol A^\top$ with associated eigenvalue $\lambda$. Therefore, $\vec q\neq \vec 0$, which implies that $\boldsymbol A^\top\vec q\neq \vec 0$. Therefore, $\lambda$ is an eigenvalue of $\boldsymbol A^\top\boldsymbol A$ with $\boldsymbol A^\top\vec q$ as the corresponding eigenvector.</p>
+<p>Solution: By SVD (Singular Value Decomposition), we have $A=U\Sigma V^T$. Let $y=V^T x$, then \[\|y\|_2^2=y^Ty=(V^Tx)^TV^Tx=x^TVV^Tx=x^Tx=\|x\|_2^2.\]Then we have\begin{align*}\|A x\|_2^2=&amp;\ (Ax)^T(Ax)=x^TA^TAx\\ = &amp;\ x^T V \begin{bmatrix}\sigma_1^2 &amp; 0 &amp; 0\\ 0 &amp; \ddots &amp; 0\\ 0 &amp; 0 &amp;\sigma_n^2\end{bmatrix}V^Tx \\ =&amp;\ y^T \begin{bmatrix}\sigma_1^2 &amp; 0 &amp; 0\\ 0 &amp; \ddots &amp; 0\\ 0 &amp; 0 &amp;\sigma_n^2\end{bmatrix} y \\ = &amp;\ \sigma_1^2 y_1^2+\cdots+\sigma_n^2y_n^2 \\ \leqslant &amp;\ \sigma_1^2 y_1^2+\cdots+\sigma_1^2y_n^2\\ =&amp;\ \sigma_1^2(y_1^2+\cdots+y_n^2)\\ =&amp;\ \sigma_1^2 \|y\|_2^2= \sigma_1^2 \|x\|_2^2.\end{align*}Hence we have \[\max_{x\ne 0}\frac{\|Ax\|_2}{\|x\|_2}\leqslant \sigma_1^2.\]Moreover, it is possible to choose $x$ such that the inequality above becomes equality. Namely, setting $$x=V(1,0,\dots,0)^T,$$then $y=(1,0,\dots,0)^T$ and $$\|A x\|_2^2=\sigma_1^2,\quad \|x\|_2=1.$$Hence we proved Theorem 4.24.</p>
 <script type="text/javascript">
 amzn_assoc_placement = "adunit0";
 amzn_assoc_search_bar = "true";
@@ -1405,42 +1441,6 @@ amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
       </tags>
   </entry>
   <entry>
-    <title>The largest singular value of a matrix</title>
-    <url>//mml-exercise-4-12.html</url>
-    <content><![CDATA[<div class="note info">
-            <p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 4 Exercise 4.12</strong></p>
-          </div>
-
-<a id="more"></a>
-
-<p>Solution: By SVD (Singular Value Decomposition), we have $A=U\Sigma V^T$. Let $y=V^T x$, then \[\|y\|_2^2=y^Ty=(V^Tx)^TV^Tx=x^TVV^Tx=x^Tx=\|x\|_2^2.\]Then we have\begin{align*}\|A x\|_2^2=&amp;\ (Ax)^T(Ax)=x^TA^TAx\\ = &amp;\ x^T V \begin{bmatrix}\sigma_1^2 &amp; 0 &amp; 0\\ 0 &amp; \ddots &amp; 0\\ 0 &amp; 0 &amp;\sigma_n^2\end{bmatrix}V^Tx \\ =&amp;\ y^T \begin{bmatrix}\sigma_1^2 &amp; 0 &amp; 0\\ 0 &amp; \ddots &amp; 0\\ 0 &amp; 0 &amp;\sigma_n^2\end{bmatrix} y \\ = &amp;\ \sigma_1^2 y_1^2+\cdots+\sigma_n^2y_n^2 \\ \leqslant &amp;\ \sigma_1^2 y_1^2+\cdots+\sigma_1^2y_n^2\\ =&amp;\ \sigma_1^2(y_1^2+\cdots+y_n^2)\\ =&amp;\ \sigma_1^2 \|y\|_2^2= \sigma_1^2 \|x\|_2^2.\end{align*}Hence we have \[\max_{x\ne 0}\frac{\|Ax\|_2}{\|x\|_2}\leqslant \sigma_1^2.\]Moreover, it is possible to choose $x$ such that the inequality above becomes equality. Namely, setting $$x=V(1,0,\dots,0)^T,$$then $y=(1,0,\dots,0)^T$ and $$\|A x\|_2^2=\sigma_1^2,\quad \|x\|_2=1.$$Hence we proved Theorem 4.24.</p>
-<script type="text/javascript">
-amzn_assoc_placement = "adunit0";
-amzn_assoc_search_bar = "true";
-amzn_assoc_tracking_id = "linearalgeb0e-20";
-amzn_assoc_search_bar_position = "bottom";
-amzn_assoc_ad_mode = "search";
-amzn_assoc_ad_type = "smart";
-amzn_assoc_marketplace = "amazon";
-amzn_assoc_region = "US";
-amzn_assoc_title = "Shop Related Products";
-amzn_assoc_default_search_phrase = "Linear Algebra";
-amzn_assoc_default_category = "All";
-amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
-</script><br />
-<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
-      <categories>
-        <category>Machine Learning</category>
-        <category>Linear Algebra</category>
-      </categories>
-      <tags>
-        <tag>Matrix</tag>
-        <tag>SVD</tag>
-        <tag>Eigenvector</tag>
-        <tag>Eigenvalue</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Compute the eigenspaces of two by two matrices</title>
     <url>//mml-exercise-4-3.html</url>
     <content><![CDATA[<div class="note info">
@@ -1476,9 +1476,9 @@ amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
       </categories>
       <tags>
         <tag>Matrix</tag>
+        <tag>Determinant</tag>
         <tag>Eigenvector</tag>
         <tag>Eigenvalue</tag>
-        <tag>Determinant</tag>
       </tags>
   </entry>
   <entry>
@@ -1515,9 +1515,49 @@ amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
       </categories>
       <tags>
         <tag>Matrix</tag>
+        <tag>Determinant</tag>
         <tag>Eigenvector</tag>
         <tag>Eigenvalue</tag>
-        <tag>Determinant</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Diagonalisability is unrelated to invertibility</title>
+    <url>//mml-exercise-4-5.html</url>
+    <content><![CDATA[<div class="note info">
+            <p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 4 Exercise 4.5</strong></p>
+          </div>
+
+<a id="more"></a>
+
+<p>Solution: </p>
+<p>Only the first two are diagonalisable – they are diagonal, so there is nothing to prove! The other two, however, are not diagonalisable – each only has exactly one eigenvalue. Moreover, the eigenspaces correspond to the eigenvalue are one-dimensional. However, we need there to exist a basis of eigenvectors to yield diagonalisability.</p>
+<p>Only the first and third matrices are invertible – the determinants are non-zero, while the other two matrices have determinant zero.</p>
+<p>This tells us that diagonalisability is indeed unrelated to invertibility!</p>
+<script type="text/javascript">
+amzn_assoc_placement = "adunit0";
+amzn_assoc_search_bar = "true";
+amzn_assoc_tracking_id = "linearalgeb0e-20";
+amzn_assoc_search_bar_position = "bottom";
+amzn_assoc_ad_mode = "search";
+amzn_assoc_ad_type = "smart";
+amzn_assoc_marketplace = "amazon";
+amzn_assoc_region = "US";
+amzn_assoc_title = "Shop Related Products";
+amzn_assoc_default_search_phrase = "Linear Algebra";
+amzn_assoc_default_category = "All";
+amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
+</script><br />
+<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
+      <categories>
+        <category>Machine Learning</category>
+        <category>Linear Algebra</category>
+      </categories>
+      <tags>
+        <tag>Matrix</tag>
+        <tag>Eigenvector</tag>
+        <tag>Eigenvalue</tag>
+        <tag>Diagonalisability</tag>
+        <tag>Invertibility</tag>
       </tags>
   </entry>
   <entry>
@@ -1649,46 +1689,6 @@ amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
       </tags>
   </entry>
   <entry>
-    <title>Diagonalisability is unrelated to invertibility</title>
-    <url>//mml-exercise-4-5.html</url>
-    <content><![CDATA[<div class="note info">
-            <p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 4 Exercise 4.5</strong></p>
-          </div>
-
-<a id="more"></a>
-
-<p>Solution: </p>
-<p>Only the first two are diagonalisable – they are diagonal, so there is nothing to prove! The other two, however, are not diagonalisable – each only has exactly one eigenvalue. Moreover, the eigenspaces correspond to the eigenvalue are one-dimensional. However, we need there to exist a basis of eigenvectors to yield diagonalisability.</p>
-<p>Only the first and third matrices are invertible – the determinants are non-zero, while the other two matrices have determinant zero.</p>
-<p>This tells us that diagonalisability is indeed unrelated to invertibility!</p>
-<script type="text/javascript">
-amzn_assoc_placement = "adunit0";
-amzn_assoc_search_bar = "true";
-amzn_assoc_tracking_id = "linearalgeb0e-20";
-amzn_assoc_search_bar_position = "bottom";
-amzn_assoc_ad_mode = "search";
-amzn_assoc_ad_type = "smart";
-amzn_assoc_marketplace = "amazon";
-amzn_assoc_region = "US";
-amzn_assoc_title = "Shop Related Products";
-amzn_assoc_default_search_phrase = "Linear Algebra";
-amzn_assoc_default_category = "All";
-amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
-</script><br />
-<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
-      <categories>
-        <category>Machine Learning</category>
-        <category>Linear Algebra</category>
-      </categories>
-      <tags>
-        <tag>Matrix</tag>
-        <tag>Eigenvector</tag>
-        <tag>Eigenvalue</tag>
-        <tag>Diagonalisability</tag>
-        <tag>Invertibility</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Find the singular value decomposition of a matrix II</title>
     <url>//mml-exercise-4-9.html</url>
     <content><![CDATA[<div class="note info">
@@ -1798,6 +1798,41 @@ amzn_assoc_search_bar_position = "bottom";
       </tags>
   </entry>
   <entry>
+    <title>Compute derivative of the function defining normal distribution</title>
+    <url>//mml-exercise-5-3.html</url>
+    <content><![CDATA[<div class="note info">
+            <p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 5 Exercise 5.3</strong></p>
+          </div>
+
+<a id="more"></a>
+
+<p>Solution: Clearly, we have $$\left(-\frac{1}{2\sigma^2}(x-\mu)^2\right)’=-\frac{1}{2\sigma^2}2(x-\mu)=\frac{-(x-\mu)}{\sigma^2}.$$Therefore, by Chain rule (5.32), we have \begin{align*}f’(x)=&amp;\ \exp\left(-\frac{1}{2\sigma^2}(x-\mu)^2\right)\cdot \left(-\frac{1}{2\sigma^2}(x-\mu)^2\right)’\\=&amp;\ \frac{-(x-\mu)}{\sigma^2}\cdot\exp\left(-\frac{1}{2\sigma^2}(x-\mu)^2\right)\end{align*}</p>
+<script type="text/javascript">
+amzn_assoc_placement = "adunit0";
+amzn_assoc_tracking_id = "linearalgeb0e-20";
+amzn_assoc_ad_mode = "search";
+amzn_assoc_ad_type = "smart";
+amzn_assoc_marketplace = "amazon";
+amzn_assoc_region = "US";
+amzn_assoc_title = "Shop Related Products";
+amzn_assoc_default_search_phrase = "Real Analysis";
+amzn_assoc_default_category = "All";
+amzn_assoc_linkid = "402d8b59cc9faa66d8d6b3b1eef9c01e";
+amzn_assoc_search_bar = "true";
+amzn_assoc_search_bar_position = "bottom";
+</script><br />
+<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
+      <categories>
+        <category>Machine Learning</category>
+        <category>Calculus</category>
+      </categories>
+      <tags>
+        <tag>Derivative</tag>
+        <tag>Chain Rule</tag>
+        <tag>Normal Distribution</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Compute the Taylor polynomials of trigonometric functions</title>
     <url>//mml-exercise-5-4.html</url>
     <content><![CDATA[<div class="note info">
@@ -1832,15 +1867,23 @@ amzn_assoc_search_bar_position = "bottom";
       </tags>
   </entry>
   <entry>
-    <title>Compute derivative of the function defining normal distribution</title>
-    <url>//mml-exercise-5-3.html</url>
+    <title>Compute the Jacobians of functions</title>
+    <url>//mml-exercise-5-5.html</url>
     <content><![CDATA[<div class="note info">
-            <p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 5 Exercise 5.3</strong></p>
+            <p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 5 Exercise 5.5</strong></p>
           </div>
 
 <a id="more"></a>
 
-<p>Solution: Clearly, we have $$\left(-\frac{1}{2\sigma^2}(x-\mu)^2\right)’=-\frac{1}{2\sigma^2}2(x-\mu)=\frac{-(x-\mu)}{\sigma^2}.$$Therefore, by Chain rule (5.32), we have \begin{align*}f’(x)=&amp;\ \exp\left(-\frac{1}{2\sigma^2}(x-\mu)^2\right)\cdot \left(-\frac{1}{2\sigma^2}(x-\mu)^2\right)’\\=&amp;\ \frac{-(x-\mu)}{\sigma^2}\cdot\exp\left(-\frac{1}{2\sigma^2}(x-\mu)^2\right)\end{align*}</p>
+<p>Solution: </p>
+<p><strong>Part a</strong></p>
+<p>We can see below that $\dfrac{\partial f_1}{\partial x}$ has dimension $1\times2$; $\dfrac{\partial f_2}{\partial x}$ has dimension $1\times n$; and $\dfrac{\partial f_3}{\partial x}$ has dimension $n^2\times n$.</p>
+<hr>
+<p><strong>Part b</strong></p>
+<p>We have $$\frac{\partial f_1}{\partial x} = \begin{bmatrix} \cos(x_1)\cos(x_2)&amp;-\sin(x_1)\sin(x_2) \end{bmatrix};$$ $$\frac{\partial f_2}{\partial x} = y^{\mathsf{T}}.$$ (Remember, $y$ is a column vector!)</p>
+<hr>
+<p><strong>Part c</strong></p>
+<p>Note that $xx^{\mathsf{T}}$ is the matrix $$\begin{bmatrix} x_1^2 &amp; x_1x_2 &amp; \cdots &amp; x_1x_n \\ x_2x_1 &amp; x_2^2 &amp; \cdots &amp; x_2x_n \\ \vdots &amp; \vdots &amp; \ddots &amp; \vdots \\ x_nx_1 &amp; x_nx_2 &amp; \cdots &amp; x_n^2 \end{bmatrix}.$$ Thus its derivative will be a higher-order tensor. However, if we consider the matrix to be an $n^2$-dimensional object in its own right, we can compute the Jacobian. Its first row consists of $$\begin{bmatrix} 2x_1 &amp; x_2 &amp; \cdots &amp; x_n | x _2 &amp; 0 &amp;\cdots &amp; 0 | \cdots | x_n&amp;0&amp;\cdots&amp;0 \end{bmatrix} ,$$ where I have inserted a vertical bar every $n$ columns, to aid readability.</p>
 <script type="text/javascript">
 amzn_assoc_placement = "adunit0";
 amzn_assoc_tracking_id = "linearalgeb0e-20";
@@ -1862,8 +1905,7 @@ amzn_assoc_search_bar_position = "bottom";
       </categories>
       <tags>
         <tag>Derivative</tag>
-        <tag>Chain Rule</tag>
-        <tag>Normal Distribution</tag>
+        <tag>Jacobian</tag>
       </tags>
   </entry>
   <entry>
@@ -1945,59 +1987,28 @@ amzn_assoc_search_bar_position = "bottom";
       </tags>
   </entry>
   <entry>
-    <title>Compute the Jacobians of functions</title>
-    <url>//mml-exercise-5-5.html</url>
+    <title>Differentiate vector-valued functions with respect to vector-valued variables III</title>
+    <url>//mml-exercise-5-8.html</url>
     <content><![CDATA[<div class="note info">
-            <p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 5 Exercise 5.5</strong></p>
+            <p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 5 Exercise 5.8</strong></p>
           </div>
 
 <a id="more"></a>
 
 <p>Solution: </p>
 <p><strong>Part a</strong></p>
-<p>We can see below that $\dfrac{\partial f_1}{\partial x}$ has dimension $1\times2$; $\dfrac{\partial f_2}{\partial x}$ has dimension $1\times n$; and $\dfrac{\partial f_3}{\partial x}$ has dimension $n^2\times n$.</p>
+<p>We have $\dfrac{df}{dz}$ has dimension $1\times 1$, and is simply $-\frac12 \exp(-\frac12 z)$.</p>
+<p>Now, $\dfrac{dz}{dy}$ has dimension $1\times D$, and is given by $y^{\mathsf{T}}(S^{-1}+(S^{-1})^{\mathsf{T}})$.</p>
+<p>Finally, $\dfrac{dy}{dx}$ has dimension $D\times D$, and is just the identity matrix.</p>
+<p>Again, we multiply these all together to get our final derivative.</p>
 <hr>
 <p><strong>Part b</strong></p>
-<p>We have $$\frac{\partial f_1}{\partial x} = \begin{bmatrix} \cos(x_1)\cos(x_2)&amp;-\sin(x_1)\sin(x_2) \end{bmatrix};$$ $$\frac{\partial f_2}{\partial x} = y^{\mathsf{T}}.$$ (Remember, $y$ is a column vector!)</p>
+<p>If we explicitly write out $xx^{\mathsf{T}}+\sigma^2I$, and compute its trace, we find that $$f(x) = x_1^2 + \dots + x_n^2 + n\sigma^2.$$</p>
+<p>Hence, $\dfrac{df}{dx} = 2x^{\mathsf{T}}$.</p>
 <hr>
 <p><strong>Part c</strong></p>
-<p>Note that $xx^{\mathsf{T}}$ is the matrix $$\begin{bmatrix} x_1^2 &amp; x_1x_2 &amp; \cdots &amp; x_1x_n \\ x_2x_1 &amp; x_2^2 &amp; \cdots &amp; x_2x_n \\ \vdots &amp; \vdots &amp; \ddots &amp; \vdots \\ x_nx_1 &amp; x_nx_2 &amp; \cdots &amp; x_n^2 \end{bmatrix}.$$ Thus its derivative will be a higher-order tensor. However, if we consider the matrix to be an $n^2$-dimensional object in its own right, we can compute the Jacobian. Its first row consists of $$\begin{bmatrix} 2x_1 &amp; x_2 &amp; \cdots &amp; x_n | x _2 &amp; 0 &amp;\cdots &amp; 0 | \cdots | x_n&amp;0&amp;\cdots&amp;0 \end{bmatrix} ,$$ where I have inserted a vertical bar every $n$ columns, to aid readability.</p>
-<script type="text/javascript">
-amzn_assoc_placement = "adunit0";
-amzn_assoc_tracking_id = "linearalgeb0e-20";
-amzn_assoc_ad_mode = "search";
-amzn_assoc_ad_type = "smart";
-amzn_assoc_marketplace = "amazon";
-amzn_assoc_region = "US";
-amzn_assoc_title = "Shop Related Products";
-amzn_assoc_default_search_phrase = "Real Analysis";
-amzn_assoc_default_category = "All";
-amzn_assoc_linkid = "402d8b59cc9faa66d8d6b3b1eef9c01e";
-amzn_assoc_search_bar = "true";
-amzn_assoc_search_bar_position = "bottom";
-</script><br />
-<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
-      <categories>
-        <category>Machine Learning</category>
-        <category>Calculus</category>
-      </categories>
-      <tags>
-        <tag>Derivative</tag>
-        <tag>Jacobian</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Compute the gradient for a multivariable function</title>
-    <url>//mml-exercise-5-9.html</url>
-    <content><![CDATA[<div class="note info">
-            <p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 5 Exercise 5.9</strong></p>
-          </div>
-
-<a id="more"></a>
-
-<p>Solution: </p>
-<p>Piecing this together, replacing $z$ with $t(\epsilon,\nu)$ throughout, we have that $$g(\nu) = \log(p(x,t(\epsilon,\nu))) - \log(q(t(\epsilon,\nu),\nu)).$$</p>
-<p>Therefore, $$\frac{dg}{d\nu} = \frac{p’(x,t(\epsilon,\nu))\cdot t’(\epsilon,\nu) }{p(x,t(\epsilon,\nu))} - \frac{q’(t(\epsilon,\nu),\nu)\cdot t’(\epsilon,\nu)}{q(t(\epsilon,\nu),\nu)}.$$</p>
+<p>Here, $$\frac{df}{dz} = \begin{bmatrix} \frac{1}{\cosh^2z_1}&amp;0&amp;\cdots&amp;0\\ 0&amp;\frac{1}{\cosh^2z_2}&amp;\cdots&amp;0\\ \vdots &amp; \vdots&amp;\ddots&amp;\vdots\\ 0&amp;0&amp;\cdots&amp;\frac{1}{\cosh^2z_M} \end{bmatrix},$$ while $\dfrac{dz}{dx} = A$, as in <a href="/mml-exercise-5-7.html">Question 7b</a>.</p>
+<p>Finally, $\dfrac{df}{dx}$ is given by the product of these two matrices.</p>
 <script type="text/javascript">
 amzn_assoc_placement = "adunit0";
 amzn_assoc_tracking_id = "linearalgeb0e-20";
@@ -2023,28 +2034,17 @@ amzn_assoc_search_bar_position = "bottom";
       </tags>
   </entry>
   <entry>
-    <title>Differentiate vector-valued functions with respect to vector-valued variables III</title>
-    <url>//mml-exercise-5-8.html</url>
+    <title>Compute the gradient for a multivariable function</title>
+    <url>//mml-exercise-5-9.html</url>
     <content><![CDATA[<div class="note info">
-            <p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 5 Exercise 5.8</strong></p>
+            <p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 5 Exercise 5.9</strong></p>
           </div>
 
 <a id="more"></a>
 
 <p>Solution: </p>
-<p><strong>Part a</strong></p>
-<p>We have $\dfrac{df}{dz}$ has dimension $1\times 1$, and is simply $-\frac12 \exp(-\frac12 z)$.</p>
-<p>Now, $\dfrac{dz}{dy}$ has dimension $1\times D$, and is given by $y^{\mathsf{T}}(S^{-1}+(S^{-1})^{\mathsf{T}})$.</p>
-<p>Finally, $\dfrac{dy}{dx}$ has dimension $D\times D$, and is just the identity matrix.</p>
-<p>Again, we multiply these all together to get our final derivative.</p>
-<hr>
-<p><strong>Part b</strong></p>
-<p>If we explicitly write out $xx^{\mathsf{T}}+\sigma^2I$, and compute its trace, we find that $$f(x) = x_1^2 + \dots + x_n^2 + n\sigma^2.$$</p>
-<p>Hence, $\dfrac{df}{dx} = 2x^{\mathsf{T}}$.</p>
-<hr>
-<p><strong>Part c</strong></p>
-<p>Here, $$\frac{df}{dz} = \begin{bmatrix} \frac{1}{\cosh^2z_1}&amp;0&amp;\cdots&amp;0\\ 0&amp;\frac{1}{\cosh^2z_2}&amp;\cdots&amp;0\\ \vdots &amp; \vdots&amp;\ddots&amp;\vdots\\ 0&amp;0&amp;\cdots&amp;\frac{1}{\cosh^2z_M} \end{bmatrix},$$ while $\dfrac{dz}{dx} = A$, as in <a href="/mml-exercise-5-7.html">Question 7b</a>.</p>
-<p>Finally, $\dfrac{df}{dx}$ is given by the product of these two matrices.</p>
+<p>Piecing this together, replacing $z$ with $t(\epsilon,\nu)$ throughout, we have that $$g(\nu) = \log(p(x,t(\epsilon,\nu))) - \log(q(t(\epsilon,\nu),\nu)).$$</p>
+<p>Therefore, $$\frac{dg}{d\nu} = \frac{p’(x,t(\epsilon,\nu))\cdot t’(\epsilon,\nu) }{p(x,t(\epsilon,\nu))} - \frac{q’(t(\epsilon,\nu),\nu)\cdot t’(\epsilon,\nu)}{q(t(\epsilon,\nu),\nu)}.$$</p>
 <script type="text/javascript">
 amzn_assoc_placement = "adunit0";
 amzn_assoc_tracking_id = "linearalgeb0e-20";
@@ -2188,6 +2188,139 @@ amzn_assoc_rows = "2";
       </tags>
   </entry>
   <entry>
+    <title>Compute the posterior distribution of a Bernoulli distribution</title>
+    <url>//mml-exercise-6-3.html</url>
+    <content><![CDATA[<div class="note info">
+            <p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 6 Exercise 6.3</strong></p>
+          </div>
+
+<a id="more"></a>
+
+<p>Solution: </p>
+<p>The conjugate prior to the Bernoulli distribution is the Beta distribution</p>
+<p>$$ p(\mu | \alpha, \beta) =\frac{1}{\mathcal{B}(\alpha, \beta)} \mu^{\alpha -1}(1-\mu)^{\beta-1} \propto \mu^{\alpha -1}(1-\mu)^{\beta-1}, $$</p>
+<p>where $\alpha,\beta$ are not necessarily integers and the normalization coefficient si the Beta function defined as</p>
+<p>$$ \mathcal{B}(\alpha, \beta) = \int_0^1 t^{\alpha -1}(1-t)^{\beta-1}dt $$</p>
+<p>The likelihood of observing data $\{x_1, x_2, …, x_N\}$ is</p>
+<p>$$p(x_1, …, x_N|\mu) = \prod_{i=1}^Np(x_i|\mu) = \prod_{i=1}^N \mu^{x_i}(1-\mu)^{1-x_i} = \mu^{\sum_{i=1}^N x_i}(1-\mu)^{N-\sum_{i=1}^N x_i} $$</p>
+<p>The posterior distribution is proportional to teh rpoduct of this likelihood with teh prior distribution (Bayes theorem):</p>
+<p>$$ p(\mu |x_1, …, x_N) \propto p(x_1, …, x_N|\mu)p(\mu | \alpha, \beta) \propto \mu^{\sum_{i=1}^N x_i + \alpha -1}(1-\mu)^{N-\sum_{i=1}^N x_i +\beta -1} $$</p>
+<p>This is also a Beta distribution, i.e. our choice of the gonjugate prior was correct. The normalization constant is readily determined:</p>
+<p>$$ p(\mu |x_1, …, x_N) = \frac{1}{\mathcal{B}(\sum_{i=1}^N x_i + \alpha -1, N-\sum_{i=1}^N x_i +\beta -1)} \mu^{\sum_{i=1}^N x_i + \alpha -1}(1-\mu)^{N-\sum_{i=1}^N x_i +\beta -1} $$</p>
+<script type="text/javascript">
+amzn_assoc_placement = "adunit0";
+amzn_assoc_search_bar = "true";
+amzn_assoc_tracking_id = "linearalgeb0e-20";
+amzn_assoc_search_bar_position = "bottom";
+amzn_assoc_ad_mode = "search";
+amzn_assoc_ad_type = "smart";
+amzn_assoc_marketplace = "amazon";
+amzn_assoc_region = "US";
+amzn_assoc_title = "Shop Related Products";
+amzn_assoc_default_search_phrase = "Statistics";
+amzn_assoc_default_category = "All";
+amzn_assoc_linkid = "a1702ca86c77f1a4b0df1c05cdf77dce";
+amzn_assoc_rows = "2";
+</script>
+<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
+      <categories>
+        <category>Machine Learning</category>
+        <category>Statistics</category>
+      </categories>
+      <tags>
+        <tag>Distribution</tag>
+        <tag>Random Variables</tag>
+        <tag>Bernoulli Distribution</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>An application of Bayes’ theorem</title>
+    <url>//mml-exercise-6-4.html</url>
+    <content><![CDATA[<div class="note info">
+            <p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 6 Exercise 6.4</strong></p>
+          </div>
+
+<a id="more"></a>
+
+<p>Solution: </p>
+<p>The probabilities of picking a mango or an apple from teh first bag are given by</p>
+<p>$$ p(mango |1) = \frac{4}{6} = \frac{2}{3}\\ p(apple |1) = \frac{2}{6} = \frac{1}{3} $$</p>
+<p>The probabilities of picking a mango or an apple from teh second bag are </p>
+<p>$$ p(mango |2) = \frac{4}{8} = \frac{1}{2}\\ p(apple |2) = \frac{4}{8} = \frac{1}{2} $$</p>
+<p>The probability of picking the first or the second bag are equal to teh probabilities of head and tail respectively:</p>
+<p>$$ p(1) = 0.6,\qquad p(2) = 0.4 $$</p>
+<p>We now can obtain the probability that the mango was picked from the second bag using Bayes’ theorem:</p>
+<p>$$ p(2 | mango) = \frac{p(mango | 2)p(2)}{p(mango)} = \frac{p(mango | 2)p(2)}{p(mango | 1)p(1) + p(mango | 2)p(2)} = \frac{\frac{1}{2}0.4}{\frac{2}{3}0.6 + \frac{1}{2}0.4} = \frac{1}{3} $$</p>
+<script type="text/javascript">
+amzn_assoc_placement = "adunit0";
+amzn_assoc_search_bar = "true";
+amzn_assoc_tracking_id = "linearalgeb0e-20";
+amzn_assoc_search_bar_position = "bottom";
+amzn_assoc_ad_mode = "search";
+amzn_assoc_ad_type = "smart";
+amzn_assoc_marketplace = "amazon";
+amzn_assoc_region = "US";
+amzn_assoc_title = "Shop Related Products";
+amzn_assoc_default_search_phrase = "Statistics";
+amzn_assoc_default_category = "All";
+amzn_assoc_linkid = "a1702ca86c77f1a4b0df1c05cdf77dce";
+amzn_assoc_rows = "2";
+</script>
+<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
+      <categories>
+        <category>Machine Learning</category>
+        <category>Statistics</category>
+      </categories>
+      <tags>
+        <tag>Probability</tag>
+        <tag>Bayes’ Theorem</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Express variance using expectation in a different form</title>
+    <url>//mml-exercise-6-6.html</url>
+    <content><![CDATA[<div class="note info">
+            <p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 6 Exercise 6.6</strong></p>
+          </div>
+
+<a id="more"></a>
+
+<p>Solution: </p>
+<p>The standard definition of variance is</p>
+<p>$$ \mathbb{V}_X[x] = \mathbb{E}_X[(x-\mu)^2], $$</p>
+<p>where</p>
+<p>$$ \mu = \mathbb{E}_X[x]. $$</p>
+<p>Using the properties of average we can write:</p>
+<p>\begin{align*}<br>\mathbb{V}_X[x] = &amp;\ \mathbb{E}_X[(x-\mu)^2] = \mathbb{E}_X[x^2 - 2x\mu +\mu^2] \\ =&amp;\ \mathbb{E}_X[x^2] - \mathbb{E}_X[2x\mu] + \mathbb{E}_X[\mu^2]\\=&amp;\ \mathbb{E}_X[x^2] - 2\mu\mathbb{E}_X[x] + \mu^2\\ =&amp;\ \mathbb{E}_X[x^2] - 2\mu^2 + \mu^2 = \mathbb{E}_X[x^2] - \mu^2.<br>\end{align*}</p>
+<p>By substituting to this equation the definition of $\mu$, we obtain the desired equation</p>
+<p>$$ \mathbb{V}_X[x] = \mathbb{E}_X[(x-\mu)^2] = \mathbb{E}_X[x^2] - (\mathbb{E}_X[x])^2. $$</p>
+<script type="text/javascript">
+amzn_assoc_placement = "adunit0";
+amzn_assoc_search_bar = "true";
+amzn_assoc_tracking_id = "linearalgeb0e-20";
+amzn_assoc_search_bar_position = "bottom";
+amzn_assoc_ad_mode = "search";
+amzn_assoc_ad_type = "smart";
+amzn_assoc_marketplace = "amazon";
+amzn_assoc_region = "US";
+amzn_assoc_title = "Shop Related Products";
+amzn_assoc_default_search_phrase = "Statistics";
+amzn_assoc_default_category = "All";
+amzn_assoc_linkid = "a1702ca86c77f1a4b0df1c05cdf77dce";
+amzn_assoc_rows = "2";
+</script>
+<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
+      <categories>
+        <category>Machine Learning</category>
+        <category>Statistics</category>
+      </categories>
+      <tags>
+        <tag>Probability</tag>
+        <tag>Variance</tag>
+        <tag>Expectation</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Find stationary points and determine their types</title>
     <url>//mml-exercise-7-1.html</url>
     <content><![CDATA[<div class="note info">
@@ -2276,6 +2409,59 @@ amzn_assoc_title = "Shop Related Products";
       </tags>
   </entry>
   <entry>
+    <title>Properties of operations on convex functions</title>
+    <url>//mml-exercise-7-4.html</url>
+    <content><![CDATA[<div class="note info">
+            <p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 7 Exercise 7.4</strong></p>
+          </div>
+
+<a id="more"></a>
+
+<p>Solution: </p>
+<p><strong>Part a</strong></p>
+<p>Solution: True. Let $f_1(\mathbf x)$ and $f_2(\mathbf x)$ be two convex functions. Suppose their domains are $\mathcal C_1$ and $\mathcal C_2$, respectively. Then $\mathcal C_1$ and $\mathcal C_2$ are convex sets, by Definition 7.3. Hence by Exercise 7.3 (a), the intersection $\mathcal C_1\cap \mathcal C_2$ is also convex. Note that $\mathcal C_1\cap \mathcal C_2$ is also the domain of $f_1+f_2$. Hence the domain of $f_1+f_2$ is convex. Now we only need to check the condition (7.30) in the textbook.</p>
+<p>For any $\mathbf x,\mathbf y$ in $\mathcal C_1\cap \mathcal C_2$ and $0\leq \theta \leq 1$, we have\begin{align*}&amp;\ (f_1+f_2)(\theta \mathbf x+(1-\theta)\mathbf y) \\ = &amp;\ f_1((\theta \mathbf x+(1-\theta)\mathbf y))+f_2((\theta \mathbf x+(1-\theta)\mathbf y))\\ \leq &amp;\ \theta f_1(\mathbf x)+(1-\theta)f_1(\mathbf y) +\theta f_2(\mathbf x)+(1-\theta)f_2(\mathbf y)\\ = &amp;\ \theta f_1(\mathbf x) +\theta f_2(\mathbf x)+(1-\theta)f_1(\mathbf y) +(1-\theta)f_2(\mathbf y)\\ = &amp;\ \theta (f_1+f_2)(\mathbf x)+(1-\theta)(f_1+f_2)(\mathbf y).\end{align*}In the inequality, we used equation (7.30) for $f_1$ and $f_2$ as they are convex. Therefore, $f_1+f_2$ is also convex.</p>
+<hr>
+<p><strong>Part b</strong></p>
+<p>I will use the following well-known fact.</p>
+<div class="note info">
+            <p>If $f’’(x)\geq 0$ holds for all $x$ in the domain (assumed to be convex) of $f$, then $f(x)$ is convex.</p>
+          </div>
+
+<p>Solution: False. For example, let $f_1(x)=x^2$ and $f_2(x)=2x^2$. Then $f_1$ and $f_2(x)$ are convex, but $$(f_1-f_2)(x)=f_1(x)-f_2(x)=-x^2$$ is not convex. Please fill the details.</p>
+<hr>
+<p><strong>Part c</strong></p>
+<p>Solution: False. Let $f_1(x)=x^2$ and $f_2(x)=x$. Then $f_1$ and $f_2(x)$ are convex, but $$(f_1f_2)(x)=f_1(x)f_2(x)=-x^3$$ is not convex. Please fill the details, e.g. use $\theta=1/2$, $x=-1$ and $y=0$ to get a counterexample.</p>
+<hr>
+<p><strong>Part d</strong></p>
+<p>Solution: True. Let $f_1(\mathbf x)$ and $f_2(\mathbf x)$ be two convex functions. Let $f(x):=\max\{f_1(x),f_2(x)\}$ be the maximum of them. Suppose their domains are $\mathcal C_1$ and $\mathcal C_2$, respectively. Then $\mathcal C_1$ and $\mathcal C_2$ are convex sets, by Definition 7.3. Hence by Exercise 7.3 (a), the intersection $\mathcal C_1\cap \mathcal C_2$ is also convex. Note that $\mathcal C_1\cap \mathcal C_2$ is also the domain of $f(x)$. Hence the domain of $f(x)$ is convex. Now we only need to check the condition (7.30) in the textbook.</p>
+<script type="text/javascript">
+amzn_assoc_placement = "adunit0";
+amzn_assoc_tracking_id = "linearalgeb0e-20";
+amzn_assoc_ad_mode = "search";
+amzn_assoc_ad_type = "smart";
+amzn_assoc_marketplace = "amazon";
+amzn_assoc_region = "US";
+amzn_assoc_default_search_phrase = "Calculus";
+amzn_assoc_default_category = "All";
+amzn_assoc_linkid = "f4d7cee51e59d583948f31cc8ab6b79a";
+amzn_assoc_search_bar = "true";
+amzn_assoc_search_bar_position = "top";
+amzn_assoc_title = "Shop Related Products";
+</script>
+<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
+      <categories>
+        <category>Machine Learning</category>
+        <category>Calculus</category>
+      </categories>
+      <tags>
+        <tag>Intersection</tag>
+        <tag>Union</tag>
+        <tag>Difference</tag>
+        <tag>Convex Function</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Derive the dual linear program using Lagrange duality</title>
     <url>//mml-exercise-7-6.html</url>
     <content><![CDATA[<div class="note info">
@@ -2328,59 +2514,6 @@ amzn_assoc_title = "Shop Related Products";
         <tag>Optimization</tag>
         <tag>Lagrange Duality</tag>
         <tag>Linear Program</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Properties of operations on convex functions</title>
-    <url>//mml-exercise-7-4.html</url>
-    <content><![CDATA[<div class="note info">
-            <p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 7 Exercise 7.4</strong></p>
-          </div>
-
-<a id="more"></a>
-
-<p>Solution: </p>
-<p><strong>Part a</strong></p>
-<p>Solution: True. Let $f_1(\mathbf x)$ and $f_2(\mathbf x)$ be two convex functions. Suppose their domains are $\mathcal C_1$ and $\mathcal C_2$, respectively. Then $\mathcal C_1$ and $\mathcal C_2$ are convex sets, by Definition 7.3. Hence by Exercise 7.3 (a), the intersection $\mathcal C_1\cap \mathcal C_2$ is also convex. Note that $\mathcal C_1\cap \mathcal C_2$ is also the domain of $f_1+f_2$. Hence the domain of $f_1+f_2$ is convex. Now we only need to check the condition (7.30) in the textbook.</p>
-<p>For any $\mathbf x,\mathbf y$ in $\mathcal C_1\cap \mathcal C_2$ and $0\leq \theta \leq 1$, we have\begin{align*}&amp;\ (f_1+f_2)(\theta \mathbf x+(1-\theta)\mathbf y) \\ = &amp;\ f_1((\theta \mathbf x+(1-\theta)\mathbf y))+f_2((\theta \mathbf x+(1-\theta)\mathbf y))\\ \leq &amp;\ \theta f_1(\mathbf x)+(1-\theta)f_1(\mathbf y) +\theta f_2(\mathbf x)+(1-\theta)f_2(\mathbf y)\\ = &amp;\ \theta f_1(\mathbf x) +\theta f_2(\mathbf x)+(1-\theta)f_1(\mathbf y) +(1-\theta)f_2(\mathbf y)\\ = &amp;\ \theta (f_1+f_2)(\mathbf x)+(1-\theta)(f_1+f_2)(\mathbf y).\end{align*}In the inequality, we used equation (7.30) for $f_1$ and $f_2$ as they are convex. Therefore, $f_1+f_2$ is also convex.</p>
-<hr>
-<p><strong>Part b</strong></p>
-<p>I will use the following well-known fact.</p>
-<div class="note info">
-            <p>If $f’’(x)\geq 0$ holds for all $x$ in the domain (assumed to be convex) of $f$, then $f(x)$ is convex.</p>
-          </div>
-
-<p>Solution: False. For example, let $f_1(x)=x^2$ and $f_2(x)=2x^2$. Then $f_1$ and $f_2(x)$ are convex, but $$(f_1-f_2)(x)=f_1(x)-f_2(x)=-x^2$$ is not convex. Please fill the details.</p>
-<hr>
-<p><strong>Part c</strong></p>
-<p>Solution: False. Let $f_1(x)=x^2$ and $f_2(x)=x$. Then $f_1$ and $f_2(x)$ are convex, but $$(f_1f_2)(x)=f_1(x)f_2(x)=-x^3$$ is not convex. Please fill the details, e.g. use $\theta=1/2$, $x=-1$ and $y=0$ to get a counterexample.</p>
-<hr>
-<p><strong>Part d</strong></p>
-<p>Solution: True. Let $f_1(\mathbf x)$ and $f_2(\mathbf x)$ be two convex functions. Let $f(x):=\max\{f_1(x),f_2(x)\}$ be the maximum of them. Suppose their domains are $\mathcal C_1$ and $\mathcal C_2$, respectively. Then $\mathcal C_1$ and $\mathcal C_2$ are convex sets, by Definition 7.3. Hence by Exercise 7.3 (a), the intersection $\mathcal C_1\cap \mathcal C_2$ is also convex. Note that $\mathcal C_1\cap \mathcal C_2$ is also the domain of $f(x)$. Hence the domain of $f(x)$ is convex. Now we only need to check the condition (7.30) in the textbook.</p>
-<script type="text/javascript">
-amzn_assoc_placement = "adunit0";
-amzn_assoc_tracking_id = "linearalgeb0e-20";
-amzn_assoc_ad_mode = "search";
-amzn_assoc_ad_type = "smart";
-amzn_assoc_marketplace = "amazon";
-amzn_assoc_region = "US";
-amzn_assoc_default_search_phrase = "Calculus";
-amzn_assoc_default_category = "All";
-amzn_assoc_linkid = "f4d7cee51e59d583948f31cc8ab6b79a";
-amzn_assoc_search_bar = "true";
-amzn_assoc_search_bar_position = "top";
-amzn_assoc_title = "Shop Related Products";
-</script>
-<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
-      <categories>
-        <category>Machine Learning</category>
-        <category>Calculus</category>
-      </categories>
-      <tags>
-        <tag>Intersection</tag>
-        <tag>Union</tag>
-        <tag>Difference</tag>
-        <tag>Convex Function</tag>
       </tags>
   </entry>
   <entry>
@@ -2452,7 +2585,7 @@ amzn_assoc_title = "Shop Related Products";
 <h3 id="Chapter-3-Analytic-Geometry"><a href="#Chapter-3-Analytic-Geometry" class="headerlink" title="Chapter 3 Analytic Geometry"></a>Chapter 3 Analytic Geometry</h3><p><a href="/mml-exercise-3-1.html">#3.1</a>, <a href="/mml-exercise-3-2.html">#3.2</a>, <a href="/mml-exercise-3-3.html">#3.3</a>, <a href="/mml-exercise-3-4.html">#3.4</a>, <a href="/mml-exercise-3-5.html">#3.5</a>, <a href="/mml-exercise-3-6.html">#3.6</a>, <a href="/mml-exercise-3-7.html">#3.7</a>, <a href="/mml-exercise-3-8.html">#3.8</a>, <a href="/mml-exercise-3-9.html">#3.9</a>, <a href="/mml-exercise-3-10.html">#3.10</a></p>
 <h3 id="Chapter-4-Matrix-Decompositions"><a href="#Chapter-4-Matrix-Decompositions" class="headerlink" title="Chapter 4 Matrix Decompositions"></a>Chapter 4 Matrix Decompositions</h3><p><a href="/mml-exercise-4-1.html">#4.1</a>, <a href="/mml-exercise-4-2.html">#4.2</a>, <a href="/mml-exercise-4-3.html">#4.3</a>, <a href="/mml-exercise-4-4.html">#4.4</a>, <a href="/mml-exercise-4-5.html">#4.5</a>, <a href="/mml-exercise-4-6.html">#4.6</a>, <a href="/mml-exercise-4-7.html">#4.7</a>, <a href="/mml-exercise-4-8.html">#4.8</a>, <a href="/mml-exercise-4-9.html">#4.9</a>, <a href="/mml-exercise-4-10.html">#4.10</a>, <a href="/mml-exercise-4-11.html">#4.11</a>, <a href="/mml-exercise-4-12.html">#4.12</a></p>
 <h3 id="Chapter-5-Vector-Calculus"><a href="#Chapter-5-Vector-Calculus" class="headerlink" title="Chapter 5 Vector Calculus"></a>Chapter 5 Vector Calculus</h3><p><a href="/mml-exercise-5-1.html">#5.1</a>, <a href="/mml-exercise-5-2.html">#5.2</a>, <a href="/mml-exercise-5-3.html">#5.3</a>, <a href="/mml-exercise-5-4.html">#5.4</a>, <a href="/mml-exercise-5-5.html">#5.5</a>, <a href="/mml-exercise-5-6.html">#5.6</a>, <a href="/mml-exercise-5-7.html">#5.7</a>, <a href="/mml-exercise-5-8.html">#5.8</a>, <a href="/mml-exercise-5-9.html">#5.9</a></p>
-<h3 id="Chapter-6-Probability-and-Distributions"><a href="#Chapter-6-Probability-and-Distributions" class="headerlink" title="Chapter 6 Probability and Distributions"></a>Chapter 6 Probability and Distributions</h3><p>#6.1, #6.2, #6.3, #6.4, #6.5, #6.6, #6.7, #6.8, #6.9, #6.10, #6.11, #6.12, #6.13</p>
+<h3 id="Chapter-6-Probability-and-Distributions"><a href="#Chapter-6-Probability-and-Distributions" class="headerlink" title="Chapter 6 Probability and Distributions"></a>Chapter 6 Probability and Distributions</h3><p><a href="/mml-exercise-6-1.html">#6.1</a>, <a href="/mml-exercise-6-2.html">#6.2</a>, <a href="/mml-exercise-6-3.html">#6.3</a>, <a href="/mml-exercise-6-4.html">#6.4</a>, #6.5, <a href="/mml-exercise-6-6.html">#6.6</a>, #6.7, #6.8, #6.9, #6.10, #6.11, #6.12, #6.13</p>
 <h3 id="Chapter-7-Continuous-Optimazation"><a href="#Chapter-7-Continuous-Optimazation" class="headerlink" title="Chapter 7 Continuous Optimazation"></a>Chapter 7 Continuous Optimazation</h3><p><a href="/mml-exercise-7-1.html">#7.1</a>, #7.2, <a href="/mml-exercise-7-3.html">#7.3</a>, <a href="/mml-exercise-7-4.html">#7.4</a>, #7.5, <a href="/mml-exercise-7-6.html">#7.6</a>, <a href="/mml-exercise-7-7.html">#7.7</a>, #7.8, #7.9, #7.10, #7.11</p>
 <script type="text/javascript">
 amzn_assoc_placement = "adunit0";
