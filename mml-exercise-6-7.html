@@ -23,18 +23,21 @@
     var CONFIG = {"hostname":"clanlu.com","root":"/","scheme":"Mist","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"always","padding":18,"offset":12,"onmobile":true},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="We discuss challenging math problems in Linear Algebra, Abstract Algebra, Probability Theory, and Convex Optimization related to Machine Learning">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Clanlu Math">
-<meta property="og:url" content="http://clanlu.com/categories/Machine-Learning/Linear-Algebra/page/5/index.html">
+  <meta name="description" content="Solution to Mathematics for Machine learning Chapter 6 Exercise 6.7">
+<meta property="og:type" content="article">
+<meta property="og:title" content="A identity that can be used to show Cauchy&#39;s inequality">
+<meta property="og:url" content="http://clanlu.com/mml-exercise-6-7.html">
 <meta property="og:site_name" content="Clanlu Math">
-<meta property="og:description" content="We discuss challenging math problems in Linear Algebra, Abstract Algebra, Probability Theory, and Convex Optimization related to Machine Learning">
+<meta property="og:description" content="Solution to Mathematics for Machine learning Chapter 6 Exercise 6.7">
 <meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2021-02-11T05:23:10.346Z">
+<meta property="article:modified_time" content="2021-02-11T05:33:25.744Z">
 <meta property="article:author" content="Clanlu">
-<meta property="article:tag" content="Linear Algebra, Abstract Algebra, Probability, Convex Optimization, Machine Learning">
+<meta property="article:tag" content="Basic Identity">
+<meta property="article:tag" content="Cauchy&#39;s Inequality">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="http://clanlu.com/categories/Machine-Learning/Linear-Algebra/page/5/">
+<link rel="canonical" href="http://clanlu.com/mml-exercise-6-7.html">
 
 
 <script id="page-configurations">
@@ -42,12 +45,12 @@
   CONFIG.page = {
     sidebar: "",
     isHome : false,
-    isPost : false,
+    isPost : true,
     lang   : 'en'
   };
 </script>
 
-  <title>Category: Linear Algebra | Clanlu Math</title>
+  <title>A identity that can be used to show Cauchy's inequality | Clanlu Math</title>
   
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120253876-1"></script>
     <script>
@@ -192,80 +195,165 @@
         <div class="content-wrap">
           
 
-          <div class="content category">
+          <div class="content post posts-expand">
             
 
+    
   
   
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="http://clanlu.com/mml-exercise-6-7.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="https://cdn.jsdelivr.net/gh/MathPage/gitalk/img/yin-yang.jpg">
+      <meta itemprop="name" content="Clanlu">
+      <meta itemprop="description" content="We discuss challenging math problems in Linear Algebra, Abstract Algebra, Probability Theory, and Convex Optimization related to Machine Learning">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Clanlu Math">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          A identity that can be used to show Cauchy's inequality
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+              
+
+              <time title="Created: 2021-02-11 00:23:10 / Modified: 00:33:25" itemprop="dateCreated datePublished" datetime="2021-02-11T00:23:10-05:00">2021-02-11</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Machine-Learning/" itemprop="url" rel="index"><span itemprop="name">Machine Learning</span></a>
+                </span>
+                  , 
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Machine-Learning/Statistics/" itemprop="url" rel="index"><span itemprop="name">Statistics</span></a>
+                </span>
+            </span>
+
+          
+            <span class="post-meta-item" title="Views" id="busuanzi_container_page_pv" style="display: none;">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">Views: </span>
+              <span id="busuanzi_value_page_pv"></span>
+            </span>
   
-  <div class="post-block">
-    <div class="posts-collapse">
-      <div class="collection-title">
-        <h2 class="collection-header">Linear Algebra
-          <small>Category</small>
-        </h2>
-      </div>
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Valine: </span>
+    
+    <a title="valine" href="/mml-exercise-6-7.html#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/mml-exercise-6-7.html" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-    <div class="collection-year">
-      <span class="collection-header">2021</span>
+        <div class="note info">
+            <p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 6 Exercise 6.7</strong></p>
+          </div>
+
+<a id="more"></a>
+
+<p>Solution: </p>
+<p>Let is expand the square in the left-hand side of (6.45)</p>
+<p>$$ \frac{1}{N^2}\sum_{i,j=1}^N(x_i - x_j)^2 = \frac{1}{N^2}\sum_{i,j=1}^N(x_i^2 - 2x_i x_j + x_j^2) = \frac{1}{N^2}\sum_{i,j=1}^N x_i^2 - 2\frac{1}{N^2}\sum_{i,j=1}^N x_i x_j + \frac{1}{N^2}\sum_{i,j=1}^Nx_j^2 $$</p>
+<p>We see that the first and the last term differ only by the summation index, i.e. they are identical: $$ \frac{1}{N^2}\sum_{i,j=1}^N x_i^2 + \frac{1}{N^2}\sum_{i,j=1}^Nx_j^2= 2\frac{1}{N^2}\sum_{i,j=1}^N x_i^2 = 2\frac{1}{N}\sum_{i=1}^N x_i^2, $$</p>
+<p>since summation over $j$ gives factor $N$.</p>
+<p>The remaining term can be written as</p>
+<p>$$ 2\frac{1}{N^2}\sum_{i,j=1}^N x_i x_j = 2\frac{1}{N^2}\sum_{i=1}^N x_i \sum_{i=1}^N x_j = 2\left(\frac{1}{N}\sum_{i=1}^N x_i\right)^2, $$</p>
+<p>where we again used the fact that the sum is invariant to the index of summation.</p>
+<p>We thus have proved the required relation that</p>
+<p>$$ \frac{1}{N^2}\sum_{i,j=1}^N(x_i - x_j)^2 = 2\frac{1}{N}\sum_{i=1}^N x_i^2 - 2\left(\frac{1}{N}\sum_{i=1}^N x_i\right)^2 $$</p>
+<div class="note default">
+            <p>In particular, it shows that $$\frac{1}{N}\sum_{i=1}^N x_i^2 \geq  \left(\frac{1}{N}\sum_{i=1}^N x_i\right)^2$$</p>
+          </div>
+
+<div class="note info">
+            <p>A more general identity is the following,</p><p>$$<br>\Big(\sum_{i=1}^n a_i^2\Big)\Big(\sum_{i=1}^n b_i^2\Big)- \Big(\sum_{i=1}^n a_ib_i\Big)^2=\frac{1}{2}\sum_{i,j=1}^n (a_ib_j-a_jb_i)^2.<br>$$</p>
+          </div>
+
+<p>This one can be proved in the same way. Moreover, this identity shows the classical Cauchy’s identity.</p>
+<p>$$<br>\Big(\sum_{i=1}^n a_i^2\Big)\Big(\sum_{i=1}^n b_i^2\Big)\geq\Big(\sum_{i=1}^n a_ib_i\Big)^2<br>$$</p>
+<script type="text/javascript">
+amzn_assoc_placement = "adunit0";
+amzn_assoc_search_bar = "true";
+amzn_assoc_tracking_id = "linearalgeb0e-20";
+amzn_assoc_search_bar_position = "bottom";
+amzn_assoc_ad_mode = "search";
+amzn_assoc_ad_type = "smart";
+amzn_assoc_marketplace = "amazon";
+amzn_assoc_region = "US";
+amzn_assoc_title = "Shop Related Products";
+amzn_assoc_default_search_phrase = "Statistics";
+amzn_assoc_default_category = "All";
+amzn_assoc_linkid = "a1702ca86c77f1a4b0df1c05cdf77dce";
+amzn_assoc_rows = "2";
+</script>
+<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>
     </div>
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+    
+    
+    
+      
 
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2021-01-21T22:50:49-05:00"
-              content="2021-01-21">
-          01-21
-        </time>
-      </div>
 
-      <div class="post-title">
-          <a class="post-title-link" href="/mml-exercise-3-9.html" itemprop="url">
-            <span itemprop="name">Naive applications of Cauchy-Schwarz inequality</span>
-          </a>
-      </div>
+      <footer class="post-footer">
+          
+          <div class="post-tags">
+              <a href="/tags/Basic-Identity/" rel="tag"><i class="fa fa-tag"></i> Basic Identity</a>
+              <a href="/tags/Cauchy-s-Inequality/" rel="tag"><i class="fa fa-tag"></i> Cauchy's Inequality</a>
+          </div>
 
-    </header>
-  </article>
+        
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
 
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2021-01-21T22:50:49-05:00"
-              content="2021-01-21">
-          01-21
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/mml-exercise-4-1.html" itemprop="url">
-            <span itemprop="name">Compute the determinant using Laplace expansion and Sarrus rule</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/mml-exercise-6-6.html" rel="prev" title="Express variance using expectation in a different form">
+      <i class="fa fa-chevron-left"></i> Express variance using expectation in a different form
+    </a></div>
+      <div class="post-nav-item"></div>
     </div>
-  </div>
+      </footer>
+    
+  </article>
   
   
   
-
-  
-  <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/categories/Machine-Learning/Linear-Algebra/page/4/"><i class="fa fa-angle-left" aria-label="Previous page"></i></a><a class="page-number" href="/categories/Machine-Learning/Linear-Algebra/">1</a><span class="space">&hellip;</span><a class="page-number" href="/categories/Machine-Learning/Linear-Algebra/page/4/">4</a><span class="page-number current">5</span>
-  </nav>
 
 
 
           </div>
           
+    <div class="comments" id="valine-comments"></div>
 
 <script>
   window.addEventListener('tabs:register', () => {
@@ -446,6 +534,59 @@
   
 
   
+      
+
+<script>
+  if (typeof MathJax === 'undefined') {
+    window.MathJax = {
+      loader: {
+        source: {
+          '[tex]/amsCd': '[tex]/amscd',
+          '[tex]/AMScd': '[tex]/amscd'
+        }
+      },
+      tex: {
+        inlineMath: {'[+]': [['$', '$']]},
+        tags: 'ams'
+      },
+      options: {
+        renderActions: {
+          findScript: [10, doc => {
+            document.querySelectorAll('script[type^="math/tex"]').forEach(node => {
+              const display = !!node.type.match(/; *mode=display/);
+              const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+              const text = document.createTextNode('');
+              node.parentNode.replaceChild(text, node);
+              math.start = {node: text, delim: '', n: 0};
+              math.end = {node: text, delim: '', n: 0};
+              doc.math.push(math);
+            });
+          }, '', false],
+          insertedScript: [200, () => {
+            document.querySelectorAll('mjx-container').forEach(node => {
+              let target = node.parentNode;
+              if (target.nodeName.toLowerCase() === 'li') {
+                target.parentNode.classList.add('has-jax');
+              }
+            });
+          }, '', false]
+        }
+      }
+    };
+    (function () {
+      var script = document.createElement('script');
+      script.src = '//cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js';
+      script.defer = true;
+      document.head.appendChild(script);
+    })();
+  } else {
+    MathJax.startup.document.state(0);
+    MathJax.texReset();
+    MathJax.typeset();
+  }
+</script>
+
+    
 
   
 
