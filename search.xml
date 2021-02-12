@@ -149,44 +149,6 @@ amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
       </tags>
   </entry>
   <entry>
-    <title>Find a basis of the intersection of two vector spaces</title>
-    <url>//mml-exercise-2-12.html</url>
-    <content><![CDATA[<div class="note info">
-            <p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 2 Exercise 2.12</strong></p>
-          </div>
-
-<a id="more"></a>
-
-<p>Solution:</p>
-<p>We write the given vectors as $v_1, \dots v_6$ from left to right. Firstly, observe that $\dim(U_1)=2$ and $\dim(U_2)=2$ (compute the rank of $\left[v_1|v_2|v_3\right]$, then $\left[v_4|v_5|v_6\right]$). Since we can write $$v_3= \frac13 (v_1-2v_2)\quad\text{and}\quad v_6=-v_4-2v_5,$$ we need not consider $v_3$ and $v_6$ any further.</p>
-<p>Now, if we find the rank of $\left[v_1|v_2|v_4|v_5\right]$, we get 3, so $\dim(U_1+U_2)=3$. Therefore, $$\dim(U_1\cap U_2) = 2+2-3=1.$$ Hence, to find a basis of $U_1 \cap U_2$, we need only find any non-zero vector in the space.</p>
-<p>Let $0\neq v \in U_1\cap U_2$. Then we can write $v=\alpha_1v_1 + \alpha_2v_2$, and $v=\alpha_4v_4 + \alpha_5v_5$. Subtracting these equations, we have $$0=\alpha_1v_1 + \alpha_2v_2 -\alpha_4v_4 - \alpha_5v_5.$$ Remember we want a non-zero solution for $v$, and observe that the rank of $\left[v_1|v_2|v_4\right]$ is 3 (i.e. these three vectors are linearly independent). Hence we can take $\alpha_5=9$, say (this means we don’t have fractions later, but there’s no way to know this a priori!), and solve for the other $\alpha_i$’s. Using Gaussian elimination, we obtain $\alpha_1=4$, $\alpha_2=10$ and $\alpha_4 = -6$. Thus $$\begin{equation*} v=4v_1+10v_2 = -6v_4+9v_5 = \begin{bmatrix} 24\\-6\\-12\\-6 \end{bmatrix}. \end{equation*}$$</p>
-<p>Finally, we can write our basis of $U_1\cap U_2$ as just $\{ v \}$.</p>
-<script type="text/javascript">
-amzn_assoc_placement = "adunit0";
-amzn_assoc_search_bar = "true";
-amzn_assoc_tracking_id = "linearalgeb0e-20";
-amzn_assoc_search_bar_position = "bottom";
-amzn_assoc_ad_mode = "search";
-amzn_assoc_ad_type = "smart";
-amzn_assoc_marketplace = "amazon";
-amzn_assoc_region = "US";
-amzn_assoc_title = "Shop Related Products";
-amzn_assoc_default_search_phrase = "Linear Algebra";
-amzn_assoc_default_category = "All";
-amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
-</script><br />
-<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
-      <categories>
-        <category>Machine Learning</category>
-        <category>Linear Algebra</category>
-      </categories>
-      <tags>
-        <tag>Vector Space</tag>
-        <tag>Basis</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Find a basis of the intersection of two solution spaces</title>
     <url>//mml-exercise-2-13.html</url>
     <content><![CDATA[<div class="note info">
@@ -270,22 +232,19 @@ amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
       </tags>
   </entry>
   <entry>
-    <title>Find a basis of the intersection of two solution spaces III</title>
-    <url>//mml-exercise-2-15.html</url>
+    <title>Find a basis of the intersection of two vector spaces</title>
+    <url>//mml-exercise-2-12.html</url>
     <content><![CDATA[<div class="note info">
-            <p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 2 Exercise 2.15</strong></p>
+            <p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 2 Exercise 2.12</strong></p>
           </div>
 
 <a id="more"></a>
 
 <p>Solution:</p>
-<p><strong>Part a</strong></p>
-<p>Firstly, observe that $(0,0,0) \in F$, and $(0,0,0)\in G$ also. Next, we check that adding any two elements of the set does indeed get us another element of the set. Finally, if we multiply any element of the set by any real number, we again get another element of the required form. Thus $F$ and $G$ are subspaces indeed!</p>
-<p><strong>Part b</strong></p>
-<p>A vector in $F\cap G$ will satisfy both conditions in the sets, so if we put $G$’s condition into $F$’s, we find $$(a-b)+(a+b)-(a-3b) = 0,$$ from which we have $a=-3b$. Thus, $$F\cap G = \{ (-4b,-2b,-6b) : b\in \mathbb{R} \} = \mathsf{span}[ (2,1,3)].$$</p>
-<p><strong>Part c</strong></p>
-<p>Doing the same dimensional analysis as the previous three questions, we find that $F\cap G$ has dimension 1. We have $$F=\mathsf{span}[(1,0,1), (0,1,1)],$$ and $$G=\mathsf{span}[ (1,1,1),(-1,1,-3)].$$</p>
-<p>Proceeding in the same way as <a href="/mml-exercise-2-12.html">Problem 2.12</a>, we find that $-4v_1-2v_2 = -3v_3+v_4$, and hence $\{(-4,-2,-6)\}$ is a basis of $F \cap G$, which agrees with Part b.</p>
+<p>We write the given vectors as $v_1, \dots v_6$ from left to right. Firstly, observe that $\dim(U_1)=2$ and $\dim(U_2)=2$ (compute the rank of $\left[v_1|v_2|v_3\right]$, then $\left[v_4|v_5|v_6\right]$). Since we can write $$v_3= \frac13 (v_1-2v_2)\quad\text{and}\quad v_6=-v_4-2v_5,$$ we need not consider $v_3$ and $v_6$ any further.</p>
+<p>Now, if we find the rank of $\left[v_1|v_2|v_4|v_5\right]$, we get 3, so $\dim(U_1+U_2)=3$. Therefore, $$\dim(U_1\cap U_2) = 2+2-3=1.$$ Hence, to find a basis of $U_1 \cap U_2$, we need only find any non-zero vector in the space.</p>
+<p>Let $0\neq v \in U_1\cap U_2$. Then we can write $v=\alpha_1v_1 + \alpha_2v_2$, and $v=\alpha_4v_4 + \alpha_5v_5$. Subtracting these equations, we have $$0=\alpha_1v_1 + \alpha_2v_2 -\alpha_4v_4 - \alpha_5v_5.$$ Remember we want a non-zero solution for $v$, and observe that the rank of $\left[v_1|v_2|v_4\right]$ is 3 (i.e. these three vectors are linearly independent). Hence we can take $\alpha_5=9$, say (this means we don’t have fractions later, but there’s no way to know this a priori!), and solve for the other $\alpha_i$’s. Using Gaussian elimination, we obtain $\alpha_1=4$, $\alpha_2=10$ and $\alpha_4 = -6$. Thus $$\begin{equation*} v=4v_1+10v_2 = -6v_4+9v_5 = \begin{bmatrix} 24\\-6\\-12\\-6 \end{bmatrix}. \end{equation*}$$</p>
+<p>Finally, we can write our basis of $U_1\cap U_2$ as just $\{ v \}$.</p>
 <script type="text/javascript">
 amzn_assoc_placement = "adunit0";
 amzn_assoc_search_bar = "true";
@@ -308,7 +267,6 @@ amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
       <tags>
         <tag>Vector Space</tag>
         <tag>Basis</tag>
-        <tag>Linear Equations</tag>
       </tags>
   </entry>
   <entry>
@@ -433,6 +391,48 @@ amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
       </tags>
   </entry>
   <entry>
+    <title>Find a basis of the intersection of two solution spaces III</title>
+    <url>//mml-exercise-2-15.html</url>
+    <content><![CDATA[<div class="note info">
+            <p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 2 Exercise 2.15</strong></p>
+          </div>
+
+<a id="more"></a>
+
+<p>Solution:</p>
+<p><strong>Part a</strong></p>
+<p>Firstly, observe that $(0,0,0) \in F$, and $(0,0,0)\in G$ also. Next, we check that adding any two elements of the set does indeed get us another element of the set. Finally, if we multiply any element of the set by any real number, we again get another element of the required form. Thus $F$ and $G$ are subspaces indeed!</p>
+<p><strong>Part b</strong></p>
+<p>A vector in $F\cap G$ will satisfy both conditions in the sets, so if we put $G$’s condition into $F$’s, we find $$(a-b)+(a+b)-(a-3b) = 0,$$ from which we have $a=-3b$. Thus, $$F\cap G = \{ (-4b,-2b,-6b) : b\in \mathbb{R} \} = \mathsf{span}[ (2,1,3)].$$</p>
+<p><strong>Part c</strong></p>
+<p>Doing the same dimensional analysis as the previous three questions, we find that $F\cap G$ has dimension 1. We have $$F=\mathsf{span}[(1,0,1), (0,1,1)],$$ and $$G=\mathsf{span}[ (1,1,1),(-1,1,-3)].$$</p>
+<p>Proceeding in the same way as <a href="/mml-exercise-2-12.html">Problem 2.12</a>, we find that $-4v_1-2v_2 = -3v_3+v_4$, and hence $\{(-4,-2,-6)\}$ is a basis of $F \cap G$, which agrees with Part b.</p>
+<script type="text/javascript">
+amzn_assoc_placement = "adunit0";
+amzn_assoc_search_bar = "true";
+amzn_assoc_tracking_id = "linearalgeb0e-20";
+amzn_assoc_search_bar_position = "bottom";
+amzn_assoc_ad_mode = "search";
+amzn_assoc_ad_type = "smart";
+amzn_assoc_marketplace = "amazon";
+amzn_assoc_region = "US";
+amzn_assoc_title = "Shop Related Products";
+amzn_assoc_default_search_phrase = "Linear Algebra";
+amzn_assoc_default_category = "All";
+amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
+</script><br />
+<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
+      <categories>
+        <category>Machine Learning</category>
+        <category>Linear Algebra</category>
+      </categories>
+      <tags>
+        <tag>Vector Space</tag>
+        <tag>Basis</tag>
+        <tag>Linear Equations</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Verify a set with certain binary operation is an Abelian group II</title>
     <url>//mml-exercise-2-2.html</url>
     <content><![CDATA[<div class="note info">
@@ -523,6 +523,46 @@ amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
       </tags>
   </entry>
   <entry>
+    <title>Verify a set with matrices is a group</title>
+    <url>//mml-exercise-2-3.html</url>
+    <content><![CDATA[<div class="note info">
+            <p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 2 Exercise 2.3</strong></p>
+          </div>
+
+<a id="more"></a>
+
+<p>Solution:</p>
+<p>Let $A_1 = \begin{bmatrix} 1 &amp; x_1 &amp; y_1 \\ 0 &amp; 1 &amp; z_1 \\ 0 &amp; 0 &amp; 1 \end{bmatrix}$ and $A_2 = \begin{bmatrix} 1 &amp; x_2 &amp; y_2 \\ 0 &amp; 1 &amp; z_2 \\ 0 &amp; 0 &amp; 1 \end{bmatrix} \in \mathcal{G}$.</p>
+<p>Then $$A_1A_2 = \begin{bmatrix} 1 &amp; x_1+x_2 &amp; y_1+x_1z_2+y_2 \\ 0 &amp; 1 &amp; z_1+z_2 \\ 0 &amp; 0 &amp; 1 \end{bmatrix} \in\mathcal{G},$$ so we have closure.</p>
+<p>Associativity follows from the associativity of standard matrix multiplication.</p>
+<p>Letting $x=y=z=0$, observe that the identity is in $\mathcal{G}$.</p>
+<p>Finally, if we take $x_2 = -x_1$, $z_2 = -z_1$, and $y_2 = -y_1-x_1z_2$, then observe that $A_1A_2 = I_3$, and thus inverses are of the required form! Therefore, $\mathcal{G} $ is a group.</p>
+<p>The group is not abelian, e.g. take $x_1=z_2=1$ and everything else to be $0$. Then multiplying these matrices in the other order (i.e. $x_2=z_1=1$) gives a different answer.</p>
+<script type="text/javascript">
+amzn_assoc_placement = "adunit0";
+amzn_assoc_search_bar = "true";
+amzn_assoc_tracking_id = "linearalgeb0e-20";
+amzn_assoc_search_bar_position = "bottom";
+amzn_assoc_ad_mode = "search";
+amzn_assoc_ad_type = "smart";
+amzn_assoc_marketplace = "amazon";
+amzn_assoc_region = "US";
+amzn_assoc_title = "Shop Related Products";
+amzn_assoc_default_search_phrase = "Linear Algebra";
+amzn_assoc_default_category = "All";
+amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
+</script><br />
+<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
+      <categories>
+        <category>Machine Learning</category>
+        <category>Linear Algebra</category>
+      </categories>
+      <tags>
+        <tag>Group</tag>
+        <tag>Matrix</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Computations of a linear mapping using two bases</title>
     <url>//mml-exercise-2-20.html</url>
     <content><![CDATA[<div class="note info">
@@ -572,46 +612,6 @@ amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
         <tag>Vector Space</tag>
         <tag>Basis</tag>
         <tag>Linear Map</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Verify a set with matrices is a group</title>
-    <url>//mml-exercise-2-3.html</url>
-    <content><![CDATA[<div class="note info">
-            <p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 2 Exercise 2.3</strong></p>
-          </div>
-
-<a id="more"></a>
-
-<p>Solution:</p>
-<p>Let $A_1 = \begin{bmatrix} 1 &amp; x_1 &amp; y_1 \\ 0 &amp; 1 &amp; z_1 \\ 0 &amp; 0 &amp; 1 \end{bmatrix}$ and $A_2 = \begin{bmatrix} 1 &amp; x_2 &amp; y_2 \\ 0 &amp; 1 &amp; z_2 \\ 0 &amp; 0 &amp; 1 \end{bmatrix} \in \mathcal{G}$.</p>
-<p>Then $$A_1A_2 = \begin{bmatrix} 1 &amp; x_1+x_2 &amp; y_1+x_1z_2+y_2 \\ 0 &amp; 1 &amp; z_1+z_2 \\ 0 &amp; 0 &amp; 1 \end{bmatrix} \in\mathcal{G},$$ so we have closure.</p>
-<p>Associativity follows from the associativity of standard matrix multiplication.</p>
-<p>Letting $x=y=z=0$, observe that the identity is in $\mathcal{G}$.</p>
-<p>Finally, if we take $x_2 = -x_1$, $z_2 = -z_1$, and $y_2 = -y_1-x_1z_2$, then observe that $A_1A_2 = I_3$, and thus inverses are of the required form! Therefore, $\mathcal{G} $ is a group.</p>
-<p>The group is not abelian, e.g. take $x_1=z_2=1$ and everything else to be $0$. Then multiplying these matrices in the other order (i.e. $x_2=z_1=1$) gives a different answer.</p>
-<script type="text/javascript">
-amzn_assoc_placement = "adunit0";
-amzn_assoc_search_bar = "true";
-amzn_assoc_tracking_id = "linearalgeb0e-20";
-amzn_assoc_search_bar_position = "bottom";
-amzn_assoc_ad_mode = "search";
-amzn_assoc_ad_type = "smart";
-amzn_assoc_marketplace = "amazon";
-amzn_assoc_region = "US";
-amzn_assoc_title = "Shop Related Products";
-amzn_assoc_default_search_phrase = "Linear Algebra";
-amzn_assoc_default_category = "All";
-amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
-</script><br />
-<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
-      <categories>
-        <category>Machine Learning</category>
-        <category>Linear Algebra</category>
-      </categories>
-      <tags>
-        <tag>Group</tag>
-        <tag>Matrix</tag>
       </tags>
   </entry>
   <entry>
@@ -705,18 +705,26 @@ amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
       </tags>
   </entry>
   <entry>
-    <title>Solve systems of inhomogenous linear equations using Gaussian elimination</title>
-    <url>//mml-exercise-2-6.html</url>
+    <title>Solve systems of homogenous linear equations</title>
+    <url>//mml-exercise-2-7.html</url>
     <content><![CDATA[<div class="note info">
-            <p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 2 Exercise 2.6</strong></p>
+            <p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 2 Exercise 2.7</strong></p>
           </div>
 
 <a id="more"></a>
 
 <p>Solution:</p>
-<p>We start with doing $r_3-r_1$, to give us $$\left[ \begin{array}{cccccc|c} 0&amp;1&amp;0&amp;0&amp;1&amp;0&amp;2\\ 0&amp;0&amp;0&amp;1&amp;1&amp;0&amp;-1\\ 0&amp;0&amp;0&amp;0&amp;-1&amp;1&amp;-1 \end{array} \right].$$</p>
-<p>Next, do $r_1+r_3$, $r+2+r_3$, and then multiply $r_3$ by $-1$. This gives $$\left[ \begin{array}{cccccc|c} 0&amp;1&amp;0&amp;0&amp;0&amp;1&amp;1\\ 0&amp;0&amp;0&amp;1&amp;0&amp;1&amp;-2\\ 0&amp;0&amp;0&amp;0&amp;1&amp;-1&amp;1 \end{array} \right].$$</p>
-<p>This corresponds to the equations $x_2+x_6=1$, $x_4+x_6=-2$, and $x_5-x_6 = 1$. Now we can take $x_1$, $x_3$ and $x_6$ to be arbitrary, giving a solution set of $$\{ (\alpha, 1-\beta, \gamma, -2-\beta, 1+\beta, \beta)^{\mathsf{T}} : \alpha,\beta, \gamma \in \mathbb{R} \}.$$</p>
+<p>The problem can be solved as follows:</p>
+<ul>
+<li>Find all solutions of the system of equations $Ax=12x$.</li>
+<li>Find solutions such that $x_1+x_2+x_3=1$.</li>
+</ul>
+<p>We have that $$A-12I = \begin{bmatrix}-6&amp;4&amp;3\\ 6&amp;-12&amp;9\\ 0&amp;8&amp;-12 \end{bmatrix}.$$ It is easy to find that all solutions are of the form $(3\alpha,3\alpha,2\alpha)^{\mathsf{T}} \in \ker(A-12I)$. </p>
+<p>Finally, to make $x_1+x_2+x_3=1$, we only need to divide the vector $(3\alpha,3\alpha,2\alpha)^{\mathsf{T}}$ by $3\alpha+3\alpha+2\alpha=8\alpha$. Here we should take nonzero $\alpha$. Hence we have only one solution to the problem, that is $$(3/8, 3/8, 1/4).$$</p>
+<div class="note success">
+            <p>The problem shows that 12 is an eigenvector of the matrix $A$ and the corresponding eigenvector is $(3/8, 3/8, 1/4)$.</p>
+          </div>
+
 <script type="text/javascript">
 amzn_assoc_placement = "adunit0";
 amzn_assoc_search_bar = "true";
@@ -743,26 +751,18 @@ amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
       </tags>
   </entry>
   <entry>
-    <title>Solve systems of homogenous linear equations</title>
-    <url>//mml-exercise-2-7.html</url>
+    <title>Solve systems of inhomogenous linear equations using Gaussian elimination</title>
+    <url>//mml-exercise-2-6.html</url>
     <content><![CDATA[<div class="note info">
-            <p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 2 Exercise 2.7</strong></p>
+            <p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 2 Exercise 2.6</strong></p>
           </div>
 
 <a id="more"></a>
 
 <p>Solution:</p>
-<p>The problem can be solved as follows:</p>
-<ul>
-<li>Find all solutions of the system of equations $Ax=12x$.</li>
-<li>Find solutions such that $x_1+x_2+x_3=1$.</li>
-</ul>
-<p>We have that $$A-12I = \begin{bmatrix}-6&amp;4&amp;3\\ 6&amp;-12&amp;9\\ 0&amp;8&amp;-12 \end{bmatrix}.$$ It is easy to find that all solutions are of the form $(3\alpha,3\alpha,2\alpha)^{\mathsf{T}} \in \ker(A-12I)$. </p>
-<p>Finally, to make $x_1+x_2+x_3=1$, we only need to divide the vector $(3\alpha,3\alpha,2\alpha)^{\mathsf{T}}$ by $3\alpha+3\alpha+2\alpha=8\alpha$. Here we should take nonzero $\alpha$. Hence we have only one solution to the problem, that is $$(3/8, 3/8, 1/4).$$</p>
-<div class="note success">
-            <p>The problem shows that 12 is an eigenvector of the matrix $A$ and the corresponding eigenvector is $(3/8, 3/8, 1/4)$.</p>
-          </div>
-
+<p>We start with doing $r_3-r_1$, to give us $$\left[ \begin{array}{cccccc|c} 0&amp;1&amp;0&amp;0&amp;1&amp;0&amp;2\\ 0&amp;0&amp;0&amp;1&amp;1&amp;0&amp;-1\\ 0&amp;0&amp;0&amp;0&amp;-1&amp;1&amp;-1 \end{array} \right].$$</p>
+<p>Next, do $r_1+r_3$, $r+2+r_3$, and then multiply $r_3$ by $-1$. This gives $$\left[ \begin{array}{cccccc|c} 0&amp;1&amp;0&amp;0&amp;0&amp;1&amp;1\\ 0&amp;0&amp;0&amp;1&amp;0&amp;1&amp;-2\\ 0&amp;0&amp;0&amp;0&amp;1&amp;-1&amp;1 \end{array} \right].$$</p>
+<p>This corresponds to the equations $x_2+x_6=1$, $x_4+x_6=-2$, and $x_5-x_6 = 1$. Now we can take $x_1$, $x_3$ and $x_6$ to be arbitrary, giving a solution set of $$\{ (\alpha, 1-\beta, \gamma, -2-\beta, 1+\beta, \beta)^{\mathsf{T}} : \alpha,\beta, \gamma \in \mathbb{R} \}.$$</p>
 <script type="text/javascript">
 amzn_assoc_placement = "adunit0";
 amzn_assoc_search_bar = "true";
@@ -873,42 +873,6 @@ amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
       </tags>
   </entry>
   <entry>
-    <title>Verify Inner Product by Direct Computation</title>
-    <url>//mml-exercise-3-1.html</url>
-    <content><![CDATA[<div class="note info">
-            <p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 3 Exercise 3.1</strong></p>
-          </div>
-
-<a id="more"></a>
-
-<p>Solution: We check it by definition.</p>
-<p>Firstly, we check it is symmetric. Note that $$\langle \mathbf x,\mathbf y\rangle = x_1y_1-(x_1y_2+x_2y_1)+2(x_2y_2)$$ and $$\langle \mathbf y,\mathbf x\rangle = y_1x_1-(y_1x_2+y_2x_1)+2(y_2x_2),$$it is clear that $\langle \mathbf x,\mathbf y\rangle=\langle \mathbf y,\mathbf x\rangle$.</p>
-<p>Secondly, we check it is bilinear. Let $\mathbf z=[z_1,z_2]^\top$, then for any real numbers $a,b$ we have\begin{align*}\langle a\mathbf x+b\mathbf y,\mathbf z\rangle=&amp;\ \langle [ax_1+by_1,ax_2+by_2]^\top,[z_1,z_2]^\top\rangle \\ =&amp;\ (ax_1+by_1)z_1-(ax_1+by_1)z_2-(ax_2+by_2)z_1+2(ax_2+by_2)z_2\\=&amp;\ (ax_1z_1-ax_1z_2-ax_2z_1+2ax_2z_2)+(by_1z_1-by_1z_2-by_2z_1+2by_2z_2)\\=&amp;\ a(x_1z_1-x_1z_2-x_2z_1+2x_2z_2)+b(y_1z_1-y_1z_2-y_2z_1+2y_2z_2)\\=&amp;\ a\langle \mathbf x,\mathbf z\rangle+b\langle \mathbf y,\mathbf z\rangle.\end{align*} Use the symmetry shown above, we have\begin{align*}\langle \mathbf x,a\mathbf y+b\mathbf z\rangle=&amp;\ \langle a\mathbf y+b\mathbf z,\mathbf x\rangle \\ = &amp;\ a\langle \mathbf y,\mathbf x\rangle + b\langle \mathbf z,\mathbf x\rangle \\ = &amp;\ a\langle \mathbf x,\mathbf y\rangle + b\langle \mathbf x,\mathbf z\rangle.\end{align*}In the second equality, we used the linearity shown above on the first component. The last equality comes from the symmetry of $\langle ,\rangle$.</p>
-<p>Finally, we prove it is positive-definite. We have \begin{align*}\langle \mathbf x,\mathbf x\rangle=&amp;\ x_1x_1-(x_1x_2+x_2x_1)+2x_2x_2\\ = &amp;\ x_1^2-2x_1x_2+2x_2^2=(x_1-x_2)^2+x_2^2,\end{align*}which is always non-negative and can only be zero if $x_2=0$ and $x_1=x_2$. This confirms it is positive-definite.</p>
-<script type="text/javascript">
-amzn_assoc_placement = "adunit0";
-amzn_assoc_search_bar = "true";
-amzn_assoc_tracking_id = "linearalgeb0e-20";
-amzn_assoc_search_bar_position = "bottom";
-amzn_assoc_ad_mode = "search";
-amzn_assoc_ad_type = "smart";
-amzn_assoc_marketplace = "amazon";
-amzn_assoc_region = "US";
-amzn_assoc_title = "Shop Related Products";
-amzn_assoc_default_search_phrase = "Linear Algebra";
-amzn_assoc_default_category = "All";
-amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
-</script><br />
-<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
-      <categories>
-        <category>Machine Learning</category>
-        <category>Linear Algebra</category>
-      </categories>
-      <tags>
-        <tag>Inner Product</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Rotations of vectors by 30 degress on a plane</title>
     <url>//mml-exercise-3-10.html</url>
     <content><![CDATA[<div class="note info">
@@ -945,6 +909,42 @@ amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
       </tags>
   </entry>
   <entry>
+    <title>Verify Inner Product by Direct Computation</title>
+    <url>//mml-exercise-3-1.html</url>
+    <content><![CDATA[<div class="note info">
+            <p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 3 Exercise 3.1</strong></p>
+          </div>
+
+<a id="more"></a>
+
+<p>Solution: We check it by definition.</p>
+<p>Firstly, we check it is symmetric. Note that $$\langle \mathbf x,\mathbf y\rangle = x_1y_1-(x_1y_2+x_2y_1)+2(x_2y_2)$$ and $$\langle \mathbf y,\mathbf x\rangle = y_1x_1-(y_1x_2+y_2x_1)+2(y_2x_2),$$it is clear that $\langle \mathbf x,\mathbf y\rangle=\langle \mathbf y,\mathbf x\rangle$.</p>
+<p>Secondly, we check it is bilinear. Let $\mathbf z=[z_1,z_2]^\top$, then for any real numbers $a,b$ we have\begin{align*}\langle a\mathbf x+b\mathbf y,\mathbf z\rangle=&amp;\ \langle [ax_1+by_1,ax_2+by_2]^\top,[z_1,z_2]^\top\rangle \\ =&amp;\ (ax_1+by_1)z_1-(ax_1+by_1)z_2-(ax_2+by_2)z_1+2(ax_2+by_2)z_2\\=&amp;\ (ax_1z_1-ax_1z_2-ax_2z_1+2ax_2z_2)+(by_1z_1-by_1z_2-by_2z_1+2by_2z_2)\\=&amp;\ a(x_1z_1-x_1z_2-x_2z_1+2x_2z_2)+b(y_1z_1-y_1z_2-y_2z_1+2y_2z_2)\\=&amp;\ a\langle \mathbf x,\mathbf z\rangle+b\langle \mathbf y,\mathbf z\rangle.\end{align*} Use the symmetry shown above, we have\begin{align*}\langle \mathbf x,a\mathbf y+b\mathbf z\rangle=&amp;\ \langle a\mathbf y+b\mathbf z,\mathbf x\rangle \\ = &amp;\ a\langle \mathbf y,\mathbf x\rangle + b\langle \mathbf z,\mathbf x\rangle \\ = &amp;\ a\langle \mathbf x,\mathbf y\rangle + b\langle \mathbf x,\mathbf z\rangle.\end{align*}In the second equality, we used the linearity shown above on the first component. The last equality comes from the symmetry of $\langle ,\rangle$.</p>
+<p>Finally, we prove it is positive-definite. We have \begin{align*}\langle \mathbf x,\mathbf x\rangle=&amp;\ x_1x_1-(x_1x_2+x_2x_1)+2x_2x_2\\ = &amp;\ x_1^2-2x_1x_2+2x_2^2=(x_1-x_2)^2+x_2^2,\end{align*}which is always non-negative and can only be zero if $x_2=0$ and $x_1=x_2$. This confirms it is positive-definite.</p>
+<script type="text/javascript">
+amzn_assoc_placement = "adunit0";
+amzn_assoc_search_bar = "true";
+amzn_assoc_tracking_id = "linearalgeb0e-20";
+amzn_assoc_search_bar_position = "bottom";
+amzn_assoc_ad_mode = "search";
+amzn_assoc_ad_type = "smart";
+amzn_assoc_marketplace = "amazon";
+amzn_assoc_region = "US";
+amzn_assoc_title = "Shop Related Products";
+amzn_assoc_default_search_phrase = "Linear Algebra";
+amzn_assoc_default_category = "All";
+amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
+</script><br />
+<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
+      <categories>
+        <category>Machine Learning</category>
+        <category>Linear Algebra</category>
+      </categories>
+      <tags>
+        <tag>Inner Product</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Check if a Bilinear form is an Inner Product</title>
     <url>//mml-exercise-3-2.html</url>
     <content><![CDATA[<div class="note info">
@@ -978,6 +978,41 @@ amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
       </categories>
       <tags>
         <tag>Inner Product</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Distances between two vectors using difference inner products</title>
+    <url>//mml-exercise-3-3.html</url>
+    <content><![CDATA[<div class="note info">
+            <p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 3 Exercise 3.3</strong></p>
+          </div>
+
+<a id="more"></a>
+
+<p>Solution: The distance between $\mathbf x$ and $\mathbf y$ is given by $\sqrt{\langle \mathbf x-\mathbf y,\mathbf x-\mathbf y\rangle }$ and we have $$\mathbf z:=\mathbf x-\mathbf y =\begin{bmatrix}2\\3\\3\end{bmatrix}$$ a. In this case, \begin{align*}\langle \mathbf z,\mathbf z\rangle =\mathbf z^\top \mathbf z=2^2+3^2+3^2=22.\end{align*}Hence the distance is $\sqrt{22}$. </p>
+<p>b. In this case, \begin{align*}\langle \mathbf z,\mathbf z\rangle =&amp;\ \mathbf z^\top \mathbf A\mathbf z\\ =&amp;\ [2,3,3]\begin{bmatrix}2&amp;1&amp;0\\1&amp;3&amp;-1\\ 0&amp;-1&amp;2\end{bmatrix}\begin{bmatrix}2\\3\\3\end{bmatrix}\\=&amp;\ [7,8,3]\begin{bmatrix}2\\3\\3\end{bmatrix}=47.\end{align*}Hence the distance is $\sqrt{47}$.</p>
+<script type="text/javascript">
+amzn_assoc_placement = "adunit0";
+amzn_assoc_search_bar = "true";
+amzn_assoc_tracking_id = "linearalgeb0e-20";
+amzn_assoc_search_bar_position = "bottom";
+amzn_assoc_ad_mode = "search";
+amzn_assoc_ad_type = "smart";
+amzn_assoc_marketplace = "amazon";
+amzn_assoc_region = "US";
+amzn_assoc_title = "Shop Related Products";
+amzn_assoc_default_search_phrase = "Linear Algebra";
+amzn_assoc_default_category = "All";
+amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
+</script><br />
+<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
+      <categories>
+        <category>Machine Learning</category>
+        <category>Linear Algebra</category>
+      </categories>
+      <tags>
+        <tag>Inner Product</tag>
+        <tag>Distance</tag>
       </tags>
   </entry>
   <entry>
@@ -1097,41 +1132,6 @@ amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
         <tag>Inner Product</tag>
         <tag>Orthogonal Projection</tag>
         <tag>Euclidean Space</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Distances between two vectors using difference inner products</title>
-    <url>//mml-exercise-3-3.html</url>
-    <content><![CDATA[<div class="note info">
-            <p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 3 Exercise 3.3</strong></p>
-          </div>
-
-<a id="more"></a>
-
-<p>Solution: The distance between $\mathbf x$ and $\mathbf y$ is given by $\sqrt{\langle \mathbf x-\mathbf y,\mathbf x-\mathbf y\rangle }$ and we have $$\mathbf z:=\mathbf x-\mathbf y =\begin{bmatrix}2\\3\\3\end{bmatrix}$$ a. In this case, \begin{align*}\langle \mathbf z,\mathbf z\rangle =\mathbf z^\top \mathbf z=2^2+3^2+3^2=22.\end{align*}Hence the distance is $\sqrt{22}$. </p>
-<p>b. In this case, \begin{align*}\langle \mathbf z,\mathbf z\rangle =&amp;\ \mathbf z^\top \mathbf A\mathbf z\\ =&amp;\ [2,3,3]\begin{bmatrix}2&amp;1&amp;0\\1&amp;3&amp;-1\\ 0&amp;-1&amp;2\end{bmatrix}\begin{bmatrix}2\\3\\3\end{bmatrix}\\=&amp;\ [7,8,3]\begin{bmatrix}2\\3\\3\end{bmatrix}=47.\end{align*}Hence the distance is $\sqrt{47}$.</p>
-<script type="text/javascript">
-amzn_assoc_placement = "adunit0";
-amzn_assoc_search_bar = "true";
-amzn_assoc_tracking_id = "linearalgeb0e-20";
-amzn_assoc_search_bar_position = "bottom";
-amzn_assoc_ad_mode = "search";
-amzn_assoc_ad_type = "smart";
-amzn_assoc_marketplace = "amazon";
-amzn_assoc_region = "US";
-amzn_assoc_title = "Shop Related Products";
-amzn_assoc_default_search_phrase = "Linear Algebra";
-amzn_assoc_default_category = "All";
-amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
-</script><br />
-<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
-      <categories>
-        <category>Machine Learning</category>
-        <category>Linear Algebra</category>
-      </categories>
-      <tags>
-        <tag>Inner Product</tag>
-        <tag>Distance</tag>
       </tags>
   </entry>
   <entry>
@@ -1290,6 +1290,44 @@ amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
       </tags>
   </entry>
   <entry>
+    <title>Find the best rank-1 approximation of a matrix</title>
+    <url>//mml-exercise-4-10.html</url>
+    <content><![CDATA[<div class="note info">
+            <p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 4 Exercise 4.10</strong></p>
+          </div>
+
+<a id="more"></a>
+
+<p>Solution: </p>
+<p>Using our Singular value decomposition from <a href="/mml-exercise-4-8.html">Question 4.8</a>, we construct $$A_1 = \sigma_1 u_1 v_1^{\mathsf{T}} = 5 \begin{bmatrix} \frac{1}{\sqrt2}\\ \frac{1}{\sqrt2} \end{bmatrix} \begin{bmatrix} \frac{1}{\sqrt2}&amp;\frac{1}{\sqrt2}&amp;0 \end{bmatrix} = \frac52 \begin{bmatrix} 1&amp;1&amp;0\\ 1&amp;1&amp;0 \end{bmatrix},$$ and similarly $$A_2 = \frac12 \begin{bmatrix} 1&amp;-1&amp;4\\-1&amp;1&amp;-4 \end{bmatrix}.$$ Then $A_1$ and $A_2$ both have rank one, with $A=A_1+A_2$, as required.</p>
+<script type="text/javascript">
+amzn_assoc_placement = "adunit0";
+amzn_assoc_search_bar = "true";
+amzn_assoc_tracking_id = "linearalgeb0e-20";
+amzn_assoc_search_bar_position = "bottom";
+amzn_assoc_ad_mode = "search";
+amzn_assoc_ad_type = "smart";
+amzn_assoc_marketplace = "amazon";
+amzn_assoc_region = "US";
+amzn_assoc_title = "Shop Related Products";
+amzn_assoc_default_search_phrase = "Linear Algebra";
+amzn_assoc_default_category = "All";
+amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
+</script><br />
+<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
+      <categories>
+        <category>Machine Learning</category>
+        <category>Linear Algebra</category>
+      </categories>
+      <tags>
+        <tag>Matrix</tag>
+        <tag>SVD</tag>
+        <tag>Eigenvector</tag>
+        <tag>Eigenvalue</tag>
+        <tag>Approximation</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>$AA^T$ and $A^TA$ has the same nonzero eigenvalues</title>
     <url>//mml-exercise-4-11.html</url>
     <content><![CDATA[<div class="note info">
@@ -1324,22 +1362,21 @@ amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
       </categories>
       <tags>
         <tag>Matrix</tag>
+        <tag>SVD</tag>
         <tag>Eigenvector</tag>
         <tag>Eigenvalue</tag>
-        <tag>SVD</tag>
       </tags>
   </entry>
   <entry>
-    <title>Find the best rank-1 approximation of a matrix</title>
-    <url>//mml-exercise-4-10.html</url>
+    <title>The largest singular value of a matrix</title>
+    <url>//mml-exercise-4-12.html</url>
     <content><![CDATA[<div class="note info">
-            <p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 4 Exercise 4.10</strong></p>
+            <p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 4 Exercise 4.12</strong></p>
           </div>
 
 <a id="more"></a>
 
-<p>Solution: </p>
-<p>Using our Singular value decomposition from <a href="/mml-exercise-4-8.html">Question 4.8</a>, we construct $$A_1 = \sigma_1 u_1 v_1^{\mathsf{T}} = 5 \begin{bmatrix} \frac{1}{\sqrt2}\\ \frac{1}{\sqrt2} \end{bmatrix} \begin{bmatrix} \frac{1}{\sqrt2}&amp;\frac{1}{\sqrt2}&amp;0 \end{bmatrix} = \frac52 \begin{bmatrix} 1&amp;1&amp;0\\ 1&amp;1&amp;0 \end{bmatrix},$$ and similarly $$A_2 = \frac12 \begin{bmatrix} 1&amp;-1&amp;4\\-1&amp;1&amp;-4 \end{bmatrix}.$$ Then $A_1$ and $A_2$ both have rank one, with $A=A_1+A_2$, as required.</p>
+<p>Solution: By SVD (Singular Value Decomposition), we have $A=U\Sigma V^T$. Let $y=V^T x$, then \[\|y\|_2^2=y^Ty=(V^Tx)^TV^Tx=x^TVV^Tx=x^Tx=\|x\|_2^2.\]Then we have\begin{align*}\|A x\|_2^2=&amp;\ (Ax)^T(Ax)=x^TA^TAx\\ = &amp;\ x^T V \begin{bmatrix}\sigma_1^2 &amp; 0 &amp; 0\\ 0 &amp; \ddots &amp; 0\\ 0 &amp; 0 &amp;\sigma_n^2\end{bmatrix}V^Tx \\ =&amp;\ y^T \begin{bmatrix}\sigma_1^2 &amp; 0 &amp; 0\\ 0 &amp; \ddots &amp; 0\\ 0 &amp; 0 &amp;\sigma_n^2\end{bmatrix} y \\ = &amp;\ \sigma_1^2 y_1^2+\cdots+\sigma_n^2y_n^2 \\ \leqslant &amp;\ \sigma_1^2 y_1^2+\cdots+\sigma_1^2y_n^2\\ =&amp;\ \sigma_1^2(y_1^2+\cdots+y_n^2)\\ =&amp;\ \sigma_1^2 \|y\|_2^2= \sigma_1^2 \|x\|_2^2.\end{align*}Hence we have \[\max_{x\ne 0}\frac{\|Ax\|_2}{\|x\|_2}\leqslant \sigma_1^2.\]Moreover, it is possible to choose $x$ such that the inequality above becomes equality. Namely, setting $$x=V(1,0,\dots,0)^T,$$then $y=(1,0,\dots,0)^T$ and $$\|A x\|_2^2=\sigma_1^2,\quad \|x\|_2=1.$$Hence we proved Theorem 4.24.</p>
 <script type="text/javascript">
 amzn_assoc_placement = "adunit0";
 amzn_assoc_search_bar = "true";
@@ -1361,10 +1398,9 @@ amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
       </categories>
       <tags>
         <tag>Matrix</tag>
+        <tag>SVD</tag>
         <tag>Eigenvector</tag>
         <tag>Eigenvalue</tag>
-        <tag>SVD</tag>
-        <tag>Approximation</tag>
       </tags>
   </entry>
   <entry>
@@ -1405,56 +1441,18 @@ amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
       </tags>
   </entry>
   <entry>
-    <title>The largest singular value of a matrix</title>
-    <url>//mml-exercise-4-12.html</url>
+    <title>Compute the eigenspaces of a 4 by 4 matrices</title>
+    <url>//mml-exercise-4-4.html</url>
     <content><![CDATA[<div class="note info">
-            <p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 4 Exercise 4.12</strong></p>
-          </div>
-
-<a id="more"></a>
-
-<p>Solution: By SVD (Singular Value Decomposition), we have $A=U\Sigma V^T$. Let $y=V^T x$, then \[\|y\|_2^2=y^Ty=(V^Tx)^TV^Tx=x^TVV^Tx=x^Tx=\|x\|_2^2.\]Then we have\begin{align*}\|A x\|_2^2=&amp;\ (Ax)^T(Ax)=x^TA^TAx\\ = &amp;\ x^T V \begin{bmatrix}\sigma_1^2 &amp; 0 &amp; 0\\ 0 &amp; \ddots &amp; 0\\ 0 &amp; 0 &amp;\sigma_n^2\end{bmatrix}V^Tx \\ =&amp;\ y^T \begin{bmatrix}\sigma_1^2 &amp; 0 &amp; 0\\ 0 &amp; \ddots &amp; 0\\ 0 &amp; 0 &amp;\sigma_n^2\end{bmatrix} y \\ = &amp;\ \sigma_1^2 y_1^2+\cdots+\sigma_n^2y_n^2 \\ \leqslant &amp;\ \sigma_1^2 y_1^2+\cdots+\sigma_1^2y_n^2\\ =&amp;\ \sigma_1^2(y_1^2+\cdots+y_n^2)\\ =&amp;\ \sigma_1^2 \|y\|_2^2= \sigma_1^2 \|x\|_2^2.\end{align*}Hence we have \[\max_{x\ne 0}\frac{\|Ax\|_2}{\|x\|_2}\leqslant \sigma_1^2.\]Moreover, it is possible to choose $x$ such that the inequality above becomes equality. Namely, setting $$x=V(1,0,\dots,0)^T,$$then $y=(1,0,\dots,0)^T$ and $$\|A x\|_2^2=\sigma_1^2,\quad \|x\|_2=1.$$Hence we proved Theorem 4.24.</p>
-<script type="text/javascript">
-amzn_assoc_placement = "adunit0";
-amzn_assoc_search_bar = "true";
-amzn_assoc_tracking_id = "linearalgeb0e-20";
-amzn_assoc_search_bar_position = "bottom";
-amzn_assoc_ad_mode = "search";
-amzn_assoc_ad_type = "smart";
-amzn_assoc_marketplace = "amazon";
-amzn_assoc_region = "US";
-amzn_assoc_title = "Shop Related Products";
-amzn_assoc_default_search_phrase = "Linear Algebra";
-amzn_assoc_default_category = "All";
-amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
-</script><br />
-<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
-      <categories>
-        <category>Machine Learning</category>
-        <category>Linear Algebra</category>
-      </categories>
-      <tags>
-        <tag>Matrix</tag>
-        <tag>Eigenvector</tag>
-        <tag>Eigenvalue</tag>
-        <tag>SVD</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Compute the eigenspaces of two by two matrices</title>
-    <url>//mml-exercise-4-3.html</url>
-    <content><![CDATA[<div class="note info">
-            <p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 4 Exercise 4.3</strong></p>
+            <p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 4 Exercise 4.4</strong></p>
           </div>
 
 <a id="more"></a>
 
 <p>Solution: </p>
-<p><strong>Part a</strong></p>
-<p>If we solve the equation $\det(A-\lambda I) = 0$ for $\lambda$, we obtain $\lambda = 1$ only. (Or, indeed, we can observe that $A$ is in lower triangular form, so the eigenvalues are the entries on the main diagonal.)</p>
-<p>The eigenspace is $$E_1 = \{x\in \mathbb{R}^2 : (A-I)(x)=0\} = \mathrm{span}\{(0,1)\}.$$</p>
-<p><strong>Part b</strong></p>
-<p>Again, solving $\det(B-\lambda I ) = 0$, we find that $\lambda=2$ or $\lambda = -3$. We then have the eigenspaces $$E_2 = \mathrm{span}\{(1,2)\}$$ and $$E_{-3} = \mathrm{span}\{ (-2,1) \}.$$</p>
+<p>If we take $\det(A-\lambda I)$ and simplify, we have $$(\lambda-2)(\lambda-1)(\lambda+1)^2.$$ So we have three eigenvalues. For $\lambda=2,1$, our eigenspace will certainly have dimension 1. For $\lambda = -1$, it could (at this stage!) have dimension 1 or 2.</p>
+<p>Observe that $(1,0,1,1)$ is an eigenvector with eigenvalue 2, and $(1,1,1,1)$ is an eigenvector with eigenvalue 1. Thus $$E_2=\mathrm{span}\{(1,0,1,1)\}$$ and $$E_1 = \mathrm{span}\{(1,1,1,1)\}.$$</p>
+<p>Now observe that $\mathrm{rank}(A+I)=3$, so there can only be one linearly independent eigenvector with eigenvalue -1. Note that $(0,1,1,0)$ will do. Hence $$E_{-1} = \mathrm{span}\{(0,1,1,0)\}.$$</p>
 <script type="text/javascript">
 amzn_assoc_placement = "adunit0";
 amzn_assoc_search_bar = "true";
@@ -1482,18 +1480,20 @@ amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
       </tags>
   </entry>
   <entry>
-    <title>Compute the eigenspaces of a 4 by 4 matrices</title>
-    <url>//mml-exercise-4-4.html</url>
+    <title>Compute the eigenspaces of two by two matrices</title>
+    <url>//mml-exercise-4-3.html</url>
     <content><![CDATA[<div class="note info">
-            <p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 4 Exercise 4.4</strong></p>
+            <p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 4 Exercise 4.3</strong></p>
           </div>
 
 <a id="more"></a>
 
 <p>Solution: </p>
-<p>If we take $\det(A-\lambda I)$ and simplify, we have $$(\lambda-2)(\lambda-1)(\lambda+1)^2.$$ So we have three eigenvalues. For $\lambda=2,1$, our eigenspace will certainly have dimension 1. For $\lambda = -1$, it could (at this stage!) have dimension 1 or 2.</p>
-<p>Observe that $(1,0,1,1)$ is an eigenvector with eigenvalue 2, and $(1,1,1,1)$ is an eigenvector with eigenvalue 1. Thus $$E_2=\mathrm{span}\{(1,0,1,1)\}$$ and $$E_1 = \mathrm{span}\{(1,1,1,1)\}.$$</p>
-<p>Now observe that $\mathrm{rank}(A+I)=3$, so there can only be one linearly independent eigenvector with eigenvalue -1. Note that $(0,1,1,0)$ will do. Hence $$E_{-1} = \mathrm{span}\{(0,1,1,0)\}.$$</p>
+<p><strong>Part a</strong></p>
+<p>If we solve the equation $\det(A-\lambda I) = 0$ for $\lambda$, we obtain $\lambda = 1$ only. (Or, indeed, we can observe that $A$ is in lower triangular form, so the eigenvalues are the entries on the main diagonal.)</p>
+<p>The eigenspace is $$E_1 = \{x\in \mathbb{R}^2 : (A-I)(x)=0\} = \mathrm{span}\{(0,1)\}.$$</p>
+<p><strong>Part b</strong></p>
+<p>Again, solving $\det(B-\lambda I ) = 0$, we find that $\lambda=2$ or $\lambda = -3$. We then have the eigenspaces $$E_2 = \mathrm{span}\{(1,2)\}$$ and $$E_{-3} = \mathrm{span}\{ (-2,1) \}.$$</p>
 <script type="text/javascript">
 amzn_assoc_placement = "adunit0";
 amzn_assoc_search_bar = "true";
@@ -1683,47 +1683,9 @@ amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
       </categories>
       <tags>
         <tag>Matrix</tag>
+        <tag>SVD</tag>
         <tag>Eigenvector</tag>
         <tag>Eigenvalue</tag>
-        <tag>SVD</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Find the singular value decomposition of a matrix II</title>
-    <url>//mml-exercise-4-9.html</url>
-    <content><![CDATA[<div class="note info">
-            <p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 4 Exercise 4.9</strong></p>
-          </div>
-
-<a id="more"></a>
-
-<p>Solution: </p>
-<p>Observe that the eigenvalues of $A$ are complex, so we cannot simply find the eigendecomposition. Proceeding as in <a href="/mml-exercise-4-8.html">Question 4.8</a>, we have $A^{\mathsf{T}}A = \begin{bmatrix} 5&amp;3\\ 3&amp;5 \end{bmatrix}$, which when we perform the eigendecomposition on this new matrix, we obtain $$D = \begin{bmatrix} 8&amp;0\\ 0&amp;2 \end{bmatrix}\quad \text{and} \quad P=\frac{1}{\sqrt2}\begin{bmatrix} 1&amp;-1\\ 1&amp;1 \end{bmatrix}.$$ This $P$ is again our required $V$, and we have $\Sigma = \begin{bmatrix} 2\sqrt2 &amp; 0\\ 0&amp;\sqrt2 \end{bmatrix}$.</p>
-<p>As before, we can now compute $$u_1 = \frac{1}{2\sqrt2}\begin{bmatrix} 2&amp;2\\-1&amp;1 \end{bmatrix} \begin{pmatrix} \frac{1}{\sqrt2}\\ \frac{1}{\sqrt2} \end{pmatrix} = \begin{bmatrix} 1\\0 \end{bmatrix},$$ and similarly $u_2 = \begin{bmatrix} 0\\1 \end{bmatrix}$. Hence, our $U$ turns out to be the identity matrix.</p>
-<script type="text/javascript">
-amzn_assoc_placement = "adunit0";
-amzn_assoc_search_bar = "true";
-amzn_assoc_tracking_id = "linearalgeb0e-20";
-amzn_assoc_search_bar_position = "bottom";
-amzn_assoc_ad_mode = "search";
-amzn_assoc_ad_type = "smart";
-amzn_assoc_marketplace = "amazon";
-amzn_assoc_region = "US";
-amzn_assoc_title = "Shop Related Products";
-amzn_assoc_default_search_phrase = "Linear Algebra";
-amzn_assoc_default_category = "All";
-amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
-</script><br />
-<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
-      <categories>
-        <category>Machine Learning</category>
-        <category>Linear Algebra</category>
-      </categories>
-      <tags>
-        <tag>Matrix</tag>
-        <tag>Eigenvector</tag>
-        <tag>Eigenvalue</tag>
-        <tag>SVD</tag>
       </tags>
   </entry>
   <entry>
@@ -1798,6 +1760,44 @@ amzn_assoc_search_bar_position = "bottom";
       </tags>
   </entry>
   <entry>
+    <title>Find the singular value decomposition of a matrix II</title>
+    <url>//mml-exercise-4-9.html</url>
+    <content><![CDATA[<div class="note info">
+            <p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 4 Exercise 4.9</strong></p>
+          </div>
+
+<a id="more"></a>
+
+<p>Solution: </p>
+<p>Observe that the eigenvalues of $A$ are complex, so we cannot simply find the eigendecomposition. Proceeding as in <a href="/mml-exercise-4-8.html">Question 4.8</a>, we have $A^{\mathsf{T}}A = \begin{bmatrix} 5&amp;3\\ 3&amp;5 \end{bmatrix}$, which when we perform the eigendecomposition on this new matrix, we obtain $$D = \begin{bmatrix} 8&amp;0\\ 0&amp;2 \end{bmatrix}\quad \text{and} \quad P=\frac{1}{\sqrt2}\begin{bmatrix} 1&amp;-1\\ 1&amp;1 \end{bmatrix}.$$ This $P$ is again our required $V$, and we have $\Sigma = \begin{bmatrix} 2\sqrt2 &amp; 0\\ 0&amp;\sqrt2 \end{bmatrix}$.</p>
+<p>As before, we can now compute $$u_1 = \frac{1}{2\sqrt2}\begin{bmatrix} 2&amp;2\\-1&amp;1 \end{bmatrix} \begin{pmatrix} \frac{1}{\sqrt2}\\ \frac{1}{\sqrt2} \end{pmatrix} = \begin{bmatrix} 1\\0 \end{bmatrix},$$ and similarly $u_2 = \begin{bmatrix} 0\\1 \end{bmatrix}$. Hence, our $U$ turns out to be the identity matrix.</p>
+<script type="text/javascript">
+amzn_assoc_placement = "adunit0";
+amzn_assoc_search_bar = "true";
+amzn_assoc_tracking_id = "linearalgeb0e-20";
+amzn_assoc_search_bar_position = "bottom";
+amzn_assoc_ad_mode = "search";
+amzn_assoc_ad_type = "smart";
+amzn_assoc_marketplace = "amazon";
+amzn_assoc_region = "US";
+amzn_assoc_title = "Shop Related Products";
+amzn_assoc_default_search_phrase = "Linear Algebra";
+amzn_assoc_default_category = "All";
+amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
+</script><br />
+<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
+      <categories>
+        <category>Machine Learning</category>
+        <category>Linear Algebra</category>
+      </categories>
+      <tags>
+        <tag>Matrix</tag>
+        <tag>SVD</tag>
+        <tag>Eigenvector</tag>
+        <tag>Eigenvalue</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Compute derivative of the function defining normal distribution</title>
     <url>//mml-exercise-5-3.html</url>
     <content><![CDATA[<div class="note info">
@@ -1867,42 +1867,6 @@ amzn_assoc_search_bar_position = "bottom";
       </tags>
   </entry>
   <entry>
-    <title>Differentiate vector-valued functions with respect to vector-valued variables</title>
-    <url>//mml-exercise-5-6.html</url>
-    <content><![CDATA[<div class="note info">
-            <p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 5 Exercise 5.6</strong></p>
-          </div>
-
-<a id="more"></a>
-
-<p>Solution: </p>
-<p>We have $$\frac{df}{dt} = \cos(\log(t^{\mathsf{T}}t))\cdot\frac1{t^{\mathsf{T}}t}\cdot \begin{bmatrix} 2t_1&amp;2t_2&amp;\cdots&amp;2t_D \end{bmatrix} = \cos(\log(t^{\mathsf{T}}t))\cdot\frac{2t^{\mathsf{T}}}{t^{\mathsf{T}}t}.$$</p>
-<p>For $g$, if we explicitly compute $AXB$ and find its trace, we have that $$g(X) = \sum_{k=1}^D \sum_{j=1}^F \sum_{i=1}^E a_{ki}x_{ij}b_{jk}.$$ Thus we have, $$\frac{\partial g}{\partial x_{ij}} = \sum_{k=1}^D b_{jk}a_{ki},$$ and this is the $(i,j)$-th entry of the required derivative. Hence $$\frac{dg}{dX} = B^{\mathsf{T}}A^{\mathsf{T}}.$$</p>
-<script type="text/javascript">
-amzn_assoc_placement = "adunit0";
-amzn_assoc_tracking_id = "linearalgeb0e-20";
-amzn_assoc_ad_mode = "search";
-amzn_assoc_ad_type = "smart";
-amzn_assoc_marketplace = "amazon";
-amzn_assoc_region = "US";
-amzn_assoc_title = "Shop Related Products";
-amzn_assoc_default_search_phrase = "Real Analysis";
-amzn_assoc_default_category = "All";
-amzn_assoc_linkid = "402d8b59cc9faa66d8d6b3b1eef9c01e";
-amzn_assoc_search_bar = "true";
-amzn_assoc_search_bar_position = "bottom";
-</script><br />
-<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
-      <categories>
-        <category>Machine Learning</category>
-        <category>Calculus</category>
-      </categories>
-      <tags>
-        <tag>Derivative</tag>
-        <tag>Multivariable Calculus</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Compute the Jacobians of functions</title>
     <url>//mml-exercise-5-5.html</url>
     <content><![CDATA[<div class="note info">
@@ -1945,23 +1909,17 @@ amzn_assoc_search_bar_position = "bottom";
       </tags>
   </entry>
   <entry>
-    <title>Differentiate vector-valued functions with respect to vector-valued variables II</title>
-    <url>//mml-exercise-5-7.html</url>
+    <title>Differentiate vector-valued functions with respect to vector-valued variables</title>
+    <url>//mml-exercise-5-6.html</url>
     <content><![CDATA[<div class="note info">
-            <p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 5 Exercise 5.7</strong></p>
+            <p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 5 Exercise 5.6</strong></p>
           </div>
 
 <a id="more"></a>
 
 <p>Solution: </p>
-<p><strong>Part a</strong></p>
-<p>The chain rule tells us that $$\frac{df}{dx} = \frac{df}{dz}\frac{dz}{dx},$$ where $\dfrac{df}{dz}$ has dimension $1\times 1$, and $\dfrac{dz}{dx}$ has dimension $1\times D$. We know $$\frac{dz}{dx}=2x^{\mathsf{T}}$$ from $f$ in <a href="/mml-exercise-5-6.html">Question 6</a>. Also, $\dfrac{df}{dz} = \dfrac{1}{1+z}$.</p>
-<p>Therefore, $\dfrac{df}{dx} = \dfrac{2x^{\mathsf{T}}}{1+x^{\mathsf{T}}x}$.</p>
-<hr>
-<p><strong>Part b</strong></p>
-<p>Here we have $\dfrac{df}{dz}$ is an $E\times E$ matrix, namely $$\begin{bmatrix} \cos z_1 &amp; 0 &amp; \cdots &amp; 0\\ 0 &amp; \cos z_2 &amp; \cdots &amp; 0\\ \vdots &amp; \vdots &amp; \ddots &amp; \vdots \\ 0 &amp; 0&amp;\cdots&amp;\cos z_E \end{bmatrix}.$$</p>
-<p>Also, $\dfrac{dz}{dx}$ is an $E\times D$-dimensional matrix, namely $A$ itself.</p>
-<p>The overall derivative is obtained by multiplying these two matrices together, which will again give us an $E\times D$-dimensional matrix.</p>
+<p>We have $$\frac{df}{dt} = \cos(\log(t^{\mathsf{T}}t))\cdot\frac1{t^{\mathsf{T}}t}\cdot \begin{bmatrix} 2t_1&amp;2t_2&amp;\cdots&amp;2t_D \end{bmatrix} = \cos(\log(t^{\mathsf{T}}t))\cdot\frac{2t^{\mathsf{T}}}{t^{\mathsf{T}}t}.$$</p>
+<p>For $g$, if we explicitly compute $AXB$ and find its trace, we have that $$g(X) = \sum_{k=1}^D \sum_{j=1}^F \sum_{i=1}^E a_{ki}x_{ij}b_{jk}.$$ Thus we have, $$\frac{\partial g}{\partial x_{ij}} = \sum_{k=1}^D b_{jk}a_{ki},$$ and this is the $(i,j)$-th entry of the required derivative. Hence $$\frac{dg}{dX} = B^{\mathsf{T}}A^{\mathsf{T}}.$$</p>
 <script type="text/javascript">
 amzn_assoc_placement = "adunit0";
 amzn_assoc_tracking_id = "linearalgeb0e-20";
@@ -2009,6 +1967,84 @@ amzn_assoc_search_bar_position = "bottom";
 <p><strong>Part c</strong></p>
 <p>Here, $$\frac{df}{dz} = \begin{bmatrix} \frac{1}{\cosh^2z_1}&amp;0&amp;\cdots&amp;0\\ 0&amp;\frac{1}{\cosh^2z_2}&amp;\cdots&amp;0\\ \vdots &amp; \vdots&amp;\ddots&amp;\vdots\\ 0&amp;0&amp;\cdots&amp;\frac{1}{\cosh^2z_M} \end{bmatrix},$$ while $\dfrac{dz}{dx} = A$, as in <a href="/mml-exercise-5-7.html">Question 7b</a>.</p>
 <p>Finally, $\dfrac{df}{dx}$ is given by the product of these two matrices.</p>
+<script type="text/javascript">
+amzn_assoc_placement = "adunit0";
+amzn_assoc_tracking_id = "linearalgeb0e-20";
+amzn_assoc_ad_mode = "search";
+amzn_assoc_ad_type = "smart";
+amzn_assoc_marketplace = "amazon";
+amzn_assoc_region = "US";
+amzn_assoc_title = "Shop Related Products";
+amzn_assoc_default_search_phrase = "Real Analysis";
+amzn_assoc_default_category = "All";
+amzn_assoc_linkid = "402d8b59cc9faa66d8d6b3b1eef9c01e";
+amzn_assoc_search_bar = "true";
+amzn_assoc_search_bar_position = "bottom";
+</script><br />
+<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
+      <categories>
+        <category>Machine Learning</category>
+        <category>Calculus</category>
+      </categories>
+      <tags>
+        <tag>Derivative</tag>
+        <tag>Multivariable Calculus</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Compute the gradient for a multivariable function</title>
+    <url>//mml-exercise-5-9.html</url>
+    <content><![CDATA[<div class="note info">
+            <p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 5 Exercise 5.9</strong></p>
+          </div>
+
+<a id="more"></a>
+
+<p>Solution: </p>
+<p>Piecing this together, replacing $z$ with $t(\epsilon,\nu)$ throughout, we have that $$g(\nu) = \log(p(x,t(\epsilon,\nu))) - \log(q(t(\epsilon,\nu),\nu)).$$</p>
+<p>Therefore, $$\frac{dg}{d\nu} = \frac{p’(x,t(\epsilon,\nu))\cdot t’(\epsilon,\nu) }{p(x,t(\epsilon,\nu))} - \frac{q’(t(\epsilon,\nu),\nu)\cdot t’(\epsilon,\nu)}{q(t(\epsilon,\nu),\nu)}.$$</p>
+<script type="text/javascript">
+amzn_assoc_placement = "adunit0";
+amzn_assoc_tracking_id = "linearalgeb0e-20";
+amzn_assoc_ad_mode = "search";
+amzn_assoc_ad_type = "smart";
+amzn_assoc_marketplace = "amazon";
+amzn_assoc_region = "US";
+amzn_assoc_title = "Shop Related Products";
+amzn_assoc_default_search_phrase = "Real Analysis";
+amzn_assoc_default_category = "All";
+amzn_assoc_linkid = "402d8b59cc9faa66d8d6b3b1eef9c01e";
+amzn_assoc_search_bar = "true";
+amzn_assoc_search_bar_position = "bottom";
+</script><br />
+<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
+      <categories>
+        <category>Machine Learning</category>
+        <category>Calculus</category>
+      </categories>
+      <tags>
+        <tag>Derivative</tag>
+        <tag>Multivariable Calculus</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Differentiate vector-valued functions with respect to vector-valued variables II</title>
+    <url>//mml-exercise-5-7.html</url>
+    <content><![CDATA[<div class="note info">
+            <p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 5 Exercise 5.7</strong></p>
+          </div>
+
+<a id="more"></a>
+
+<p>Solution: </p>
+<p><strong>Part a</strong></p>
+<p>The chain rule tells us that $$\frac{df}{dx} = \frac{df}{dz}\frac{dz}{dx},$$ where $\dfrac{df}{dz}$ has dimension $1\times 1$, and $\dfrac{dz}{dx}$ has dimension $1\times D$. We know $$\frac{dz}{dx}=2x^{\mathsf{T}}$$ from $f$ in <a href="/mml-exercise-5-6.html">Question 6</a>. Also, $\dfrac{df}{dz} = \dfrac{1}{1+z}$.</p>
+<p>Therefore, $\dfrac{df}{dx} = \dfrac{2x^{\mathsf{T}}}{1+x^{\mathsf{T}}x}$.</p>
+<hr>
+<p><strong>Part b</strong></p>
+<p>Here we have $\dfrac{df}{dz}$ is an $E\times E$ matrix, namely $$\begin{bmatrix} \cos z_1 &amp; 0 &amp; \cdots &amp; 0\\ 0 &amp; \cos z_2 &amp; \cdots &amp; 0\\ \vdots &amp; \vdots &amp; \ddots &amp; \vdots \\ 0 &amp; 0&amp;\cdots&amp;\cos z_E \end{bmatrix}.$$</p>
+<p>Also, $\dfrac{dz}{dx}$ is an $E\times D$-dimensional matrix, namely $A$ itself.</p>
+<p>The overall derivative is obtained by multiplying these two matrices together, which will again give us an $E\times D$-dimensional matrix.</p>
 <script type="text/javascript">
 amzn_assoc_placement = "adunit0";
 amzn_assoc_tracking_id = "linearalgeb0e-20";
@@ -2089,6 +2125,180 @@ amzn_assoc_rows = "2";
       </tags>
   </entry>
   <entry>
+    <title>Express the Gaussian distributions as an exponential family distribution</title>
+    <url>//mml-exercise-6-10.html</url>
+    <content><![CDATA[<div class="note info">
+            <p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 6 Exercise 6.10</strong></p>
+          </div>
+
+<a id="more"></a>
+
+<p>Solution: </p>
+<p><strong>Part a</strong></p>
+<p>The two normal distributions are given by</p>
+<p>$$ \mathcal{N}(\mathbf{x}|\mathbf{a}, \mathbf{A}) = (2\pi)^{-\frac{D}{2}}|\mathbf{A}|^{-\frac{1}{2}} \exp\left[-\frac{1}{2}(\mathbf{x} - \mathbf{a})^T\mathbf{A}^{-1}(\mathbf{x} - \mathbf{a})\right],$$<br>$$\mathcal{N}(\mathbf{x}|\mathbf{b}, \mathbf{B}) = (2\pi)^{-\frac{D}{2}}|\mathbf{B}|^{-\frac{1}{2}} \exp\left[-\frac{1}{2}(\mathbf{x} - \mathbf{b})^T\mathbf{B}^{-1}(\mathbf{x} - \mathbf{b})\right] $$</p>
+<p>their product is</p>
+<p>$$ \mathcal{N}(\mathbf{x}|\mathbf{a}, \mathbf{A}) \mathcal{N}(\mathbf{x}|\mathbf{b}, \mathbf{B}) = (2\pi)^{-D}|\mathbf{A}\mathbf{B}|^{-\frac{1}{2}} \exp\left\{-\frac{1}{2}\left[(\mathbf{x} - \mathbf{a})^T\mathbf{A}^{-1}(\mathbf{x} - \mathbf{a})+(\mathbf{x} - \mathbf{b})^T\mathbf{B}^{-1}(\mathbf{x} - \mathbf{b})\right]\right\} $$</p>
+<p>The expression in the exponent can be written as</p>
+<p>\begin{align*} \Phi =&amp;\ (\mathbf{x} - \mathbf{a})^T\mathbf{A}^{-1}(\mathbf{x} - \mathbf{a})+(\mathbf{x} - \mathbf{b})^T\mathbf{B}^{-1}(\mathbf{x} - \mathbf{b})\\=&amp;\ \mathbf{x}^T\mathbf{A}^{-1}\mathbf{x} - \mathbf{a}^T\mathbf{A}^{-1}\mathbf{x} - \mathbf{x}^T\mathbf{A}^{-1}\mathbf{a}+ \mathbf{a}^T\mathbf{A}^{-1}\mathbf{a}+ \mathbf{x}^T\mathbf{B}^{-1}\mathbf{x} - \mathbf{b}^T\mathbf{B}^{-1}\mathbf{x} - \mathbf{x}^T\mathbf{B}^{-1}\mathbf{b}+ \mathbf{b}^T\mathbf{B}^{-1}\mathbf{b}\\=&amp;\ \mathbf{x}^T(\mathbf{A}^{-1}+\mathbf{B}^{-1})\mathbf{x}- (\mathbf{a}^T\mathbf{A}^{-1} + \mathbf{b}^T\mathbf{B}^{-1})\mathbf{x}- \mathbf{x}^T(\mathbf{A}^{-1}\mathbf{a} + \mathbf{B}^{-1}\mathbf{b})+ \mathbf{a}^T\mathbf{A}^{-1}\mathbf{a} + \mathbf{b}^T\mathbf{B}^{-1}\mathbf{b}<br>\end{align*}</p>
+<p>we now introduce notation</p>
+<p>$$ \mathbf{C}^{-1} = (\mathbf{A}^{-1}+\mathbf{B}^{-1}),$$<br>$$ \mathbf{c} = \mathbf{C}(\mathbf{A}^{-1}\mathbf{a} + \mathbf{B}^{-1}\mathbf{b}),$$<br>$$ \mathbf{c}^T = (\mathbf{a}^T\mathbf{A}^{-1} + \mathbf{b}^T\mathbf{B}^{-1})C.$$</p>
+<p>(This can be checked by transposing the previous equation).</p>
+<p>The expression in the exponent now takes form</p>
+<p>\begin{align*} \Phi=&amp;\ \mathbf{x}^T\mathbf{C}^{-1}\mathbf{x} - \mathbf{c}^T\mathbf{C}^{-1}\mathbf{x} - \mathbf{x}^T\mathbf{C}^{-1}\mathbf{c}+ \mathbf{a}^T\mathbf{A}^{-1}\mathbf{a} + \mathbf{b}^T\mathbf{B}^{-1}\mathbf{b}\\=&amp;\ \mathbf{x}^T\mathbf{C}^{-1}\mathbf{x} - \mathbf{c}^T\mathbf{C}^{-1}\mathbf{x} - \mathbf{x}^T\mathbf{C}^{-1}\mathbf{c}+ \mathbf{c}^T\mathbf{C}^{-1}\mathbf{c} + \mathbf{a}^T\mathbf{A}^{-1}\mathbf{a} + \mathbf{b}^T\mathbf{B}^{-1}\mathbf{b}- \mathbf{c}^T\mathbf{C}^{-1}\mathbf{c}\\=&amp;\ (\mathbf{x} - \mathbf{c})^T\mathbf{C}^{-1}(\mathbf{x} - \mathbf{c})+ \mathbf{a}^T\mathbf{A}^{-1}\mathbf{a} + \mathbf{b}^T\mathbf{B}^{-1}\mathbf{b} - \mathbf{c}^T\mathbf{C}^{-1}\mathbf{c}\end{align*}</p>
+<p>where we have completed the square.</p>
+<p>The product of the two probability distributions can be now written as</p>
+<p>\begin{align*} &amp;\ \mathcal{N}(\mathbf{x}|\mathbf{a}, \mathbf{A}) \mathcal{N}(\mathbf{x}|\mathbf{b}, \mathbf{B}) \\=&amp;\ (2\pi)^{-D}|\mathbf{A}\mathbf{B}|^{-\frac{1}{2}} \exp\left\{-\frac{1}{2}\left[(\mathbf{x} - \mathbf{c})^T\mathbf{C}^{-1}(\mathbf{x} - \mathbf{c})+ \mathbf{a}^T\mathbf{A}^{-1}\mathbf{a} + \mathbf{b}^T\mathbf{B}^{-1}\mathbf{b} - \mathbf{c}^T\mathbf{C}^{-1}\mathbf{c} \right]\right\}\\=&amp;\ (2\pi)^{-\frac{D}{2}}|\mathbf{C}|^{-\frac{1}{2}} \exp\left[-\frac{1}{2}(\mathbf{x} - \mathbf{c})^T\mathbf{C}^{-1}(\mathbf{x} - \mathbf{c})\right] \times (2\pi)^{-\frac{D}{2}}\frac{|\mathbf{A}\mathbf{B}|^{-\frac{1}{2}}}{|\mathbf{C}|^{-\frac{1}{2}}} \exp\left\{-\frac{1}{2}\left[ \mathbf{a}^T\mathbf{A}^{-1}\mathbf{a} + \mathbf{b}^T\mathbf{B}^{-1}\mathbf{b} - \mathbf{c}^T\mathbf{C}^{-1}\mathbf{c} \right]\right\}\\=&amp;\ c\mathcal{N}(\mathbf{c}|\mathbf{c}, \mathbf{C}),\end{align*}</p>
+<p>where we defined</p>
+<p>$$ c = (2\pi)^{-\frac{D}{2}}\frac{|\mathbf{A}\mathbf{B}|^{-\frac{1}{2}}}{|\mathbf{C}|^{-\frac{1}{2}}} \exp\left\{-\frac{1}{2}\left[ \mathbf{a}^T\mathbf{A}^{-1}\mathbf{a} + \mathbf{b}^T\mathbf{B}^{-1}\mathbf{b} - \mathbf{c}^T\mathbf{C}^{-1}\mathbf{c} \right]\right\} $$</p>
+<p>We now can used the properties that a) the determinant of a matrix product is product of the determinants, and b) determinant of a matrix inverse is the inverse of the determinant of this matrix, and write</p>
+<p>$$ \frac{|\mathbf{A}||\mathbf{B}|}{|\mathbf{C}|}= |\mathbf{A}||\mathbf{C}^{-1}||\mathbf{B}|= |\mathbf{A}\mathbf{C}^{-1}\mathbf{B}|= |\mathbf{A}(\mathbf{A}^{-1} + \mathbf{B}^{-1})\mathbf{B}|= |\mathbf{A} + \mathbf{B}| $$</p>
+<p>For the expression in the exponent we can write</p>
+<p>\begin{align*} &amp;\ \mathbf{a}^T\mathbf{A}^{-1}\mathbf{a} + \mathbf{b}^T\mathbf{B}^{-1}\mathbf{b} - \mathbf{c}^T\mathbf{C}^{-1}\mathbf{c}\\=&amp;\ \mathbf{a}^T\mathbf{A}^{-1}\mathbf{a} + \mathbf{b}^T\mathbf{B}^{-1}\mathbf{b}- (\mathbf{a}^T\mathbf{A}^{-1} + \mathbf{b}^T\mathbf{B}^{-1})(\mathbf{A}^{-1} + \mathbf{B}^{-1})^{-1} (\mathbf{A}^{-1}\mathbf{a} + \mathbf{B}^{-1}\mathbf{b})\\=&amp;\ \mathbf{a}^T\left[\mathbf{A}^{-1} - \mathbf{A}^{-1}(\mathbf{A}^{-1} + \mathbf{B}^{-1})\mathbf{A}^{-1}\right]\mathbf{a}+ \mathbf{b}^T\left[\mathbf{B}^{-1} - \mathbf{B}^{-1}(\mathbf{A}^{-1} + \mathbf{B}^{-1})\mathbf{B}^{-1}\right]\mathbf{b}\\&amp; \qquad- \mathbf{a}^T\mathbf{A}^{-1}(\mathbf{A}^{-1} + \mathbf{B}^{-1})^{-1} \mathbf{B}^{-1}\mathbf{b}- \mathbf{b}^T\mathbf{B}^{-1}(\mathbf{A}^{-1} + \mathbf{B}^{-1})^{-1} \mathbf{A}^{-1}\mathbf{a} \end{align*}</p>
+<p>Using the property $(\mathbf{A}\mathbf{B})^{-1} = \mathbf{B}^{-1}\mathbf{A}^{-1}$ we obtain</p>
+<p>$$ \mathbf{A}^{-1}(\mathbf{A}^{-1} + \mathbf{B}^{-1})^{-1} \mathbf{B}^{-1}= \left[\mathbf{B}(\mathbf{A}^{-1} + \mathbf{B}^{-1})\mathbf{A}\right]^{-1}= (\mathbf{A} + \mathbf{B})^{-1} $$</p>
+<p>and</p>
+<p>\begin{align*} &amp;\ \mathbf{A}^{-1} - \mathbf{A}^{-1}(\mathbf{A}^{-1} + \mathbf{B}^{-1})\mathbf{A}^{-1}=\mathbf{A}^{-1}\left[1 - (\mathbf{A}^{-1} + \mathbf{B}^{-1})\mathbf{A}^{-1}\right]\\=&amp;\ \mathbf{A}^{-1}\left[1 - \mathbf{B}(\mathbf{A} + \mathbf{B})^{-1}\mathbf{A}\mathbf{A}^{-1}\right]= \mathbf{A}^{-1}\left[1 - \mathbf{B}(\mathbf{A} + \mathbf{B})^{-1}\right]\\=&amp;\ \mathbf{A}^{-1}\left[(\mathbf{A} + \mathbf{B}) - \mathbf{B}\right](\mathbf{A} + \mathbf{B})^{-1}= (\mathbf{A} + \mathbf{B})^{-1} \end{align*}</p>
+<p>we thus conclude that</p>
+<p>$$ c = (2\pi)^{-\frac{D}{2}}|\mathbf{A}+\mathbf{B}|^{-\frac{1}{2}} \exp\left\{-\frac{1}{2}( \mathbf{a} - \mathbf{b})^T(\mathbf{A} + \mathbf{B})^{-1}(\mathbf{a} -\mathbf{b})\right\}= \mathcal{N}(\mathbf{b}|\mathbf{a}, \mathbf{A}+ \mathbf{B})= \mathcal{N}(\mathbf{a}|\mathbf{b}, \mathbf{A}+ \mathbf{B}). $$</p>
+<hr>
+<p><strong>Part b</strong></p>
+<p>Multivariate normal distribution, $\mathcal{N}(\mathbf{x}|\mathbf{a},\mathbf{A})$ can be represented as a distribution from an exponential family:</p>
+<p>\begin{align*} &amp;\ \mathcal{N}(\mathbf{x}|\mathbf{a},\mathbf{A}) = (2\pi)^{-\frac{D}{2}}|\mathbf{A}|^{-\frac{1}{2}} \exp\left[-\frac{1}{2}(\mathbf{x} - \mathbf{a})^T\mathbf{A}^{-1}(\mathbf{x} - \mathbf{a})\right]\\=&amp;\ (2\pi)^{-\frac{D}{2}} \exp\left[-\frac{1}{2}\text{tr}(\mathbf{A}^{-1}\mathbf{x}\mathbf{x}^T) + \mathbf{a}^T\mathbf{A}^{-1}\mathbf{x}- \frac{1}{2}\mathbf{a}^T\mathbf{A}^{-1}\mathbf{a} - \frac{1}{2}\log|\mathbf{A}| \right],\end{align*} </p>
+<p>where we used that $\mathbf{a}^T\mathbf{A}^{-1}\mathbf{x} = \mathbf{x}^T\mathbf{A}^{-1}\mathbf{a}$, and also write the first term as</p>
+<p>$$ \mathbf{x}^T\mathbf{A}^{-1}\mathbf{x}= \sum_{i,j}x_i (\mathbf{A}^{-1})_{ij} x_j= \sum_{i,j}(\mathbf{A}^{-1})_{ij} x_j x_i= \sum_{i,j}(\mathbf{A}^{-1})_{ij} (\mathbf{x}\mathbf{x}^T)_{ji}= \text{tr}(\mathbf{A}^{-1}\mathbf{x}\mathbf{x}^T) $$</p>
+<p>Representing $\mathcal{N}(\mathbf{x}|\mathbf{b},\mathbf{B})$ in a similar way and multiplying the two distributions we readily obtain</p>
+<p>\begin{align*} &amp;\ \mathcal{N}(\mathbf{x}|\mathbf{a},\mathbf{A})\mathcal{N}(\mathbf{x}|\mathbf{b},\mathbf{B})\\=&amp;\ (2\pi)^{-D} \exp\left\{-\frac{1}{2}\text{tr}\left[(\mathbf{A}^{-1}+ \mathbf{B}^{-1})\mathbf{x}\mathbf{x}^T\right]+ (\mathbf{a}^T\mathbf{A}^{-1}+\mathbf{b}^T\mathbf{B}^{-1})\mathbf{x}\right.\\ &amp;\ \left. - \frac{1}{2}\mathbf{a}^T\mathbf{A}^{-1}\mathbf{a} - \frac{1}{2}\log|\mathbf{A}|- \frac{1}{2}\mathbf{b}^T\mathbf{B}^{-1}\mathbf{b} - \frac{1}{2}\log|\mathbf{B}| \right\}\\=&amp;\ c\mathcal{N}(\mathbf{x}|\mathbf{c},\mathbf{C}), \end{align*} </p>
+<p>where we defined</p>
+<p>$$ \mathbf{C}^{-1} = \mathbf{A}^{-1}+ \mathbf{B}^{-1},\quad \mathbf{c}^T\mathbf{C}^{-1} = \mathbf{a}^T\mathbf{A}^{-1}+\mathbf{b}^T\mathbf{B}^{-1},$$<br>$$ c = (2\pi)^{-\frac{D}{2}} \exp\left\{\frac{1}{2}\mathbf{c}^T\mathbf{C}^{-1}\mathbf{c} + \frac{1}{2}\log|\mathbf{C}|- \frac{1}{2}\mathbf{a}^T\mathbf{A}^{-1}\mathbf{a} - \frac{1}{2}\log|\mathbf{A}|- \frac{1}{2}\mathbf{b}^T\mathbf{B}^{-1}\mathbf{b} - \frac{1}{2}\log|\mathbf{B}| \right\} $$</p>
+<p>Coefficient $c$ can now be reduced to the required form using the matrix transformations described in part a).</p>
+<script type="text/javascript">
+amzn_assoc_placement = "adunit0";
+amzn_assoc_search_bar = "true";
+amzn_assoc_tracking_id = "linearalgeb0e-20";
+amzn_assoc_search_bar_position = "bottom";
+amzn_assoc_ad_mode = "search";
+amzn_assoc_ad_type = "smart";
+amzn_assoc_marketplace = "amazon";
+amzn_assoc_region = "US";
+amzn_assoc_title = "Shop Related Products";
+amzn_assoc_default_search_phrase = "Statistics";
+amzn_assoc_default_category = "All";
+amzn_assoc_linkid = "a1702ca86c77f1a4b0df1c05cdf77dce";
+amzn_assoc_rows = "2";
+</script>
+<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
+      <categories>
+        <category>Machine Learning</category>
+        <category>Statistics</category>
+      </categories>
+      <tags>
+        <tag>Distribution</tag>
+        <tag>Gaussian Distribution</tag>
+        <tag>Probability</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Computation involving iterated expectations and conditional probability</title>
+    <url>//mml-exercise-6-11.html</url>
+    <content><![CDATA[<div class="note info">
+            <p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 6 Exercise 6.11</strong></p>
+          </div>
+
+<a id="more"></a>
+
+<p>Solution: </p>
+<p>The expectation value and the conditional expectation value are given by</p>
+<p>$$ \mathbb{E}_X[x] = \int x p(x) dx,\\ \mathbb{E}_Y[f(y)] = \int f(y) p(y) dy,\\ \mathbb{E}_X[x|y] = \int x p(x|y) dx $$</p>
+<p>We then have</p>
+<p>\begin{align*}\mathbb{E}_Y\left[\mathbb{E}_X[x|y]\right] =&amp;\ \int \mathbb{E}_X[x|y] p(y) dy = \int \left[\int xp(x|y)dx\right]p(y) dy \\=&amp;\ \int \int xp(x|y)p(y)dx dy = \int\int xp(x,y)dxdy\\ =&amp;\ \int x\left[\int p(x,y) dy\right] dx = \int x p(x) dx = \mathbb{E}_X[x], \end{align*}</p>
+<p>where we used the definition fo the conditional probability density</p>
+<p>$$ p(x|y)p(y) = p(x,y). $$</p>
+<script type="text/javascript">
+amzn_assoc_placement = "adunit0";
+amzn_assoc_search_bar = "true";
+amzn_assoc_tracking_id = "linearalgeb0e-20";
+amzn_assoc_search_bar_position = "bottom";
+amzn_assoc_ad_mode = "search";
+amzn_assoc_ad_type = "smart";
+amzn_assoc_marketplace = "amazon";
+amzn_assoc_region = "US";
+amzn_assoc_title = "Shop Related Products";
+amzn_assoc_default_search_phrase = "Statistics";
+amzn_assoc_default_category = "All";
+amzn_assoc_linkid = "a1702ca86c77f1a4b0df1c05cdf77dce";
+amzn_assoc_rows = "2";
+</script>
+<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
+      <categories>
+        <category>Machine Learning</category>
+        <category>Statistics</category>
+      </categories>
+      <tags>
+        <tag>Probability</tag>
+        <tag>Expectation</tag>
+        <tag>Random Variable</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Manipulation of Gaussian Random Variables</title>
+    <url>//mml-exercise-6-12.html</url>
+    <content><![CDATA[<div class="note info">
+            <p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 6 Exercise 6.12</strong></p>
+          </div>
+
+<a id="more"></a>
+
+<p>Solution: </p>
+<p><strong>Part a</strong></p>
+<p>If $\mathbf{x}$ is fixed, then $\mathbf{y}$ has the same distribution as $\mathbf{w}$, but with the mean shifter by $\mathbf{A}\mathbf{x} + \mathbf{b}$, that is</p>
+<p>$$ p(\mathbf{y}|\mathbf{x}) = \mathcal{N}(\mathbf{y}|\mathbf{A}\mathbf{x} + \mathbf{b}, \mathbf{Q}). $$</p>
+<hr>
+<p><strong>Part b</strong></p>
+<p>Let us consider random variable $\mathbf{u} = \mathbf{A}\mathbf{x}$, it is distributed according to</p>
+<p>$$ p(\mathbf{u}) = \mathcal{N}(\mathbf{u}|\mathbf{A}\mathbf{\mu}_x, \mathbf{A}\mathbf{\Sigma}_x\mathbf{A}^T). $$</p>
+<p>Then $\mathbf{y}$ is a sum of two Gaussian random variables $\mathbf{u}$ and $\mathbf{w}$ with its mean additionally shifted by $\mathbf{b}$, that is</p>
+<p>$$ p(\mathbf{y}) = \mathcal{N}(\mathbf{y}|\mathbf{A}\mathbf{\mu}_x + \mathbf{b}, \mathbf{A}\mathbf{\Sigma}_x\mathbf{A}^T + \mathbf{Q}), $$</p>
+<p>that is</p>
+<p>$$ \mathbf{\mu}_y = \mathbf{A}\mathbf{\mu}_x + \mathbf{b},\\ \mathbf{\Sigma}_y = \mathbf{A}\mathbf{\Sigma}_x\mathbf{A}^T + \mathbf{Q}. $$</p>
+<hr>
+<p><strong>Part c</strong></p>
+<p>Like in b), assuming that $\mathbf{y}$ is fixed we obtain the conditional distribution</p>
+<p>$$ p(\mathbf{z}|\mathbf{y}) = \mathcal{N}(\mathbf{z}|\mathbf{C}\mathbf{y}, \mathbf{R}) $$</p>
+<p>Since $\mathbf{C}\mathbf{y}$ is a Gausssian random variable with distribution $\mathcal{N}(\mathbf{C}\mathbf{\mu}_y, \mathbf{C}\mathbf{\Sigma}_y\mathbf{C}^T)$ we obtain the distribution of $\mathbf{z}$ as that of a sum of two Gaussian random variables:</p>
+<p>$$ p(\mathbf{z})= \mathcal{N}(\mathbf{z} |\mathbf{C}\mathbf{\mu}_y, \mathbf{C}\mathbf{\Sigma}_y\mathbf{C}^T + \mathbf{R})= \mathcal{N}(\mathbf{z} |\mathbf{C}(\mathbf{A}\mathbf{\mu}_x + \mathbf{b}), \mathbf{C}(\mathbf{A}\mathbf{\Sigma}_x\mathbf{A}^T + \mathbf{Q})\mathbf{C}^T + \mathbf{R}) $$</p>
+<hr>
+<p><strong>Part d</strong></p>
+<p>The posterior distribution $p(\mathbf{x}|\mathbf{y})$ can be obtained by applying the Bayes’ theorem:</p>
+<p>$$ p(\mathbf{x}|\mathbf{y})= \frac{p(\mathbf{y}|\mathbf{x})p(\mathbf{x})}{p(\mathbf{y})}= \frac{\mathcal{N}(\mathbf{y}|\mathbf{A}\mathbf{x} + \mathbf{b}, \mathbf{Q})\mathcal{N}(\mathbf{x}|\mathbf{\mu}_x,\mathbf{\Sigma}_x)} {\mathcal{N}(\mathbf{y}|\mathbf{A}\mathbf{\mu}_x + \mathbf{b}, \mathbf{A}\mathbf{\Sigma}_x\mathbf{A}^T + \mathbf{Q})}. $$</p>
+<script type="text/javascript">
+amzn_assoc_placement = "adunit0";
+amzn_assoc_search_bar = "true";
+amzn_assoc_tracking_id = "linearalgeb0e-20";
+amzn_assoc_search_bar_position = "bottom";
+amzn_assoc_ad_mode = "search";
+amzn_assoc_ad_type = "smart";
+amzn_assoc_marketplace = "amazon";
+amzn_assoc_region = "US";
+amzn_assoc_title = "Shop Related Products";
+amzn_assoc_default_search_phrase = "Statistics";
+amzn_assoc_default_category = "All";
+amzn_assoc_linkid = "a1702ca86c77f1a4b0df1c05cdf77dce";
+amzn_assoc_rows = "2";
+</script>
+<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
+      <categories>
+        <category>Machine Learning</category>
+        <category>Statistics</category>
+      </categories>
+      <tags>
+        <tag>Distribution</tag>
+        <tag>Gaussian Distribution</tag>
+        <tag>Probability</tag>
+        <tag>Random Variable</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Computations ivolving a mixture of two Gaussian distributions</title>
     <url>//mml-exercise-6-2.html</url>
     <content><![CDATA[<div class="note info">
@@ -2152,59 +2362,21 @@ amzn_assoc_rows = "2";
       </tags>
   </entry>
   <entry>
-    <title>Compute the gradient for a multivariable function</title>
-    <url>//mml-exercise-5-9.html</url>
+    <title>Probability Integral Transformation and uniform distribution</title>
+    <url>//mml-exercise-6-13.html</url>
     <content><![CDATA[<div class="note info">
-            <p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 5 Exercise 5.9</strong></p>
+            <p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 6 Exercise 6.13</strong></p>
           </div>
 
 <a id="more"></a>
 
 <p>Solution: </p>
-<p>Piecing this together, replacing $z$ with $t(\epsilon,\nu)$ throughout, we have that $$g(\nu) = \log(p(x,t(\epsilon,\nu))) - \log(q(t(\epsilon,\nu),\nu)).$$</p>
-<p>Therefore, $$\frac{dg}{d\nu} = \frac{p’(x,t(\epsilon,\nu))\cdot t’(\epsilon,\nu) }{p(x,t(\epsilon,\nu))} - \frac{q’(t(\epsilon,\nu),\nu)\cdot t’(\epsilon,\nu)}{q(t(\epsilon,\nu),\nu)}.$$</p>
-<script type="text/javascript">
-amzn_assoc_placement = "adunit0";
-amzn_assoc_tracking_id = "linearalgeb0e-20";
-amzn_assoc_ad_mode = "search";
-amzn_assoc_ad_type = "smart";
-amzn_assoc_marketplace = "amazon";
-amzn_assoc_region = "US";
-amzn_assoc_title = "Shop Related Products";
-amzn_assoc_default_search_phrase = "Real Analysis";
-amzn_assoc_default_category = "All";
-amzn_assoc_linkid = "402d8b59cc9faa66d8d6b3b1eef9c01e";
-amzn_assoc_search_bar = "true";
-amzn_assoc_search_bar_position = "bottom";
-</script><br />
-<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
-      <categories>
-        <category>Machine Learning</category>
-        <category>Calculus</category>
-      </categories>
-      <tags>
-        <tag>Derivative</tag>
-        <tag>Multivariable Calculus</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>An application of Bayes’ theorem</title>
-    <url>//mml-exercise-6-4.html</url>
-    <content><![CDATA[<div class="note info">
-            <p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 6 Exercise 6.4</strong></p>
-          </div>
-
-<a id="more"></a>
-
-<p>Solution: </p>
-<p>The probabilities of picking a mango or an apple from teh first bag are given by</p>
-<p>$$ p(mango |1) = \frac{4}{6} = \frac{2}{3}\\ p(apple |1) = \frac{2}{6} = \frac{1}{3} $$</p>
-<p>The probabilities of picking a mango or an apple from teh second bag are </p>
-<p>$$ p(mango |2) = \frac{4}{8} = \frac{1}{2}\\ p(apple |2) = \frac{4}{8} = \frac{1}{2} $$</p>
-<p>The probability of picking the first or the second bag are equal to teh probabilities of head and tail respectively:</p>
-<p>$$ p(1) = 0.6,\qquad p(2) = 0.4 $$</p>
-<p>We now can obtain the probability that the mango was picked from the second bag using Bayes’ theorem:</p>
-<p>$$ p(2 | mango) = \frac{p(mango | 2)p(2)}{p(mango)} = \frac{p(mango | 2)p(2)}{p(mango | 1)p(1) + p(mango | 2)p(2)} = \frac{\frac{1}{2}0.4}{\frac{2}{3}0.6 + \frac{1}{2}0.4} = \frac{1}{3} $$</p>
+<p>Cdf is related to pdf as</p>
+<p>$$ F_x(x) = \int_{-\infty}^xdx’ f_x(x’),\quad \frac{d}{dx} F_x(x) = f_x(x), $$</p>
+<p>and changes in the interval $[0,1]$.</p>
+<p>The pdf of variable $y=F_x(x)$ then can be defined as</p>
+<p>$$ f_y(y) = f_x(x) \left|\frac{dx}{dy}\right| = \frac{f_x(x)}{\left|\frac{dy}{dx}\right|} = \frac{f_x(x)}{\left|\frac{dF_x(x)}{dx}\right|} = \frac{f_x(x)}{f_x(x)} = 1, $$</p>
+<p>i.e. $y$ is uniformly distributed in interval $[0,1]$.</p>
 <script type="text/javascript">
 amzn_assoc_placement = "adunit0";
 amzn_assoc_search_bar = "true";
@@ -2226,8 +2398,10 @@ amzn_assoc_rows = "2";
         <category>Statistics</category>
       </categories>
       <tags>
+        <tag>Distribution</tag>
         <tag>Probability</tag>
-        <tag>Bayes’ Theorem</tag>
+        <tag>Random Variable</tag>
+        <tag>Uniform Distribution</tag>
       </tags>
   </entry>
   <entry>
@@ -2274,6 +2448,158 @@ amzn_assoc_rows = "2";
         <tag>Distribution</tag>
         <tag>Random Variables</tag>
         <tag>Bernoulli Distribution</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>An application of Bayes’ theorem</title>
+    <url>//mml-exercise-6-4.html</url>
+    <content><![CDATA[<div class="note info">
+            <p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 6 Exercise 6.4</strong></p>
+          </div>
+
+<a id="more"></a>
+
+<p>Solution: </p>
+<p>The probabilities of picking a mango or an apple from teh first bag are given by</p>
+<p>$$ p(mango |1) = \frac{4}{6} = \frac{2}{3}\\ p(apple |1) = \frac{2}{6} = \frac{1}{3} $$</p>
+<p>The probabilities of picking a mango or an apple from teh second bag are </p>
+<p>$$ p(mango |2) = \frac{4}{8} = \frac{1}{2}\\ p(apple |2) = \frac{4}{8} = \frac{1}{2} $$</p>
+<p>The probability of picking the first or the second bag are equal to teh probabilities of head and tail respectively:</p>
+<p>$$ p(1) = 0.6,\qquad p(2) = 0.4 $$</p>
+<p>We now can obtain the probability that the mango was picked from the second bag using Bayes’ theorem:</p>
+<p>$$ p(2 | mango) = \frac{p(mango | 2)p(2)}{p(mango)} = \frac{p(mango | 2)p(2)}{p(mango | 1)p(1) + p(mango | 2)p(2)} = \frac{\frac{1}{2}0.4}{\frac{2}{3}0.6 + \frac{1}{2}0.4} = \frac{1}{3} $$</p>
+<script type="text/javascript">
+amzn_assoc_placement = "adunit0";
+amzn_assoc_search_bar = "true";
+amzn_assoc_tracking_id = "linearalgeb0e-20";
+amzn_assoc_search_bar_position = "bottom";
+amzn_assoc_ad_mode = "search";
+amzn_assoc_ad_type = "smart";
+amzn_assoc_marketplace = "amazon";
+amzn_assoc_region = "US";
+amzn_assoc_title = "Shop Related Products";
+amzn_assoc_default_search_phrase = "Statistics";
+amzn_assoc_default_category = "All";
+amzn_assoc_linkid = "a1702ca86c77f1a4b0df1c05cdf77dce";
+amzn_assoc_rows = "2";
+</script>
+<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
+      <categories>
+        <category>Machine Learning</category>
+        <category>Statistics</category>
+      </categories>
+      <tags>
+        <tag>Probability</tag>
+        <tag>Bayes’ Theorem</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>A time series model and Gaussian noise variable</title>
+    <url>//mml-exercise-6-5.html</url>
+    <content><![CDATA[<div class="note info">
+            <p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 6 Exercise 6.5</strong></p>
+          </div>
+
+<a id="more"></a>
+
+<p>Solution: </p>
+<p><strong>Part a</strong></p>
+<p>$\mathbf{x}_{t+1}$ is obtained from $\mathbf{x}_{t}$ by a linear transformation, $\mathbf{A}\mathbf{x}_{t}$ and adding a Gaussian random variabme $\mathbf{w}$. Initial distribution for $\mathbf{x}_{0}$ is a Gaussian distribution, a linear transformation of a Gaussian random variable is also a Gaussian random variable, whareas a sum of Gaussian random variables is a Gaussian random variable. Thus, the joint distribution $p(\mathbf{x}_{0}, \mathbf{x}_{1},…,\mathbf{x}_{T})$ is also a Gaussian distribution.</p>
+<hr>
+<p><strong>Part b (1)</strong></p>
+<p>Let $\mathbf{z} = \mathbf{A}\mathbf{x}_{t+1}$. Since this is a linear transformation of a Gaussian random variable, $\mathbf{x}_t \sim \mathcal{N}(\mathbf{\mu}_t,\mathbf{\Sigma})$, then $\mathbf{z}$ is distributed as (see Eq. (6.88))</p>
+<p>$$ \mathbf{z} \sim \mathcal{N}(\mathbf{A}\mathbf{\mu}_t, \mathbf{A}\mathbf{\Sigma}\mathbf{A}^T), $$</p>
+<p>whereas the mean and the covariance of a sum of two Gaussian random variables are given by the sum of the means and the covariances of these variables, i.e.,</p>
+<p>$$ \mathbf{x}_{t+1} = \mathbf{z} + \mathbf{w} \sim \mathcal{N}(\mathbf{A}\mathbf{\mu}_t, \mathbf{A}\mathbf{\Sigma}\mathbf{A}^T + \mathbf{Q}), $$</p>
+<p>That is</p>
+<p>$$ p(\mathbf{x}_{t+1}|\mathbf{y}_1,…,\mathbf{y}_t)= \mathcal{N}(\mathbf{x}_{t+1}|\mathbf{A}\mathbf{\mu}_t, \mathbf{A}\mathbf{\Sigma}\mathbf{A}^T + \mathbf{Q}). $$</p>
+<hr>
+<p><strong>Part b (2)</strong></p>
+<p>If we assume that $\mathbf{x}_{t+1}$ is fixed, then $\mathbf{y}_{t+1} = \mathbf{C}\mathbf{x}_{t+1} + \mathbf{v}$ follows the same distribution as $\mathbf{v}$, but with the mean shifted by $\mathbf{C}\mathbf{x}_{t+1}$, i.e.</p>
+<p>$$ p(\mathbf{y}_{t+1}|\mathbf{x}_{t+1}, \mathbf{y}_1,…,\mathbf{y}_t)= \mathcal{N}(\mathbf{y}_{t+1}|\mathbf{C}\mathbf{x}_{t+1}, \mathbf{R}). $$</p>
+<p>The the joint probability is obtained as</p>
+<p>\begin{align*} p(\mathbf{y}_{t+1}, \mathbf{x}_{t+1}| \mathbf{y}_1,…,\mathbf{y}_t)=&amp;\ p(\mathbf{y}_{t+1}|\mathbf{x}_{t+1}, \mathbf{y}_1,…,\mathbf{y}_t) p(\mathbf{x}_{t+1}| \mathbf{y}_1,…,\mathbf{y}_t)\\=&amp;\ \mathcal{N}(\mathbf{y}_{t+1}|\mathbf{C}\mathbf{x}_{t+1}, \mathbf{R}) \mathcal{N}(\mathbf{x}_{t+1}|\mathbf{A}\mathbf{\mu}_t, \mathbf{A}\mathbf{\Sigma}\mathbf{A}^T + \mathbf{Q}). \end{align*}</p>
+<p><strong>Part b (3)</strong></p>
+<p>Let us introduce temporary notation</p>
+<p>$$ \mathbf{\mu}_{t+1} = \mathbf{A}\mathbf{\mu}_t,$$ </p>
+<p>$$ \mathbf{\Sigma}_{t+1} = \mathbf{A}\mathbf{\Sigma}\mathbf{A}^T + \mathbf{Q},$$</p>
+<p>$$p(\mathbf{x}_{t+1}|\mathbf{y}_1,…,\mathbf{y}_t) = \mathcal{N}(\mathbf{\mu}_{t+1}, \mathbf{\Sigma}_{t+1}). $$</p>
+<p>Then $\mathbf{y}_{t+1}$ is obtained in terms of the parameters of distribution $p(\mathbf{x}_{t+1}|\mathbf{y}_1,…,\mathbf{y}_t)$ following the same steps as question 1), with the result</p>
+<p>$$ p(\mathbf{y}_{t+1}|\mathbf{y}_1,…,\mathbf{y}_t)= \mathcal{N}(\mathbf{y}_{t+1}|\mathbf{C}\mathbf{\mu}_{t+1}, \mathbf{C}\mathbf{\Sigma}_{t+1}\mathbf{C}^T + \mathbf{R})= \mathcal{N}\left(\mathbf{y}_{t+1}|\mathbf{C}\mathbf{A}\mathbf{\mu}_t, \mathbf{C}(\mathbf{A}\mathbf{\Sigma}\mathbf{A}^T+ \mathbf{Q})\mathbf{C}^T + \mathbf{R}\right). $$</p>
+<p>The required conditional distribution is then obtained as</p>
+<p>$$ p(\mathbf{x}_{t+1}|\mathbf{y}_1,…,\mathbf{y}_t, \mathbf{y}_{t+1})= \frac{p(\mathbf{y}_{t+1}, \mathbf{x}_{t+1}| \mathbf{y}_1,…,\mathbf{y}_t)} {p(\mathbf{y}_{t+1}| \mathbf{y}_1,…,\mathbf{y}_t)}= \frac{\mathcal{N}(\mathbf{y}_{t+1}|\mathbf{C}\mathbf{x}_{t+1}, \mathbf{R}) \mathcal{N}(\mathbf{x}_{t+1}|\mathbf{A}\mathbf{\mu}_t, \mathbf{A}\mathbf{\Sigma}\mathbf{A}^T + \mathbf{Q})} {\mathcal{N}\left(\mathbf{y}_{t+1}|\mathbf{C}\mathbf{A}\mathbf{\mu}_t, \mathbf{C}(\mathbf{A}\mathbf{\Sigma}\mathbf{A}^T + \mathbf{Q})\mathbf{C}^T + \mathbf{R}\right)}. $$</p>
+<script type="text/javascript">
+amzn_assoc_placement = "adunit0";
+amzn_assoc_search_bar = "true";
+amzn_assoc_tracking_id = "linearalgeb0e-20";
+amzn_assoc_search_bar_position = "bottom";
+amzn_assoc_ad_mode = "search";
+amzn_assoc_ad_type = "smart";
+amzn_assoc_marketplace = "amazon";
+amzn_assoc_region = "US";
+amzn_assoc_title = "Shop Related Products";
+amzn_assoc_default_search_phrase = "Statistics";
+amzn_assoc_default_category = "All";
+amzn_assoc_linkid = "a1702ca86c77f1a4b0df1c05cdf77dce";
+amzn_assoc_rows = "2";
+</script>
+<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
+      <categories>
+        <category>Machine Learning</category>
+        <category>Statistics</category>
+      </categories>
+      <tags>
+        <tag>Probability</tag>
+        <tag>Random Variable</tag>
+        <tag>Time Series</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Express variance using expectation in a different form</title>
+    <url>//mml-exercise-6-6.html</url>
+    <content><![CDATA[<div class="note info">
+            <p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 6 Exercise 6.6</strong></p>
+          </div>
+
+<a id="more"></a>
+
+<p>Solution: </p>
+<p>The standard definition of variance is</p>
+<p>$$ \mathbb{V}_X[x] = \mathbb{E}_X[(x-\mu)^2], $$</p>
+<p>where</p>
+<p>$$ \mu = \mathbb{E}_X[x]. $$</p>
+<p>Using the properties of average we can write:</p>
+<p>\begin{align*}<br>\mathbb{V}_X[x] = &amp;\ \mathbb{E}_X[(x-\mu)^2] = \mathbb{E}_X[x^2 - 2x\mu +\mu^2] \\ =&amp;\ \mathbb{E}_X[x^2] - \mathbb{E}_X[2x\mu] + \mathbb{E}_X[\mu^2]\\=&amp;\ \mathbb{E}_X[x^2] - 2\mu\mathbb{E}_X[x] + \mu^2\\ =&amp;\ \mathbb{E}_X[x^2] - 2\mu^2 + \mu^2 = \mathbb{E}_X[x^2] - \mu^2.<br>\end{align*}</p>
+<p>By substituting to this equation the definition of $\mu$, we obtain the desired equation</p>
+<p>$$ \mathbb{V}_X[x] = \mathbb{E}_X[(x-\mu)^2] = \mathbb{E}_X[x^2] - (\mathbb{E}_X[x])^2. $$</p>
+<div class="note default">
+            <p>In particular, it shows that the variance is always nonnegative. Moreover, $$ \mathbb{E}_X[x^2] \geqslant (\mathbb{E}_X[x])^2. $$</p>
+          </div>
+
+<script type="text/javascript">
+amzn_assoc_placement = "adunit0";
+amzn_assoc_search_bar = "true";
+amzn_assoc_tracking_id = "linearalgeb0e-20";
+amzn_assoc_search_bar_position = "bottom";
+amzn_assoc_ad_mode = "search";
+amzn_assoc_ad_type = "smart";
+amzn_assoc_marketplace = "amazon";
+amzn_assoc_region = "US";
+amzn_assoc_title = "Shop Related Products";
+amzn_assoc_default_search_phrase = "Statistics";
+amzn_assoc_default_category = "All";
+amzn_assoc_linkid = "a1702ca86c77f1a4b0df1c05cdf77dce";
+amzn_assoc_rows = "2";
+</script>
+<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
+      <categories>
+        <category>Machine Learning</category>
+        <category>Statistics</category>
+      </categories>
+      <tags>
+        <tag>Probability</tag>
+        <tag>Expectation</tag>
+        <tag>Variance</tag>
       </tags>
   </entry>
   <entry>
@@ -2331,7 +2657,61 @@ amzn_assoc_rows = "2";
       </tags>
   </entry>
   <entry>
-    <title>Express the Bernoulli distribution in the natural parameter form of the exponential famil</title>
+    <title>Express the Binomial and Beta distributions as an exponential family distribution</title>
+    <url>//mml-exercise-6-9.html</url>
+    <content><![CDATA[<div class="note info">
+            <p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 6 Exercise 6.9</strong></p>
+          </div>
+
+<a id="more"></a>
+
+<p>Solution: </p>
+<p>The binomial distribution can be transformed as</p>
+<p>\begin{align*} p(x|N,\mu) =&amp;\ {N\choose x} \mu^x (1-\mu)^{N-x} = {N \choose x} e^{x\log\mu + (N-x)\log(1-\mu)}\\ =&amp;\ {N \choose x}e^{x\log\left(\frac{\mu}{1-\mu}\right) +N\log(1-\mu)} = h(x)e^{x\theta - A(\theta)}<br>\end{align*}</p>
+<p>where</p>
+<p>$$ h(x) = {N \choose x},\\ \theta = \log\left(\frac{\mu}{1-\mu}\right),$$ </p>
+<p>$$ A(\theta) = -N\log(1-\mu) = N\log(1+e^\theta), $$</p>
+<p>i.e., the binomial distribution can be represented as an exponential family distribution (only $\mu$ is treated here as a parameter, since the number of trials $N$ is fixed.)</p>
+<p>Similarly, the beta distribution can be transoformed as</p>
+<p>\begin{align*} p(x |\alpha, \beta) = &amp;\ \frac{1}{\mathcal{B}(\alpha,\beta)} x^{\alpha-1}(1-x)^{\beta-1} \\=&amp;\ e^{(\alpha -1)\log x + (\beta -1)\log(1-x) - \log(\mathcal{B}(\alpha,\beta))}\\ =&amp;\ h(x)e^{\theta_1\phi_1(x) + \theta_2\phi_2(x) -A(\theta_1, \theta_2)}<br>\end{align*}</p>
+<p>where</p>
+<p>$$ h(x) = 1,\\ \theta_1 = \alpha-1, \theta_2 = \beta-1,$$ $$\phi_1(x) = \log x, \phi_2(x) = \log(1-x),$$ $$A(\theta_1, \theta_2) = \log(\mathcal{B}(\alpha,\beta)) = \log(\mathcal{B}(1+\theta_1,1 + \theta_2)) $$</p>
+<p>i.e. this is a distribution form the exponential family.</p>
+<p>The product of the two distributions is then given by</p>
+<p>\begin{align*} p(x|N,\mu) p(x|\alpha, \beta)=&amp;\ {N \choose x}e^{x\log\left(\frac{\mu}{1-\mu}\right) + (\alpha-1)\log x + (\beta -1)\log(1-x) + N\log(1-\mu) - \log(\mathcal{B}(\alpha,\beta))}\\ =&amp;\ h(x) e^{\theta_1 \phi_1(x) + \theta_2 \phi_2(x) + \theta_3\phi_3(x) - A(\theta_1, \theta_2, \theta_3)},<br>\end{align*}</p>
+<p>where</p>
+<p>$$ h(x) = {N \choose x},\qquad \theta_1 = \alpha-1, \theta_2 = \beta-1,\theta_3 = \log\left(\frac{\mu}{1-\mu}\right)$$</p>
+<p>$$ \phi_1(x) = \log x, \phi_2(x) = \log(1-x), $$</p>
+<p>$$\phi_3(x) = x\\ A(\theta_1, \theta_2, \theta_3) = \log(\mathcal{B}(\alpha,\beta)) -N\log(1-\mu) = \log(\mathcal{B}(1+\theta_1,1 + \theta_2)) + N\log(1+e^\theta_3). $$</p>
+<script type="text/javascript">
+amzn_assoc_placement = "adunit0";
+amzn_assoc_search_bar = "true";
+amzn_assoc_tracking_id = "linearalgeb0e-20";
+amzn_assoc_search_bar_position = "bottom";
+amzn_assoc_ad_mode = "search";
+amzn_assoc_ad_type = "smart";
+amzn_assoc_marketplace = "amazon";
+amzn_assoc_region = "US";
+amzn_assoc_title = "Shop Related Products";
+amzn_assoc_default_search_phrase = "Statistics";
+amzn_assoc_default_category = "All";
+amzn_assoc_linkid = "a1702ca86c77f1a4b0df1c05cdf77dce";
+amzn_assoc_rows = "2";
+</script>
+<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
+      <categories>
+        <category>Machine Learning</category>
+        <category>Statistics</category>
+      </categories>
+      <tags>
+        <tag>Distribution</tag>
+        <tag>Probability</tag>
+        <tag>Bernoulli Distribution</tag>
+        <tag>Beta Distribution</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Express the Bernoulli distribution in the natural parameter form of the exponential family</title>
     <url>//mml-exercise-6-8.html</url>
     <content><![CDATA[<div class="note info">
             <p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 6 Exercise 6.8</strong></p>
@@ -2372,93 +2752,6 @@ amzn_assoc_rows = "2";
         <tag>Distribution</tag>
         <tag>Probability</tag>
         <tag>Bernoulli Distribution</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Express variance using expectation in a different form</title>
-    <url>//mml-exercise-6-6.html</url>
-    <content><![CDATA[<div class="note info">
-            <p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 6 Exercise 6.6</strong></p>
-          </div>
-
-<a id="more"></a>
-
-<p>Solution: </p>
-<p>The standard definition of variance is</p>
-<p>$$ \mathbb{V}_X[x] = \mathbb{E}_X[(x-\mu)^2], $$</p>
-<p>where</p>
-<p>$$ \mu = \mathbb{E}_X[x]. $$</p>
-<p>Using the properties of average we can write:</p>
-<p>\begin{align*}<br>\mathbb{V}_X[x] = &amp;\ \mathbb{E}_X[(x-\mu)^2] = \mathbb{E}_X[x^2 - 2x\mu +\mu^2] \\ =&amp;\ \mathbb{E}_X[x^2] - \mathbb{E}_X[2x\mu] + \mathbb{E}_X[\mu^2]\\=&amp;\ \mathbb{E}_X[x^2] - 2\mu\mathbb{E}_X[x] + \mu^2\\ =&amp;\ \mathbb{E}_X[x^2] - 2\mu^2 + \mu^2 = \mathbb{E}_X[x^2] - \mu^2.<br>\end{align*}</p>
-<p>By substituting to this equation the definition of $\mu$, we obtain the desired equation</p>
-<p>$$ \mathbb{V}_X[x] = \mathbb{E}_X[(x-\mu)^2] = \mathbb{E}_X[x^2] - (\mathbb{E}_X[x])^2. $$</p>
-<div class="note default">
-            <p>In particular, it shows that the variance is always nonnegative. Moreover, $$ \mathbb{E}_X[x^2] \geqslant (\mathbb{E}_X[x])^2. $$</p>
-          </div>
-
-<script type="text/javascript">
-amzn_assoc_placement = "adunit0";
-amzn_assoc_search_bar = "true";
-amzn_assoc_tracking_id = "linearalgeb0e-20";
-amzn_assoc_search_bar_position = "bottom";
-amzn_assoc_ad_mode = "search";
-amzn_assoc_ad_type = "smart";
-amzn_assoc_marketplace = "amazon";
-amzn_assoc_region = "US";
-amzn_assoc_title = "Shop Related Products";
-amzn_assoc_default_search_phrase = "Statistics";
-amzn_assoc_default_category = "All";
-amzn_assoc_linkid = "a1702ca86c77f1a4b0df1c05cdf77dce";
-amzn_assoc_rows = "2";
-</script>
-<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
-      <categories>
-        <category>Machine Learning</category>
-        <category>Statistics</category>
-      </categories>
-      <tags>
-        <tag>Probability</tag>
-        <tag>Variance</tag>
-        <tag>Expectation</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Find stationary points and determine their types</title>
-    <url>//mml-exercise-7-1.html</url>
-    <content><![CDATA[<div class="note info">
-            <p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 7 Exercise 7.1</strong></p>
-          </div>
-
-<a id="more"></a>
-
-<p>Solution: First, we compute the derivative of $f(x)$, $$f’(x)=3x^2+12x-3=3(x^2+4x-1).$$Its stationary points (also known as <em>critical points</em>) are the zeros of derivative. Hence by quadratic formula, we see that the stationary points are $$x_1=-2+\sqrt{5},\quad x_2=-2-\sqrt{5}.$$To determine the local extreme values, we have find the signs of the derivative on some intervals. Since we know that the graph of the derivative is an open-upward parabola with $x$-intercepts $-2\pm \sqrt 5$, it is clear that the function $f’(x)$ is positive on $(-\infty,-2-\sqrt 5)$ and $(-2+\sqrt 5,\infty)$ and negative on $(-2-\sqrt 5,-2+\sqrt 5)$. Below is the graph of the derivative.</p>
-<p><img src="https://cdn.jsdelivr.net/gh/MathPage/gitalk/img/mml7-1-1-1.gif" alt="Solution to Mathematics for Machine Learning Exercise 7.1"></p>
-<p>Hence by the first derivative test, we see that the original function has local maximum at $x_2=-2-\sqrt{5}$ and local minimum at $x=-2+\sqrt{5}$. There is no global maximum or global minimum since $f(-\infty)=-\infty$ and $f(\infty)=\infty$. Here is the graph of the original function.</p>
-<p><img src="https://cdn.jsdelivr.net/gh/MathPage/gitalk/img/mml7-1-2-1.gif" alt="Solution to Mathematics for Machine Learning Exercise 7.1"></p>
-<script type="text/javascript">
-amzn_assoc_placement = "adunit0";
-amzn_assoc_tracking_id = "linearalgeb0e-20";
-amzn_assoc_ad_mode = "search";
-amzn_assoc_ad_type = "smart";
-amzn_assoc_marketplace = "amazon";
-amzn_assoc_region = "US";
-amzn_assoc_default_search_phrase = "Calculus";
-amzn_assoc_default_category = "All";
-amzn_assoc_linkid = "f4d7cee51e59d583948f31cc8ab6b79a";
-amzn_assoc_search_bar = "true";
-amzn_assoc_search_bar_position = "top";
-amzn_assoc_title = "Shop Related Products";
-</script>
-<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
-      <categories>
-        <category>Machine Learning</category>
-        <category>Calculus</category>
-      </categories>
-      <tags>
-        <tag>Function</tag>
-        <tag>Extreme Value</tag>
-        <tag>Calculus</tag>
-        <tag>Optimization</tag>
       </tags>
   </entry>
   <entry>
@@ -2508,6 +2801,45 @@ amzn_assoc_title = "Shop Related Products";
         <tag>Intersection</tag>
         <tag>Union</tag>
         <tag>Difference</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Find stationary points and determine their types</title>
+    <url>//mml-exercise-7-1.html</url>
+    <content><![CDATA[<div class="note info">
+            <p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 7 Exercise 7.1</strong></p>
+          </div>
+
+<a id="more"></a>
+
+<p>Solution: First, we compute the derivative of $f(x)$, $$f’(x)=3x^2+12x-3=3(x^2+4x-1).$$Its stationary points (also known as <em>critical points</em>) are the zeros of derivative. Hence by quadratic formula, we see that the stationary points are $$x_1=-2+\sqrt{5},\quad x_2=-2-\sqrt{5}.$$To determine the local extreme values, we have find the signs of the derivative on some intervals. Since we know that the graph of the derivative is an open-upward parabola with $x$-intercepts $-2\pm \sqrt 5$, it is clear that the function $f’(x)$ is positive on $(-\infty,-2-\sqrt 5)$ and $(-2+\sqrt 5,\infty)$ and negative on $(-2-\sqrt 5,-2+\sqrt 5)$. Below is the graph of the derivative.</p>
+<p><img src="https://cdn.jsdelivr.net/gh/MathPage/gitalk/img/mml7-1-1-1.gif" alt="Solution to Mathematics for Machine Learning Exercise 7.1"></p>
+<p>Hence by the first derivative test, we see that the original function has local maximum at $x_2=-2-\sqrt{5}$ and local minimum at $x=-2+\sqrt{5}$. There is no global maximum or global minimum since $f(-\infty)=-\infty$ and $f(\infty)=\infty$. Here is the graph of the original function.</p>
+<p><img src="https://cdn.jsdelivr.net/gh/MathPage/gitalk/img/mml7-1-2-1.gif" alt="Solution to Mathematics for Machine Learning Exercise 7.1"></p>
+<script type="text/javascript">
+amzn_assoc_placement = "adunit0";
+amzn_assoc_tracking_id = "linearalgeb0e-20";
+amzn_assoc_ad_mode = "search";
+amzn_assoc_ad_type = "smart";
+amzn_assoc_marketplace = "amazon";
+amzn_assoc_region = "US";
+amzn_assoc_default_search_phrase = "Calculus";
+amzn_assoc_default_category = "All";
+amzn_assoc_linkid = "f4d7cee51e59d583948f31cc8ab6b79a";
+amzn_assoc_search_bar = "true";
+amzn_assoc_search_bar_position = "top";
+amzn_assoc_title = "Shop Related Products";
+</script>
+<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
+      <categories>
+        <category>Machine Learning</category>
+        <category>Calculus</category>
+      </categories>
+      <tags>
+        <tag>Function</tag>
+        <tag>Extreme Value</tag>
+        <tag>Calculus</tag>
+        <tag>Optimization</tag>
       </tags>
   </entry>
   <entry>
@@ -2561,60 +2893,6 @@ amzn_assoc_title = "Shop Related Products";
         <tag>Union</tag>
         <tag>Difference</tag>
         <tag>Convex Function</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Express the Binomial and Beta distributions as an exponential family distributio</title>
-    <url>//mml-exercise-6-9.html</url>
-    <content><![CDATA[<div class="note info">
-            <p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 6 Exercise 6.9</strong></p>
-          </div>
-
-<a id="more"></a>
-
-<p>Solution: </p>
-<p>The binomial distribution can be transformed as</p>
-<p>\begin{align*} p(x|N,\mu) =&amp;\ {N\choose x} \mu^x (1-\mu)^{N-x} = {N \choose x} e^{x\log\mu + (N-x)\log(1-\mu)}\\ =&amp;\ {N \choose x}e^{x\log\left(\frac{\mu}{1-\mu}\right) +N\log(1-\mu)} = h(x)e^{x\theta - A(\theta)}<br>\end{align*}</p>
-<p>where</p>
-<p>$$ h(x) = {N \choose x},\\ \theta = \log\left(\frac{\mu}{1-\mu}\right),$$ </p>
-<p>$$ A(\theta) = -N\log(1-\mu) = N\log(1+e^\theta), $$</p>
-<p>i.e., the binomial distribution can be represented as an exponential family distribution (only $\mu$ is treated here as a parameter, since the number of trials $N$ is fixed.)</p>
-<p>Similarly, the beta distribution can be transoformed as</p>
-<p>\begin{align*} p(x |\alpha, \beta) = &amp;\ \frac{1}{\mathcal{B}(\alpha,\beta)} x^{\alpha-1}(1-x)^{\beta-1} \\=&amp;\ e^{(\alpha -1)\log x + (\beta -1)\log(1-x) - \log(\mathcal{B}(\alpha,\beta))}\\ =&amp;\ h(x)e^{\theta_1\phi_1(x) + \theta_2\phi_2(x) -A(\theta_1, \theta_2)}<br>\end{align*}</p>
-<p>where</p>
-<p>$$ h(x) = 1,\\ \theta_1 = \alpha-1, \theta_2 = \beta-1,$$ $$\phi_1(x) = \log x, \phi_2(x) = \log(1-x),$$ $$A(\theta_1, \theta_2) = \log(\mathcal{B}(\alpha,\beta)) = \log(\mathcal{B}(1+\theta_1,1 + \theta_2)) $$</p>
-<p>i.e. this is a distribution form the exponential family.</p>
-<p>The product of the two distributions is then given by</p>
-<p>\begin{align*} p(x|N,\mu) p(x|\alpha, \beta)=&amp;\ {N \choose x}e^{x\log\left(\frac{\mu}{1-\mu}\right) + (\alpha-1)\log x + (\beta -1)\log(1-x) + N\log(1-\mu) - \log(\mathcal{B}(\alpha,\beta))}\\ =&amp;\ h(x) e^{\theta_1 \phi_1(x) + \theta_2 \phi_2(x) + \theta_3\phi_3(x) - A(\theta_1, \theta_2, \theta_3)},<br>\end{align*}</p>
-<p>where</p>
-<p>$$ h(x) = {N \choose x},\qquad \theta_1 = \alpha-1, \theta_2 = \beta-1,\theta_3 = \log\left(\frac{\mu}{1-\mu}\right)$$</p>
-<p>$$ \phi_1(x) = \log x, \phi_2(x) = \log(1-x), $$</p>
-<p>$$\phi_3(x) = x\\ A(\theta_1, \theta_2, \theta_3) = \log(\mathcal{B}(\alpha,\beta)) -N\log(1-\mu) = \log(\mathcal{B}(1+\theta_1,1 + \theta_2)) + N\log(1+e^\theta_3). $$</p>
-<script type="text/javascript">
-amzn_assoc_placement = "adunit0";
-amzn_assoc_search_bar = "true";
-amzn_assoc_tracking_id = "linearalgeb0e-20";
-amzn_assoc_search_bar_position = "bottom";
-amzn_assoc_ad_mode = "search";
-amzn_assoc_ad_type = "smart";
-amzn_assoc_marketplace = "amazon";
-amzn_assoc_region = "US";
-amzn_assoc_title = "Shop Related Products";
-amzn_assoc_default_search_phrase = "Statistics";
-amzn_assoc_default_category = "All";
-amzn_assoc_linkid = "a1702ca86c77f1a4b0df1c05cdf77dce";
-amzn_assoc_rows = "2";
-</script>
-<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
-      <categories>
-        <category>Machine Learning</category>
-        <category>Statistics</category>
-      </categories>
-      <tags>
-        <tag>Distribution</tag>
-        <tag>Probability</tag>
-        <tag>Bernoulli Distribution</tag>
-        <tag>Beta Distribution</tag>
       </tags>
   </entry>
   <entry>
@@ -2741,7 +3019,7 @@ amzn_assoc_title = "Shop Related Products";
 <h3 id="Chapter-3-Analytic-Geometry"><a href="#Chapter-3-Analytic-Geometry" class="headerlink" title="Chapter 3 Analytic Geometry"></a>Chapter 3 Analytic Geometry</h3><p><a href="/mml-exercise-3-1.html">#3.1</a>, <a href="/mml-exercise-3-2.html">#3.2</a>, <a href="/mml-exercise-3-3.html">#3.3</a>, <a href="/mml-exercise-3-4.html">#3.4</a>, <a href="/mml-exercise-3-5.html">#3.5</a>, <a href="/mml-exercise-3-6.html">#3.6</a>, <a href="/mml-exercise-3-7.html">#3.7</a>, <a href="/mml-exercise-3-8.html">#3.8</a>, <a href="/mml-exercise-3-9.html">#3.9</a>, <a href="/mml-exercise-3-10.html">#3.10</a></p>
 <h3 id="Chapter-4-Matrix-Decompositions"><a href="#Chapter-4-Matrix-Decompositions" class="headerlink" title="Chapter 4 Matrix Decompositions"></a>Chapter 4 Matrix Decompositions</h3><p><a href="/mml-exercise-4-1.html">#4.1</a>, <a href="/mml-exercise-4-2.html">#4.2</a>, <a href="/mml-exercise-4-3.html">#4.3</a>, <a href="/mml-exercise-4-4.html">#4.4</a>, <a href="/mml-exercise-4-5.html">#4.5</a>, <a href="/mml-exercise-4-6.html">#4.6</a>, <a href="/mml-exercise-4-7.html">#4.7</a>, <a href="/mml-exercise-4-8.html">#4.8</a>, <a href="/mml-exercise-4-9.html">#4.9</a>, <a href="/mml-exercise-4-10.html">#4.10</a>, <a href="/mml-exercise-4-11.html">#4.11</a>, <a href="/mml-exercise-4-12.html">#4.12</a></p>
 <h3 id="Chapter-5-Vector-Calculus"><a href="#Chapter-5-Vector-Calculus" class="headerlink" title="Chapter 5 Vector Calculus"></a>Chapter 5 Vector Calculus</h3><p><a href="/mml-exercise-5-1.html">#5.1</a>, <a href="/mml-exercise-5-2.html">#5.2</a>, <a href="/mml-exercise-5-3.html">#5.3</a>, <a href="/mml-exercise-5-4.html">#5.4</a>, <a href="/mml-exercise-5-5.html">#5.5</a>, <a href="/mml-exercise-5-6.html">#5.6</a>, <a href="/mml-exercise-5-7.html">#5.7</a>, <a href="/mml-exercise-5-8.html">#5.8</a>, <a href="/mml-exercise-5-9.html">#5.9</a></p>
-<h3 id="Chapter-6-Probability-and-Distributions"><a href="#Chapter-6-Probability-and-Distributions" class="headerlink" title="Chapter 6 Probability and Distributions"></a>Chapter 6 Probability and Distributions</h3><p><a href="/mml-exercise-6-1.html">#6.1</a>, <a href="/mml-exercise-6-2.html">#6.2</a>, <a href="/mml-exercise-6-3.html">#6.3</a>, <a href="/mml-exercise-6-4.html">#6.4</a>, #6.5, <a href="/mml-exercise-6-6.html">#6.6</a>, <a href="/mml-exercise-6-7.html">#6.7</a>, <a href="/mml-exercise-6-8.html">#6.8</a>, <a href="/mml-exercise-6-9.html">#6.9</a>, #6.10, #6.11, #6.12, #6.13</p>
+<h3 id="Chapter-6-Probability-and-Distributions"><a href="#Chapter-6-Probability-and-Distributions" class="headerlink" title="Chapter 6 Probability and Distributions"></a>Chapter 6 Probability and Distributions</h3><p><a href="/mml-exercise-6-1.html">#6.1</a>, <a href="/mml-exercise-6-2.html">#6.2</a>, <a href="/mml-exercise-6-3.html">#6.3</a>, <a href="/mml-exercise-6-4.html">#6.4</a>, <a href="/mml-exercise-6-5.html">#6.5</a>, <a href="/mml-exercise-6-6.html">#6.6</a>, <a href="/mml-exercise-6-7.html">#6.7</a>, <a href="/mml-exercise-6-8.html">#6.8</a>, <a href="/mml-exercise-6-9.html">#6.9</a>, <a href="/mml-exercise-6-10.html">#6.10</a>, <a href="/mml-exercise-6-11.html">#6.11</a>, <a href="/mml-exercise-6-12.html">#6.12</a>, <a href="/mml-exercise-6-13.html">#6.13</a></p>
 <h3 id="Chapter-7-Continuous-Optimazation"><a href="#Chapter-7-Continuous-Optimazation" class="headerlink" title="Chapter 7 Continuous Optimazation"></a>Chapter 7 Continuous Optimazation</h3><p><a href="/mml-exercise-7-1.html">#7.1</a>, #7.2, <a href="/mml-exercise-7-3.html">#7.3</a>, <a href="/mml-exercise-7-4.html">#7.4</a>, #7.5, <a href="/mml-exercise-7-6.html">#7.6</a>, <a href="/mml-exercise-7-7.html">#7.7</a>, #7.8, #7.9, #7.10, #7.11</p>
 <script type="text/javascript">
 amzn_assoc_placement = "adunit0";
@@ -2764,54 +3042,6 @@ amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
       <tags>
         <tag>Solution Manual</tag>
         <tag>Solution Content</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Exist a linear combination of two relatively prime polynomials having no multiple roots</title>
-    <url>//problems/0003-linear-algebra.html</url>
-    <content><![CDATA[<div class="note info">
-            <p>Problem 3</p>
-          </div>
-
-<p>Let $f(x)$ and $g(x)$ be two relatively prime polynomials in $x$. Prove that there must exists a (real or complex) number $s$ such that $f(x)+sg(x)$ has no multiple root.</p>
-<a id="more"></a>
-
-<hr>
-<p><strong>Solution</strong></p>
-<p>We argue it by contradiction. Suppose $f(x)+sg(x)$ has a multiple root (maybe complex) for every number $s$. Let $x_s$ be one of the multiple root of $f(x)+sg(x)$ (note that $x_s$ may change as $s$ varies), then we have</p>
-<p>$$<br>f(x_s)+sg(x_s)=0,<br>$$</p>
-<p>$$<br>f’(x_s)+sg’(x_s)=0.<br>$$</p>
-<p>This implies that the vector $(1,s)^T$ is a solution to the system of homogeneous equations with the coefficient matrix </p>
-<p>$$<br>\begin{bmatrix} f(x_s) &amp; g(x_s)\\ f’(x_s) &amp; g’(x_s)\end{bmatrix}.<br>$$ </p>
-<p>Hence its determinant must be zero, that is </p>
-<p>$$<br>f(x_s)g’(x_s)-f’(x_s)g(x_s)=0.<br>$$</p>
-<p>Let $h(x)$ be the polynomial $f(x)g’(x)-f’(x)g(x)$ (this is indeed the Wronskian of $f(x)$ and $g(x)$). Then $h(x)$ is not zero since otherwise we have $f(x)|f’(x)g(x)$ while $f(x)$ and $g(x)$ are relatively prime and $f(x)$ does divide $f’(x)$.</p>
-<p>Denote by $K$ the set of solutions of $h(x)$. Since $h(x)$ is non-zero, $K$ is a finite set. By our observation above, we have $x_s\in K$ for every $s$. Because $K$ is finite, there exists an element $\alpha\in K$ which corresponds to $x_s$ for infinitely many $s$. That implies $f(\alpha)+sg(\alpha)=0$ for infinitely many $s$ which holds only when $f(\alpha)=g(\alpha)=0$, contradicting with the fact that $f(x)$ and $g(x)$ are relatively prime (i.e. no common root). This completes the proof.</p>
-<div class="note default">
-            <p>In general, Wronskian is the tool to check if functions are linearly independent. Wronksian is nonzero if and only if they are linearly independent. Clearly, in this case, $f(x)$ and $g(x)$ are linearly independent and hence the Wronskian $h(x)$ can not be zero. </p>
-          </div>
-
-<script type="text/javascript">
-amzn_assoc_placement = "adunit0";
-amzn_assoc_search_bar = "true";
-amzn_assoc_tracking_id = "linearalgeb0e-20";
-amzn_assoc_search_bar_position = "bottom";
-amzn_assoc_ad_mode = "search";
-amzn_assoc_ad_type = "smart";
-amzn_assoc_marketplace = "amazon";
-amzn_assoc_region = "US";
-amzn_assoc_title = "Shop Related Products";
-amzn_assoc_default_search_phrase = "Linear Algebra";
-amzn_assoc_default_category = "All";
-amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
-</script><br />
-<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
-      <categories>
-        <category>Linear Algebra</category>
-      </categories>
-      <tags>
-        <tag>Polynomial</tag>
-        <tag>Root</tag>
       </tags>
   </entry>
   <entry>
@@ -2913,6 +3143,54 @@ amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
         <tag>Invertibility</tag>
         <tag>Ring</tag>
         <tag>Unit</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Exist a linear combination of two relatively prime polynomials having no multiple roots</title>
+    <url>//problems/0003-linear-algebra.html</url>
+    <content><![CDATA[<div class="note info">
+            <p>Problem 3</p>
+          </div>
+
+<p>Let $f(x)$ and $g(x)$ be two relatively prime polynomials in $x$. Prove that there must exists a (real or complex) number $s$ such that $f(x)+sg(x)$ has no multiple root.</p>
+<a id="more"></a>
+
+<hr>
+<p><strong>Solution</strong></p>
+<p>We argue it by contradiction. Suppose $f(x)+sg(x)$ has a multiple root (maybe complex) for every number $s$. Let $x_s$ be one of the multiple root of $f(x)+sg(x)$ (note that $x_s$ may change as $s$ varies), then we have</p>
+<p>$$<br>f(x_s)+sg(x_s)=0,<br>$$</p>
+<p>$$<br>f’(x_s)+sg’(x_s)=0.<br>$$</p>
+<p>This implies that the vector $(1,s)^T$ is a solution to the system of homogeneous equations with the coefficient matrix </p>
+<p>$$<br>\begin{bmatrix} f(x_s) &amp; g(x_s)\\ f’(x_s) &amp; g’(x_s)\end{bmatrix}.<br>$$ </p>
+<p>Hence its determinant must be zero, that is </p>
+<p>$$<br>f(x_s)g’(x_s)-f’(x_s)g(x_s)=0.<br>$$</p>
+<p>Let $h(x)$ be the polynomial $f(x)g’(x)-f’(x)g(x)$ (this is indeed the Wronskian of $f(x)$ and $g(x)$). Then $h(x)$ is not zero since otherwise we have $f(x)|f’(x)g(x)$ while $f(x)$ and $g(x)$ are relatively prime and $f(x)$ does divide $f’(x)$.</p>
+<p>Denote by $K$ the set of solutions of $h(x)$. Since $h(x)$ is non-zero, $K$ is a finite set. By our observation above, we have $x_s\in K$ for every $s$. Because $K$ is finite, there exists an element $\alpha\in K$ which corresponds to $x_s$ for infinitely many $s$. That implies $f(\alpha)+sg(\alpha)=0$ for infinitely many $s$ which holds only when $f(\alpha)=g(\alpha)=0$, contradicting with the fact that $f(x)$ and $g(x)$ are relatively prime (i.e. no common root). This completes the proof.</p>
+<div class="note default">
+            <p>In general, Wronskian is the tool to check if functions are linearly independent. Wronksian is nonzero if and only if they are linearly independent. Clearly, in this case, $f(x)$ and $g(x)$ are linearly independent and hence the Wronskian $h(x)$ can not be zero. </p>
+          </div>
+
+<script type="text/javascript">
+amzn_assoc_placement = "adunit0";
+amzn_assoc_search_bar = "true";
+amzn_assoc_tracking_id = "linearalgeb0e-20";
+amzn_assoc_search_bar_position = "bottom";
+amzn_assoc_ad_mode = "search";
+amzn_assoc_ad_type = "smart";
+amzn_assoc_marketplace = "amazon";
+amzn_assoc_region = "US";
+amzn_assoc_title = "Shop Related Products";
+amzn_assoc_default_search_phrase = "Linear Algebra";
+amzn_assoc_default_category = "All";
+amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
+</script><br />
+<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
+      <categories>
+        <category>Linear Algebra</category>
+      </categories>
+      <tags>
+        <tag>Polynomial</tag>
+        <tag>Root</tag>
       </tags>
   </entry>
 </search>
