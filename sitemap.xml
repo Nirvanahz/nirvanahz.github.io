@@ -564,6 +564,20 @@
   </url>
   
   <url>
+    <loc>http://clanlu.com/tags/Abelian-Group/</loc>
+    <lastmod>2021-02-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://clanlu.com/tags/Group/</loc>
+    <lastmod>2021-02-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://clanlu.com/tags/Vector-Space/</loc>
     <lastmod>2021-02-20</lastmod>
     <changefreq>daily</changefreq>
@@ -579,20 +593,6 @@
   
   <url>
     <loc>http://clanlu.com/tags/Linear-Combination/</loc>
-    <lastmod>2021-02-20</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://clanlu.com/tags/Abelian-Group/</loc>
-    <lastmod>2021-02-20</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://clanlu.com/tags/Group/</loc>
     <lastmod>2021-02-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -802,7 +802,7 @@
   </url>
   
   <url>
-    <loc>http://clanlu.com/tags/Quotient-Rule/</loc>
+    <loc>http://clanlu.com/tags/Product-Rule/</loc>
     <lastmod>2021-02-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -816,14 +816,14 @@
   </url>
   
   <url>
-    <loc>http://clanlu.com/tags/Logistic/</loc>
+    <loc>http://clanlu.com/tags/Quotient-Rule/</loc>
     <lastmod>2021-02-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://clanlu.com/tags/Product-Rule/</loc>
+    <loc>http://clanlu.com/tags/Logistic/</loc>
     <lastmod>2021-02-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -858,13 +858,6 @@
   </url>
   
   <url>
-    <loc>http://clanlu.com/tags/Gaussian-Distribution/</loc>
-    <lastmod>2021-02-20</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://clanlu.com/tags/Distribution/</loc>
     <lastmod>2021-02-20</lastmod>
     <changefreq>daily</changefreq>
@@ -872,14 +865,21 @@
   </url>
   
   <url>
-    <loc>http://clanlu.com/tags/Probability/</loc>
+    <loc>http://clanlu.com/tags/Random-Variables/</loc>
     <lastmod>2021-02-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://clanlu.com/tags/Random-Variables/</loc>
+    <loc>http://clanlu.com/tags/Gaussian-Distribution/</loc>
+    <lastmod>2021-02-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://clanlu.com/tags/Probability/</loc>
     <lastmod>2021-02-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
