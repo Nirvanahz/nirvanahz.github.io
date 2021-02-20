@@ -676,13 +676,6 @@
   </url>
   
   <url>
-    <loc>http://clanlu.com/tags/Angle/</loc>
-    <lastmod>2021-02-20</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://clanlu.com/tags/Orthogonal-Projection/</loc>
     <lastmod>2021-02-20</lastmod>
     <changefreq>daily</changefreq>
@@ -718,7 +711,7 @@
   </url>
   
   <url>
-    <loc>http://clanlu.com/tags/Gram-Schmidt/</loc>
+    <loc>http://clanlu.com/tags/Angle/</loc>
     <lastmod>2021-02-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -726,6 +719,13 @@
   
   <url>
     <loc>http://clanlu.com/tags/Cauchy-Schwarz-inequality/</loc>
+    <lastmod>2021-02-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://clanlu.com/tags/Gram-Schmidt/</loc>
     <lastmod>2021-02-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -746,13 +746,6 @@
   </url>
   
   <url>
-    <loc>http://clanlu.com/tags/SVD/</loc>
-    <lastmod>2021-02-20</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://clanlu.com/tags/Eigenvector/</loc>
     <lastmod>2021-02-20</lastmod>
     <changefreq>daily</changefreq>
@@ -761,6 +754,13 @@
   
   <url>
     <loc>http://clanlu.com/tags/Eigenvalue/</loc>
+    <lastmod>2021-02-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://clanlu.com/tags/SVD/</loc>
     <lastmod>2021-02-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
