@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://clanlu.com/mml-exercise-6-7.html</loc>
+    
+    <lastmod>2021-02-23</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://clanlu.com/ode/laplace-transform.html</loc>
     
     <lastmod>2021-02-23</lastmod>
@@ -108,13 +115,6 @@
   
   <url>
     <loc>http://clanlu.com/mml-exercise-6-6.html</loc>
-    
-    <lastmod>2021-02-12</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://clanlu.com/mml-exercise-6-7.html</loc>
     
     <lastmod>2021-02-12</lastmod>
     
@@ -599,13 +599,6 @@
   </url>
   
   <url>
-    <loc>http://clanlu.com/tags/Linear-Combination/</loc>
-    <lastmod>2021-02-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://clanlu.com/tags/Basis/</loc>
     <lastmod>2021-02-23</lastmod>
     <changefreq>daily</changefreq>
@@ -614,6 +607,13 @@
   
   <url>
     <loc>http://clanlu.com/tags/Linear-Equations/</loc>
+    <lastmod>2021-02-23</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://clanlu.com/tags/Linear-Combination/</loc>
     <lastmod>2021-02-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -655,14 +655,14 @@
   </url>
   
   <url>
-    <loc>http://clanlu.com/tags/Subspace/</loc>
+    <loc>http://clanlu.com/tags/Inner-Product/</loc>
     <lastmod>2021-02-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://clanlu.com/tags/Inner-Product/</loc>
+    <loc>http://clanlu.com/tags/Subspace/</loc>
     <lastmod>2021-02-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
