@@ -1,0 +1,266 @@
+<!DOCTYPE html><html lang="en" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Diagonalizable cyclic operator has $n$ distinct characteristic values | Clanlu Math</title><meta name="keywords" content="Eigenvalue,Minimal Polynomial,Cyclic Vector"><meta name="author" content="Clanlu"><meta name="copyright" content="Clanlu"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="Solution to Linear Algebra Hoffman &amp;#038; Kunze Chapter 7.1 Exercise 7.1.7 Let $V$ be an $n$-dimensional vector space, and let $T$ be a linear operator on $V$. Suppose that $T$ is diagonalizable. (a)">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Diagonalizable cyclic operator has $n$ distinct characteristic values">
+<meta property="og:url" content="http://clanlu.com/lahk/linear-algebra-exercise-7-1-7.html">
+<meta property="og:site_name" content="Clanlu Math">
+<meta property="og:description" content="Solution to Linear Algebra Hoffman &amp;#038; Kunze Chapter 7.1 Exercise 7.1.7 Let $V$ be an $n$-dimensional vector space, and let $T$ be a linear operator on $V$. Suppose that $T$ is diagonalizable. (a)">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/media/image/3.jpg">
+<meta property="article:published_time" content="2020-05-06T22:13:20.000Z">
+<meta property="article:modified_time" content="2020-05-06T22:13:20.000Z">
+<meta property="article:author" content="Clanlu">
+<meta property="article:tag" content="Eigenvalue">
+<meta property="article:tag" content="Minimal Polynomial">
+<meta property="article:tag" content="Cyclic Vector">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/media/image/3.jpg"><link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/MathPage/gitalk/img/apple-icon-72x72.png"><link rel="canonical" href="http://clanlu.com/lahk/linear-algebra-exercise-7-1-7"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//www.google-analytics.com" crossorigin=""/><link rel="preconnect" href="//busuanzi.ibruce.info"/><meta name="google-site-verification" content="QwkaXRmtLDcpnplkqLLbHXuGI_1YM2UsB-0U7gstP9Y"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><script async="async" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><script>(adsbygoogle = window.adsbygoogle || []).push({
+  google_ad_client: 'ca-pub-5289197296725423',
+  enable_page_level_ads: 'true'
+});</script><script async="async" src="https://www.googletagmanager.com/gtag/js?id=UA-120253876-1"></script><script>window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-120253876-1');
+</script><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"search.xml","languages":{"hits_empty":"We didn't find any results for the search: ${query}"}},
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true},
+  copy: {
+    success: 'Copy successfully',
+    error: 'Copy error',
+    noSupport: 'The browser does not support'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: 'days',
+  date_suffix: {
+    just: 'Just',
+    min: 'minutes ago',
+    hour: 'hours ago',
+    day: 'days ago',
+    month: 'months ago'
+  },
+  copyright: undefined,
+  lightbox: 'null',
+  Snackbar: undefined,
+  source: {
+    jQuery: 'https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js',
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css'
+    },
+    fancybox: {
+      js: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isanchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = { 
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2020-05-06 18:13:20'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const fontSizeVal = saveToLocal.get('global-font-size')
+    if (fontSizeVal !== undefined) {
+      document.documentElement.style.setProperty('--global-font-size', fontSizeVal + 'px')
+    }
+    })(window)</script><link rel="preconnect" href="https://fonts.gstatic.com"><link href="https://fonts.googleapis.com/css2?family=Mate:ital@0;1&display=swap" rel="stylesheet"><meta name="generator" content="Hexo 5.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="author-avatar"><img class="avatar-img" src="https://cdn.jsdelivr.net/gh/MathPage/gitalk/img/yin-yang.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data"><div class="data-item is-center"><div class="data-item-link"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">220</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/tags/"><div class="headline">Tags</div><div class="length-num">127</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/categories/"><div class="headline">Categories</div><div class="length-num">11</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="not-top-img" id="page-header"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">Clanlu Math</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> Search</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav></header><main class="layout" id="content-inner"><div id="post"><div id="post-info"><h1 class="post-title">Diagonalizable cyclic operator has $n$ distinct characteristic values</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">Created</span><time class="post-meta-date-created" datetime="2020-05-06T22:13:20.000Z" title="Created 2020-05-06 18:13:20">2020-05-06</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">Updated</span><time class="post-meta-date-updated" datetime="2020-05-06T22:13:20.000Z" title="Updated 2020-05-06 18:13:20">2020-05-06</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/Linear-Algebra/">Linear Algebra</a><i class="fas fa-angle-right post-meta-separator"></i><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/Linear-Algebra/Linear-Algebra-Hoffman-Kunze/">Linear Algebra Hoffman-Kunze</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">Post View:</span><span id="busuanzi_value_page_pv"></span></span><span class="post-meta-separator">|</span><span class="post-meta-commentcount"><i class="far fa-comments fa-fw post-meta-icon"></i><span class="post-meta-label">Comments:</span><a href="/lahk/linear-algebra-exercise-7-1-7.html#post-comment" itemprop="discussionUrl"><span class="valine-comment-count" data-xid="/lahk/linear-algebra-exercise-7-1-7.html" itemprop="commentCount"></span></a></span></div></div></div><article class="post-content" id="article-container"><p><strong><a href="/hoffman-kunze/solution-linear-algebra-second-edition.html">Solution to Linear Algebra Hoffman &#038; Kunze</a> Chapter 7.1 Exercise 7.1.7</strong></p>
+<p>Let $V$ be an $n$-dimensional vector space, and let $T$ be a linear operator on $V$. Suppose that $T$ is diagonalizable.</p>
+<p>(a) If $T$ has a cyclic vector, show that has $n$ distinct characteristic values.</p>
+<p>(b) If $T$ has $n$ distinct characteristic values, and if $\{\alpha_1,\dots,\alpha_n\}$ is a basis of characteristic vectors for $T$. Show that $\alpha=\alpha_1+\cdots+\alpha_n$ is a cyclic vector for $T$.</p>
+<a id="more"></a>
+<hr>
+<p>Solution:</p>
+<p>(a) Since $T$ is diagonalizable, let $p$ be the minimal polynomial of $T$,\[p(x)=(x-z_1)\cdots(x-z_k),\]where $z_1,\dots,z_k$ are all distinct characteristic values for $T$, see Theorem 6 in page 204. Since $T$ has a cyclic vector. Hence $p$ is also the characteristic polynomial for $T$, which has degree $n$. Therefore $k=n$. That is $T$ has $n$ distinct characteristic values.</p>
+<p>(b) Let $z_i$ be the characteristic value for $T$ corresponding to $\alpha_i$. Then $T^k\alpha_i=z_i^k\alpha_i$. Thus for any polynomial $g$, we have\[g(T)\alpha=\sum_{i=1}^n g(z_i)\alpha_i.\]Since $z_i$ are all distinct, we can choose\[g_i(x)=\frac{(x-z_1)\cdots(x-z_{i-1})(x-z_{i+1})\cdots(x-z_n)}{(z_i-z_1)\cdots(z_i-z_{i-1})(z_i-z_{i+1})\cdots(z_i-z_n)}.\]Recall from Section 4.3, we have $g_i(z_j)=\delta_{ij}$. Therefore\[g_i(T)\alpha=\alpha_i.\]Hence $Z(\alpha,T)$ contains a basis $\{\alpha_1,\dots,\alpha_n\}$ of $V$. So $\alpha$ is a cyclic vector for $T$.</p>
+<script type="text/javascript">
+amzn_assoc_placement = "adunit0";
+amzn_assoc_search_bar = "true";
+amzn_assoc_tracking_id = "linearalgeb0e-20";
+amzn_assoc_search_bar_position = "bottom";
+amzn_assoc_ad_mode = "search";
+amzn_assoc_ad_type = "smart";
+amzn_assoc_marketplace = "amazon";
+amzn_assoc_region = "US";
+amzn_assoc_title = "Shop Related Products";
+amzn_assoc_default_search_phrase = "Linear Algebra";
+amzn_assoc_default_category = "All";
+amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
+</script><br />
+<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script></article><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/Eigenvalue/">Eigenvalue</a><a class="post-meta__tags" href="/tags/Minimal-Polynomial/">Minimal Polynomial</a><a class="post-meta__tags" href="/tags/Cyclic-Vector/">Cyclic Vector</a></div><div class="post_share"><div class="social-share" data-image="https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/media/image/3.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/lahk/linear-algebra-exercise-6-8-15.html"><img class="prev-cover" src="https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/media/image/9.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">Previous Post</div><div class="prev_info">Characteristic polynomial for a nilpotent linear operator is $x^n$</div></div></a></div><div class="next-post pull-right"><a href="/lahk/linear-algebra-exercise-7-1-8.html"><img class="next-cover" src="https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/media/image/3.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">Next Post</div><div class="next_info">Operators which commute with a cyclic operator are polynomial in this cyclic operator</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span> Related Articles</span></div><div class="relatedPosts-list"><div><a href="lahk/linear-algebra-exercise-6-4-4.html" title="Find a basis such that the operator is represented as a triangular matrix"><img class="cover" src="https://i.loli.net/2020/08/31/v6Cp1Lb2a79cmf3.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2020-05-15</div><div class="title">Find a basis such that the operator is represented as a triangular matrix</div></div></a></div><div><a href="mml-exercise-4-11.html" title="$AA^T$ and $A^TA$ has the same nonzero eigenvalues"><img class="cover" src="https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/media/image/10.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2021-01-29</div><div class="title">$AA^T$ and $A^TA$ has the same nonzero eigenvalues</div></div></a></div><div><a href="mml-exercise-4-12.html" title="The largest singular value of a matrix"><img class="cover" src="https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/media/image/3.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2021-01-29</div><div class="title">The largest singular value of a matrix</div></div></a></div><div><a href="mml-exercise-4-3.html" title="Compute the eigenspaces of two by two matrices"><img class="cover" src="https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/media/image/7.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2021-01-29</div><div class="title">Compute the eigenspaces of two by two matrices</div></div></a></div><div><a href="mml-exercise-4-4.html" title="Compute the eigenspaces of a 4 by 4 matrices"><img class="cover" src="https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/media/image/9.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2021-01-29</div><div class="title">Compute the eigenspaces of a 4 by 4 matrices</div></div></a></div><div><a href="mml-exercise-4-10.html" title="Find the best rank-1 approximation of a matrix"><img class="cover" src="https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/media/image/5.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2021-01-30</div><div class="title">Find the best rank-1 approximation of a matrix</div></div></a></div></div></div><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> Comment</span></div></div><div class="comment-wrap"><div><div class="vcomment" id="vcomment"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="card-info-avatar is-center"><img class="avatar-img" src="https://cdn.jsdelivr.net/gh/MathPage/gitalk/img/yin-yang.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/><div class="author-info__name">Clanlu</div><div class="author-info__description">We discuss challenging math problems in Linear Algebra, Abstract Algebra, Probability Theory, and Convex Optimization related to Machine Learning</div></div><div class="card-info-data"><div class="card-info-data-item is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">220</div></a></div><div class="card-info-data-item is-center"><a href="/tags/"><div class="headline">Tags</div><div class="length-num">127</div></a></div><div class="card-info-data-item is-center"><a href="/categories/"><div class="headline">Categories</div><div class="length-num">11</div></a></div></div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>Recent Post</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/ode/laplace-transform.html" title="An introduction to Laplace Transform"><img src="https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/media/image/9.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="An introduction to Laplace Transform"/></a><div class="content"><a class="title" href="/ode/laplace-transform.html" title="An introduction to Laplace Transform">An introduction to Laplace Transform</a><time datetime="2021-02-21T21:59:47.410Z" title="Created 2021-02-21 16:59:47">2021-02-21</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/ode/homogeneous-linear-constant-coefficients.html" title="Solving homogeneous linear differential equations with constant coefficients"><img src="https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/media/image/4.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Solving homogeneous linear differential equations with constant coefficients"/></a><div class="content"><a class="title" href="/ode/homogeneous-linear-constant-coefficients.html" title="Solving homogeneous linear differential equations with constant coefficients">Solving homogeneous linear differential equations with constant coefficients</a><time datetime="2021-02-20T19:52:43.184Z" title="Created 2021-02-20 14:52:43">2021-02-20</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/mml-exercise-6-5.html" title="A time series model and Gaussian noise variable"><img src="https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/media/image/2.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="A time series model and Gaussian noise variable"/></a><div class="content"><a class="title" href="/mml-exercise-6-5.html" title="A time series model and Gaussian noise variable">A time series model and Gaussian noise variable</a><time datetime="2021-02-12T15:31:44.773Z" title="Created 2021-02-12 10:31:44">2021-02-12</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/mml-exercise-6-13.html" title="Probability Integral Transformation and uniform distribution"><img src="https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/media/image/8.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Probability Integral Transformation and uniform distribution"/></a><div class="content"><a class="title" href="/mml-exercise-6-13.html" title="Probability Integral Transformation and uniform distribution">Probability Integral Transformation and uniform distribution</a><time datetime="2021-02-12T15:24:14.906Z" title="Created 2021-02-12 10:24:14">2021-02-12</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/mml-exercise-6-12.html" title="Manipulation of Gaussian Random Variables"><img src="https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/media/image/4.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Manipulation of Gaussian Random Variables"/></a><div class="content"><a class="title" href="/mml-exercise-6-12.html" title="Manipulation of Gaussian Random Variables">Manipulation of Gaussian Random Variables</a><time datetime="2021-02-12T15:13:57.393Z" title="Created 2021-02-12 10:13:57">2021-02-12</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2021 By Clanlu</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="font-plus" type="button" title="Increase font size"><i class="fas fa-plus"></i></button><button id="font-minus" type="button" title="Decrease font size"><i class="fas fa-minus"></i></button><button id="darkmode" type="button" title="Switch Between Light And Dark Mode"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="Toggle between single-column and double-column"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="Setting"><i class="fas fa-cog fa-spin"></i></button><a id="to_comment" href="#post-comment" title="Scroll To Comments"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="Back To Top"><i class="fas fa-arrow-up"></i></button></div></div><div id="local-search"><div class="search-dialog"><div class="search-dialog__title" id="local-search-title">Local search</div><div id="local-input-panel"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="Search for Posts" type="text"/></div></div></div><hr/><div id="local-search-results"></div><span class="search-close-button"><i class="fas fa-times"></i></span></div><div id="search-mask"></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/search/local-search.js"></script><div class="js-pjax"><script>if (!window.MathJax) {
+  window.MathJax = {
+    loader: {
+      source: {
+        '[tex]/amsCd': '[tex]/amscd'
+      }
+    },
+    tex: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"]],
+      tags: 'ams'
+    },
+    options: {
+      renderActions: {
+        findScript: [10, doc => {
+          for (const node of document.querySelectorAll('script[type^="math/tex"]')) {
+            const display = !!node.type.match(/; *mode=display/)
+            const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display)
+            const text = document.createTextNode('')
+            node.parentNode.replaceChild(text, node)
+            math.start = {node: text, delim: '', n: 0}
+            math.end = {node: text, delim: '', n: 0}
+            doc.math.push(math)
+          }
+        }, ''],
+        addClass: [200,() => {
+          document.querySelectorAll('mjx-container:not([display=\'true\']').forEach( node => {
+            const target = node.parentNode
+            if (!target.classList.contains('has-jax')) {
+              target.classList.add('mathjax-overflow')
+            }
+          })
+        }, '', false]
+      }
+    }
+  }
+  
+  const script = document.createElement('script')
+  script.src = 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js'
+  script.id = 'MathJax-script'
+  script.async = true
+  document.head.appendChild(script)
+} else {
+  MathJax.startup.document.state(0)
+  MathJax.texReset()
+  MathJax.typeset()
+}</script><script>function loadValine () {
+  function initValine () {
+    let initData = {
+      el: '#vcomment',
+      appId: 'NiGogDw3Y2N3dlHWQv2hvo9J-MdYXbMMI',
+      appKey: 'mnW7WwT4VchGPby8o6RkscP8',
+      placeholder: 'Just go go! (Comment supports Mathjax/LaTeX)',
+      avatar: 'monsterid',
+      meta: 'nick,mail,link'.split(','),
+      pageSize: '10',
+      lang: 'en',
+      recordIP: false,
+      serverURLs: '',
+      emojiCDN: '',
+      emojiMaps: "",
+      enableQQ: false,
+      path: window.location.pathname,
+    }
+
+    if (true) { 
+      initData.requiredFields= ('nick,mail'.split(','))
+    }
+    
+    if (false) {
+      const otherData = false
+      initData = Object.assign(initData, otherData)
+    }
+    
+    const valine = new Valine(initData)
+  }
+
+  if (typeof Valine === 'function') initValine() 
+  else getScript('https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js').then(initValine)
+}
+
+if ('Valine' === 'Valine' || !false) {
+  if (false) btf.loadComment(document.getElementById('vcomment'),loadValine)
+  else setTimeout(loadValine, 0)
+} else {
+  function loadOtherComment () {
+    loadValine()
+  }
+}</script></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
