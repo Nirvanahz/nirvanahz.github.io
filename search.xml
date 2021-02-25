@@ -1,6 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Solution Manual to Introduction to Applied Linear Algebra</title>
+    <url>/iala-solution-manual.html</url>
+    <content><![CDATA[<p>Below is the official solution manual of Introduction to Applied Linear Algebra (Vectors, Matrices, and Least Squares) by Stephen Boyd, Lieven Vandenberghe</p>
+<a id="more"></a>
+
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=linearalgeb0e-20&language=en_US&marketplace=amazon&region=US&placement=1316518965&asins=1316518965&linkId=5b547b0f446ebd6256527418fe0e2bde&show_border=true&link_opens_in_new_window=true"></iframe>
+
+<p><a href="https://drive.google.com/file/d/1wBJMfbWsPL5lq6T6SA8m3iQeCVrbRkiQ/view?usp=sharing">Solution Manual to Introduction to Applied Linear Algebra via Google Drive</a></p>
+<p><a href="https://drive.google.com/file/d/1wBJMfbWsPL5lq6T6SA8m3iQeCVrbRkiQ/view?usp=sharing">https://drive.google.com/file/d/1wBJMfbWsPL5lq6T6SA8m3iQeCVrbRkiQ/view?usp=sharing</a></p>
+<script type="text/javascript">
+amzn_assoc_placement = "adunit0";
+amzn_assoc_search_bar = "true";
+amzn_assoc_tracking_id = "linearalgeb0e-20";
+amzn_assoc_search_bar_position = "bottom";
+amzn_assoc_ad_mode = "search";
+amzn_assoc_ad_type = "smart";
+amzn_assoc_marketplace = "amazon";
+amzn_assoc_region = "US";
+amzn_assoc_title = "Shop Related Products";
+amzn_assoc_default_search_phrase = "Linear Algebra";
+amzn_assoc_default_category = "All";
+amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
+</script><br />
+<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
+      <categories>
+        <category>Machine Learning</category>
+      </categories>
+      <tags>
+        <tag>Solution Manual</tag>
+        <tag>Solution Content</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Verify a set with certain binary operation is an Abelian group</title>
     <url>/mml-exercise-2-1.html</url>
     <content><![CDATA[<div class="note info flat"><p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 2 Exercise 2.1</strong></p>
@@ -35,39 +68,6 @@ amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
       <tags>
         <tag>Abelian Group</tag>
         <tag>Group</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Solution Manual to Introduction to Applied Linear Algebra</title>
-    <url>/iala-solution-manual.html</url>
-    <content><![CDATA[<p>Below is the official solution manual of Introduction to Applied Linear Algebra (Vectors, Matrices, and Least Squares) by Stephen Boyd, Lieven Vandenberghe</p>
-<a id="more"></a>
-
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=linearalgeb0e-20&language=en_US&marketplace=amazon&region=US&placement=1316518965&asins=1316518965&linkId=5b547b0f446ebd6256527418fe0e2bde&show_border=true&link_opens_in_new_window=true"></iframe>
-
-<p><a href="https://drive.google.com/file/d/1wBJMfbWsPL5lq6T6SA8m3iQeCVrbRkiQ/view?usp=sharing">Solution Manual to Introduction to Applied Linear Algebra via Google Drive</a></p>
-<p><a href="https://drive.google.com/file/d/1wBJMfbWsPL5lq6T6SA8m3iQeCVrbRkiQ/view?usp=sharing">https://drive.google.com/file/d/1wBJMfbWsPL5lq6T6SA8m3iQeCVrbRkiQ/view?usp=sharing</a></p>
-<script type="text/javascript">
-amzn_assoc_placement = "adunit0";
-amzn_assoc_search_bar = "true";
-amzn_assoc_tracking_id = "linearalgeb0e-20";
-amzn_assoc_search_bar_position = "bottom";
-amzn_assoc_ad_mode = "search";
-amzn_assoc_ad_type = "smart";
-amzn_assoc_marketplace = "amazon";
-amzn_assoc_region = "US";
-amzn_assoc_title = "Shop Related Products";
-amzn_assoc_default_search_phrase = "Linear Algebra";
-amzn_assoc_default_category = "All";
-amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
-</script><br />
-<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
-      <categories>
-        <category>Machine Learning</category>
-      </categories>
-      <tags>
-        <tag>Solution Manual</tag>
-        <tag>Solution Content</tag>
       </tags>
   </entry>
   <entry>
@@ -223,6 +223,47 @@ amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
       </tags>
   </entry>
   <entry>
+    <title>Find a basis of the intersection of two solution spaces II</title>
+    <url>/mml-exercise-2-14.html</url>
+    <content><![CDATA[<div class="note info flat"><p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 2 Exercise 2.14</strong></p>
+</div>
+
+<a id="more"></a>
+
+<p>Solution:</p>
+<p><strong>Part a</strong></p>
+<p>Observe that these matrices are the same as those used in the previous parts, except now our spaces $U_1$ and $U_2$ are different. We now have $\dim (U_1)=\mathsf{rank}(A_1)=2$ and $\dim(U_2) = \mathsf{rank} (A_2)=2$.</p>
+<p><strong>Part b</strong></p>
+<p>We are looking for two linearly independent columns in each of our matrices – we need two non-zero columns, and they can’t be a multiple of each other. For example, the first two columns of each matrix will do as a basis for each space.</p>
+<p><strong>Part c</strong></p>
+<p>Note that $\mathsf{rank}([A_1|A_2])=3$, i.e. $\dim(U_1+U_2)=3$ (Note that $[A_1|A_2]$ is just the $4\times 6$ matrix formed by concatenating $A_1$ and $A_2$.) This means that $$\dim (U_1\cap U_2) = \dim(U_1)+\dim(U_2)-\dim(U_1+U_2) = 2+2-3=1,$$ so again, to find a basis of $U_1\cap U_2$, we need only find a non-zero vector in the space. We proceed in a similar way to Question 2.12.</p>
+<p>Firstly, we observe that we can write $v_3=v_1+v_2$ and $v_6=v_4+v_5$, so these two vectors can safely be ignored. Secondly, observe that $\left[v_1|v_2|v_5\right]$ has rank three, so (using the notation of Question 12) if we take $\alpha_4=1$, say, and solve then we have $\alpha_1=3$, $\alpha_2=1$, and $\alpha_5=0$. In other words, our non-zero vector is $3v_1+v_2 = v_4 = (3,1,7,3)^{\mathsf{T}}$, and our basis of $U_1\cap U_2$ is $\{ (3,1,7,3)^{\mathsf{T}} \}$.</p>
+<script type="text/javascript">
+amzn_assoc_placement = "adunit0";
+amzn_assoc_search_bar = "true";
+amzn_assoc_tracking_id = "linearalgeb0e-20";
+amzn_assoc_search_bar_position = "bottom";
+amzn_assoc_ad_mode = "search";
+amzn_assoc_ad_type = "smart";
+amzn_assoc_marketplace = "amazon";
+amzn_assoc_region = "US";
+amzn_assoc_title = "Shop Related Products";
+amzn_assoc_default_search_phrase = "Linear Algebra";
+amzn_assoc_default_category = "All";
+amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
+</script><br />
+<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
+      <categories>
+        <category>Machine Learning</category>
+        <category>Linear Algebra</category>
+      </categories>
+      <tags>
+        <tag>Vector Space</tag>
+        <tag>Basis</tag>
+        <tag>Linear Equations</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Find a basis of the intersection of two solution spaces III</title>
     <url>/mml-exercise-2-15.html</url>
     <content><![CDATA[<div class="note info flat"><p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 2 Exercise 2.15</strong></p>
@@ -264,21 +305,24 @@ amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
       </tags>
   </entry>
   <entry>
-    <title>Find a basis of the intersection of two solution spaces II</title>
-    <url>/mml-exercise-2-14.html</url>
-    <content><![CDATA[<div class="note info flat"><p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 2 Exercise 2.14</strong></p>
+    <title>Determine if maps are linear mappings</title>
+    <url>/mml-exercise-2-16.html</url>
+    <content><![CDATA[<div class="note info flat"><p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 2 Exercise 2.16</strong></p>
 </div>
 
 <a id="more"></a>
 
 <p>Solution:</p>
 <p><strong>Part a</strong></p>
-<p>Observe that these matrices are the same as those used in the previous parts, except now our spaces $U_1$ and $U_2$ are different. We now have $\dim (U_1)=\mathsf{rank}(A_1)=2$ and $\dim(U_2) = \mathsf{rank} (A_2)=2$.</p>
+<p>Observe that \begin{align*}\Phi(f+g) = &amp; \ \int_a^b (f+g)(x) dx \\=&amp;\ \int_a^b f(x) + g(x) dx\\ =&amp;\ \int_a^bf(x) dx +\int_a^b g(x) dx = \Phi(f) + \Phi(g),\end{align*} and similarly $\Phi(\alpha f) = \alpha \Phi(f)$, for all real $\alpha$, so $\Phi$ (that is to say, definite integration) is indeed linear!</p>
 <p><strong>Part b</strong></p>
-<p>We are looking for two linearly independent columns in each of our matrices – we need two non-zero columns, and they can’t be a multiple of each other. For example, the first two columns of each matrix will do as a basis for each space.</p>
+<p>Similarly to the previous part, we know that differentiation is indeed linear.</p>
 <p><strong>Part c</strong></p>
-<p>Note that $\mathsf{rank}([A_1|A_2])=3$, i.e. $\dim(U_1+U_2)=3$ (Note that $[A_1|A_2]$ is just the $4\times 6$ matrix formed by concatenating $A_1$ and $A_2$.) This means that $$\dim (U_1\cap U_2) = \dim(U_1)+\dim(U_2)-\dim(U_1+U_2) = 2+2-3=1,$$ so again, to find a basis of $U_1\cap U_2$, we need only find a non-zero vector in the space. We proceed in a similar way to Question 2.12.</p>
-<p>Firstly, we observe that we can write $v_3=v_1+v_2$ and $v_6=v_4+v_5$, so these two vectors can safely be ignored. Secondly, observe that $\left[v_1|v_2|v_5\right]$ has rank three, so (using the notation of Question 12) if we take $\alpha_4=1$, say, and solve then we have $\alpha_1=3$, $\alpha_2=1$, and $\alpha_5=0$. In other words, our non-zero vector is $3v_1+v_2 = v_4 = (3,1,7,3)^{\mathsf{T}}$, and our basis of $U_1\cap U_2$ is $\{ (3,1,7,3)^{\mathsf{T}} \}$.</p>
+<p>This is not linear – $\Phi$ doesn’t even map 0 to 0, indeed!</p>
+<p><strong>Part d</strong></p>
+<p>We know from 2.7.1 that any matrix transformation like this is indeed linear. This comes from distributive properties of matrix multiplication.</p>
+<p><strong>Part e</strong></p>
+<p>As before, this mapping is also linear. Indeed, this represents a clockwise rotation by $\theta$ about the origin. (See 3.9.1)</p>
 <script type="text/javascript">
 amzn_assoc_placement = "adunit0";
 amzn_assoc_search_bar = "true";
@@ -300,8 +344,8 @@ amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
       </categories>
       <tags>
         <tag>Vector Space</tag>
-        <tag>Basis</tag>
-        <tag>Linear Equations</tag>
+        <tag>Function</tag>
+        <tag>Linear Map</tag>
       </tags>
   </entry>
   <entry>
@@ -415,50 +459,6 @@ amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
         <tag>Vector Space</tag>
         <tag>Linear Map</tag>
         <tag>Automorphism</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Determine if maps are linear mappings</title>
-    <url>/mml-exercise-2-16.html</url>
-    <content><![CDATA[<div class="note info flat"><p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 2 Exercise 2.16</strong></p>
-</div>
-
-<a id="more"></a>
-
-<p>Solution:</p>
-<p><strong>Part a</strong></p>
-<p>Observe that \begin{align*}\Phi(f+g) = &amp; \ \int_a^b (f+g)(x) dx \\=&amp;\ \int_a^b f(x) + g(x) dx\\ =&amp;\ \int_a^bf(x) dx +\int_a^b g(x) dx = \Phi(f) + \Phi(g),\end{align*} and similarly $\Phi(\alpha f) = \alpha \Phi(f)$, for all real $\alpha$, so $\Phi$ (that is to say, definite integration) is indeed linear!</p>
-<p><strong>Part b</strong></p>
-<p>Similarly to the previous part, we know that differentiation is indeed linear.</p>
-<p><strong>Part c</strong></p>
-<p>This is not linear – $\Phi$ doesn’t even map 0 to 0, indeed!</p>
-<p><strong>Part d</strong></p>
-<p>We know from 2.7.1 that any matrix transformation like this is indeed linear. This comes from distributive properties of matrix multiplication.</p>
-<p><strong>Part e</strong></p>
-<p>As before, this mapping is also linear. Indeed, this represents a clockwise rotation by $\theta$ about the origin. (See 3.9.1)</p>
-<script type="text/javascript">
-amzn_assoc_placement = "adunit0";
-amzn_assoc_search_bar = "true";
-amzn_assoc_tracking_id = "linearalgeb0e-20";
-amzn_assoc_search_bar_position = "bottom";
-amzn_assoc_ad_mode = "search";
-amzn_assoc_ad_type = "smart";
-amzn_assoc_marketplace = "amazon";
-amzn_assoc_region = "US";
-amzn_assoc_title = "Shop Related Products";
-amzn_assoc_default_search_phrase = "Linear Algebra";
-amzn_assoc_default_category = "All";
-amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
-</script><br />
-<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
-      <categories>
-        <category>Machine Learning</category>
-        <category>Linear Algebra</category>
-      </categories>
-      <tags>
-        <tag>Vector Space</tag>
-        <tag>Linear Map</tag>
-        <tag>Function</tag>
       </tags>
   </entry>
   <entry>
@@ -2139,6 +2139,47 @@ amzn_assoc_rows = "2";
       </tags>
   </entry>
   <entry>
+    <title>Computation involving iterated expectations and conditional probability</title>
+    <url>/mml-exercise-6-11.html</url>
+    <content><![CDATA[<div class="note info flat"><p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 6 Exercise 6.11</strong></p>
+</div>
+
+<a id="more"></a>
+
+<p>Solution: </p>
+<p>The expectation value and the conditional expectation value are given by</p>
+<p>$$ \mathbb{E}_X[x] = \int x p(x) dx,\\ \mathbb{E}_Y[f(y)] = \int f(y) p(y) dy,\\ \mathbb{E}_X[x|y] = \int x p(x|y) dx $$</p>
+<p>We then have</p>
+<p>\begin{align*}\mathbb{E}_Y\left[\mathbb{E}_X[x|y]\right] =&amp;\ \int \mathbb{E}_X[x|y] p(y) dy = \int \left[\int xp(x|y)dx\right]p(y) dy \\=&amp;\ \int \int xp(x|y)p(y)dx dy = \int\int xp(x,y)dxdy\\ =&amp;\ \int x\left[\int p(x,y) dy\right] dx = \int x p(x) dx = \mathbb{E}_X[x], \end{align*}</p>
+<p>where we used the definition fo the conditional probability density</p>
+<p>$$ p(x|y)p(y) = p(x,y). $$</p>
+<script type="text/javascript">
+amzn_assoc_placement = "adunit0";
+amzn_assoc_search_bar = "true";
+amzn_assoc_tracking_id = "linearalgeb0e-20";
+amzn_assoc_search_bar_position = "bottom";
+amzn_assoc_ad_mode = "search";
+amzn_assoc_ad_type = "smart";
+amzn_assoc_marketplace = "amazon";
+amzn_assoc_region = "US";
+amzn_assoc_title = "Shop Related Products";
+amzn_assoc_default_search_phrase = "Statistics";
+amzn_assoc_default_category = "All";
+amzn_assoc_linkid = "a1702ca86c77f1a4b0df1c05cdf77dce";
+amzn_assoc_rows = "2";
+</script>
+<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
+      <categories>
+        <category>Machine Learning</category>
+        <category>Statistics</category>
+      </categories>
+      <tags>
+        <tag>Probability</tag>
+        <tag>Expectation</tag>
+        <tag>Random Variable</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Manipulation of Gaussian Random Variables</title>
     <url>/mml-exercise-6-12.html</url>
     <content><![CDATA[<div class="note info flat"><p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 6 Exercise 6.12</strong></p>
@@ -2300,20 +2341,24 @@ amzn_assoc_rows = "2";
       </tags>
   </entry>
   <entry>
-    <title>Computation involving iterated expectations and conditional probability</title>
-    <url>/mml-exercise-6-11.html</url>
-    <content><![CDATA[<div class="note info flat"><p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 6 Exercise 6.11</strong></p>
+    <title>Compute the posterior distribution of a Bernoulli distribution</title>
+    <url>/mml-exercise-6-3.html</url>
+    <content><![CDATA[<div class="note info flat"><p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 6 Exercise 6.3</strong></p>
 </div>
 
 <a id="more"></a>
 
 <p>Solution: </p>
-<p>The expectation value and the conditional expectation value are given by</p>
-<p>$$ \mathbb{E}_X[x] = \int x p(x) dx,\\ \mathbb{E}_Y[f(y)] = \int f(y) p(y) dy,\\ \mathbb{E}_X[x|y] = \int x p(x|y) dx $$</p>
-<p>We then have</p>
-<p>\begin{align*}\mathbb{E}_Y\left[\mathbb{E}_X[x|y]\right] =&amp;\ \int \mathbb{E}_X[x|y] p(y) dy = \int \left[\int xp(x|y)dx\right]p(y) dy \\=&amp;\ \int \int xp(x|y)p(y)dx dy = \int\int xp(x,y)dxdy\\ =&amp;\ \int x\left[\int p(x,y) dy\right] dx = \int x p(x) dx = \mathbb{E}_X[x], \end{align*}</p>
-<p>where we used the definition fo the conditional probability density</p>
-<p>$$ p(x|y)p(y) = p(x,y). $$</p>
+<p>The conjugate prior to the Bernoulli distribution is the Beta distribution</p>
+<p>$$ p(\mu | \alpha, \beta) =\frac{1}{\mathcal{B}(\alpha, \beta)} \mu^{\alpha -1}(1-\mu)^{\beta-1} \propto \mu^{\alpha -1}(1-\mu)^{\beta-1}, $$</p>
+<p>where $\alpha,\beta$ are not necessarily integers and the normalization coefficient si the Beta function defined as</p>
+<p>$$ \mathcal{B}(\alpha, \beta) = \int_0^1 t^{\alpha -1}(1-t)^{\beta-1}dt $$</p>
+<p>The likelihood of observing data $\{x_1, x_2, …, x_N\}$ is</p>
+<p>$$p(x_1, …, x_N|\mu) = \prod_{i=1}^Np(x_i|\mu) = \prod_{i=1}^N \mu^{x_i}(1-\mu)^{1-x_i} = \mu^{\sum_{i=1}^N x_i}(1-\mu)^{N-\sum_{i=1}^N x_i} $$</p>
+<p>The posterior distribution is proportional to teh rpoduct of this likelihood with teh prior distribution (Bayes theorem):</p>
+<p>$$ p(\mu |x_1, …, x_N) \propto p(x_1, …, x_N|\mu)p(\mu | \alpha, \beta) \propto \mu^{\sum_{i=1}^N x_i + \alpha -1}(1-\mu)^{N-\sum_{i=1}^N x_i +\beta -1} $$</p>
+<p>This is also a Beta distribution, i.e. our choice of the gonjugate prior was correct. The normalization constant is readily determined:</p>
+<p>$$ p(\mu |x_1, …, x_N) = \frac{1}{\mathcal{B}(\sum_{i=1}^N x_i + \alpha -1, N-\sum_{i=1}^N x_i +\beta -1)} \mu^{\sum_{i=1}^N x_i + \alpha -1}(1-\mu)^{N-\sum_{i=1}^N x_i +\beta -1} $$</p>
 <script type="text/javascript">
 amzn_assoc_placement = "adunit0";
 amzn_assoc_search_bar = "true";
@@ -2335,9 +2380,9 @@ amzn_assoc_rows = "2";
         <category>Statistics</category>
       </categories>
       <tags>
-        <tag>Probability</tag>
-        <tag>Random Variable</tag>
-        <tag>Expectation</tag>
+        <tag>Distribution</tag>
+        <tag>Random Variables</tag>
+        <tag>Bernoulli Distribution</tag>
       </tags>
   </entry>
   <entry>
@@ -2440,51 +2485,6 @@ amzn_assoc_rows = "2";
         <tag>Probability</tag>
         <tag>Random Variable</tag>
         <tag>Time Series</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Compute the posterior distribution of a Bernoulli distribution</title>
-    <url>/mml-exercise-6-3.html</url>
-    <content><![CDATA[<div class="note info flat"><p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 6 Exercise 6.3</strong></p>
-</div>
-
-<a id="more"></a>
-
-<p>Solution: </p>
-<p>The conjugate prior to the Bernoulli distribution is the Beta distribution</p>
-<p>$$ p(\mu | \alpha, \beta) =\frac{1}{\mathcal{B}(\alpha, \beta)} \mu^{\alpha -1}(1-\mu)^{\beta-1} \propto \mu^{\alpha -1}(1-\mu)^{\beta-1}, $$</p>
-<p>where $\alpha,\beta$ are not necessarily integers and the normalization coefficient si the Beta function defined as</p>
-<p>$$ \mathcal{B}(\alpha, \beta) = \int_0^1 t^{\alpha -1}(1-t)^{\beta-1}dt $$</p>
-<p>The likelihood of observing data $\{x_1, x_2, …, x_N\}$ is</p>
-<p>$$p(x_1, …, x_N|\mu) = \prod_{i=1}^Np(x_i|\mu) = \prod_{i=1}^N \mu^{x_i}(1-\mu)^{1-x_i} = \mu^{\sum_{i=1}^N x_i}(1-\mu)^{N-\sum_{i=1}^N x_i} $$</p>
-<p>The posterior distribution is proportional to teh rpoduct of this likelihood with teh prior distribution (Bayes theorem):</p>
-<p>$$ p(\mu |x_1, …, x_N) \propto p(x_1, …, x_N|\mu)p(\mu | \alpha, \beta) \propto \mu^{\sum_{i=1}^N x_i + \alpha -1}(1-\mu)^{N-\sum_{i=1}^N x_i +\beta -1} $$</p>
-<p>This is also a Beta distribution, i.e. our choice of the gonjugate prior was correct. The normalization constant is readily determined:</p>
-<p>$$ p(\mu |x_1, …, x_N) = \frac{1}{\mathcal{B}(\sum_{i=1}^N x_i + \alpha -1, N-\sum_{i=1}^N x_i +\beta -1)} \mu^{\sum_{i=1}^N x_i + \alpha -1}(1-\mu)^{N-\sum_{i=1}^N x_i +\beta -1} $$</p>
-<script type="text/javascript">
-amzn_assoc_placement = "adunit0";
-amzn_assoc_search_bar = "true";
-amzn_assoc_tracking_id = "linearalgeb0e-20";
-amzn_assoc_search_bar_position = "bottom";
-amzn_assoc_ad_mode = "search";
-amzn_assoc_ad_type = "smart";
-amzn_assoc_marketplace = "amazon";
-amzn_assoc_region = "US";
-amzn_assoc_title = "Shop Related Products";
-amzn_assoc_default_search_phrase = "Statistics";
-amzn_assoc_default_category = "All";
-amzn_assoc_linkid = "a1702ca86c77f1a4b0df1c05cdf77dce";
-amzn_assoc_rows = "2";
-</script>
-<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
-      <categories>
-        <category>Machine Learning</category>
-        <category>Statistics</category>
-      </categories>
-      <tags>
-        <tag>Distribution</tag>
-        <tag>Random Variables</tag>
-        <tag>Bernoulli Distribution</tag>
       </tags>
   </entry>
   <entry>
@@ -3091,6 +3091,73 @@ amzn_assoc_asins = "1493927116,1461462703,0471000051,0471000078,1259064786,10772
       </tags>
   </entry>
   <entry>
+    <title>Using the principle of mathematical induction to show divisibility I</title>
+    <url>/elementary-analysis/1-06.html</url>
+    <content><![CDATA[<div class="note info flat"><p>Solution to Elementary Analysis: The Theory of Calculus Second Edition Section 1 Exercise 1.6</p>
+</div>
+
+<a id="more"></a>
+
+<p>Solution: The $n$-th proposition is<br>$$<br>P_n: \quad 7 \text{ divides } 11^n-4^n.<br>$$ Clearly, $P_1$ is true because $11^1-4^1$ is exactly 7. We have the induction basis.</p>
+<p>Now we assume $P_n$ is true, that is $7$ divides $11^n-4^n$. We would like to show $P_{n+1}$ is true based on $P_n$. Note that we have<br>\begin{align*}<br>11^{n+1}-4^{n+1}=&amp;\ 11^{n+1}-4\cdot 11^n+4\cdot 11^n -4^{n+1}\\<br>=&amp;\ (11\cdot 11^n-4\cdot 11^n)+(4\cdot 11^n -4^{n+1})\\<br>=&amp;\ 7\cdot 11^n+4(11^n-4^n).<br>\end{align*} Since $7$ divides $11^n-4^n$ by $P_n$, we have $7\cdot 11^n+4(11^n-4^n)$ is divisible by $7$. By the equation above, we conlude that $11^{n+1}-4^{n+1}$ is divisible by 7. Therefore $P_{n+1}$ is true if $P_n$ is true. By the principle of mathematical induction, we make the conclusion that $P_n$ is true for all positive integers $n$.</p>
+<div class="note default flat"><p>This statement also follows from the following well-known formula,<br>$$<br>x^n-y^n=(x-y)(x^{n-1}+x^{n-2}\cdot y+\cdots x\cdot y^{n-2}+y^{n-1}).<br>$$ Let $x=11$ and $y=4$, we have<br>$$<br>11^n-4^n=7(11^{n-1}+4\cdot 11^{n-2}+\cdots + 4^{n-2}\cdot 11+4^{n-1}).<br>$$</p>
+</div>
+
+<script type="text/javascript">
+amzn_assoc_placement = "adunit0";
+amzn_assoc_search_bar = "true";
+amzn_assoc_tracking_id = "linearalgeb0e-20";
+amzn_assoc_ad_mode = "manual";
+amzn_assoc_ad_type = "smart";
+amzn_assoc_marketplace = "amazon";
+amzn_assoc_region = "US";
+amzn_assoc_title = "My recommendations on Calculus and Analysis";
+amzn_assoc_linkid = "cfda343bc63399373d473026228d47e1";
+amzn_assoc_asins = "1493927116,1461462703,0471000051,0471000078,1259064786,1077254547,366248790X,1285741552";
+</script>
+<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
+      <categories>
+        <category>Solution</category>
+        <category>Elementary Analysis</category>
+      </categories>
+      <tags>
+        <tag>Induction</tag>
+        <tag>Number Theory</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Using the principle of mathematical induction to show divisibility II</title>
+    <url>/elementary-analysis/1-07.html</url>
+    <content><![CDATA[<div class="note info flat"><p>Solution to Elementary Analysis: The Theory of Calculus Second Edition Section 1 Exercise 1.7</p>
+</div>
+
+<a id="more"></a>
+
+<p>Solution: The $n$-th proposition is<br>$$<br>P_n: \quad 36 \text{ divides } 7^n-6n-1.<br>$$ Clearly, $P_1$ is true because $7^1-6\cdot 1-1$ is zero which is divisible by any nonzero integer. We have the induction basis.</p>
+<p>Now we assume $P_n$ is true, that is $36$ divides $7^n-6n-1$. We would like to show $P_{n+1}$ is true based on $P_n$. Note that we have<br>\begin{equation}\label{eq:1-7-1}<br>7^{n+1}-6(n+1)-1=36n+7\big(7^n-6n-1\big).<br>\end{equation} Since $36$ divides $7^n-6n-1$ by $P_n$, we have $36n+7\big(7^n-6n-1\big)$ is divisible by $36$. By \eqref{eq:1-7-1}, we conlude that $7^{n+1}-6(n+1)-1$ is divisible by 36. Therefore $P_{n+1}$ is true if $P_n$ is true. By the principle of mathematical induction, we make the conclusion that $P_n$ is true for all positive integers $n$.</p>
+<script type="text/javascript">
+amzn_assoc_placement = "adunit0";
+amzn_assoc_search_bar = "true";
+amzn_assoc_tracking_id = "linearalgeb0e-20";
+amzn_assoc_ad_mode = "manual";
+amzn_assoc_ad_type = "smart";
+amzn_assoc_marketplace = "amazon";
+amzn_assoc_region = "US";
+amzn_assoc_title = "My recommendations on Calculus and Analysis";
+amzn_assoc_linkid = "cfda343bc63399373d473026228d47e1";
+amzn_assoc_asins = "1493927116,1461462703,0471000051,0471000078,1259064786,1077254547,366248790X,1285741552";
+</script>
+<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
+      <categories>
+        <category>Solution</category>
+        <category>Elementary Analysis</category>
+      </categories>
+      <tags>
+        <tag>Induction</tag>
+        <tag>Number Theory</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Using the principle of mathematical induction to show identities IV</title>
     <url>/elementary-analysis/1-04.html</url>
     <content><![CDATA[<div class="note info flat"><p>Solution to Elementary Analysis: The Theory of Calculus Second Edition Section 1 Exercise 1.4</p>
@@ -3130,39 +3197,7 @@ amzn_assoc_asins = "1493927116,1461462703,0471000051,0471000078,1259064786,10772
       </tags>
   </entry>
   <entry>
-    <title>Using the principle of mathematical induction to show divisibility II</title>
-    <url>/elementary-analysis/1-07.html</url>
-    <content><![CDATA[<div class="note info flat"><p>Solution to Elementary Analysis: The Theory of Calculus Second Edition Section 1 Exercise 1.7</p>
-</div>
-
-<a id="more"></a>
-
-<p>Solution: The $n$-th proposition is<br>$$<br>P_n: \quad 36 \text{ divides } 7^n-6n-1.<br>$$ Clearly, $P_1$ is true because $7^1-6\cdot 1-1$ is zero which is divisible by any nonzero integer. We have the induction basis.</p>
-<p>Now we assume $P_n$ is true, that is $36$ divides $7^n-6n-1$. We would like to show $P_{n+1}$ is true based on $P_n$. Note that we have<br>\begin{equation}\label{eq:1-7-1}<br>7^{n+1}-6(n+1)-1=36n+7\big(7^n-6n-1\big).<br>\end{equation} Since $36$ divides $7^n-6n-1$ by $P_n$, we have $36n+7\big(7^n-6n-1\big)$ is divisible by $36$. By \eqref{eq:1-7-1}, we conlude that $7^{n+1}-6(n+1)-1$ is divisible by 36. Therefore $P_{n+1}$ is true if $P_n$ is true. By the principle of mathematical induction, we make the conclusion that $P_n$ is true for all positive integers $n$.</p>
-<script type="text/javascript">
-amzn_assoc_placement = "adunit0";
-amzn_assoc_search_bar = "true";
-amzn_assoc_tracking_id = "linearalgeb0e-20";
-amzn_assoc_ad_mode = "manual";
-amzn_assoc_ad_type = "smart";
-amzn_assoc_marketplace = "amazon";
-amzn_assoc_region = "US";
-amzn_assoc_title = "My recommendations on Calculus and Analysis";
-amzn_assoc_linkid = "cfda343bc63399373d473026228d47e1";
-amzn_assoc_asins = "1493927116,1461462703,0471000051,0471000078,1259064786,1077254547,366248790X,1285741552";
-</script>
-<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
-      <categories>
-        <category>Solution</category>
-        <category>Elementary Analysis</category>
-      </categories>
-      <tags>
-        <tag>Induction</tag>
-        <tag>Number Theory</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Using the principle of mathematical induction to show inequalities</title>
+    <title>Using the principle of mathematical induction to show inequalities I</title>
     <url>/elementary-analysis/1-08.html</url>
     <content><![CDATA[<div class="note info flat"><p>Solution to Elementary Analysis: The Theory of Calculus Second Edition Section 1 Exercise 1.8</p>
 </div>
@@ -3198,6 +3233,42 @@ amzn_assoc_asins = "1493927116,1461462703,0471000051,0471000078,1259064786,10772
       </tags>
   </entry>
   <entry>
+    <title>Using the principle of mathematical induction to show inequalities II</title>
+    <url>/elementary-analysis/1-09.html</url>
+    <content><![CDATA[<div class="note info flat"><p>Solution to Elementary Analysis: The Theory of Calculus Second Edition Section 1 Exercise 1.9</p>
+</div>
+
+<a id="more"></a>
+
+<p>Solution: </p>
+<h3 id="Part-a"><a href="#Part-a" class="headerlink" title="Part a"></a>Part a</h3><p>If $n=1$, $2^1=2$ and $1^2=1$. True!<br>If $n=2$, $2^2=4$ and $2^2=4$. False!<br>If $n=3$, $2^3=8$ and $3^2=9$. False!<br>If $n=4$, $2^4=16$ and $4^2=16$. False!<br>If $n=5$, $2^5=32$ and $5^2=25$. True!<br>If $n=6$, $2^6=64$ and $6^2=36$. True!</p>
+<p>We probably should guess that $2^n&gt;n^2$ is true for all integers $n\ge 5$.</p>
+<hr>
+<h3 id="Part-b"><a href="#Part-b" class="headerlink" title="Part b"></a>Part b</h3><p>The $n$-th proposition is<br>$$<br>P_n: \quad 2^n&gt; n^2.<br>$$ Clearly, $P_5$ is true as we checked in Part a. We have the induction basis.</p>
+<p>Now we assume $P_n$ is true (here we assume that $n\ge 5$), that is $2^n&gt; n^2$. We would like to show $P_{n+1}$ is true based on $P_n$. Note that $n\ge 5$, we have<br>\begin{equation}\label{eq:1-9-1}<br>n^2\ge 5n&gt;3n\ge 2n+1.<br>\end{equation} Therefore<br>\begin{align*}<br>2^{n+1}=&amp;\ 2\cdot 2^n&gt; 2\cdot n^2\\<br>=&amp;\ n^2+n^2&gt;n^2+2n+1=(n+1)^2.<br>\end{align*} Here in the last inequality we used \eqref{eq:1-9-1}. Therefore $P_{n+1}$ is true if $P_n$ is true. By the principle of mathematical induction, we make the conclusion that $P_n$ is true for all positive integers $n$.</p>
+<script type="text/javascript">
+amzn_assoc_placement = "adunit0";
+amzn_assoc_search_bar = "true";
+amzn_assoc_tracking_id = "linearalgeb0e-20";
+amzn_assoc_ad_mode = "manual";
+amzn_assoc_ad_type = "smart";
+amzn_assoc_marketplace = "amazon";
+amzn_assoc_region = "US";
+amzn_assoc_title = "My recommendations on Calculus and Analysis";
+amzn_assoc_linkid = "cfda343bc63399373d473026228d47e1";
+amzn_assoc_asins = "1493927116,1461462703,0471000051,0471000078,1259064786,1077254547,366248790X,1285741552";
+</script>
+<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
+      <categories>
+        <category>Solution</category>
+        <category>Elementary Analysis</category>
+      </categories>
+      <tags>
+        <tag>Induction</tag>
+        <tag>Inequality</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Solution to Elementary Analysis The Theory of Calculus Second Edition</title>
     <url>/elementary-analysis/toc.html</url>
     <content><![CDATA[<div class="note info flat"><p><a href="https://amzn.to/3dF59Lt">Elementary Analysis: The Theory of Calculus Second Edition</a> by Kenneth A. Ross</p>
@@ -3205,7 +3276,7 @@ amzn_assoc_asins = "1493927116,1461462703,0471000051,0471000078,1259064786,10772
 
 <a id="more"></a>
 
-<h3 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h3><h4 id="The-Set-of-Natural-Numbers"><a href="#The-Set-of-Natural-Numbers" class="headerlink" title="The Set of Natural Numbers"></a>The Set of Natural Numbers</h4><p><a href="/elementary-analysis/1-01.html">#1</a>, <a href="/elementary-analysis/1-02.html">#2</a>, <a href="/elementary-analysis/1-03.html">#3</a>, <a href="/elementary-analysis/1-04.html">#4</a>, <a href="/elementary-analysis/1-05.html">#5</a>, <a href="/elementary-analysis/1-06.html">#6</a></p>
+<h3 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h3><h4 id="The-Set-of-Natural-Numbers"><a href="#The-Set-of-Natural-Numbers" class="headerlink" title="The Set of Natural Numbers"></a>The Set of Natural Numbers</h4><p><a href="/elementary-analysis/1-01.html">#1</a>, <a href="/elementary-analysis/1-02.html">#2</a>, <a href="/elementary-analysis/1-03.html">#3</a>, <a href="/elementary-analysis/1-04.html">#4</a>, <a href="/elementary-analysis/1-05.html">#5</a>, <a href="/elementary-analysis/1-06.html">#6</a>, <a href="/elementary-analysis/1-07.html">#7</a>, <a href="/elementary-analysis/1-08.html">#8</a>, <a href="/elementary-analysis/1-09.html">#9</a></p>
 <script type="text/javascript">
 amzn_assoc_placement = "adunit0";
 amzn_assoc_search_bar = "true";
@@ -3228,41 +3299,6 @@ amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
       <tags>
         <tag>Solution Manual</tag>
         <tag>Solution Content</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Using the principle of mathematical induction to show divisibility I</title>
-    <url>/elementary-analysis/1-06.html</url>
-    <content><![CDATA[<div class="note info flat"><p>Solution to Elementary Analysis: The Theory of Calculus Second Edition Section 1 Exercise 1.6</p>
-</div>
-
-<a id="more"></a>
-
-<p>Solution: The $n$-th proposition is<br>$$<br>P_n: \quad 7 \text{ divides } 11^n-4^n.<br>$$ Clearly, $P_1$ is true because $11^1-4^1$ is exactly 7. We have the induction basis.</p>
-<p>Now we assume $P_n$ is true, that is $7$ divides $11^n-4^n$. We would like to show $P_{n+1}$ is true based on $P_n$. Note that we have<br>\begin{align*}<br>11^{n+1}-4^{n+1}=&amp;\ 11^{n+1}-4\cdot 11^n+4\cdot 11^n -4^{n+1}\\<br>=&amp;\ (11\cdot 11^n-4\cdot 11^n)+(4\cdot 11^n -4^{n+1})\\<br>=&amp;\ 7\cdot 11^n+4(11^n-4^n).<br>\end{align*} Since $7$ divides $11^n-4^n$ by $P_n$, we have $7\cdot 11^n+4(11^n-4^n)$ is divisible by $7$. By the equation above, we conlude that $11^{n+1}-4^{n+1}$ is divisible by 7. Therefore $P_{n+1}$ is true if $P_n$ is true. By the principle of mathematical induction, we make the conclusion that $P_n$ is true for all positive integers $n$.</p>
-<div class="note default flat"><p>This statement also follows from the following well-known formula,<br>$$<br>x^n-y^n=(x-y)(x^{n-1}+x^{n-2}\cdot y+\cdots x\cdot y^{n-2}+y^{n-1}).<br>$$ Let $x=11$ and $y=4$, we have<br>$$<br>11^n-4^n=7(11^{n-1}+4\cdot 11^{n-2}+\cdots + 4^{n-2}\cdot 11+4^{n-1}).<br>$$</p>
-</div>
-
-<script type="text/javascript">
-amzn_assoc_placement = "adunit0";
-amzn_assoc_search_bar = "true";
-amzn_assoc_tracking_id = "linearalgeb0e-20";
-amzn_assoc_ad_mode = "manual";
-amzn_assoc_ad_type = "smart";
-amzn_assoc_marketplace = "amazon";
-amzn_assoc_region = "US";
-amzn_assoc_title = "My recommendations on Calculus and Analysis";
-amzn_assoc_linkid = "cfda343bc63399373d473026228d47e1";
-amzn_assoc_asins = "1493927116,1461462703,0471000051,0471000078,1259064786,1077254547,366248790X,1285741552";
-</script>
-<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
-      <categories>
-        <category>Solution</category>
-        <category>Elementary Analysis</category>
-      </categories>
-      <tags>
-        <tag>Induction</tag>
-        <tag>Number Theory</tag>
       </tags>
   </entry>
   <entry>
