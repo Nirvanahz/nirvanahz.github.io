@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://clanlu.com/elementary-analysis-toc.html</loc>
+    
+    <lastmod>2021-02-26</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://clanlu.com/elementary-analysis-1-12.html</loc>
+    
+    <lastmod>2021-02-26</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://clanlu.com/elementary-analysis-1-11.html</loc>
+    
+    <lastmod>2021-02-26</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://clanlu.com/elementary-analysis-1-10.html</loc>
     
     <lastmod>2021-02-26</lastmod>
@@ -52,13 +73,6 @@
   
   <url>
     <loc>http://clanlu.com/elementary-analysis-1-03.html</loc>
-    
-    <lastmod>2021-02-25</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://clanlu.com/elementary-analysis-toc.html</loc>
     
     <lastmod>2021-02-25</lastmod>
     
@@ -662,6 +676,20 @@
   </url>
   
   <url>
+    <loc>http://clanlu.com/tags/Binomial-Theorem/</loc>
+    <lastmod>2021-02-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://clanlu.com/tags/Bonomial-Coefficient/</loc>
+    <lastmod>2021-02-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://clanlu.com/tags/Solution-Manual/</loc>
     <lastmod>2021-02-26</lastmod>
     <changefreq>daily</changefreq>
@@ -725,14 +753,14 @@
   </url>
   
   <url>
-    <loc>http://clanlu.com/tags/Linear-Map/</loc>
+    <loc>http://clanlu.com/tags/Function/</loc>
     <lastmod>2021-02-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://clanlu.com/tags/Function/</loc>
+    <loc>http://clanlu.com/tags/Linear-Map/</loc>
     <lastmod>2021-02-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1019,13 +1047,6 @@
   </url>
   
   <url>
-    <loc>http://clanlu.com/tags/Bernoulli-Distribution/</loc>
-    <lastmod>2021-02-26</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://clanlu.com/tags/Bayes%E2%80%99-Theorem/</loc>
     <lastmod>2021-02-26</lastmod>
     <changefreq>daily</changefreq>
@@ -1041,6 +1062,13 @@
   
   <url>
     <loc>http://clanlu.com/tags/Variance/</loc>
+    <lastmod>2021-02-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://clanlu.com/tags/Bernoulli-Distribution/</loc>
     <lastmod>2021-02-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1138,34 +1166,6 @@
   </url>
   
   <url>
-    <loc>http://clanlu.com/tags/Linear-Differential-Equation/</loc>
-    <lastmod>2021-02-26</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://clanlu.com/tags/Auxiliary-Equation/</loc>
-    <lastmod>2021-02-26</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://clanlu.com/tags/Laplace-Transform/</loc>
-    <lastmod>2021-02-26</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://clanlu.com/tags/Integration-by-Parts/</loc>
-    <lastmod>2021-02-26</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://clanlu.com/tags/Finite-Group/</loc>
     <lastmod>2021-02-26</lastmod>
     <changefreq>daily</changefreq>
@@ -1202,6 +1202,34 @@
   
   <url>
     <loc>http://clanlu.com/tags/Root/</loc>
+    <lastmod>2021-02-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://clanlu.com/tags/Linear-Differential-Equation/</loc>
+    <lastmod>2021-02-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://clanlu.com/tags/Auxiliary-Equation/</loc>
+    <lastmod>2021-02-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://clanlu.com/tags/Laplace-Transform/</loc>
+    <lastmod>2021-02-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://clanlu.com/tags/Integration-by-Parts/</loc>
     <lastmod>2021-02-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1252,13 +1280,6 @@
   </url>
   
   <url>
-    <loc>http://clanlu.com/categories/Tutorial/</loc>
-    <lastmod>2021-02-26</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://clanlu.com/categories/Problems/</loc>
     <lastmod>2021-02-26</lastmod>
     <changefreq>daily</changefreq>
@@ -1266,7 +1287,7 @@
   </url>
   
   <url>
-    <loc>http://clanlu.com/categories/Tutorial/Differential-Equation/</loc>
+    <loc>http://clanlu.com/categories/Tutorial/</loc>
     <lastmod>2021-02-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1281,6 +1302,13 @@
   
   <url>
     <loc>http://clanlu.com/categories/Problems/Linear-Algebra/</loc>
+    <lastmod>2021-02-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://clanlu.com/categories/Tutorial/Differential-Equation/</loc>
     <lastmod>2021-02-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
