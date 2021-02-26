@@ -509,7 +509,7 @@ amzn_assoc_asins = "1493927116,1461462703,0471000051,0471000078,1259064786,10772
 <div class="note default flat"><p>Our main tool is Corollary 2.3.</p>
 </div>
 
-<p>Solution: First, we need to find an equation with integer coefficients such that $\sqrt[3]{5-\sqrt{3}}$ is a solution to it. Let $x=\sqrt[3]{5-\sqrt{3}}$. Taking cube for both sides, we obtain that $x^3=5-\sqrt{3}$. Hence $x^3-5=-\sqrt{3}$. Squaring both sides, we get<br>$$<br>(x^3-5)^2=3,<br>$$ which is<br>$$<br>x^6-10x^2+22=0.<br>$$ Consider the rational solution of $x^6-10x^2+22=0$. It follows from Corollary 2.3 that those rationa solutions can only be $\pm 1$,$\pm 2$, $\pm 11$, $\pm 22$.</p>
+<p>Solution: First, we need to find an equation with integer coefficients such that $\sqrt[3]{5-\sqrt{3}}$ is a solution to it. Let $x=\sqrt[3]{5-\sqrt{3}}$. Taking cube for both sides, we obtain that $x^3=5-\sqrt{3}$. Hence $x^3-5=-\sqrt{3}$. Squaring both sides, we get<br>$$<br>(x^3-5)^2=3,<br>$$ which is<br>$$<br>x^6-10x^3+22=0.<br>$$ Consider the rational solution of $x^6-10x^2+22=0$. It follows from Corollary 2.3 that those rationa solutions can only be $\pm 1$,$\pm 2$, $\pm 11$, $\pm 22$.</p>
 <p>Direct computations would show that none of them will be a solution of $x^6-10x^2+22=0$. Hence $x^6-10x^2+22=0$ has no rational solutions. Therefore, as a solution to $x^6-10x^2+22=0$, $\sqrt[3]{5-\sqrt{3}}$ is irrational.</p>
 <script type="text/javascript">
 amzn_assoc_placement = "adunit0";
