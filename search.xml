@@ -41,6 +41,57 @@ amzn_assoc_asins = "1493927116,1461462703,0471000051,0471000078,1259064786,10772
       </tags>
   </entry>
   <entry>
+    <title>Find limits of sequences II</title>
+    <url>/elementary-analysis-07-03.html</url>
+    <content><![CDATA[<div class="note info flat"><p><a href="/elementary-analysis-toc.html">Solution to Elementary Analysis: The Theory of Calculus Second Edition</a> Section 7 Exercise 7.3</p>
+</div>
+
+<a id="more"></a>
+
+<p>Solution: </p>
+<p>(a) Converges. Limits is 1.</p>
+<p>(b) Converges. Limits is 1.</p>
+<p>(c) Converges. Limits is 0.</p>
+<p>(d) Converges. Limits is 1.</p>
+<p>(e) Diverges. </p>
+<p>(f) Converges. Limits is 1.</p>
+<p>(g) Diverges. </p>
+<p>(h) Diverges. </p>
+<p>(i) Converges. Limits is 1.</p>
+<p>(j) Converges. Limits is 7/2.</p>
+<p>(k) Diverges. </p>
+<p>(l) Diverges. </p>
+<p>(m) Converges. Limits is 0.</p>
+<p>(n) Diverges. </p>
+<p>(o) Converges. Limits is 0.</p>
+<p>(p) Converges. Limits is 2.</p>
+<p>(q) Converges. Limits is 0.</p>
+<p>(r) Converges. Limits is 1.</p>
+<p>(s) Converges. Limits is 4/3.</p>
+<p>(t) Converges. Limits is 0.</p>
+<script type="text/javascript">
+amzn_assoc_placement = "adunit0";
+amzn_assoc_search_bar = "true";
+amzn_assoc_tracking_id = "linearalgeb0e-20";
+amzn_assoc_ad_mode = "manual";
+amzn_assoc_ad_type = "smart";
+amzn_assoc_marketplace = "amazon";
+amzn_assoc_region = "US";
+amzn_assoc_title = "My recommendations on Calculus and Analysis";
+amzn_assoc_linkid = "cfda343bc63399373d473026228d47e1";
+amzn_assoc_asins = "1493927116,1461462703,0471000051,0471000078,1259064786,1077254547,366248790X,1285741552";
+</script>
+<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
+      <categories>
+        <category>Solution</category>
+        <category>Elementary Analysis</category>
+      </categories>
+      <tags>
+        <tag>Sequence</tag>
+        <tag>Limit</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Sequence of rational numbers has an irrational limit</title>
     <url>/elementary-analysis-07-04.html</url>
     <content><![CDATA[<div class="note info flat"><p><a href="/elementary-analysis-toc.html">Solution to Elementary Analysis: The Theory of Calculus Second Edition</a> Section 7 Exercise 7.4</p>
@@ -157,57 +208,6 @@ amzn_assoc_asins = "1493927116,1461462703,0471000051,0471000078,1259064786,10772
       </tags>
   </entry>
   <entry>
-    <title>Find limits of sequences II</title>
-    <url>/elementary-analysis-07-03.html</url>
-    <content><![CDATA[<div class="note info flat"><p><a href="/elementary-analysis-toc.html">Solution to Elementary Analysis: The Theory of Calculus Second Edition</a> Section 7 Exercise 7.3</p>
-</div>
-
-<a id="more"></a>
-
-<p>Solution: </p>
-<p>(a) Converges. Limits is 1.</p>
-<p>(b) Converges. Limits is 1.</p>
-<p>(c) Converges. Limits is 0.</p>
-<p>(d) Converges. Limits is 1.</p>
-<p>(e) Diverges. </p>
-<p>(f) Converges. Limits is 1.</p>
-<p>(g) Diverges. </p>
-<p>(h) Diverges. </p>
-<p>(i) Converges. Limits is 1.</p>
-<p>(j) Converges. Limits is 7/2.</p>
-<p>(k) Diverges. </p>
-<p>(l) Diverges. </p>
-<p>(m) Converges. Limits is 0.</p>
-<p>(n) Diverges. </p>
-<p>(o) Converges. Limits is 0.</p>
-<p>(p) Converges. Limits is 2.</p>
-<p>(q) Converges. Limits is 0.</p>
-<p>(r) Converges. Limits is 1.</p>
-<p>(s) Converges. Limits is 4/3.</p>
-<p>(t) Converges. Limits is 0.</p>
-<script type="text/javascript">
-amzn_assoc_placement = "adunit0";
-amzn_assoc_search_bar = "true";
-amzn_assoc_tracking_id = "linearalgeb0e-20";
-amzn_assoc_ad_mode = "manual";
-amzn_assoc_ad_type = "smart";
-amzn_assoc_marketplace = "amazon";
-amzn_assoc_region = "US";
-amzn_assoc_title = "My recommendations on Calculus and Analysis";
-amzn_assoc_linkid = "cfda343bc63399373d473026228d47e1";
-amzn_assoc_asins = "1493927116,1461462703,0471000051,0471000078,1259064786,1077254547,366248790X,1285741552";
-</script>
-<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
-      <categories>
-        <category>Solution</category>
-        <category>Elementary Analysis</category>
-      </categories>
-      <tags>
-        <tag>Sequence</tag>
-        <tag>Limit</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Determine the limits and prove your claims</title>
     <url>/elementary-analysis-08-02.html</url>
     <content><![CDATA[<div class="note info flat"><p><a href="/elementary-analysis-toc.html">Solution to Elementary Analysis: The Theory of Calculus Second Edition</a> Section 8 Exercise 8.2</p>
@@ -287,42 +287,6 @@ amzn_assoc_asins = "1493927116,1461462703,0471000051,0471000078,1259064786,10772
       </tags>
   </entry>
   <entry>
-    <title>Proof of Squeeze Lemma/Theorem</title>
-    <url>/elementary-analysis-08-05.html</url>
-    <content><![CDATA[<div class="note info flat"><p><a href="/elementary-analysis-toc.html">Solution to Elementary Analysis: The Theory of Calculus Second Edition</a> Section 8 Exercise 8.5</p>
-</div>
-
-<a id="more"></a>
-
-<p>Solution: </p>
-<h3 id="Part-a"><a href="#Part-a" class="headerlink" title="Part a"></a>Part a</h3><p>Let $\epsilon&gt;0$. Since $\lim a_n=s$, there exists $N_1&gt;0$ such that<br>$$<br>|a_n-s|&lt;\epsilon\Longrightarrow -\epsilon &lt; a_n-s<br>$$ for all $n&gt;N_1$. Similarly, since $\lim b_n=s$, there exists $N_2&gt;0$ such that<br>$$<br>|b_n-s|&lt;\epsilon\Longrightarrow b_n -s&lt; \epsilon<br>$$ for all $n&gt;N_2$. </p>
-<p>Let $N=\max\{N_1,N_2\}$. Then we have<br>$$<br>s_n-s\le b_n-s&lt;\epsilon<br>$$ and<br>$$<br>-\epsilon &lt; a_n-s\le s_n-s<br>$$ for all $n&gt;N$. Therefore, we have $|s_n-s|&lt;\epsilon$ for all $n&gt;N$. Hence $\lim s_n=s$ as desired.  </p>
-<h3 id="Part-b"><a href="#Part-b" class="headerlink" title="Part b"></a>Part b</h3><p>Let $\epsilon&gt;0$. Since $\lim t_n=0$, there exists $N&gt;0$ such that<br>$$<br>|t_n-0|&lt;\epsilon\Longrightarrow t_n&lt;\epsilon<br>$$ for all $n&gt;N$. Therefore, $n&gt;N$ implies that<br>$$<br>|s_n-0|=|s_n|\le t_n&lt;\epsilon<br>$$ as desired. Thus $\lim s_n=0$.</p>
-<script type="text/javascript">
-amzn_assoc_placement = "adunit0";
-amzn_assoc_search_bar = "true";
-amzn_assoc_tracking_id = "linearalgeb0e-20";
-amzn_assoc_ad_mode = "manual";
-amzn_assoc_ad_type = "smart";
-amzn_assoc_marketplace = "amazon";
-amzn_assoc_region = "US";
-amzn_assoc_title = "My recommendations on Calculus and Analysis";
-amzn_assoc_linkid = "cfda343bc63399373d473026228d47e1";
-amzn_assoc_asins = "1493927116,1461462703,0471000051,0471000078,1259064786,1077254547,366248790X,1285741552";
-</script>
-<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
-      <categories>
-        <category>Solution</category>
-        <category>Elementary Analysis</category>
-      </categories>
-      <tags>
-        <tag>Sequence</tag>
-        <tag>Limit</tag>
-        <tag>Proof</tag>
-        <tag>Sequeeze Theorem</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>If the limit of sequence is zero then so is the limit of sequence multiplied by a bounded one</title>
     <url>/elementary-analysis-08-04.html</url>
     <content><![CDATA[<div class="note info flat"><p><a href="/elementary-analysis-toc.html">Solution to Elementary Analysis: The Theory of Calculus Second Edition</a> Section 8 Exercise 8.4</p>
@@ -359,19 +323,17 @@ amzn_assoc_asins = "1493927116,1461462703,0471000051,0471000078,1259064786,10772
       </tags>
   </entry>
   <entry>
-    <title>Show the limit does not exist</title>
-    <url>/elementary-analysis-08-07.html</url>
-    <content><![CDATA[<div class="note info flat"><p><a href="/elementary-analysis-toc.html">Solution to Elementary Analysis: The Theory of Calculus Second Edition</a> Section 8 Exercise 8.7</p>
+    <title>Proof of Squeeze Lemma/Theorem</title>
+    <url>/elementary-analysis-08-05.html</url>
+    <content><![CDATA[<div class="note info flat"><p><a href="/elementary-analysis-toc.html">Solution to Elementary Analysis: The Theory of Calculus Second Edition</a> Section 8 Exercise 8.5</p>
 </div>
 
 <a id="more"></a>
 
 <p>Solution: </p>
-<h3 id="Part-a"><a href="#Part-a" class="headerlink" title="Part a"></a>Part a</h3><p>Suppose the limit exists and equals $a$. Then for $\epsilon=\dfrac{1}{2}$, there exists $N&gt;0$ such that<br>$$<br>\left|\cos\left(\frac{n\pi}{3}\right)-a\right|&lt;\frac{1}{2}<br>$$ for all $n&gt;N$. Let $k&gt;N$ be an integer, then we also have by taking $n=6k\pi$ and $n=6k\pi+3\pi$ respectively<br>$$<br>\left|\cos\left(\frac{6k\pi}{3}\right)-a\right|&lt;\frac{1}{2},\quad \left|\cos\left(\frac{6k\pi+3\pi}{3}\right)-a\right|&lt;\frac{1}{2}.<br>$$ Hence we have<br>$$<br>|1-a|&lt;\frac{1}{2},\quad |-1-a|&lt;\frac{1}{2}.<br>$$ Thus by Triangle Inequality we have<br>$$<br>2=|1-a-(-1-a)|&lt;|1-a|+|-1-a|&lt;1<br>$$ which is impossible. We obtain a contradiction. Thus the limit does not exist.</p>
-<hr>
-<h3 id="Part-b"><a href="#Part-b" class="headerlink" title="Part b"></a>Part b</h3><p>Suppose the limit exists and equals $a$. Then for $\epsilon=\dfrac{1}{2}$, there exists $N&gt;0$ such that<br>$$<br>\left|(-1)^nn-a\right|&lt;\frac{1}{2}<br>$$ for all $n&gt;N$. Let $k&gt;N$ be an integer, then we also have by taking $n=2k$ and $n=2k+1$ respectively<br>$$<br>\left|(-1)^{2k}2k-a\right|&lt;\frac{1}{2},\quad \left|(-1)^{2k+1}(2k+1)-a\right|&lt;\frac{1}{2}.<br>$$ Hence we have<br>$$<br>|2k-a|&lt;\frac{1}{2},\quad |-2k-1-a|&lt;\frac{1}{2}.<br>$$ Thus by Triangle Inequality we have<br>$$<br>4k+1=|2k-a-(-2k-1-a)|&lt;|2k-a|+|-2k-1-a|&lt;1<br>$$ which is impossible. We obtain a contradiction. Thus the limit does not exist.</p>
-<hr>
-<h3 id="Part-c"><a href="#Part-c" class="headerlink" title="Part c"></a>Part c</h3><p>Suppose the limit exists and equals $a$. Then for $\epsilon=\dfrac{1}{2}$, there exists $N&gt;0$ such that<br>$$<br>\left|\sin\left(\frac{n\pi}{3}\right)-a\right|&lt;\frac{1}{2}<br>$$ for all $n&gt;N$. Let $k&gt;N$ be an integer, then we also have by taking $n=6k\pi$ and $n=6k\pi+3\pi/2$ respectively<br>$$<br>\left|\sin\left(\frac{6k\pi}{3}\right)-a\right|&lt;\frac{1}{2},\quad \left|\sin\left(\frac{6k\pi+3\pi/2}{3}\right)-a\right|&lt;\frac{1}{2}.<br>$$ Hence we have<br>$$<br>|0-a|&lt;\frac{1}{2},\quad |1-a|&lt;\frac{1}{2}.<br>$$ Thus by Triangle Inequality we have<br>$$<br>1=|0-a-(1-a)|&lt;|0-a|+|1-a|&lt;1<br>$$ which is impossible. We obtain a contradiction. Thus the limit does not exist.</p>
+<h3 id="Part-a"><a href="#Part-a" class="headerlink" title="Part a"></a>Part a</h3><p>Let $\epsilon&gt;0$. Since $\lim a_n=s$, there exists $N_1&gt;0$ such that<br>$$<br>|a_n-s|&lt;\epsilon\Longrightarrow -\epsilon &lt; a_n-s<br>$$ for all $n&gt;N_1$. Similarly, since $\lim b_n=s$, there exists $N_2&gt;0$ such that<br>$$<br>|b_n-s|&lt;\epsilon\Longrightarrow b_n -s&lt; \epsilon<br>$$ for all $n&gt;N_2$. </p>
+<p>Let $N=\max\{N_1,N_2\}$. Then we have<br>$$<br>s_n-s\le b_n-s&lt;\epsilon<br>$$ and<br>$$<br>-\epsilon &lt; a_n-s\le s_n-s<br>$$ for all $n&gt;N$. Therefore, we have $|s_n-s|&lt;\epsilon$ for all $n&gt;N$. Hence $\lim s_n=s$ as desired.  </p>
+<h3 id="Part-b"><a href="#Part-b" class="headerlink" title="Part b"></a>Part b</h3><p>Let $\epsilon&gt;0$. Since $\lim t_n=0$, there exists $N&gt;0$ such that<br>$$<br>|t_n-0|&lt;\epsilon\Longrightarrow t_n&lt;\epsilon<br>$$ for all $n&gt;N$. Therefore, $n&gt;N$ implies that<br>$$<br>|s_n-0|=|s_n|\le t_n&lt;\epsilon<br>$$ as desired. Thus $\lim s_n=0$.</p>
 <script type="text/javascript">
 amzn_assoc_placement = "adunit0";
 amzn_assoc_search_bar = "true";
@@ -393,7 +355,45 @@ amzn_assoc_asins = "1493927116,1461462703,0471000051,0471000078,1259064786,10772
         <tag>Sequence</tag>
         <tag>Limit</tag>
         <tag>Proof</tag>
-        <tag>Triangle Inequality</tag>
+        <tag>Sequeeze Theorem</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>When the limit of a sequence is zero</title>
+    <url>/elementary-analysis-08-06.html</url>
+    <content><![CDATA[<div class="note info flat"><p><a href="/elementary-analysis-toc.html">Solution to Elementary Analysis: The Theory of Calculus Second Edition</a> Section 8 Exercise 8.6</p>
+</div>
+
+<a id="more"></a>
+
+<p>Solution: </p>
+<h3 id="Part-a"><a href="#Part-a" class="headerlink" title="Part a"></a>Part a</h3><p>We first show that if $\lim s_n=0$ then $\lim |s_n|=0$.</p>
+<p>Let $\epsilon&gt;0$. Since $\lim s_n=0$, there exists $N&gt;0$ such that<br>$$<br>|s_n-0|=|s_n|&lt;\epsilon<br>$$ for all $n&gt;N$. Therefore, $n&gt;N$ implies that<br>$$<br>||s_n|-0|=|s_n|&lt;\epsilon<br>$$ as desired. Thus $\lim |s_n|=0$.</p>
+<p>Then we show that if $\lim |s_n|=0$ then $\lim s_n=0$.</p>
+<p>Let $\epsilon&gt;0$. Since $\lim |s_n|=0$, there exists $N&gt;0$ such that<br>$$<br>||s_n|-0|=|s_n|&lt;\epsilon<br>$$ for all $n&gt;N$. Therefore, $n&gt;N$ implies that<br>$$<br>|s_n-0|=|s_n|&lt;\epsilon<br>$$ as desired. Thus $\lim s_n=0$.</p>
+<hr>
+<h3 id="Part-b"><a href="#Part-b" class="headerlink" title="Part b"></a>Part b</h3><p>Clearly, $|s_n|=1$ and hence we have $\lim|s_n|=1$ because $||s_n|-1|=0$ for all $n$.</p>
+<p>However, $\lim s_n$ does not exist as you may see from Example 4.</p>
+<script type="text/javascript">
+amzn_assoc_placement = "adunit0";
+amzn_assoc_search_bar = "true";
+amzn_assoc_tracking_id = "linearalgeb0e-20";
+amzn_assoc_ad_mode = "manual";
+amzn_assoc_ad_type = "smart";
+amzn_assoc_marketplace = "amazon";
+amzn_assoc_region = "US";
+amzn_assoc_title = "My recommendations on Calculus and Analysis";
+amzn_assoc_linkid = "cfda343bc63399373d473026228d47e1";
+amzn_assoc_asins = "1493927116,1461462703,0471000051,0471000078,1259064786,1077254547,366248790X,1285741552";
+</script>
+<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
+      <categories>
+        <category>Solution</category>
+        <category>Elementary Analysis</category>
+      </categories>
+      <tags>
+        <tag>Sequence</tag>
+        <tag>Limit</tag>
       </tags>
   </entry>
   <entry>
@@ -437,21 +437,19 @@ amzn_assoc_asins = "1493927116,1461462703,0471000051,0471000078,1259064786,10772
       </tags>
   </entry>
   <entry>
-    <title>When the limit of a sequence is zero</title>
-    <url>/elementary-analysis-08-06.html</url>
-    <content><![CDATA[<div class="note info flat"><p><a href="/elementary-analysis-toc.html">Solution to Elementary Analysis: The Theory of Calculus Second Edition</a> Section 8 Exercise 8.6</p>
+    <title>Show the limit does not exist</title>
+    <url>/elementary-analysis-08-07.html</url>
+    <content><![CDATA[<div class="note info flat"><p><a href="/elementary-analysis-toc.html">Solution to Elementary Analysis: The Theory of Calculus Second Edition</a> Section 8 Exercise 8.7</p>
 </div>
 
 <a id="more"></a>
 
 <p>Solution: </p>
-<h3 id="Part-a"><a href="#Part-a" class="headerlink" title="Part a"></a>Part a</h3><p>We first show that if $\lim s_n=0$ then $\lim |s_n|=0$.</p>
-<p>Let $\epsilon&gt;0$. Since $\lim s_n=0$, there exists $N&gt;0$ such that<br>$$<br>|s_n-0|=|s_n|&lt;\epsilon<br>$$ for all $n&gt;N$. Therefore, $n&gt;N$ implies that<br>$$<br>||s_n|-0|=|s_n|&lt;\epsilon<br>$$ as desired. Thus $\lim |s_n|=0$.</p>
-<p>Then we show that if $\lim |s_n|=0$ then $\lim s_n=0$.</p>
-<p>Let $\epsilon&gt;0$. Since $\lim |s_n|=0$, there exists $N&gt;0$ such that<br>$$<br>||s_n|-0|=|s_n|&lt;\epsilon<br>$$ for all $n&gt;N$. Therefore, $n&gt;N$ implies that<br>$$<br>|s_n-0|=|s_n|&lt;\epsilon<br>$$ as desired. Thus $\lim s_n=0$.</p>
+<h3 id="Part-a"><a href="#Part-a" class="headerlink" title="Part a"></a>Part a</h3><p>Suppose the limit exists and equals $a$. Then for $\epsilon=\dfrac{1}{2}$, there exists $N&gt;0$ such that<br>$$<br>\left|\cos\left(\frac{n\pi}{3}\right)-a\right|&lt;\frac{1}{2}<br>$$ for all $n&gt;N$. Let $k&gt;N$ be an integer, then we also have by taking $n=6k\pi$ and $n=6k\pi+3\pi$ respectively<br>$$<br>\left|\cos\left(\frac{6k\pi}{3}\right)-a\right|&lt;\frac{1}{2},\quad \left|\cos\left(\frac{6k\pi+3\pi}{3}\right)-a\right|&lt;\frac{1}{2}.<br>$$ Hence we have<br>$$<br>|1-a|&lt;\frac{1}{2},\quad |-1-a|&lt;\frac{1}{2}.<br>$$ Thus by Triangle Inequality we have<br>$$<br>2=|1-a-(-1-a)|&lt;|1-a|+|-1-a|&lt;1<br>$$ which is impossible. We obtain a contradiction. Thus the limit does not exist.</p>
 <hr>
-<h3 id="Part-b"><a href="#Part-b" class="headerlink" title="Part b"></a>Part b</h3><p>Clearly, $|s_n|=1$ and hence we have $\lim|s_n|=1$ because $||s_n|-1|=0$ for all $n$.</p>
-<p>However, $\lim s_n$ does not exist as you may see from Example 4.</p>
+<h3 id="Part-b"><a href="#Part-b" class="headerlink" title="Part b"></a>Part b</h3><p>Suppose the limit exists and equals $a$. Then for $\epsilon=\dfrac{1}{2}$, there exists $N&gt;0$ such that<br>$$<br>\left|(-1)^nn-a\right|&lt;\frac{1}{2}<br>$$ for all $n&gt;N$. Let $k&gt;N$ be an integer, then we also have by taking $n=2k$ and $n=2k+1$ respectively<br>$$<br>\left|(-1)^{2k}2k-a\right|&lt;\frac{1}{2},\quad \left|(-1)^{2k+1}(2k+1)-a\right|&lt;\frac{1}{2}.<br>$$ Hence we have<br>$$<br>|2k-a|&lt;\frac{1}{2},\quad |-2k-1-a|&lt;\frac{1}{2}.<br>$$ Thus by Triangle Inequality we have<br>$$<br>4k+1=|2k-a-(-2k-1-a)|&lt;|2k-a|+|-2k-1-a|&lt;1<br>$$ which is impossible. We obtain a contradiction. Thus the limit does not exist.</p>
+<hr>
+<h3 id="Part-c"><a href="#Part-c" class="headerlink" title="Part c"></a>Part c</h3><p>Suppose the limit exists and equals $a$. Then for $\epsilon=\dfrac{1}{2}$, there exists $N&gt;0$ such that<br>$$<br>\left|\sin\left(\frac{n\pi}{3}\right)-a\right|&lt;\frac{1}{2}<br>$$ for all $n&gt;N$. Let $k&gt;N$ be an integer, then we also have by taking $n=6k\pi$ and $n=6k\pi+3\pi/2$ respectively<br>$$<br>\left|\sin\left(\frac{6k\pi}{3}\right)-a\right|&lt;\frac{1}{2},\quad \left|\sin\left(\frac{6k\pi+3\pi/2}{3}\right)-a\right|&lt;\frac{1}{2}.<br>$$ Hence we have<br>$$<br>|0-a|&lt;\frac{1}{2},\quad |1-a|&lt;\frac{1}{2}.<br>$$ Thus by Triangle Inequality we have<br>$$<br>1=|0-a-(1-a)|&lt;|0-a|+|1-a|&lt;1<br>$$ which is impossible. We obtain a contradiction. Thus the limit does not exist.</p>
 <script type="text/javascript">
 amzn_assoc_placement = "adunit0";
 amzn_assoc_search_bar = "true";
@@ -472,6 +470,8 @@ amzn_assoc_asins = "1493927116,1461462703,0471000051,0471000078,1259064786,10772
       <tags>
         <tag>Sequence</tag>
         <tag>Limit</tag>
+        <tag>Proof</tag>
+        <tag>Triangle Inequality</tag>
       </tags>
   </entry>
   <entry>
@@ -546,15 +546,17 @@ amzn_assoc_asins = "1493927116,1461462703,0471000051,0471000078,1259064786,10772
       </tags>
   </entry>
   <entry>
-    <title>Using the principle of mathematical induction to show identities I</title>
-    <url>/elementary-analysis-1-01.html</url>
-    <content><![CDATA[<div class="note info flat"><p><a href="/elementary-analysis-toc.html">Solution to Elementary Analysis: The Theory of Calculus Second Edition</a> Section 1 Exercise 1.1</p>
+    <title>Limit of sum is sum of limits</title>
+    <url>/elementary-analysis-09-02.html</url>
+    <content><![CDATA[<div class="note info flat"><p><a href="/elementary-analysis-toc.html">Solution to Elementary Analysis: The Theory of Calculus Second Edition</a> Section 9 Exercise 9.2</p>
 </div>
 
 <a id="more"></a>
 
-<p>Solution: The $n$-th proposition is<br>$$<br>P_n: 1^2+2^2+\cdots+n^2=\frac{1}{6}n(n+1)(2n+1).<br>$$ Then $P_1$ asserts $1^2=\dfrac{1}{6}\cdot 1(1+1)(2\cdot 1+1)$ which is clearly true and we have the induction basis.</p>
-<p>Now we assume $P_n$ is true, that is the equation<br>\begin{equation}\label{eq:1-1-1-1}<br>1^2+2^2+\cdots+n^2=\frac{1}{6}n(n+1)(2n+1).<br>\end{equation} We would like to show $P_{n+1}$ is true based on $P_n$. To do that, we add both sides of \eqref{eq:1-1-1-1} by $(n+1)^2$ and obtain<br>\begin{align*}<br>&amp;\ 1^2+2^2+\cdots +n^2+(n+1)^2\\<br>=&amp;\ \frac{1}{6}n(n+1)(2n+1)+(n+1)^2\\<br>=&amp;\ \frac{1}{6}n(n+1)(2n+1)+\frac{1}{6}(n+1)(6n+6)\\<br>=&amp;\ \frac{1}{6}(n+1)\big(n(2n+1)+6n+6\big)\\<br>=&amp;\ \frac{1}{6}(n+1)(2n^2+n+6n+6)\\<br>=&amp;\ \frac{1}{6}(n+1)(2n^2+7n+6)\\<br>=&amp;\ \frac{1}{6}(n+1)(n+2)(2n+3)\\<br>=&amp;\ \frac{1}{6}(n+1)\big((n+1)+1\big)\big(2(n+1)+1\big).<br>\end{align*} Therefore $P_{n+1}$ is true if $P_n$ is true. By the principle of mathematical induction, we make the conclusion that $P_n$ is true for all positive integers $n$.</p>
+<p>Solution: </p>
+<h3 id="Part-a"><a href="#Part-a" class="headerlink" title="Part a"></a>Part a</h3><p>By Theorem 9.3, we have<br>$$<br>\lim(x_n+y_n)=\lim x_n+\lim y_n=3+7=10.<br>$$</p>
+<hr>
+<h3 id="Part-b"><a href="#Part-b" class="headerlink" title="Part b"></a>Part b</h3><p>By Theorems 9.2 and 9.3 we have<br>$$<br>\lim(3y_n-x_n)=3\lim y_n-\lim x_n=3 \cdot 7-3=18.<br>$$ By Theorem 9.4 we have<br>$$<br>\lim y_n^2=\left(\lim y_n\right)^2=7^2=49.<br>$$ It follows from Theorem 9.6 that<br>$$<br>\lim \frac{3y_n-x_n}{y_n^2}=\frac{\lim(3y_n-x_n)}{\lim y_n^2}=\frac{18}{49}.<br>$$</p>
 <script type="text/javascript">
 amzn_assoc_placement = "adunit0";
 amzn_assoc_search_bar = "true";
@@ -573,8 +575,8 @@ amzn_assoc_asins = "1493927116,1461462703,0471000051,0471000078,1259064786,10772
         <category>Elementary Analysis</category>
       </categories>
       <tags>
-        <tag>Induction</tag>
-        <tag>Identity</tag>
+        <tag>Sequence</tag>
+        <tag>Limit</tag>
       </tags>
   </entry>
   <entry>
@@ -611,6 +613,101 @@ amzn_assoc_asins = "1493927116,1461462703,0471000051,0471000078,1259064786,10772
       <tags>
         <tag>Sequence</tag>
         <tag>Limit</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Show limit using limit theorems carefully</title>
+    <url>/elementary-analysis-09-03.html</url>
+    <content><![CDATA[<div class="note info flat"><p><a href="/elementary-analysis-toc.html">Solution to Elementary Analysis: The Theory of Calculus Second Edition</a> Section 9 Exercise 9.3</p>
+</div>
+
+<a id="more"></a>
+
+<p>Solution: By Theorem 9.4, we have<br>$$<br>\lim a_n^3=(\lim a_n)^3=a^3,\quad \lim b_n^2=(\lim b_n)^2=b^2<br>$$ By Theorem 9.2, we have<br>$$<br>\lim 4a_n=4\lim a_n=4a.<br>$$ Therefore, we have, by Theorem 9.4,<br>$$<br>\lim (a_n^3+4a_n)=\lim a_n^3+\lim 4a_n=a^3+4a<br>$$ and<br>$$<br>\lim (b_n^2+1)=\lim b_n^2 +1=b^2+1.<br>$$ Clearly, we have $\lim (b_n^2+1)&gt;0$, hence we can use Theorem 9.6 and obtain<br>$$<br>\lim s_n=\frac{\lim(a_n^3+4a_n)}{\lim(b_n^2+1)}=\frac{a^3+4a}{b^2+1}.<br>$$ We are done.</p>
+<script type="text/javascript">
+amzn_assoc_placement = "adunit0";
+amzn_assoc_search_bar = "true";
+amzn_assoc_tracking_id = "linearalgeb0e-20";
+amzn_assoc_ad_mode = "manual";
+amzn_assoc_ad_type = "smart";
+amzn_assoc_marketplace = "amazon";
+amzn_assoc_region = "US";
+amzn_assoc_title = "My recommendations on Calculus and Analysis";
+amzn_assoc_linkid = "cfda343bc63399373d473026228d47e1";
+amzn_assoc_asins = "1493927116,1461462703,0471000051,0471000078,1259064786,1077254547,366248790X,1285741552";
+</script>
+<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
+      <categories>
+        <category>Solution</category>
+        <category>Elementary Analysis</category>
+      </categories>
+      <tags>
+        <tag>Sequence</tag>
+        <tag>Limit</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Using the principle of mathematical induction to show identities II</title>
+    <url>/elementary-analysis-1-02.html</url>
+    <content><![CDATA[<div class="note info flat"><p><a href="/elementary-analysis-toc.html">Solution to Elementary Analysis: The Theory of Calculus Second Edition</a> Section 1 Exercise 1.2</p>
+</div>
+
+<a id="more"></a>
+
+<p>Solution: The $n$-th proposition is<br>$$<br>P_n: 3+11+\cdots+(8n-5)=4n^2-n.<br>$$ Then $P_1$ asserts $3=4\cdot 1^2-1$ which is clearly true and we have the induction basis.</p>
+<p>Now we assume $P_n$ is true, that is the equation<br>\begin{equation}\label{eq:1-1-2-1}<br>3+11+\cdots+(8n-5)=4n^2-n.<br>\end{equation} We would like to show $P_{n+1}$ is true based on $P_n$. To do that, we add both sides of \eqref{eq:1-1-2-1} by $\big(8(n+1)-5\big)$ and obtain<br>\begin{align*}<br>&amp;\ 3+11+\cdots+(8n-5)+\big(8(n+1)-5\big)\\<br>=&amp;\ 4n^2-n+\big(8(n+1)-5\big)\\<br>=&amp;\ 4n^2-n+8n+8-5\\<br>=&amp;\ 4n^2+8n+4-(n+1)\\<br>=&amp;\ 4(n^2+2n+1)-(n+1)\\<br>=&amp;\ 4(n+1)^2-(n+1).<br>\end{align*} Therefore $P_{n+1}$ is true if $P_n$ is true. By the principle of mathematical induction, we make the conclusion that $P_n$ is true for all positive integers $n$.</p>
+<script type="text/javascript">
+amzn_assoc_placement = "adunit0";
+amzn_assoc_search_bar = "true";
+amzn_assoc_tracking_id = "linearalgeb0e-20";
+amzn_assoc_ad_mode = "manual";
+amzn_assoc_ad_type = "smart";
+amzn_assoc_marketplace = "amazon";
+amzn_assoc_region = "US";
+amzn_assoc_title = "My recommendations on Calculus and Analysis";
+amzn_assoc_linkid = "cfda343bc63399373d473026228d47e1";
+amzn_assoc_asins = "1493927116,1461462703,0471000051,0471000078,1259064786,1077254547,366248790X,1285741552";
+</script>
+<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
+      <categories>
+        <category>Solution</category>
+        <category>Elementary Analysis</category>
+      </categories>
+      <tags>
+        <tag>Induction</tag>
+        <tag>Identity</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Using the principle of mathematical induction to show identities I</title>
+    <url>/elementary-analysis-1-01.html</url>
+    <content><![CDATA[<div class="note info flat"><p><a href="/elementary-analysis-toc.html">Solution to Elementary Analysis: The Theory of Calculus Second Edition</a> Section 1 Exercise 1.1</p>
+</div>
+
+<a id="more"></a>
+
+<p>Solution: The $n$-th proposition is<br>$$<br>P_n: 1^2+2^2+\cdots+n^2=\frac{1}{6}n(n+1)(2n+1).<br>$$ Then $P_1$ asserts $1^2=\dfrac{1}{6}\cdot 1(1+1)(2\cdot 1+1)$ which is clearly true and we have the induction basis.</p>
+<p>Now we assume $P_n$ is true, that is the equation<br>\begin{equation}\label{eq:1-1-1-1}<br>1^2+2^2+\cdots+n^2=\frac{1}{6}n(n+1)(2n+1).<br>\end{equation} We would like to show $P_{n+1}$ is true based on $P_n$. To do that, we add both sides of \eqref{eq:1-1-1-1} by $(n+1)^2$ and obtain<br>\begin{align*}<br>&amp;\ 1^2+2^2+\cdots +n^2+(n+1)^2\\<br>=&amp;\ \frac{1}{6}n(n+1)(2n+1)+(n+1)^2\\<br>=&amp;\ \frac{1}{6}n(n+1)(2n+1)+\frac{1}{6}(n+1)(6n+6)\\<br>=&amp;\ \frac{1}{6}(n+1)\big(n(2n+1)+6n+6\big)\\<br>=&amp;\ \frac{1}{6}(n+1)(2n^2+n+6n+6)\\<br>=&amp;\ \frac{1}{6}(n+1)(2n^2+7n+6)\\<br>=&amp;\ \frac{1}{6}(n+1)(n+2)(2n+3)\\<br>=&amp;\ \frac{1}{6}(n+1)\big((n+1)+1\big)\big(2(n+1)+1\big).<br>\end{align*} Therefore $P_{n+1}$ is true if $P_n$ is true. By the principle of mathematical induction, we make the conclusion that $P_n$ is true for all positive integers $n$.</p>
+<script type="text/javascript">
+amzn_assoc_placement = "adunit0";
+amzn_assoc_search_bar = "true";
+amzn_assoc_tracking_id = "linearalgeb0e-20";
+amzn_assoc_ad_mode = "manual";
+amzn_assoc_ad_type = "smart";
+amzn_assoc_marketplace = "amazon";
+amzn_assoc_region = "US";
+amzn_assoc_title = "My recommendations on Calculus and Analysis";
+amzn_assoc_linkid = "cfda343bc63399373d473026228d47e1";
+amzn_assoc_asins = "1493927116,1461462703,0471000051,0471000078,1259064786,1077254547,366248790X,1285741552";
+</script>
+<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
+      <categories>
+        <category>Solution</category>
+        <category>Elementary Analysis</category>
+      </categories>
+      <tags>
+        <tag>Induction</tag>
+        <tag>Identity</tag>
       </tags>
   </entry>
   <entry>
@@ -685,38 +782,6 @@ amzn_assoc_asins = "1493927116,1461462703,0471000051,0471000078,1259064786,10772
       </tags>
   </entry>
   <entry>
-    <title>Using the principle of mathematical induction to show identities II</title>
-    <url>/elementary-analysis-1-02.html</url>
-    <content><![CDATA[<div class="note info flat"><p><a href="/elementary-analysis-toc.html">Solution to Elementary Analysis: The Theory of Calculus Second Edition</a> Section 1 Exercise 1.2</p>
-</div>
-
-<a id="more"></a>
-
-<p>Solution: The $n$-th proposition is<br>$$<br>P_n: 3+11+\cdots+(8n-5)=4n^2-n.<br>$$ Then $P_1$ asserts $3=4\cdot 1^2-1$ which is clearly true and we have the induction basis.</p>
-<p>Now we assume $P_n$ is true, that is the equation<br>\begin{equation}\label{eq:1-1-2-1}<br>3+11+\cdots+(8n-5)=4n^2-n.<br>\end{equation} We would like to show $P_{n+1}$ is true based on $P_n$. To do that, we add both sides of \eqref{eq:1-1-2-1} by $\big(8(n+1)-5\big)$ and obtain<br>\begin{align*}<br>&amp;\ 3+11+\cdots+(8n-5)+\big(8(n+1)-5\big)\\<br>=&amp;\ 4n^2-n+\big(8(n+1)-5\big)\\<br>=&amp;\ 4n^2-n+8n+8-5\\<br>=&amp;\ 4n^2+8n+4-(n+1)\\<br>=&amp;\ 4(n^2+2n+1)-(n+1)\\<br>=&amp;\ 4(n+1)^2-(n+1).<br>\end{align*} Therefore $P_{n+1}$ is true if $P_n$ is true. By the principle of mathematical induction, we make the conclusion that $P_n$ is true for all positive integers $n$.</p>
-<script type="text/javascript">
-amzn_assoc_placement = "adunit0";
-amzn_assoc_search_bar = "true";
-amzn_assoc_tracking_id = "linearalgeb0e-20";
-amzn_assoc_ad_mode = "manual";
-amzn_assoc_ad_type = "smart";
-amzn_assoc_marketplace = "amazon";
-amzn_assoc_region = "US";
-amzn_assoc_title = "My recommendations on Calculus and Analysis";
-amzn_assoc_linkid = "cfda343bc63399373d473026228d47e1";
-amzn_assoc_asins = "1493927116,1461462703,0471000051,0471000078,1259064786,1077254547,366248790X,1285741552";
-</script>
-<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
-      <categories>
-        <category>Solution</category>
-        <category>Elementary Analysis</category>
-      </categories>
-      <tags>
-        <tag>Induction</tag>
-        <tag>Identity</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Using the principle of mathematical induction to show identities V</title>
     <url>/elementary-analysis-1-05.html</url>
     <content><![CDATA[<div class="note info flat"><p><a href="/elementary-analysis-toc.html">Solution to Elementary Analysis: The Theory of Calculus Second Edition</a> Section 1 Exercise 1.5</p>
@@ -749,15 +814,18 @@ amzn_assoc_asins = "1493927116,1461462703,0471000051,0471000078,1259064786,10772
       </tags>
   </entry>
   <entry>
-    <title>Using the principle of mathematical induction to show divisibility II</title>
-    <url>/elementary-analysis-1-07.html</url>
-    <content><![CDATA[<div class="note info flat"><p><a href="/elementary-analysis-toc.html">Solution to Elementary Analysis: The Theory of Calculus Second Edition</a> Section 1 Exercise 1.7</p>
+    <title>Using the principle of mathematical induction to show divisibility I</title>
+    <url>/elementary-analysis-1-06.html</url>
+    <content><![CDATA[<div class="note info flat"><p><a href="/elementary-analysis-toc.html">Solution to Elementary Analysis: The Theory of Calculus Second Edition</a> Section 1 Exercise 1.6</p>
 </div>
 
 <a id="more"></a>
 
-<p>Solution: The $n$-th proposition is<br>$$<br>P_n: \quad 36 \text{ divides } 7^n-6n-1.<br>$$ Clearly, $P_1$ is true because $7^1-6\cdot 1-1$ is zero which is divisible by any nonzero integer. We have the induction basis.</p>
-<p>Now we assume $P_n$ is true, that is $36$ divides $7^n-6n-1$. We would like to show $P_{n+1}$ is true based on $P_n$. Note that we have<br>\begin{equation}\label{eq:1-7-1}<br>7^{n+1}-6(n+1)-1=36n+7\big(7^n-6n-1\big).<br>\end{equation} Since $36$ divides $7^n-6n-1$ by $P_n$, we have $36n+7\big(7^n-6n-1\big)$ is divisible by $36$. By \eqref{eq:1-7-1}, we conlude that $7^{n+1}-6(n+1)-1$ is divisible by 36. Therefore $P_{n+1}$ is true if $P_n$ is true. By the principle of mathematical induction, we make the conclusion that $P_n$ is true for all positive integers $n$.</p>
+<p>Solution: The $n$-th proposition is<br>$$<br>P_n: \quad 7 \text{ divides } 11^n-4^n.<br>$$ Clearly, $P_1$ is true because $11^1-4^1$ is exactly 7. We have the induction basis.</p>
+<p>Now we assume $P_n$ is true, that is $7$ divides $11^n-4^n$. We would like to show $P_{n+1}$ is true based on $P_n$. Note that we have<br>\begin{align*}<br>11^{n+1}-4^{n+1}=&amp;\ 11^{n+1}-4\cdot 11^n+4\cdot 11^n -4^{n+1}\\<br>=&amp;\ (11\cdot 11^n-4\cdot 11^n)+(4\cdot 11^n -4^{n+1})\\<br>=&amp;\ 7\cdot 11^n+4(11^n-4^n).<br>\end{align*} Since $7$ divides $11^n-4^n$ by $P_n$, we have $7\cdot 11^n+4(11^n-4^n)$ is divisible by $7$. By the equation above, we conlude that $11^{n+1}-4^{n+1}$ is divisible by 7. Therefore $P_{n+1}$ is true if $P_n$ is true. By the principle of mathematical induction, we make the conclusion that $P_n$ is true for all positive integers $n$.</p>
+<div class="note default flat"><p>This statement also follows from the following well-known formula,<br>$$<br>x^n-y^n=(x-y)(x^{n-1}+x^{n-2}\cdot y+\cdots x\cdot y^{n-2}+y^{n-1}).<br>$$ Let $x=11$ and $y=4$, we have<br>$$<br>11^n-4^n=7(11^{n-1}+4\cdot 11^{n-2}+\cdots + 4^{n-2}\cdot 11+4^{n-1}).<br>$$</p>
+</div>
+
 <script type="text/javascript">
 amzn_assoc_placement = "adunit0";
 amzn_assoc_search_bar = "true";
@@ -781,18 +849,15 @@ amzn_assoc_asins = "1493927116,1461462703,0471000051,0471000078,1259064786,10772
       </tags>
   </entry>
   <entry>
-    <title>Using the principle of mathematical induction to show divisibility I</title>
-    <url>/elementary-analysis-1-06.html</url>
-    <content><![CDATA[<div class="note info flat"><p><a href="/elementary-analysis-toc.html">Solution to Elementary Analysis: The Theory of Calculus Second Edition</a> Section 1 Exercise 1.6</p>
+    <title>Using the principle of mathematical induction to show divisibility II</title>
+    <url>/elementary-analysis-1-07.html</url>
+    <content><![CDATA[<div class="note info flat"><p><a href="/elementary-analysis-toc.html">Solution to Elementary Analysis: The Theory of Calculus Second Edition</a> Section 1 Exercise 1.7</p>
 </div>
 
 <a id="more"></a>
 
-<p>Solution: The $n$-th proposition is<br>$$<br>P_n: \quad 7 \text{ divides } 11^n-4^n.<br>$$ Clearly, $P_1$ is true because $11^1-4^1$ is exactly 7. We have the induction basis.</p>
-<p>Now we assume $P_n$ is true, that is $7$ divides $11^n-4^n$. We would like to show $P_{n+1}$ is true based on $P_n$. Note that we have<br>\begin{align*}<br>11^{n+1}-4^{n+1}=&amp;\ 11^{n+1}-4\cdot 11^n+4\cdot 11^n -4^{n+1}\\<br>=&amp;\ (11\cdot 11^n-4\cdot 11^n)+(4\cdot 11^n -4^{n+1})\\<br>=&amp;\ 7\cdot 11^n+4(11^n-4^n).<br>\end{align*} Since $7$ divides $11^n-4^n$ by $P_n$, we have $7\cdot 11^n+4(11^n-4^n)$ is divisible by $7$. By the equation above, we conlude that $11^{n+1}-4^{n+1}$ is divisible by 7. Therefore $P_{n+1}$ is true if $P_n$ is true. By the principle of mathematical induction, we make the conclusion that $P_n$ is true for all positive integers $n$.</p>
-<div class="note default flat"><p>This statement also follows from the following well-known formula,<br>$$<br>x^n-y^n=(x-y)(x^{n-1}+x^{n-2}\cdot y+\cdots x\cdot y^{n-2}+y^{n-1}).<br>$$ Let $x=11$ and $y=4$, we have<br>$$<br>11^n-4^n=7(11^{n-1}+4\cdot 11^{n-2}+\cdots + 4^{n-2}\cdot 11+4^{n-1}).<br>$$</p>
-</div>
-
+<p>Solution: The $n$-th proposition is<br>$$<br>P_n: \quad 36 \text{ divides } 7^n-6n-1.<br>$$ Clearly, $P_1$ is true because $7^1-6\cdot 1-1$ is zero which is divisible by any nonzero integer. We have the induction basis.</p>
+<p>Now we assume $P_n$ is true, that is $36$ divides $7^n-6n-1$. We would like to show $P_{n+1}$ is true based on $P_n$. Note that we have<br>\begin{equation}\label{eq:1-7-1}<br>7^{n+1}-6(n+1)-1=36n+7\big(7^n-6n-1\big).<br>\end{equation} Since $36$ divides $7^n-6n-1$ by $P_n$, we have $36n+7\big(7^n-6n-1\big)$ is divisible by $36$. By \eqref{eq:1-7-1}, we conlude that $7^{n+1}-6(n+1)-1$ is divisible by 36. Therefore $P_{n+1}$ is true if $P_n$ is true. By the principle of mathematical induction, we make the conclusion that $P_n$ is true for all positive integers $n$.</p>
 <script type="text/javascript">
 amzn_assoc_placement = "adunit0";
 amzn_assoc_search_bar = "true";
@@ -1045,9 +1110,9 @@ amzn_assoc_asins = "1493927116,1461462703,0471000051,0471000078,1259064786,10772
       </tags>
   </entry>
   <entry>
-    <title>Determine if a real number is rational using roots of polynomial III</title>
-    <url>/elementary-analysis-2-04.html</url>
-    <content><![CDATA[<div class="note info flat"><p><a href="/elementary-analysis-toc.html">Solution to Elementary Analysis: The Theory of Calculus Second Edition</a> Section 2 Exercises 2.4</p>
+    <title>Determine if a real number is rational using roots of polynomial II</title>
+    <url>/elementary-analysis-2-03.html</url>
+    <content><![CDATA[<div class="note info flat"><p><a href="/elementary-analysis-toc.html">Solution to Elementary Analysis: The Theory of Calculus Second Edition</a> Section 2 Exercises 2.3</p>
 </div>
 
 <a id="more"></a>
@@ -1055,9 +1120,9 @@ amzn_assoc_asins = "1493927116,1461462703,0471000051,0471000078,1259064786,10772
 <div class="note default flat"><p>Our main tool is Corollary 2.3.</p>
 </div>
 
-<p>Solution: First, we need to find an equation with integer coefficients such that $\sqrt[3]{5-\sqrt{3}}$ is a solution to it. </p>
-<p>Let $x=\sqrt[3]{5-\sqrt{3}}$. Taking cube for both sides, we obtain that $x^3=5-\sqrt{3}$. Hence $x^3-5=-\sqrt{3}$. Squaring both sides, we get<br>$$<br>(x^3-5)^2=3,<br>$$ which is<br>$$<br>x^6-10x^3+22=0.<br>$$ Consider the rational solution of $x^6-10x^2+22=0$. It follows from Corollary 2.3 that those rationa solutions can only be $\pm 1$,$\pm 2$, $\pm 11$, $\pm 22$.</p>
-<p>Direct computations would show that none of them will be a solution of $x^6-10x^2+22=0$. Hence $x^6-10x^2+22=0$ has no rational solutions. Therefore, as a solution to $x^6-10x^2+22=0$, $\sqrt[3]{5-\sqrt{3}}$ is irrational.</p>
+<p>Solution: First, we need to find an equation with integer coefficients such that $\sqrt{2-\sqrt{2}}$ is a solution to it. </p>
+<p>Let $x=\sqrt{2-\sqrt{2}}$. Taking square for both sides, we obtain that $x^2=2-\sqrt{2}$. Hence $x^2-2=-\sqrt{2}$. Squaring both sides, we get<br>$$<br>(x^2-2)^2=2,<br>$$ which is<br>$$<br>x^4-4x^2+2=0.<br>$$ Consider the rational solution of $x^4-4x^2+2=0$. It follows from Corollary 2.3 that those rationa solutions can only be $\pm 1$ and $\pm 2$.</p>
+<p>If we plug in $\pm 1$, we get $$1-4+2=-1\ne 0.$$ If we plug in $\pm 2$, we get $$16-16+2=2\ne 0.$$ Hence $x^4-4x^2+2=0$ has no rational solutions. Therefore, as a solution to $x^4-4x^2+2=0$, $\sqrt{2-\sqrt{2}}$ is irrational.</p>
 <script type="text/javascript">
 amzn_assoc_placement = "adunit0";
 amzn_assoc_search_bar = "true";
@@ -1117,9 +1182,9 @@ amzn_assoc_asins = "1493927116,1461462703,0471000051,0471000078,1259064786,10772
       </tags>
   </entry>
   <entry>
-    <title>Determine if a real number is rational using roots of polynomial II</title>
-    <url>/elementary-analysis-2-03.html</url>
-    <content><![CDATA[<div class="note info flat"><p><a href="/elementary-analysis-toc.html">Solution to Elementary Analysis: The Theory of Calculus Second Edition</a> Section 2 Exercises 2.3</p>
+    <title>Determine if a real number is rational using roots of polynomial III</title>
+    <url>/elementary-analysis-2-04.html</url>
+    <content><![CDATA[<div class="note info flat"><p><a href="/elementary-analysis-toc.html">Solution to Elementary Analysis: The Theory of Calculus Second Edition</a> Section 2 Exercises 2.4</p>
 </div>
 
 <a id="more"></a>
@@ -1127,9 +1192,9 @@ amzn_assoc_asins = "1493927116,1461462703,0471000051,0471000078,1259064786,10772
 <div class="note default flat"><p>Our main tool is Corollary 2.3.</p>
 </div>
 
-<p>Solution: First, we need to find an equation with integer coefficients such that $\sqrt{2-\sqrt{2}}$ is a solution to it. </p>
-<p>Let $x=\sqrt{2-\sqrt{2}}$. Taking square for both sides, we obtain that $x^2=2-\sqrt{2}$. Hence $x^2-2=-\sqrt{2}$. Squaring both sides, we get<br>$$<br>(x^2-2)^2=2,<br>$$ which is<br>$$<br>x^4-4x^2+2=0.<br>$$ Consider the rational solution of $x^4-4x^2+2=0$. It follows from Corollary 2.3 that those rationa solutions can only be $\pm 1$ and $\pm 2$.</p>
-<p>If we plug in $\pm 1$, we get $$1-4+2=-1\ne 0.$$ If we plug in $\pm 2$, we get $$16-16+2=2\ne 0.$$ Hence $x^4-4x^2+2=0$ has no rational solutions. Therefore, as a solution to $x^4-4x^2+2=0$, $\sqrt{2-\sqrt{2}}$ is irrational.</p>
+<p>Solution: First, we need to find an equation with integer coefficients such that $\sqrt[3]{5-\sqrt{3}}$ is a solution to it. </p>
+<p>Let $x=\sqrt[3]{5-\sqrt{3}}$. Taking cube for both sides, we obtain that $x^3=5-\sqrt{3}$. Hence $x^3-5=-\sqrt{3}$. Squaring both sides, we get<br>$$<br>(x^3-5)^2=3,<br>$$ which is<br>$$<br>x^6-10x^3+22=0.<br>$$ Consider the rational solution of $x^6-10x^2+22=0$. It follows from Corollary 2.3 that those rationa solutions can only be $\pm 1$,$\pm 2$, $\pm 11$, $\pm 22$.</p>
+<p>Direct computations would show that none of them will be a solution of $x^6-10x^2+22=0$. Hence $x^6-10x^2+22=0$ has no rational solutions. Therefore, as a solution to $x^6-10x^2+22=0$, $\sqrt[3]{5-\sqrt{3}}$ is irrational.</p>
 <script type="text/javascript">
 amzn_assoc_placement = "adunit0";
 amzn_assoc_search_bar = "true";
@@ -1150,6 +1215,42 @@ amzn_assoc_asins = "1493927116,1461462703,0471000051,0471000078,1259064786,10772
       <tags>
         <tag>Rational Number</tag>
         <tag>Polynomial</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Rational numbers are closed under algebraic operations</title>
+    <url>/elementary-analysis-2-06.html</url>
+    <content><![CDATA[<div class="note info flat"><p><a href="/elementary-analysis-toc.html">Solution to Elementary Analysis: The Theory of Calculus Second Edition</a> Section 2 Exercises 2.6</p>
+</div>
+
+<a id="more"></a>
+
+<div class="note default flat"><p>Our main tool is Corollary 2.3.</p>
+</div>
+
+<p>Solution: Since $b$ is rational, there exist integers $m$ and $n$ such that $b=\dfrac{n}{m}$ and $m\ne 0$. Then<br>$$<br>4-7b^2=4-7\frac{n^2}{m^2}=\frac{4m^2}{m^2}-\frac{7n^2}{m^2}=\frac{4m^2-7n^2}{m^2}.<br>$$ Note that $4m^2-7n^2$ and $m^2$ are integers as well. Moreover, $m^2\ne 0$. Therefore $4-7b^2$ is also rational.</p>
+<div class="note success flat"><p>In general, rational numbers are closed under addition, subtraction, multiplication and division. More precisely, performing such operations for rational numbers, the answer remains rational. </p>
+</div>
+
+<script type="text/javascript">
+amzn_assoc_placement = "adunit0";
+amzn_assoc_search_bar = "true";
+amzn_assoc_tracking_id = "linearalgeb0e-20";
+amzn_assoc_ad_mode = "manual";
+amzn_assoc_ad_type = "smart";
+amzn_assoc_marketplace = "amazon";
+amzn_assoc_region = "US";
+amzn_assoc_title = "My recommendations on Calculus and Analysis";
+amzn_assoc_linkid = "cfda343bc63399373d473026228d47e1";
+amzn_assoc_asins = "1493927116,1461462703,0471000051,0471000078,1259064786,1077254547,366248790X,1285741552";
+</script>
+<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
+      <categories>
+        <category>Solution</category>
+        <category>Elementary Analysis</category>
+      </categories>
+      <tags>
+        <tag>Rational Number</tag>
       </tags>
   </entry>
   <entry>
@@ -1224,42 +1325,6 @@ amzn_assoc_asins = "1493927116,1461462703,0471000051,0471000078,1259064786,10772
       <tags>
         <tag>Rational Number</tag>
         <tag>Polynomial</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Rational numbers are closed under algebraic operations</title>
-    <url>/elementary-analysis-2-06.html</url>
-    <content><![CDATA[<div class="note info flat"><p><a href="/elementary-analysis-toc.html">Solution to Elementary Analysis: The Theory of Calculus Second Edition</a> Section 2 Exercises 2.6</p>
-</div>
-
-<a id="more"></a>
-
-<div class="note default flat"><p>Our main tool is Corollary 2.3.</p>
-</div>
-
-<p>Solution: Since $b$ is rational, there exist integers $m$ and $n$ such that $b=\dfrac{n}{m}$ and $m\ne 0$. Then<br>$$<br>4-7b^2=4-7\frac{n^2}{m^2}=\frac{4m^2}{m^2}-\frac{7n^2}{m^2}=\frac{4m^2-7n^2}{m^2}.<br>$$ Note that $4m^2-7n^2$ and $m^2$ are integers as well. Moreover, $m^2\ne 0$. Therefore $4-7b^2$ is also rational.</p>
-<div class="note success flat"><p>In general, rational numbers are closed under addition, subtraction, multiplication and division. More precisely, performing such operations for rational numbers, the answer remains rational. </p>
-</div>
-
-<script type="text/javascript">
-amzn_assoc_placement = "adunit0";
-amzn_assoc_search_bar = "true";
-amzn_assoc_tracking_id = "linearalgeb0e-20";
-amzn_assoc_ad_mode = "manual";
-amzn_assoc_ad_type = "smart";
-amzn_assoc_marketplace = "amazon";
-amzn_assoc_region = "US";
-amzn_assoc_title = "My recommendations on Calculus and Analysis";
-amzn_assoc_linkid = "cfda343bc63399373d473026228d47e1";
-amzn_assoc_asins = "1493927116,1461462703,0471000051,0471000078,1259064786,1077254547,366248790X,1285741552";
-</script>
-<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
-      <categories>
-        <category>Solution</category>
-        <category>Elementary Analysis</category>
-      </categories>
-      <tags>
-        <tag>Rational Number</tag>
       </tags>
   </entry>
   <entry>
@@ -1387,45 +1452,6 @@ amzn_assoc_asins = "1493927116,1461462703,0471000051,0471000078,1259064786,10772
       </tags>
   </entry>
   <entry>
-    <title>Interchange limits at zero and infinity</title>
-    <url>/elementary-analysis-30-04.html</url>
-    <content><![CDATA[<div class="note info flat"><p><a href="/elementary-analysis-toc.html">Solution to Elementary Analysis: The Theory of Calculus Second Edition</a> Section 30 Exercises 30.4</p>
-</div>
-
-<a id="more"></a>
-
-<p>Solution: </p>
-<p>First, we show that $\lim_{x\to 0^+}f(x)$ exists if $\lim_{y\to \infty}g(y)$ exists. </p>
-<p>Suppose $\lim_{y\to \infty}g(y)=L$. For any $\epsilon&gt;0$, there exists $N&gt;0$ such that<br>\begin{equation}\label{30-4-1}<br>|g(y)-L|&lt;\epsilon,<br>\end{equation} for any $y&gt;N$. </p>
-<p>Let $\delta=\dfrac{1}{N}$. </p>
-<p>Note that for all $0 &lt; x &lt; \delta$, we have $\dfrac{1}{x} &gt; N$. Therefore, by \eqref{30-4-1},<br>$$<br>|f(x)-L|=\left|g\Big(\frac{1}{x}\Big)-L\right|&lt;\epsilon<br>$$ for all $0 &lt; x &lt; \delta$. Therefore, we have $\lim_{x\to 0^+}f(x)=L$.</p>
-<hr>
-<p>Then, we show the other direction. Namely $\lim_{x\to 0^+}f(x)$ exists only if $\lim_{y\to \infty}g(y)$ exists.</p>
-<p>Suppose $\lim_{x\to 0^+}f(x)=L$. For any $\epsilon &gt;0$, there exists $\delta&gt;0$ such that<br>\begin{equation}\label{30-4-2}<br>|f(x)-L|&lt;\epsilon,<br>\end{equation} for all $0&lt; x&lt; \delta$. </p>
-<p>Let $N=\max\{\dfrac{1}{\delta},a^{-1}\}$.</p>
-<p>Note that for all $y&gt;N$, we have $0&lt;\dfrac{1}{y}&lt;\delta$. Therefore, by \eqref{30-4-2}, we have<br>$$<br>|g(y)-L|=\left|f\Big(\frac{1}{y}\Big)-L\right|&lt;\epsilon<br>$$ for all $y&gt;N$. Therefore, we have $\lim_{y\to \infty}g(y)=L$.</p>
-<script type="text/javascript">
-amzn_assoc_placement = "adunit0";
-amzn_assoc_search_bar = "true";
-amzn_assoc_tracking_id = "linearalgeb0e-20";
-amzn_assoc_ad_mode = "manual";
-amzn_assoc_ad_type = "smart";
-amzn_assoc_marketplace = "amazon";
-amzn_assoc_region = "US";
-amzn_assoc_title = "My recommendations on Calculus and Analysis";
-amzn_assoc_linkid = "cfda343bc63399373d473026228d47e1";
-amzn_assoc_asins = "1493927116,1461462703,0471000051,0471000078,1259064786,1077254547,366248790X,1285741552";
-</script>
-<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
-      <categories>
-        <category>Solution</category>
-        <category>Elementary Analysis</category>
-      </categories>
-      <tags>
-        <tag>Limit</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Limits involving the definition of the natural constant e</title>
     <url>/elementary-analysis-30-05.html</url>
     <content><![CDATA[<div class="note info flat"><p><a href="/elementary-analysis-toc.html">Solution to Elementary Analysis: The Theory of Calculus Second Edition</a> Section 30 Exercises 30.5</p>
@@ -1466,6 +1492,45 @@ amzn_assoc_asins = "1493927116,1461462703,0471000051,0471000078,1259064786,10772
         <tag>Limit</tag>
         <tag>L’Hospital’s Rule</tag>
         <tag>Natural Constant</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Interchange limits at zero and infinity</title>
+    <url>/elementary-analysis-30-04.html</url>
+    <content><![CDATA[<div class="note info flat"><p><a href="/elementary-analysis-toc.html">Solution to Elementary Analysis: The Theory of Calculus Second Edition</a> Section 30 Exercises 30.4</p>
+</div>
+
+<a id="more"></a>
+
+<p>Solution: </p>
+<p>First, we show that $\lim_{x\to 0^+}f(x)$ exists if $\lim_{y\to \infty}g(y)$ exists. </p>
+<p>Suppose $\lim_{y\to \infty}g(y)=L$. For any $\epsilon&gt;0$, there exists $N&gt;0$ such that<br>\begin{equation}\label{30-4-1}<br>|g(y)-L|&lt;\epsilon,<br>\end{equation} for any $y&gt;N$. </p>
+<p>Let $\delta=\dfrac{1}{N}$. </p>
+<p>Note that for all $0 &lt; x &lt; \delta$, we have $\dfrac{1}{x} &gt; N$. Therefore, by \eqref{30-4-1},<br>$$<br>|f(x)-L|=\left|g\Big(\frac{1}{x}\Big)-L\right|&lt;\epsilon<br>$$ for all $0 &lt; x &lt; \delta$. Therefore, we have $\lim_{x\to 0^+}f(x)=L$.</p>
+<hr>
+<p>Then, we show the other direction. Namely $\lim_{x\to 0^+}f(x)$ exists only if $\lim_{y\to \infty}g(y)$ exists.</p>
+<p>Suppose $\lim_{x\to 0^+}f(x)=L$. For any $\epsilon &gt;0$, there exists $\delta&gt;0$ such that<br>\begin{equation}\label{30-4-2}<br>|f(x)-L|&lt;\epsilon,<br>\end{equation} for all $0&lt; x&lt; \delta$. </p>
+<p>Let $N=\max\{\dfrac{1}{\delta},a^{-1}\}$.</p>
+<p>Note that for all $y&gt;N$, we have $0&lt;\dfrac{1}{y}&lt;\delta$. Therefore, by \eqref{30-4-2}, we have<br>$$<br>|g(y)-L|=\left|f\Big(\frac{1}{y}\Big)-L\right|&lt;\epsilon<br>$$ for all $y&gt;N$. Therefore, we have $\lim_{y\to \infty}g(y)=L$.</p>
+<script type="text/javascript">
+amzn_assoc_placement = "adunit0";
+amzn_assoc_search_bar = "true";
+amzn_assoc_tracking_id = "linearalgeb0e-20";
+amzn_assoc_ad_mode = "manual";
+amzn_assoc_ad_type = "smart";
+amzn_assoc_marketplace = "amazon";
+amzn_assoc_region = "US";
+amzn_assoc_title = "My recommendations on Calculus and Analysis";
+amzn_assoc_linkid = "cfda343bc63399373d473026228d47e1";
+amzn_assoc_asins = "1493927116,1461462703,0471000051,0471000078,1259064786,1077254547,366248790X,1285741552";
+</script>
+<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
+      <categories>
+        <category>Solution</category>
+        <category>Elementary Analysis</category>
+      </categories>
+      <tags>
+        <tag>Limit</tag>
       </tags>
   </entry>
   <entry>
@@ -1543,42 +1608,6 @@ amzn_assoc_asins = "1493927116,1461462703,0471000051,0471000078,1259064786,10772
       </tags>
   </entry>
   <entry>
-    <title>Solution to Elementary Analysis The Theory of Calculus Second Edition</title>
-    <url>/elementary-analysis-toc.html</url>
-    <content><![CDATA[<div class="note info flat"><p><a href="https://amzn.to/3dF59Lt">Elementary Analysis: The Theory of Calculus Second Edition</a> by Kenneth A. Ross</p>
-</div>
-
-<a id="more"></a>
-
-<h3 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h3><h4 id="1-The-Set-mathbb-N-of-Natural-Numbers"><a href="#1-The-Set-mathbb-N-of-Natural-Numbers" class="headerlink" title="1 The Set $\mathbb N$ of Natural Numbers"></a>1 The Set $\mathbb N$ of Natural Numbers</h4><p><a href="/elementary-analysis-1-01.html">#1</a>, <a href="/elementary-analysis-1-02.html">#2</a>, <a href="/elementary-analysis-1-03.html">#3</a>, <a href="/elementary-analysis-1-04.html">#4</a>, <a href="/elementary-analysis-1-05.html">#5</a>, <a href="/elementary-analysis-1-06.html">#6</a>, <a href="-elementary-analysis/1-07.html">#7</a>, <a href="/elementary-analysis-1-08.html">#8</a>, <a href="/elementary-analysis-1-09.html">#9</a>, <a href="/elementary-analysis-1-10.html">#10</a>, <a href="/elementary-analysis-1-11.html">#11</a>, <a href="/elementary-analysis-1-12.html">#12</a></p>
-<h4 id="2-The-Set-mathbb-Q-of-Rational-Numbers"><a href="#2-The-Set-mathbb-Q-of-Rational-Numbers" class="headerlink" title="2 The Set $\mathbb Q$ of Rational Numbers"></a>2 The Set $\mathbb Q$ of Rational Numbers</h4><p><a href="/elementary-analysis-2-01.html">#1</a>, <a href="/elementary-analysis-2-01.html#Exercise-2-2">#2</a>, <a href="/elementary-analysis-2-03.html">#3</a>, <a href="/elementary-analysis-2-04.html">#4</a>, <a href="/elementary-analysis-2-05.html">#5</a>, <a href="/elementary-analysis-2-06.html">#6</a>, <a href="/elementary-analysis-2-07.html">#7</a>, <a href="/elementary-analysis-2-08.html">#8</a></p>
-<h4 id="3-The-Set-mathbb-R-of-Real-Numbers"><a href="#3-The-Set-mathbb-R-of-Real-Numbers" class="headerlink" title="3 The Set $\mathbb R$ of Real Numbers"></a>3 The Set $\mathbb R$ of Real Numbers</h4><h4 id="4-The-Completeness-Axiom"><a href="#4-The-Completeness-Axiom" class="headerlink" title="4 The Completeness Axiom"></a>4 The Completeness Axiom</h4><h4 id="5-The-Symbols-infty-and-infty"><a href="#5-The-Symbols-infty-and-infty" class="headerlink" title="5 The Symbols $\infty$ and $-\infty$"></a>5 The Symbols $\infty$ and $-\infty$</h4><h4 id="6-A-Development-of-mathbb-R"><a href="#6-A-Development-of-mathbb-R" class="headerlink" title="6 * A Development of $\mathbb R$"></a>6 * A Development of $\mathbb R$</h4><h3 id="Sequences"><a href="#Sequences" class="headerlink" title="Sequences"></a>Sequences</h3><h4 id="7-Limits-of-Sequences"><a href="#7-Limits-of-Sequences" class="headerlink" title="7 Limits of Sequences"></a>7 Limits of Sequences</h4><p><a href="/elementary-analysis-07-01.html">#1</a>, <a href="/elementary-analysis-07-01.html#Exercise-7-2">#2</a>, <a href="/elementary-analysis-07-03.html">#3</a>, <a href="/elementary-analysis-07-04.html">#4</a>, <a href="/elementary-analysis-07-05.html">#5</a></p>
-<h4 id="8-A-Discussion-about-Proofs"><a href="#8-A-Discussion-about-Proofs" class="headerlink" title="8 A Discussion about Proofs"></a>8 A Discussion about Proofs</h4><p><a href="/elementary-analysis-08-01.html">#1</a>, <a href="/elementary-analysis-08-02.html">#2</a>, <a href="/elementary-analysis-08-03.html">#3</a>, <a href="/elementary-analysis-08-04.html">#4</a>, <a href="/elementary-analysis-08-05.html">#5</a>, <a href="/elementary-analysis-08-06.html">#6</a>, <a href="/elementary-analysis-08-07.html">#7</a>, <a href="/elementary-analysis-08-08.html">#8</a>, <a href="/elementary-analysis-08-09.html">#9</a>, <a href="/elementary-analysis-08-10.html">#10</a></p>
-<h4 id="9-Limit-Theorems-for-Sequences"><a href="#9-Limit-Theorems-for-Sequences" class="headerlink" title="9 Limit Theorems for Sequences"></a>9 Limit Theorems for Sequences</h4><p><a href="/elementary-analysis-09-01.html">#1</a></p>
-<h4 id="10-Monotone-Sequences-and-Cauchy-Sequences"><a href="#10-Monotone-Sequences-and-Cauchy-Sequences" class="headerlink" title="10 Monotone Sequences and Cauchy Sequences"></a>10 Monotone Sequences and Cauchy Sequences</h4><h4 id="11-Subsequences"><a href="#11-Subsequences" class="headerlink" title="11 Subsequences"></a>11 Subsequences</h4><h4 id="12-limsup’s-and-liminf’s"><a href="#12-limsup’s-and-liminf’s" class="headerlink" title="12 limsup’s and liminf’s"></a>12 limsup’s and liminf’s</h4><h4 id="13-Some-Topological-Concepts-in-Metric-Spaces"><a href="#13-Some-Topological-Concepts-in-Metric-Spaces" class="headerlink" title="13 * Some Topological Concepts in Metric Spaces"></a>13 * Some Topological Concepts in Metric Spaces</h4><h4 id="14-Series"><a href="#14-Series" class="headerlink" title="14 Series"></a>14 Series</h4><h4 id="15-Alternating-Series-and-Integral-Tests"><a href="#15-Alternating-Series-and-Integral-Tests" class="headerlink" title="15 Alternating Series and Integral Tests"></a>15 Alternating Series and Integral Tests</h4><h4 id="16-Decimal-Expansions-of-Real-Numbers"><a href="#16-Decimal-Expansions-of-Real-Numbers" class="headerlink" title="16 * Decimal Expansions of Real Numbers"></a>16 * Decimal Expansions of Real Numbers</h4><h3 id="Continuity"><a href="#Continuity" class="headerlink" title="Continuity"></a>Continuity</h3><h4 id="17-Continuous-Functions"><a href="#17-Continuous-Functions" class="headerlink" title="17 Continuous Functions"></a>17 Continuous Functions</h4><h4 id="18-Properties-of-Continuous-Functions"><a href="#18-Properties-of-Continuous-Functions" class="headerlink" title="18 Properties of Continuous Functions"></a>18 Properties of Continuous Functions</h4><h4 id="19-Uniform-Continuity"><a href="#19-Uniform-Continuity" class="headerlink" title="19 Uniform Continuity"></a>19 Uniform Continuity</h4><h4 id="20-Limits-of-Functions"><a href="#20-Limits-of-Functions" class="headerlink" title="20 Limits of Functions"></a>20 Limits of Functions</h4><h4 id="21-More-on-Metric-Spaces-Continuity"><a href="#21-More-on-Metric-Spaces-Continuity" class="headerlink" title="21 More on Metric Spaces:Continuity"></a>21 More on Metric Spaces:Continuity</h4><h4 id="22-More-on-Metric-Spaces-Connectedness"><a href="#22-More-on-Metric-Spaces-Connectedness" class="headerlink" title="22 More on Metric Spaces: Connectedness"></a>22 More on Metric Spaces: Connectedness</h4><h3 id="Sequences-and-Series-of-Functions"><a href="#Sequences-and-Series-of-Functions" class="headerlink" title="Sequences and Series of Functions"></a>Sequences and Series of Functions</h3><h4 id="23-Power-Series"><a href="#23-Power-Series" class="headerlink" title="23 Power Series"></a>23 Power Series</h4><h4 id="24-Uniform-Convergence"><a href="#24-Uniform-Convergence" class="headerlink" title="24 Uniform Convergence"></a>24 Uniform Convergence</h4><h4 id="25-More-on-Uniform-Convergence"><a href="#25-More-on-Uniform-Convergence" class="headerlink" title="25 More on Uniform Convergence"></a>25 More on Uniform Convergence</h4><h4 id="26-Differentiation-and-Integration-of-Power-Series"><a href="#26-Differentiation-and-Integration-of-Power-Series" class="headerlink" title="26 Differentiation and Integration of Power Series"></a>26 Differentiation and Integration of Power Series</h4><h4 id="27-Weierstrass’s-Approximation-Theorem"><a href="#27-Weierstrass’s-Approximation-Theorem" class="headerlink" title="27 Weierstrass’s Approximation Theorem"></a>27 Weierstrass’s Approximation Theorem</h4><h3 id="Differentiation"><a href="#Differentiation" class="headerlink" title="Differentiation"></a>Differentiation</h3><h4 id="28-Basic-Properties-of-the-Derivative"><a href="#28-Basic-Properties-of-the-Derivative" class="headerlink" title="28 Basic Properties of the Derivative"></a>28 Basic Properties of the Derivative</h4><h4 id="29-The-Mean-Value-Theorem"><a href="#29-The-Mean-Value-Theorem" class="headerlink" title="29 The Mean Value Theorem"></a>29 The Mean Value Theorem</h4><h4 id="30-L’Hospital’s-Rule"><a href="#30-L’Hospital’s-Rule" class="headerlink" title="30 L’Hospital’s Rule"></a>30 L’Hospital’s Rule</h4><p><a href="/elementary-analysis-30-01.html">#1</a>, <a href="/elementary-analysis-30-02.html">#2</a>, <a href="/elementary-analysis-30-03.html">#3</a>, <a href="/elementary-analysis-30-04.html">#4</a>, <a href="/elementary-analysis-30-05.html">#5</a>, <a href="/elementary-analysis-30-06.html">#6</a>, <a href="/elementary-analysis-30-07.html">#7</a></p>
-<h4 id="31-Taylor’sTheorem"><a href="#31-Taylor’sTheorem" class="headerlink" title="31 Taylor’sTheorem"></a>31 Taylor’sTheorem</h4><script type="text/javascript">
-amzn_assoc_placement = "adunit0";
-amzn_assoc_search_bar = "true";
-amzn_assoc_tracking_id = "linearalgeb0e-20";
-amzn_assoc_ad_mode = "manual";
-amzn_assoc_ad_type = "smart";
-amzn_assoc_marketplace = "amazon";
-amzn_assoc_region = "US";
-amzn_assoc_title = "My recommendations on Calculus and Analysis";
-amzn_assoc_linkid = "cfda343bc63399373d473026228d47e1";
-amzn_assoc_asins = "1493927116,1461462703,0471000051,0471000078,1259064786,1077254547,366248790X,1285741552";
-</script>
-<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
-      <categories>
-        <category>Solution</category>
-        <category>Elementary Analysis</category>
-      </categories>
-      <tags>
-        <tag>Solution Manual</tag>
-        <tag>Solution Content</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Solution Manual to Introduction to Applied Linear Algebra</title>
     <url>/iala-solution-manual.html</url>
     <content><![CDATA[<p>Below is the official solution manual of Introduction to Applied Linear Algebra (Vectors, Matrices, and Least Squares) by Stephen Boyd, Lieven Vandenberghe</p>
@@ -1605,6 +1634,42 @@ amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
 <script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
       <categories>
         <category>Machine Learning</category>
+      </categories>
+      <tags>
+        <tag>Solution Manual</tag>
+        <tag>Solution Content</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Solution to Elementary Analysis The Theory of Calculus Second Edition</title>
+    <url>/elementary-analysis-toc.html</url>
+    <content><![CDATA[<div class="note info flat"><p><a href="https://amzn.to/3dF59Lt">Elementary Analysis: The Theory of Calculus Second Edition</a> by Kenneth A. Ross</p>
+</div>
+
+<a id="more"></a>
+
+<h3 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h3><h4 id="1-The-Set-mathbb-N-of-Natural-Numbers"><a href="#1-The-Set-mathbb-N-of-Natural-Numbers" class="headerlink" title="1 The Set $\mathbb N$ of Natural Numbers"></a>1 The Set $\mathbb N$ of Natural Numbers</h4><p><a href="/elementary-analysis-1-01.html">#1</a>, <a href="/elementary-analysis-1-02.html">#2</a>, <a href="/elementary-analysis-1-03.html">#3</a>, <a href="/elementary-analysis-1-04.html">#4</a>, <a href="/elementary-analysis-1-05.html">#5</a>, <a href="/elementary-analysis-1-06.html">#6</a>, <a href="-elementary-analysis/1-07.html">#7</a>, <a href="/elementary-analysis-1-08.html">#8</a>, <a href="/elementary-analysis-1-09.html">#9</a>, <a href="/elementary-analysis-1-10.html">#10</a>, <a href="/elementary-analysis-1-11.html">#11</a>, <a href="/elementary-analysis-1-12.html">#12</a></p>
+<h4 id="2-The-Set-mathbb-Q-of-Rational-Numbers"><a href="#2-The-Set-mathbb-Q-of-Rational-Numbers" class="headerlink" title="2 The Set $\mathbb Q$ of Rational Numbers"></a>2 The Set $\mathbb Q$ of Rational Numbers</h4><p><a href="/elementary-analysis-2-01.html">#1</a>, <a href="/elementary-analysis-2-01.html#Exercise-2-2">#2</a>, <a href="/elementary-analysis-2-03.html">#3</a>, <a href="/elementary-analysis-2-04.html">#4</a>, <a href="/elementary-analysis-2-05.html">#5</a>, <a href="/elementary-analysis-2-06.html">#6</a>, <a href="/elementary-analysis-2-07.html">#7</a>, <a href="/elementary-analysis-2-08.html">#8</a></p>
+<h4 id="3-The-Set-mathbb-R-of-Real-Numbers"><a href="#3-The-Set-mathbb-R-of-Real-Numbers" class="headerlink" title="3 The Set $\mathbb R$ of Real Numbers"></a>3 The Set $\mathbb R$ of Real Numbers</h4><h4 id="4-The-Completeness-Axiom"><a href="#4-The-Completeness-Axiom" class="headerlink" title="4 The Completeness Axiom"></a>4 The Completeness Axiom</h4><h4 id="5-The-Symbols-infty-and-infty"><a href="#5-The-Symbols-infty-and-infty" class="headerlink" title="5 The Symbols $\infty$ and $-\infty$"></a>5 The Symbols $\infty$ and $-\infty$</h4><h4 id="6-A-Development-of-mathbb-R"><a href="#6-A-Development-of-mathbb-R" class="headerlink" title="6 * A Development of $\mathbb R$"></a>6 * A Development of $\mathbb R$</h4><h3 id="Sequences"><a href="#Sequences" class="headerlink" title="Sequences"></a>Sequences</h3><h4 id="7-Limits-of-Sequences"><a href="#7-Limits-of-Sequences" class="headerlink" title="7 Limits of Sequences"></a>7 Limits of Sequences</h4><p><a href="/elementary-analysis-07-01.html">#1</a>, <a href="/elementary-analysis-07-01.html#Exercise-7-2">#2</a>, <a href="/elementary-analysis-07-03.html">#3</a>, <a href="/elementary-analysis-07-04.html">#4</a>, <a href="/elementary-analysis-07-05.html">#5</a></p>
+<h4 id="8-A-Discussion-about-Proofs"><a href="#8-A-Discussion-about-Proofs" class="headerlink" title="8 A Discussion about Proofs"></a>8 A Discussion about Proofs</h4><p><a href="/elementary-analysis-08-01.html">#1</a>, <a href="/elementary-analysis-08-02.html">#2</a>, <a href="/elementary-analysis-08-03.html">#3</a>, <a href="/elementary-analysis-08-04.html">#4</a>, <a href="/elementary-analysis-08-05.html">#5</a>, <a href="/elementary-analysis-08-06.html">#6</a>, <a href="/elementary-analysis-08-07.html">#7</a>, <a href="/elementary-analysis-08-08.html">#8</a>, <a href="/elementary-analysis-08-09.html">#9</a>, <a href="/elementary-analysis-08-10.html">#10</a></p>
+<h4 id="9-Limit-Theorems-for-Sequences"><a href="#9-Limit-Theorems-for-Sequences" class="headerlink" title="9 Limit Theorems for Sequences"></a>9 Limit Theorems for Sequences</h4><p><a href="/elementary-analysis-09-01.html">#1</a>, <a href="/elementary-analysis-09-02.html">#2</a>, <a href="/elementary-analysis-09-03.html">#3</a>,</p>
+<h4 id="10-Monotone-Sequences-and-Cauchy-Sequences"><a href="#10-Monotone-Sequences-and-Cauchy-Sequences" class="headerlink" title="10 Monotone Sequences and Cauchy Sequences"></a>10 Monotone Sequences and Cauchy Sequences</h4><h4 id="11-Subsequences"><a href="#11-Subsequences" class="headerlink" title="11 Subsequences"></a>11 Subsequences</h4><h4 id="12-limsup’s-and-liminf’s"><a href="#12-limsup’s-and-liminf’s" class="headerlink" title="12 limsup’s and liminf’s"></a>12 limsup’s and liminf’s</h4><h4 id="13-Some-Topological-Concepts-in-Metric-Spaces"><a href="#13-Some-Topological-Concepts-in-Metric-Spaces" class="headerlink" title="13 * Some Topological Concepts in Metric Spaces"></a>13 * Some Topological Concepts in Metric Spaces</h4><h4 id="14-Series"><a href="#14-Series" class="headerlink" title="14 Series"></a>14 Series</h4><h4 id="15-Alternating-Series-and-Integral-Tests"><a href="#15-Alternating-Series-and-Integral-Tests" class="headerlink" title="15 Alternating Series and Integral Tests"></a>15 Alternating Series and Integral Tests</h4><h4 id="16-Decimal-Expansions-of-Real-Numbers"><a href="#16-Decimal-Expansions-of-Real-Numbers" class="headerlink" title="16 * Decimal Expansions of Real Numbers"></a>16 * Decimal Expansions of Real Numbers</h4><h3 id="Continuity"><a href="#Continuity" class="headerlink" title="Continuity"></a>Continuity</h3><h4 id="17-Continuous-Functions"><a href="#17-Continuous-Functions" class="headerlink" title="17 Continuous Functions"></a>17 Continuous Functions</h4><h4 id="18-Properties-of-Continuous-Functions"><a href="#18-Properties-of-Continuous-Functions" class="headerlink" title="18 Properties of Continuous Functions"></a>18 Properties of Continuous Functions</h4><h4 id="19-Uniform-Continuity"><a href="#19-Uniform-Continuity" class="headerlink" title="19 Uniform Continuity"></a>19 Uniform Continuity</h4><h4 id="20-Limits-of-Functions"><a href="#20-Limits-of-Functions" class="headerlink" title="20 Limits of Functions"></a>20 Limits of Functions</h4><h4 id="21-More-on-Metric-Spaces-Continuity"><a href="#21-More-on-Metric-Spaces-Continuity" class="headerlink" title="21 More on Metric Spaces:Continuity"></a>21 More on Metric Spaces:Continuity</h4><h4 id="22-More-on-Metric-Spaces-Connectedness"><a href="#22-More-on-Metric-Spaces-Connectedness" class="headerlink" title="22 More on Metric Spaces: Connectedness"></a>22 More on Metric Spaces: Connectedness</h4><h3 id="Sequences-and-Series-of-Functions"><a href="#Sequences-and-Series-of-Functions" class="headerlink" title="Sequences and Series of Functions"></a>Sequences and Series of Functions</h3><h4 id="23-Power-Series"><a href="#23-Power-Series" class="headerlink" title="23 Power Series"></a>23 Power Series</h4><h4 id="24-Uniform-Convergence"><a href="#24-Uniform-Convergence" class="headerlink" title="24 Uniform Convergence"></a>24 Uniform Convergence</h4><h4 id="25-More-on-Uniform-Convergence"><a href="#25-More-on-Uniform-Convergence" class="headerlink" title="25 More on Uniform Convergence"></a>25 More on Uniform Convergence</h4><h4 id="26-Differentiation-and-Integration-of-Power-Series"><a href="#26-Differentiation-and-Integration-of-Power-Series" class="headerlink" title="26 Differentiation and Integration of Power Series"></a>26 Differentiation and Integration of Power Series</h4><h4 id="27-Weierstrass’s-Approximation-Theorem"><a href="#27-Weierstrass’s-Approximation-Theorem" class="headerlink" title="27 Weierstrass’s Approximation Theorem"></a>27 Weierstrass’s Approximation Theorem</h4><h3 id="Differentiation"><a href="#Differentiation" class="headerlink" title="Differentiation"></a>Differentiation</h3><h4 id="28-Basic-Properties-of-the-Derivative"><a href="#28-Basic-Properties-of-the-Derivative" class="headerlink" title="28 Basic Properties of the Derivative"></a>28 Basic Properties of the Derivative</h4><h4 id="29-The-Mean-Value-Theorem"><a href="#29-The-Mean-Value-Theorem" class="headerlink" title="29 The Mean Value Theorem"></a>29 The Mean Value Theorem</h4><h4 id="30-L’Hospital’s-Rule"><a href="#30-L’Hospital’s-Rule" class="headerlink" title="30 L’Hospital’s Rule"></a>30 L’Hospital’s Rule</h4><p><a href="/elementary-analysis-30-01.html">#1</a>, <a href="/elementary-analysis-30-02.html">#2</a>, <a href="/elementary-analysis-30-03.html">#3</a>, <a href="/elementary-analysis-30-04.html">#4</a>, <a href="/elementary-analysis-30-05.html">#5</a>, <a href="/elementary-analysis-30-06.html">#6</a>, <a href="/elementary-analysis-30-07.html">#7</a></p>
+<h4 id="31-Taylor’sTheorem"><a href="#31-Taylor’sTheorem" class="headerlink" title="31 Taylor’sTheorem"></a>31 Taylor’sTheorem</h4><script type="text/javascript">
+amzn_assoc_placement = "adunit0";
+amzn_assoc_search_bar = "true";
+amzn_assoc_tracking_id = "linearalgeb0e-20";
+amzn_assoc_ad_mode = "manual";
+amzn_assoc_ad_type = "smart";
+amzn_assoc_marketplace = "amazon";
+amzn_assoc_region = "US";
+amzn_assoc_title = "My recommendations on Calculus and Analysis";
+amzn_assoc_linkid = "cfda343bc63399373d473026228d47e1";
+amzn_assoc_asins = "1493927116,1461462703,0471000051,0471000078,1259064786,1077254547,366248790X,1285741552";
+</script>
+<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
+      <categories>
+        <category>Solution</category>
+        <category>Elementary Analysis</category>
       </categories>
       <tags>
         <tag>Solution Manual</tag>
@@ -1649,6 +1714,41 @@ amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
       </tags>
   </entry>
   <entry>
+    <title>Write a vector as a linear combination of other vectors</title>
+    <url>/mml-exercise-2-11.html</url>
+    <content><![CDATA[<div class="note info flat"><p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 2 Exercise 2.11</strong></p>
+</div>
+
+<a id="more"></a>
+
+<p>Solution:</p>
+<p>Here, we need to solve the system of equations \begin{align*}\begin{cases}\alpha_1+\alpha_2+2\alpha_3 = 1,\\ \alpha_1+2\alpha_2-\alpha_3=-2, \\ \alpha_1+3\alpha_2+\alpha_3 = 5.\end{cases}\end{align*}</p>
+<p>Performing Gaussian elimination in the usual way, we determine that $\alpha_1 = -6$, $\alpha_2 = 3$, and $\alpha_3 = 2$. That is to say, $$y=-6x_1+3x_2+2x_3.$$</p>
+<script type="text/javascript">
+amzn_assoc_placement = "adunit0";
+amzn_assoc_search_bar = "true";
+amzn_assoc_tracking_id = "linearalgeb0e-20";
+amzn_assoc_search_bar_position = "bottom";
+amzn_assoc_ad_mode = "search";
+amzn_assoc_ad_type = "smart";
+amzn_assoc_marketplace = "amazon";
+amzn_assoc_region = "US";
+amzn_assoc_title = "Shop Related Products";
+amzn_assoc_default_search_phrase = "Linear Algebra";
+amzn_assoc_default_category = "All";
+amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
+</script><br />
+<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
+      <categories>
+        <category>Machine Learning</category>
+        <category>Linear Algebra</category>
+      </categories>
+      <tags>
+        <tag>Vector Space</tag>
+        <tag>Linear Combination</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Determine if vectors are linearly independent</title>
     <url>/mml-exercise-2-10.html</url>
     <content><![CDATA[<div class="note info flat"><p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 2 Exercise 2.10</strong></p>
@@ -1686,41 +1786,6 @@ amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
       <tags>
         <tag>Vector Space</tag>
         <tag>Linearly Independent</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Write a vector as a linear combination of other vectors</title>
-    <url>/mml-exercise-2-11.html</url>
-    <content><![CDATA[<div class="note info flat"><p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 2 Exercise 2.11</strong></p>
-</div>
-
-<a id="more"></a>
-
-<p>Solution:</p>
-<p>Here, we need to solve the system of equations \begin{align*}\begin{cases}\alpha_1+\alpha_2+2\alpha_3 = 1,\\ \alpha_1+2\alpha_2-\alpha_3=-2, \\ \alpha_1+3\alpha_2+\alpha_3 = 5.\end{cases}\end{align*}</p>
-<p>Performing Gaussian elimination in the usual way, we determine that $\alpha_1 = -6$, $\alpha_2 = 3$, and $\alpha_3 = 2$. That is to say, $$y=-6x_1+3x_2+2x_3.$$</p>
-<script type="text/javascript">
-amzn_assoc_placement = "adunit0";
-amzn_assoc_search_bar = "true";
-amzn_assoc_tracking_id = "linearalgeb0e-20";
-amzn_assoc_search_bar_position = "bottom";
-amzn_assoc_ad_mode = "search";
-amzn_assoc_ad_type = "smart";
-amzn_assoc_marketplace = "amazon";
-amzn_assoc_region = "US";
-amzn_assoc_title = "Shop Related Products";
-amzn_assoc_default_search_phrase = "Linear Algebra";
-amzn_assoc_default_category = "All";
-amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
-</script><br />
-<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
-      <categories>
-        <category>Machine Learning</category>
-        <category>Linear Algebra</category>
-      </categories>
-      <tags>
-        <tag>Vector Space</tag>
-        <tag>Linear Combination</tag>
       </tags>
   </entry>
   <entry>
@@ -1966,19 +2031,15 @@ amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
       </tags>
   </entry>
   <entry>
-    <title>Computations of an automorphism of vector space</title>
-    <url>/mml-exercise-2-19.html</url>
-    <content><![CDATA[<div class="note info flat"><p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 2 Exercise 2.19</strong></p>
+    <title>Properties of automorphisms of vector space</title>
+    <url>/mml-exercise-2-18.html</url>
+    <content><![CDATA[<div class="note info flat"><p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 2 Exercise 2.18</strong></p>
 </div>
 
 <a id="more"></a>
 
 <p>Solution:</p>
-<p><strong>Part a</strong></p>
-<p>Note that $\mathsf{rank}(A_\Phi) = 3$, so $\ker(\Phi)=\{0\}$ and $\mathsf{Im}(\Phi)=\mathbb{R}^3$.</p>
-<p><strong>Part b</strong></p>
-<p>Let $P$ be the change of basis matrix from the standard basis of $B$ to $\mathbb{R}^3$. Then $$P=\begin{bmatrix} 1&amp;1&amp;1\\ 1&amp;2&amp;0\\ 1&amp;1&amp;0 \end{bmatrix}.$$</p>
-<p>The matrix $\overline{A_\Phi}$ is given by $$P^{-1}A_\Phi P = \begin{bmatrix} 6&amp;9&amp;1\\-3&amp;-5&amp;0\\-1&amp;-1&amp;0 \end{bmatrix}.$$</p>
+<p>We have two automorphisms, which means they map linearly and bijectively from the space, $E$, to itself. The maps therefore both have kernel $\{0\}$ (by injectivity) and image $E$ (by surjectivity). From this, we immediately deduce that $\ker(f)\cap \mathsf{Im}(g) = \{0\}$, indeed. Similarly, we deduce that $g\circ f$ also has kernel $\{0\}$ and image $E$, as required. Note that we didn’t need the condition that $f\circ g = \mathsf{id}_E$.</p>
 <script type="text/javascript">
 amzn_assoc_placement = "adunit0";
 amzn_assoc_search_bar = "true";
@@ -2005,15 +2066,19 @@ amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
       </tags>
   </entry>
   <entry>
-    <title>Properties of automorphisms of vector space</title>
-    <url>/mml-exercise-2-18.html</url>
-    <content><![CDATA[<div class="note info flat"><p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 2 Exercise 2.18</strong></p>
+    <title>Computations of an automorphism of vector space</title>
+    <url>/mml-exercise-2-19.html</url>
+    <content><![CDATA[<div class="note info flat"><p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 2 Exercise 2.19</strong></p>
 </div>
 
 <a id="more"></a>
 
 <p>Solution:</p>
-<p>We have two automorphisms, which means they map linearly and bijectively from the space, $E$, to itself. The maps therefore both have kernel $\{0\}$ (by injectivity) and image $E$ (by surjectivity). From this, we immediately deduce that $\ker(f)\cap \mathsf{Im}(g) = \{0\}$, indeed. Similarly, we deduce that $g\circ f$ also has kernel $\{0\}$ and image $E$, as required. Note that we didn’t need the condition that $f\circ g = \mathsf{id}_E$.</p>
+<p><strong>Part a</strong></p>
+<p>Note that $\mathsf{rank}(A_\Phi) = 3$, so $\ker(\Phi)=\{0\}$ and $\mathsf{Im}(\Phi)=\mathbb{R}^3$.</p>
+<p><strong>Part b</strong></p>
+<p>Let $P$ be the change of basis matrix from the standard basis of $B$ to $\mathbb{R}^3$. Then $$P=\begin{bmatrix} 1&amp;1&amp;1\\ 1&amp;2&amp;0\\ 1&amp;1&amp;0 \end{bmatrix}.$$</p>
+<p>The matrix $\overline{A_\Phi}$ is given by $$P^{-1}A_\Phi P = \begin{bmatrix} 6&amp;9&amp;1\\-3&amp;-5&amp;0\\-1&amp;-1&amp;0 \end{bmatrix}.$$</p>
 <script type="text/javascript">
 amzn_assoc_placement = "adunit0";
 amzn_assoc_search_bar = "true";
@@ -2140,6 +2205,45 @@ amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
       </tags>
   </entry>
   <entry>
+    <title>Verify a set with matrices is a group</title>
+    <url>/mml-exercise-2-3.html</url>
+    <content><![CDATA[<div class="note info flat"><p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 2 Exercise 2.3</strong></p>
+</div>
+
+<a id="more"></a>
+
+<p>Solution:</p>
+<p>Let $A_1 = \begin{bmatrix} 1 &amp; x_1 &amp; y_1 \\ 0 &amp; 1 &amp; z_1 \\ 0 &amp; 0 &amp; 1 \end{bmatrix}$ and $A_2 = \begin{bmatrix} 1 &amp; x_2 &amp; y_2 \\ 0 &amp; 1 &amp; z_2 \\ 0 &amp; 0 &amp; 1 \end{bmatrix} \in \mathcal{G}$.</p>
+<p>Then $$A_1A_2 = \begin{bmatrix} 1 &amp; x_1+x_2 &amp; y_1+x_1z_2+y_2 \\ 0 &amp; 1 &amp; z_1+z_2 \\ 0 &amp; 0 &amp; 1 \end{bmatrix} \in\mathcal{G},$$ so we have closure.</p>
+<p>Associativity follows from the associativity of standard matrix multiplication.</p>
+<p>Letting $x=y=z=0$, observe that the identity is in $\mathcal{G}$.</p>
+<p>Finally, if we take $x_2 = -x_1$, $z_2 = -z_1$, and $y_2 = -y_1-x_1z_2$, then observe that $A_1A_2 = I_3$, and thus inverses are of the required form! Therefore, $\mathcal{G} $ is a group.</p>
+<p>The group is not abelian, e.g. take $x_1=z_2=1$ and everything else to be $0$. Then multiplying these matrices in the other order (i.e. $x_2=z_1=1$) gives a different answer.</p>
+<script type="text/javascript">
+amzn_assoc_placement = "adunit0";
+amzn_assoc_search_bar = "true";
+amzn_assoc_tracking_id = "linearalgeb0e-20";
+amzn_assoc_search_bar_position = "bottom";
+amzn_assoc_ad_mode = "search";
+amzn_assoc_ad_type = "smart";
+amzn_assoc_marketplace = "amazon";
+amzn_assoc_region = "US";
+amzn_assoc_title = "Shop Related Products";
+amzn_assoc_default_search_phrase = "Linear Algebra";
+amzn_assoc_default_category = "All";
+amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
+</script><br />
+<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
+      <categories>
+        <category>Machine Learning</category>
+        <category>Linear Algebra</category>
+      </categories>
+      <tags>
+        <tag>Group</tag>
+        <tag>Matrix</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Compute products of Matrices</title>
     <url>/mml-exercise-2-4.html</url>
     <content><![CDATA[<div class="note info flat"><p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 2 Exercise 2.4</strong></p>
@@ -2224,45 +2328,6 @@ amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
       </categories>
       <tags>
         <tag>Linear Equations</tag>
-        <tag>Matrix</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Verify a set with matrices is a group</title>
-    <url>/mml-exercise-2-3.html</url>
-    <content><![CDATA[<div class="note info flat"><p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 2 Exercise 2.3</strong></p>
-</div>
-
-<a id="more"></a>
-
-<p>Solution:</p>
-<p>Let $A_1 = \begin{bmatrix} 1 &amp; x_1 &amp; y_1 \\ 0 &amp; 1 &amp; z_1 \\ 0 &amp; 0 &amp; 1 \end{bmatrix}$ and $A_2 = \begin{bmatrix} 1 &amp; x_2 &amp; y_2 \\ 0 &amp; 1 &amp; z_2 \\ 0 &amp; 0 &amp; 1 \end{bmatrix} \in \mathcal{G}$.</p>
-<p>Then $$A_1A_2 = \begin{bmatrix} 1 &amp; x_1+x_2 &amp; y_1+x_1z_2+y_2 \\ 0 &amp; 1 &amp; z_1+z_2 \\ 0 &amp; 0 &amp; 1 \end{bmatrix} \in\mathcal{G},$$ so we have closure.</p>
-<p>Associativity follows from the associativity of standard matrix multiplication.</p>
-<p>Letting $x=y=z=0$, observe that the identity is in $\mathcal{G}$.</p>
-<p>Finally, if we take $x_2 = -x_1$, $z_2 = -z_1$, and $y_2 = -y_1-x_1z_2$, then observe that $A_1A_2 = I_3$, and thus inverses are of the required form! Therefore, $\mathcal{G} $ is a group.</p>
-<p>The group is not abelian, e.g. take $x_1=z_2=1$ and everything else to be $0$. Then multiplying these matrices in the other order (i.e. $x_2=z_1=1$) gives a different answer.</p>
-<script type="text/javascript">
-amzn_assoc_placement = "adunit0";
-amzn_assoc_search_bar = "true";
-amzn_assoc_tracking_id = "linearalgeb0e-20";
-amzn_assoc_search_bar_position = "bottom";
-amzn_assoc_ad_mode = "search";
-amzn_assoc_ad_type = "smart";
-amzn_assoc_marketplace = "amazon";
-amzn_assoc_region = "US";
-amzn_assoc_title = "Shop Related Products";
-amzn_assoc_default_search_phrase = "Linear Algebra";
-amzn_assoc_default_category = "All";
-amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
-</script><br />
-<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
-      <categories>
-        <category>Machine Learning</category>
-        <category>Linear Algebra</category>
-      </categories>
-      <tags>
-        <tag>Group</tag>
         <tag>Matrix</tag>
       </tags>
   </entry>
@@ -2767,6 +2832,40 @@ amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
       </tags>
   </entry>
   <entry>
+    <title>Compute the determinant using Laplace expansion and Sarrus rule</title>
+    <url>/mml-exercise-4-1.html</url>
+    <content><![CDATA[<div class="note info flat"><p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 4 Exercise 4.1</strong></p>
+</div>
+
+<a id="more"></a>
+
+<p>Solution: By Laplace expansion using the first row, we have \begin{align*}\det(A)=&amp;\ 1\cdot \begin{vmatrix}4 &amp; 6\\ 2 &amp; 4\end{vmatrix}-3\cdot \begin{vmatrix}2 &amp; 6\\ 0 &amp; 4\end{vmatrix} + 5\cdot \begin{vmatrix}2 &amp; 4\\ 0 &amp; 2\end{vmatrix}\\=&amp;\ 1(4\cdot 4-6\cdot 2)-3\cdot(2\cdot 4-6\cdot 0)+5\cdot(2\cdot 2-4\cdot 0)\\ =&amp; \ 4-3\cdot 8+5\cdot 4=0.\end{align*}</p>
+<p>Or by Sarrus rule, we have \begin{align*}\det(A)=&amp;\ 1\cdot 4\cdot 4+2\cdot 2\cdot 5+0\cdot 3\cdot 6-0\cdot 4\cdot 5-1\cdot 2\cdot 6-2\cdot 3\cdot 4\\=&amp;\ 16+20-12-24=0.\end{align*}</p>
+<script type="text/javascript">
+amzn_assoc_placement = "adunit0";
+amzn_assoc_search_bar = "true";
+amzn_assoc_tracking_id = "linearalgeb0e-20";
+amzn_assoc_search_bar_position = "bottom";
+amzn_assoc_ad_mode = "search";
+amzn_assoc_ad_type = "smart";
+amzn_assoc_marketplace = "amazon";
+amzn_assoc_region = "US";
+amzn_assoc_title = "Shop Related Products";
+amzn_assoc_default_search_phrase = "Linear Algebra";
+amzn_assoc_default_category = "All";
+amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
+</script><br />
+<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
+      <categories>
+        <category>Machine Learning</category>
+        <category>Linear Algebra</category>
+      </categories>
+      <tags>
+        <tag>Determinant</tag>
+        <tag>Laplace Expansion</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Naive applications of Cauchy-Schwarz inequality</title>
     <url>/mml-exercise-3-9.html</url>
     <content><![CDATA[<div class="note info flat"><p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 3 Exercise 3.9</strong></p>
@@ -2799,40 +2898,6 @@ amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
       <tags>
         <tag>Inner Product</tag>
         <tag>Cauchy-Schwarz inequality</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Compute the determinant using Laplace expansion and Sarrus rule</title>
-    <url>/mml-exercise-4-1.html</url>
-    <content><![CDATA[<div class="note info flat"><p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 4 Exercise 4.1</strong></p>
-</div>
-
-<a id="more"></a>
-
-<p>Solution: By Laplace expansion using the first row, we have \begin{align*}\det(A)=&amp;\ 1\cdot \begin{vmatrix}4 &amp; 6\\ 2 &amp; 4\end{vmatrix}-3\cdot \begin{vmatrix}2 &amp; 6\\ 0 &amp; 4\end{vmatrix} + 5\cdot \begin{vmatrix}2 &amp; 4\\ 0 &amp; 2\end{vmatrix}\\=&amp;\ 1(4\cdot 4-6\cdot 2)-3\cdot(2\cdot 4-6\cdot 0)+5\cdot(2\cdot 2-4\cdot 0)\\ =&amp; \ 4-3\cdot 8+5\cdot 4=0.\end{align*}</p>
-<p>Or by Sarrus rule, we have \begin{align*}\det(A)=&amp;\ 1\cdot 4\cdot 4+2\cdot 2\cdot 5+0\cdot 3\cdot 6-0\cdot 4\cdot 5-1\cdot 2\cdot 6-2\cdot 3\cdot 4\\=&amp;\ 16+20-12-24=0.\end{align*}</p>
-<script type="text/javascript">
-amzn_assoc_placement = "adunit0";
-amzn_assoc_search_bar = "true";
-amzn_assoc_tracking_id = "linearalgeb0e-20";
-amzn_assoc_search_bar_position = "bottom";
-amzn_assoc_ad_mode = "search";
-amzn_assoc_ad_type = "smart";
-amzn_assoc_marketplace = "amazon";
-amzn_assoc_region = "US";
-amzn_assoc_title = "Shop Related Products";
-amzn_assoc_default_search_phrase = "Linear Algebra";
-amzn_assoc_default_category = "All";
-amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
-</script><br />
-<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
-      <categories>
-        <category>Machine Learning</category>
-        <category>Linear Algebra</category>
-      </categories>
-      <tags>
-        <tag>Determinant</tag>
-        <tag>Laplace Expansion</tag>
       </tags>
   </entry>
   <entry>
@@ -3058,45 +3123,6 @@ amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
         <tag>Determinant</tag>
         <tag>Eigenvector</tag>
         <tag>Eigenvalue</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Diagonalisability is unrelated to invertibility</title>
-    <url>/mml-exercise-4-5.html</url>
-    <content><![CDATA[<div class="note info flat"><p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 4 Exercise 4.5</strong></p>
-</div>
-
-<a id="more"></a>
-
-<p>Solution: </p>
-<p>Only the first two are diagonalisable – they are diagonal, so there is nothing to prove! The other two, however, are not diagonalisable – each only has exactly one eigenvalue. Moreover, the eigenspaces correspond to the eigenvalue are one-dimensional. However, we need there to exist a basis of eigenvectors to yield diagonalisability.</p>
-<p>Only the first and third matrices are invertible – the determinants are non-zero, while the other two matrices have determinant zero.</p>
-<p>This tells us that diagonalisability is indeed unrelated to invertibility!</p>
-<script type="text/javascript">
-amzn_assoc_placement = "adunit0";
-amzn_assoc_search_bar = "true";
-amzn_assoc_tracking_id = "linearalgeb0e-20";
-amzn_assoc_search_bar_position = "bottom";
-amzn_assoc_ad_mode = "search";
-amzn_assoc_ad_type = "smart";
-amzn_assoc_marketplace = "amazon";
-amzn_assoc_region = "US";
-amzn_assoc_title = "Shop Related Products";
-amzn_assoc_default_search_phrase = "Linear Algebra";
-amzn_assoc_default_category = "All";
-amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
-</script><br />
-<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
-      <categories>
-        <category>Machine Learning</category>
-        <category>Linear Algebra</category>
-      </categories>
-      <tags>
-        <tag>Matrix</tag>
-        <tag>Eigenvector</tag>
-        <tag>Eigenvalue</tag>
-        <tag>Diagonalisability</tag>
-        <tag>Invertibility</tag>
       </tags>
   </entry>
   <entry>
@@ -3439,6 +3465,45 @@ amzn_assoc_search_bar_position = "bottom";
       </tags>
   </entry>
   <entry>
+    <title>Diagonalisability is unrelated to invertibility</title>
+    <url>/mml-exercise-4-5.html</url>
+    <content><![CDATA[<div class="note info flat"><p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 4 Exercise 4.5</strong></p>
+</div>
+
+<a id="more"></a>
+
+<p>Solution: </p>
+<p>Only the first two are diagonalisable – they are diagonal, so there is nothing to prove! The other two, however, are not diagonalisable – each only has exactly one eigenvalue. Moreover, the eigenspaces correspond to the eigenvalue are one-dimensional. However, we need there to exist a basis of eigenvectors to yield diagonalisability.</p>
+<p>Only the first and third matrices are invertible – the determinants are non-zero, while the other two matrices have determinant zero.</p>
+<p>This tells us that diagonalisability is indeed unrelated to invertibility!</p>
+<script type="text/javascript">
+amzn_assoc_placement = "adunit0";
+amzn_assoc_search_bar = "true";
+amzn_assoc_tracking_id = "linearalgeb0e-20";
+amzn_assoc_search_bar_position = "bottom";
+amzn_assoc_ad_mode = "search";
+amzn_assoc_ad_type = "smart";
+amzn_assoc_marketplace = "amazon";
+amzn_assoc_region = "US";
+amzn_assoc_title = "Shop Related Products";
+amzn_assoc_default_search_phrase = "Linear Algebra";
+amzn_assoc_default_category = "All";
+amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
+</script><br />
+<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
+      <categories>
+        <category>Machine Learning</category>
+        <category>Linear Algebra</category>
+      </categories>
+      <tags>
+        <tag>Matrix</tag>
+        <tag>Eigenvector</tag>
+        <tag>Eigenvalue</tag>
+        <tag>Diagonalisability</tag>
+        <tag>Invertibility</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Differentiate vector-valued functions with respect to vector-valued variables</title>
     <url>/mml-exercise-5-6.html</url>
     <content><![CDATA[<div class="note info flat"><p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 5 Exercise 5.6</strong></p>
@@ -3515,87 +3580,6 @@ amzn_assoc_search_bar_position = "bottom";
       </tags>
   </entry>
   <entry>
-    <title>Differentiate vector-valued functions with respect to vector-valued variables III</title>
-    <url>/mml-exercise-5-8.html</url>
-    <content><![CDATA[<div class="note info flat"><p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 5 Exercise 5.8</strong></p>
-</div>
-
-<a id="more"></a>
-
-<p>Solution: </p>
-<p><strong>Part a</strong></p>
-<p>We have $\dfrac{df}{dz}$ has dimension $1\times 1$, and is simply $-\frac12 \exp(-\frac12 z)$.</p>
-<p>Now, $\dfrac{dz}{dy}$ has dimension $1\times D$, and is given by $y^{\mathsf{T}}(S^{-1}+(S^{-1})^{\mathsf{T}})$.</p>
-<p>Finally, $\dfrac{dy}{dx}$ has dimension $D\times D$, and is just the identity matrix.</p>
-<p>Again, we multiply these all together to get our final derivative.</p>
-<hr>
-<p><strong>Part b</strong></p>
-<p>If we explicitly write out $xx^{\mathsf{T}}+\sigma^2I$, and compute its trace, we find that $$f(x) = x_1^2 + \dots + x_n^2 + n\sigma^2.$$</p>
-<p>Hence, $\dfrac{df}{dx} = 2x^{\mathsf{T}}$.</p>
-<hr>
-<p><strong>Part c</strong></p>
-<p>Here, $$\frac{df}{dz} = \begin{bmatrix} \frac{1}{\cosh^2z_1}&amp;0&amp;\cdots&amp;0\\ 0&amp;\frac{1}{\cosh^2z_2}&amp;\cdots&amp;0\\ \vdots &amp; \vdots&amp;\ddots&amp;\vdots\\ 0&amp;0&amp;\cdots&amp;\frac{1}{\cosh^2z_M} \end{bmatrix},$$ while $\dfrac{dz}{dx} = A$, as in <a href="/mml-exercise-5-7.html">Question 7b</a>.</p>
-<p>Finally, $\dfrac{df}{dx}$ is given by the product of these two matrices.</p>
-<script type="text/javascript">
-amzn_assoc_placement = "adunit0";
-amzn_assoc_tracking_id = "linearalgeb0e-20";
-amzn_assoc_ad_mode = "search";
-amzn_assoc_ad_type = "smart";
-amzn_assoc_marketplace = "amazon";
-amzn_assoc_region = "US";
-amzn_assoc_title = "Shop Related Products";
-amzn_assoc_default_search_phrase = "Real Analysis";
-amzn_assoc_default_category = "All";
-amzn_assoc_linkid = "402d8b59cc9faa66d8d6b3b1eef9c01e";
-amzn_assoc_search_bar = "true";
-amzn_assoc_search_bar_position = "bottom";
-</script><br />
-<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
-      <categories>
-        <category>Machine Learning</category>
-        <category>Calculus</category>
-      </categories>
-      <tags>
-        <tag>Derivative</tag>
-        <tag>Multivariable Calculus</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Compute the gradient for a multivariable function</title>
-    <url>/mml-exercise-5-9.html</url>
-    <content><![CDATA[<div class="note info flat"><p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 5 Exercise 5.9</strong></p>
-</div>
-
-<a id="more"></a>
-
-<p>Solution: </p>
-<p>Piecing this together, replacing $z$ with $t(\epsilon,\nu)$ throughout, we have that $$g(\nu) = \log(p(x,t(\epsilon,\nu))) - \log(q(t(\epsilon,\nu),\nu)).$$</p>
-<p>Therefore, $$\frac{dg}{d\nu} = \frac{p’(x,t(\epsilon,\nu))\cdot t’(\epsilon,\nu) }{p(x,t(\epsilon,\nu))} - \frac{q’(t(\epsilon,\nu),\nu)\cdot t’(\epsilon,\nu)}{q(t(\epsilon,\nu),\nu)}.$$</p>
-<script type="text/javascript">
-amzn_assoc_placement = "adunit0";
-amzn_assoc_tracking_id = "linearalgeb0e-20";
-amzn_assoc_ad_mode = "search";
-amzn_assoc_ad_type = "smart";
-amzn_assoc_marketplace = "amazon";
-amzn_assoc_region = "US";
-amzn_assoc_title = "Shop Related Products";
-amzn_assoc_default_search_phrase = "Real Analysis";
-amzn_assoc_default_category = "All";
-amzn_assoc_linkid = "402d8b59cc9faa66d8d6b3b1eef9c01e";
-amzn_assoc_search_bar = "true";
-amzn_assoc_search_bar_position = "bottom";
-</script><br />
-<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
-      <categories>
-        <category>Machine Learning</category>
-        <category>Calculus</category>
-      </categories>
-      <tags>
-        <tag>Derivative</tag>
-        <tag>Multivariable Calculus</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Compute marginal distributions and conditional distributions</title>
     <url>/mml-exercise-6-1.html</url>
     <content><![CDATA[<div class="note info flat"><p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 6 Exercise 6.1</strong></p>
@@ -3641,6 +3625,82 @@ amzn_assoc_rows = "2";
       <tags>
         <tag>Distribution</tag>
         <tag>Random Variables</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Compute the gradient for a multivariable function</title>
+    <url>/mml-exercise-5-9.html</url>
+    <content><![CDATA[<div class="note info flat"><p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 5 Exercise 5.9</strong></p>
+</div>
+
+<a id="more"></a>
+
+<p>Solution: </p>
+<p>Piecing this together, replacing $z$ with $t(\epsilon,\nu)$ throughout, we have that $$g(\nu) = \log(p(x,t(\epsilon,\nu))) - \log(q(t(\epsilon,\nu),\nu)).$$</p>
+<p>Therefore, $$\frac{dg}{d\nu} = \frac{p’(x,t(\epsilon,\nu))\cdot t’(\epsilon,\nu) }{p(x,t(\epsilon,\nu))} - \frac{q’(t(\epsilon,\nu),\nu)\cdot t’(\epsilon,\nu)}{q(t(\epsilon,\nu),\nu)}.$$</p>
+<script type="text/javascript">
+amzn_assoc_placement = "adunit0";
+amzn_assoc_tracking_id = "linearalgeb0e-20";
+amzn_assoc_ad_mode = "search";
+amzn_assoc_ad_type = "smart";
+amzn_assoc_marketplace = "amazon";
+amzn_assoc_region = "US";
+amzn_assoc_title = "Shop Related Products";
+amzn_assoc_default_search_phrase = "Real Analysis";
+amzn_assoc_default_category = "All";
+amzn_assoc_linkid = "402d8b59cc9faa66d8d6b3b1eef9c01e";
+amzn_assoc_search_bar = "true";
+amzn_assoc_search_bar_position = "bottom";
+</script><br />
+<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
+      <categories>
+        <category>Machine Learning</category>
+        <category>Calculus</category>
+      </categories>
+      <tags>
+        <tag>Derivative</tag>
+        <tag>Multivariable Calculus</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Computation involving iterated expectations and conditional probability</title>
+    <url>/mml-exercise-6-11.html</url>
+    <content><![CDATA[<div class="note info flat"><p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 6 Exercise 6.11</strong></p>
+</div>
+
+<a id="more"></a>
+
+<p>Solution: </p>
+<p>The expectation value and the conditional expectation value are given by</p>
+<p>$$ \mathbb{E}_X[x] = \int x p(x) dx,\\ \mathbb{E}_Y[f(y)] = \int f(y) p(y) dy,\\ \mathbb{E}_X[x|y] = \int x p(x|y) dx $$</p>
+<p>We then have</p>
+<p>\begin{align*}\mathbb{E}_Y\left[\mathbb{E}_X[x|y]\right] =&amp;\ \int \mathbb{E}_X[x|y] p(y) dy = \int \left[\int xp(x|y)dx\right]p(y) dy \\=&amp;\ \int \int xp(x|y)p(y)dx dy = \int\int xp(x,y)dxdy\\ =&amp;\ \int x\left[\int p(x,y) dy\right] dx = \int x p(x) dx = \mathbb{E}_X[x], \end{align*}</p>
+<p>where we used the definition fo the conditional probability density</p>
+<p>$$ p(x|y)p(y) = p(x,y). $$</p>
+<script type="text/javascript">
+amzn_assoc_placement = "adunit0";
+amzn_assoc_search_bar = "true";
+amzn_assoc_tracking_id = "linearalgeb0e-20";
+amzn_assoc_search_bar_position = "bottom";
+amzn_assoc_ad_mode = "search";
+amzn_assoc_ad_type = "smart";
+amzn_assoc_marketplace = "amazon";
+amzn_assoc_region = "US";
+amzn_assoc_title = "Shop Related Products";
+amzn_assoc_default_search_phrase = "Statistics";
+amzn_assoc_default_category = "All";
+amzn_assoc_linkid = "a1702ca86c77f1a4b0df1c05cdf77dce";
+amzn_assoc_rows = "2";
+</script>
+<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
+      <categories>
+        <category>Machine Learning</category>
+        <category>Statistics</category>
+      </categories>
+      <tags>
+        <tag>Expectation</tag>
+        <tag>Random Variable</tag>
+        <tag>Probability</tag>
       </tags>
   </entry>
   <entry>
@@ -3712,49 +3772,8 @@ amzn_assoc_rows = "2";
       </categories>
       <tags>
         <tag>Distribution</tag>
+        <tag>Probability</tag>
         <tag>Gaussian Distribution</tag>
-        <tag>Probability</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Computation involving iterated expectations and conditional probability</title>
-    <url>/mml-exercise-6-11.html</url>
-    <content><![CDATA[<div class="note info flat"><p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 6 Exercise 6.11</strong></p>
-</div>
-
-<a id="more"></a>
-
-<p>Solution: </p>
-<p>The expectation value and the conditional expectation value are given by</p>
-<p>$$ \mathbb{E}_X[x] = \int x p(x) dx,\\ \mathbb{E}_Y[f(y)] = \int f(y) p(y) dy,\\ \mathbb{E}_X[x|y] = \int x p(x|y) dx $$</p>
-<p>We then have</p>
-<p>\begin{align*}\mathbb{E}_Y\left[\mathbb{E}_X[x|y]\right] =&amp;\ \int \mathbb{E}_X[x|y] p(y) dy = \int \left[\int xp(x|y)dx\right]p(y) dy \\=&amp;\ \int \int xp(x|y)p(y)dx dy = \int\int xp(x,y)dxdy\\ =&amp;\ \int x\left[\int p(x,y) dy\right] dx = \int x p(x) dx = \mathbb{E}_X[x], \end{align*}</p>
-<p>where we used the definition fo the conditional probability density</p>
-<p>$$ p(x|y)p(y) = p(x,y). $$</p>
-<script type="text/javascript">
-amzn_assoc_placement = "adunit0";
-amzn_assoc_search_bar = "true";
-amzn_assoc_tracking_id = "linearalgeb0e-20";
-amzn_assoc_search_bar_position = "bottom";
-amzn_assoc_ad_mode = "search";
-amzn_assoc_ad_type = "smart";
-amzn_assoc_marketplace = "amazon";
-amzn_assoc_region = "US";
-amzn_assoc_title = "Shop Related Products";
-amzn_assoc_default_search_phrase = "Statistics";
-amzn_assoc_default_category = "All";
-amzn_assoc_linkid = "a1702ca86c77f1a4b0df1c05cdf77dce";
-amzn_assoc_rows = "2";
-</script>
-<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
-      <categories>
-        <category>Machine Learning</category>
-        <category>Statistics</category>
-      </categories>
-      <tags>
-        <tag>Probability</tag>
-        <tag>Expectation</tag>
-        <tag>Random Variable</tag>
       </tags>
   </entry>
   <entry>
@@ -3809,9 +3828,9 @@ amzn_assoc_rows = "2";
       </categories>
       <tags>
         <tag>Distribution</tag>
-        <tag>Gaussian Distribution</tag>
-        <tag>Probability</tag>
         <tag>Random Variable</tag>
+        <tag>Probability</tag>
+        <tag>Gaussian Distribution</tag>
       </tags>
   </entry>
   <entry>
@@ -3851,8 +3870,8 @@ amzn_assoc_rows = "2";
       </categories>
       <tags>
         <tag>Distribution</tag>
-        <tag>Probability</tag>
         <tag>Random Variable</tag>
+        <tag>Probability</tag>
         <tag>Uniform Distribution</tag>
       </tags>
   </entry>
@@ -3964,6 +3983,52 @@ amzn_assoc_rows = "2";
       </tags>
   </entry>
   <entry>
+    <title>Differentiate vector-valued functions with respect to vector-valued variables III</title>
+    <url>/mml-exercise-5-8.html</url>
+    <content><![CDATA[<div class="note info flat"><p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 5 Exercise 5.8</strong></p>
+</div>
+
+<a id="more"></a>
+
+<p>Solution: </p>
+<p><strong>Part a</strong></p>
+<p>We have $\dfrac{df}{dz}$ has dimension $1\times 1$, and is simply $-\frac12 \exp(-\frac12 z)$.</p>
+<p>Now, $\dfrac{dz}{dy}$ has dimension $1\times D$, and is given by $y^{\mathsf{T}}(S^{-1}+(S^{-1})^{\mathsf{T}})$.</p>
+<p>Finally, $\dfrac{dy}{dx}$ has dimension $D\times D$, and is just the identity matrix.</p>
+<p>Again, we multiply these all together to get our final derivative.</p>
+<hr>
+<p><strong>Part b</strong></p>
+<p>If we explicitly write out $xx^{\mathsf{T}}+\sigma^2I$, and compute its trace, we find that $$f(x) = x_1^2 + \dots + x_n^2 + n\sigma^2.$$</p>
+<p>Hence, $\dfrac{df}{dx} = 2x^{\mathsf{T}}$.</p>
+<hr>
+<p><strong>Part c</strong></p>
+<p>Here, $$\frac{df}{dz} = \begin{bmatrix} \frac{1}{\cosh^2z_1}&amp;0&amp;\cdots&amp;0\\ 0&amp;\frac{1}{\cosh^2z_2}&amp;\cdots&amp;0\\ \vdots &amp; \vdots&amp;\ddots&amp;\vdots\\ 0&amp;0&amp;\cdots&amp;\frac{1}{\cosh^2z_M} \end{bmatrix},$$ while $\dfrac{dz}{dx} = A$, as in <a href="/mml-exercise-5-7.html">Question 7b</a>.</p>
+<p>Finally, $\dfrac{df}{dx}$ is given by the product of these two matrices.</p>
+<script type="text/javascript">
+amzn_assoc_placement = "adunit0";
+amzn_assoc_tracking_id = "linearalgeb0e-20";
+amzn_assoc_ad_mode = "search";
+amzn_assoc_ad_type = "smart";
+amzn_assoc_marketplace = "amazon";
+amzn_assoc_region = "US";
+amzn_assoc_title = "Shop Related Products";
+amzn_assoc_default_search_phrase = "Real Analysis";
+amzn_assoc_default_category = "All";
+amzn_assoc_linkid = "402d8b59cc9faa66d8d6b3b1eef9c01e";
+amzn_assoc_search_bar = "true";
+amzn_assoc_search_bar_position = "bottom";
+</script><br />
+<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
+      <categories>
+        <category>Machine Learning</category>
+        <category>Calculus</category>
+      </categories>
+      <tags>
+        <tag>Derivative</tag>
+        <tag>Multivariable Calculus</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>An application of Bayes’ theorem</title>
     <url>/mml-exercise-6-4.html</url>
     <content><![CDATA[<div class="note info flat"><p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 6 Exercise 6.4</strong></p>
@@ -4003,6 +4068,52 @@ amzn_assoc_rows = "2";
       <tags>
         <tag>Probability</tag>
         <tag>Bayes’ Theorem</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Express variance using expectation in a different form</title>
+    <url>/mml-exercise-6-6.html</url>
+    <content><![CDATA[<div class="note info flat"><p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 6 Exercise 6.6</strong></p>
+</div>
+
+<a id="more"></a>
+
+<p>Solution: </p>
+<p>The standard definition of variance is</p>
+<p>$$ \mathbb{V}_X[x] = \mathbb{E}_X[(x-\mu)^2], $$</p>
+<p>where</p>
+<p>$$ \mu = \mathbb{E}_X[x]. $$</p>
+<p>Using the properties of average we can write:</p>
+<p>\begin{align*}<br>\mathbb{V}_X[x] = &amp;\ \mathbb{E}_X[(x-\mu)^2] = \mathbb{E}_X[x^2 - 2x\mu +\mu^2] \\ =&amp;\ \mathbb{E}_X[x^2] - \mathbb{E}_X[2x\mu] + \mathbb{E}_X[\mu^2]\\=&amp;\ \mathbb{E}_X[x^2] - 2\mu\mathbb{E}_X[x] + \mu^2\\ =&amp;\ \mathbb{E}_X[x^2] - 2\mu^2 + \mu^2 = \mathbb{E}_X[x^2] - \mu^2.<br>\end{align*}</p>
+<p>By substituting to this equation the definition of $\mu$, we obtain the desired equation</p>
+<p>$$ \mathbb{V}_X[x] = \mathbb{E}_X[(x-\mu)^2] = \mathbb{E}_X[x^2] - (\mathbb{E}_X[x])^2. $$</p>
+<div class="note default flat"><p>In particular, it shows that the variance is always nonnegative. Moreover, $$ \mathbb{E}_X[x^2] \geqslant (\mathbb{E}_X[x])^2. $$</p>
+</div>
+
+<script type="text/javascript">
+amzn_assoc_placement = "adunit0";
+amzn_assoc_search_bar = "true";
+amzn_assoc_tracking_id = "linearalgeb0e-20";
+amzn_assoc_search_bar_position = "bottom";
+amzn_assoc_ad_mode = "search";
+amzn_assoc_ad_type = "smart";
+amzn_assoc_marketplace = "amazon";
+amzn_assoc_region = "US";
+amzn_assoc_title = "Shop Related Products";
+amzn_assoc_default_search_phrase = "Statistics";
+amzn_assoc_default_category = "All";
+amzn_assoc_linkid = "a1702ca86c77f1a4b0df1c05cdf77dce";
+amzn_assoc_rows = "2";
+</script>
+<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
+      <categories>
+        <category>Machine Learning</category>
+        <category>Statistics</category>
+      </categories>
+      <tags>
+        <tag>Expectation</tag>
+        <tag>Probability</tag>
+        <tag>Variance</tag>
       </tags>
   </entry>
   <entry>
@@ -4060,55 +4171,9 @@ amzn_assoc_rows = "2";
         <category>Statistics</category>
       </categories>
       <tags>
-        <tag>Probability</tag>
         <tag>Random Variable</tag>
-        <tag>Time Series</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Express variance using expectation in a different form</title>
-    <url>/mml-exercise-6-6.html</url>
-    <content><![CDATA[<div class="note info flat"><p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 6 Exercise 6.6</strong></p>
-</div>
-
-<a id="more"></a>
-
-<p>Solution: </p>
-<p>The standard definition of variance is</p>
-<p>$$ \mathbb{V}_X[x] = \mathbb{E}_X[(x-\mu)^2], $$</p>
-<p>where</p>
-<p>$$ \mu = \mathbb{E}_X[x]. $$</p>
-<p>Using the properties of average we can write:</p>
-<p>\begin{align*}<br>\mathbb{V}_X[x] = &amp;\ \mathbb{E}_X[(x-\mu)^2] = \mathbb{E}_X[x^2 - 2x\mu +\mu^2] \\ =&amp;\ \mathbb{E}_X[x^2] - \mathbb{E}_X[2x\mu] + \mathbb{E}_X[\mu^2]\\=&amp;\ \mathbb{E}_X[x^2] - 2\mu\mathbb{E}_X[x] + \mu^2\\ =&amp;\ \mathbb{E}_X[x^2] - 2\mu^2 + \mu^2 = \mathbb{E}_X[x^2] - \mu^2.<br>\end{align*}</p>
-<p>By substituting to this equation the definition of $\mu$, we obtain the desired equation</p>
-<p>$$ \mathbb{V}_X[x] = \mathbb{E}_X[(x-\mu)^2] = \mathbb{E}_X[x^2] - (\mathbb{E}_X[x])^2. $$</p>
-<div class="note default flat"><p>In particular, it shows that the variance is always nonnegative. Moreover, $$ \mathbb{E}_X[x^2] \geqslant (\mathbb{E}_X[x])^2. $$</p>
-</div>
-
-<script type="text/javascript">
-amzn_assoc_placement = "adunit0";
-amzn_assoc_search_bar = "true";
-amzn_assoc_tracking_id = "linearalgeb0e-20";
-amzn_assoc_search_bar_position = "bottom";
-amzn_assoc_ad_mode = "search";
-amzn_assoc_ad_type = "smart";
-amzn_assoc_marketplace = "amazon";
-amzn_assoc_region = "US";
-amzn_assoc_title = "Shop Related Products";
-amzn_assoc_default_search_phrase = "Statistics";
-amzn_assoc_default_category = "All";
-amzn_assoc_linkid = "a1702ca86c77f1a4b0df1c05cdf77dce";
-amzn_assoc_rows = "2";
-</script>
-<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
-      <categories>
-        <category>Machine Learning</category>
-        <category>Statistics</category>
-      </categories>
-      <tags>
         <tag>Probability</tag>
-        <tag>Expectation</tag>
-        <tag>Variance</tag>
+        <tag>Time Series</tag>
       </tags>
   </entry>
   <entry>
