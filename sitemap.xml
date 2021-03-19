@@ -9,6 +9,13 @@
   </url>
   
   <url>
+    <loc>http://clanlu.com/elementary-analysis-09-01.html</loc>
+    
+    <lastmod>2021-03-19</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://clanlu.com/elementary-analysis-08-10.html</loc>
     
     <lastmod>2021-03-19</lastmod>
@@ -872,14 +879,14 @@
   </url>
   
   <url>
-    <loc>http://clanlu.com/tags/Bounded/</loc>
+    <loc>http://clanlu.com/tags/Sequeeze-Theorem/</loc>
     <lastmod>2021-03-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://clanlu.com/tags/Sequeeze-Theorem/</loc>
+    <loc>http://clanlu.com/tags/Bounded/</loc>
     <lastmod>2021-03-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1089,14 +1096,14 @@
   </url>
   
   <url>
-    <loc>http://clanlu.com/tags/Rotation/</loc>
+    <loc>http://clanlu.com/tags/Inner-Product/</loc>
     <lastmod>2021-03-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://clanlu.com/tags/Inner-Product/</loc>
+    <loc>http://clanlu.com/tags/Rotation/</loc>
     <lastmod>2021-03-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1236,6 +1243,13 @@
   </url>
   
   <url>
+    <loc>http://clanlu.com/tags/Normal-Distribution/</loc>
+    <lastmod>2021-03-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://clanlu.com/tags/Taylor-Series/</loc>
     <lastmod>2021-03-19</lastmod>
     <changefreq>daily</changefreq>
@@ -1244,13 +1258,6 @@
   
   <url>
     <loc>http://clanlu.com/tags/Jacobian/</loc>
-    <lastmod>2021-03-19</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://clanlu.com/tags/Normal-Distribution/</loc>
     <lastmod>2021-03-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
