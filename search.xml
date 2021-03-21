@@ -1,6 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Find limits of sequences I</title>
+    <url>/elementary-analysis-07-01.html</url>
+    <content><![CDATA[<div class="note info flat"><p><a href="/elementary-analysis-toc.html">Solution to Elementary Analysis: The Theory of Calculus Second Edition</a> Section 7 Exercises 7.1 &amp; 7.2</p>
+</div>
+
+<a id="more"></a>
+
+<h3 id="Exercise-7-1"><a href="#Exercise-7-1" class="headerlink" title="Exercise 7.1"></a>Exercise 7.1</h3><p>Solution: </p>
+<p>(a) $s_1=1/4$, $s_2=1/7$, $s_3=1/10$, $s_4=1/13$, $s_5=1/16$.</p>
+<p>(b) $b_1=4/3$, $b_2=1$, $b_3=10/11$, $b_4=13/15$, $b_5=16/19$.</p>
+<p>(c) $c_1=1/3$, $c_2=2/9$, $c_3=1/9$, $c_4=4/81$, $c_5=5/243$.</p>
+<p>(d) $\sqrt 2/2$, $1$, $\sqrt 2/2$, $0$, $-\sqrt 2/2$.</p>
+<h3 id="Exercise-7-2"><a href="#Exercise-7-2" class="headerlink" title="Exercise 7.2"></a>Exercise 7.2</h3><p>Solution:</p>
+<p>(a) Converges. Limits is 0.</p>
+<p>(b) Converges. Limits is $3/4$. See Example 2,<br>$$<br>\frac{3n+1}{4n-1}=\frac{3+\frac{1}{n}}{4-\frac{1}{n}}.<br>$$</p>
+<p>(c) Converges. Limits is 0.</p>
+<p>(d) Diverges. (Indeed, it is periodic.)</p>
+<script type="text/javascript">
+amzn_assoc_placement = "adunit0";
+amzn_assoc_search_bar = "true";
+amzn_assoc_tracking_id = "linearalgeb0e-20";
+amzn_assoc_ad_mode = "manual";
+amzn_assoc_ad_type = "smart";
+amzn_assoc_marketplace = "amazon";
+amzn_assoc_region = "US";
+amzn_assoc_title = "My recommendations on Calculus and Analysis";
+amzn_assoc_linkid = "cfda343bc63399373d473026228d47e1";
+amzn_assoc_asins = "1493927116,1461462703,0471000051,0471000078,1259064786,1077254547,366248790X,1285741552";
+</script>
+<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
+      <categories>
+        <category>Solution</category>
+        <category>Elementary Analysis</category>
+      </categories>
+      <tags>
+        <tag>Sequence</tag>
+        <tag>Limit</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Find limits of sequences II</title>
     <url>/elementary-analysis-07-03.html</url>
     <content><![CDATA[<div class="note info flat"><p><a href="/elementary-analysis-toc.html">Solution to Elementary Analysis: The Theory of Calculus Second Edition</a> Section 7 Exercise 7.3</p>
@@ -29,46 +69,6 @@
 <p>(r) Converges. Limits is 1.</p>
 <p>(s) Converges. Limits is 4/3.</p>
 <p>(t) Converges. Limits is 0.</p>
-<script type="text/javascript">
-amzn_assoc_placement = "adunit0";
-amzn_assoc_search_bar = "true";
-amzn_assoc_tracking_id = "linearalgeb0e-20";
-amzn_assoc_ad_mode = "manual";
-amzn_assoc_ad_type = "smart";
-amzn_assoc_marketplace = "amazon";
-amzn_assoc_region = "US";
-amzn_assoc_title = "My recommendations on Calculus and Analysis";
-amzn_assoc_linkid = "cfda343bc63399373d473026228d47e1";
-amzn_assoc_asins = "1493927116,1461462703,0471000051,0471000078,1259064786,1077254547,366248790X,1285741552";
-</script>
-<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
-      <categories>
-        <category>Solution</category>
-        <category>Elementary Analysis</category>
-      </categories>
-      <tags>
-        <tag>Sequence</tag>
-        <tag>Limit</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Find limits of sequences I</title>
-    <url>/elementary-analysis-07-01.html</url>
-    <content><![CDATA[<div class="note info flat"><p><a href="/elementary-analysis-toc.html">Solution to Elementary Analysis: The Theory of Calculus Second Edition</a> Section 7 Exercises 7.1 &amp; 7.2</p>
-</div>
-
-<a id="more"></a>
-
-<h3 id="Exercise-7-1"><a href="#Exercise-7-1" class="headerlink" title="Exercise 7.1"></a>Exercise 7.1</h3><p>Solution: </p>
-<p>(a) $s_1=1/4$, $s_2=1/7$, $s_3=1/10$, $s_4=1/13$, $s_5=1/16$.</p>
-<p>(b) $b_1=4/3$, $b_2=1$, $b_3=10/11$, $b_4=13/15$, $b_5=16/19$.</p>
-<p>(c) $c_1=1/3$, $c_2=2/9$, $c_3=1/9$, $c_4=4/81$, $c_5=5/243$.</p>
-<p>(d) $\sqrt 2/2$, $1$, $\sqrt 2/2$, $0$, $-\sqrt 2/2$.</p>
-<h3 id="Exercise-7-2"><a href="#Exercise-7-2" class="headerlink" title="Exercise 7.2"></a>Exercise 7.2</h3><p>Solution:</p>
-<p>(a) Converges. Limits is 0.</p>
-<p>(b) Converges. Limits is $3/4$. See Example 2,<br>$$<br>\frac{3n+1}{4n-1}=\frac{3+\frac{1}{n}}{4-\frac{1}{n}}.<br>$$</p>
-<p>(c) Converges. Limits is 0.</p>
-<p>(d) Diverges. (Indeed, it is periodic.)</p>
 <script type="text/javascript">
 amzn_assoc_placement = "adunit0";
 amzn_assoc_search_bar = "true";
@@ -215,22 +215,14 @@ amzn_assoc_asins = "1493927116,1461462703,0471000051,0471000078,1259064786,10772
       </tags>
   </entry>
   <entry>
-    <title>Formal proof of limits I</title>
-    <url>/elementary-analysis-08-01.html</url>
-    <content><![CDATA[<div class="note info flat"><p><a href="/elementary-analysis-toc.html">Solution to Elementary Analysis: The Theory of Calculus Second Edition</a> Section 8 Exercise 8.1</p>
+    <title>If the limit of sequence is zero then so is the limit of square roots</title>
+    <url>/elementary-analysis-08-03.html</url>
+    <content><![CDATA[<div class="note info flat"><p><a href="/elementary-analysis-toc.html">Solution to Elementary Analysis: The Theory of Calculus Second Edition</a> Section 8 Exercise 8.3</p>
 </div>
 
 <a id="more"></a>
 
-
-<p>Solution: </p>
-<h3 id="Part-a"><a href="#Part-a" class="headerlink" title="Part a"></a>Part a</h3><p>Let $\epsilon&gt;0$ and let $N=\dfrac{1}{\epsilon}$. Then $n&gt;N$ implies<br>$$<br>\frac{1}{n}&lt;\frac{1}{N}=\epsilon,<br>$$ and hence<br>$$<br>\left|\dfrac{(-1)^n}{n}-0\right|=\frac{1}{n}&lt;\epsilon<br>$$ as desired. Therefore $\lim\dfrac{(-1)^n}{n}=0$.</p>
-<hr>
-<h3 id="Part-b"><a href="#Part-b" class="headerlink" title="Part b"></a>Part b</h3><p>Let $\epsilon&gt;0$ and let $N=\dfrac{1}{\epsilon^3}$. Then $n&gt;N$ implies<br>$$<br>\frac{1}{n^{1/3}}&lt;\dfrac{1}{N^{1/3}}=\frac{1}{1/\epsilon}=\epsilon.<br>$$ and hence<br>$$<br>\left|\frac{1}{n^{1/3}}-0\right|=\frac{1}{n^{1/3}}&lt;\epsilon.<br>$$ as desired. Therefore $\lim\dfrac{1}{n^{1/3}}=0$.</p>
-<hr>
-<h3 id="Part-c"><a href="#Part-c" class="headerlink" title="Part c"></a>Part c</h3><p>Let $\epsilon&gt;0$ and let $N=\dfrac{7}{9\epsilon}$. Then $n&gt;N$ implies<br>$$<br>\frac{7}{9n+6}&lt;\frac{7}{9N}=\epsilon.<br>$$ and hence<br>\begin{align*}<br>\left|\frac{2n-1}{3n+2}-\frac{2}{3}\right|=\frac{7}{9n+6}&lt;\epsilon.<br>\end{align*} as desired. Therefore $\lim\dfrac{2n-1}{3n+2}=\dfrac{2}{3}$.</p>
-<hr>
-<h3 id="Part-d"><a href="#Part-d" class="headerlink" title="Part d"></a>Part d</h3><p>Let $\epsilon&gt;0$ and let $N=6+\dfrac{1}{\epsilon}$. Then $n&gt;N$ implies<br>$$<br>0&lt;\frac{n+6}{n^2-6}&lt;\frac{n+6}{n^2-36}=\frac{1}{n-6}&lt;\frac{1}{N-6}=\epsilon,<br>$$ and hence<br>$$<br>\left|\frac{n+6}{n^2-6}-0\right|=\frac{n+6}{n^2-6}&lt;\epsilon<br>$$ as desired. Therefore $\lim\dfrac{n+6}{n^2-6}=0$.</p>
+<p>Solution: Let $\epsilon&gt;0$. Since $\lim s_n=0$, there exists $N&gt;0$ such that<br>$$<br>|s_n-0|=s_n &lt; \epsilon^2<br>$$ for all $n&gt;N$. Therefore $n&gt;N$ implies that<br>$$<br>|\sqrt{s_n}-0|=\sqrt{s_n}&lt;\sqrt{\epsilon^2}=\epsilon<br>$$ for all $n&gt;N$ as desired. Thus $\lim s_n=0$.</p>
 <script type="text/javascript">
 amzn_assoc_placement = "adunit0";
 amzn_assoc_search_bar = "true";
@@ -255,14 +247,58 @@ amzn_assoc_asins = "1493927116,1461462703,0471000051,0471000078,1259064786,10772
       </tags>
   </entry>
   <entry>
-    <title>If the limit of sequence is zero then so is the limit of square roots</title>
-    <url>/elementary-analysis-08-03.html</url>
-    <content><![CDATA[<div class="note info flat"><p><a href="/elementary-analysis-toc.html">Solution to Elementary Analysis: The Theory of Calculus Second Edition</a> Section 8 Exercise 8.3</p>
+    <title>If the limit of sequence is zero then so is the limit of sequence multiplied by a bounded one</title>
+    <url>/elementary-analysis-08-04.html</url>
+    <content><![CDATA[<div class="note info flat"><p><a href="/elementary-analysis-toc.html">Solution to Elementary Analysis: The Theory of Calculus Second Edition</a> Section 8 Exercise 8.4</p>
 </div>
 
 <a id="more"></a>
 
-<p>Solution: Let $\epsilon&gt;0$. Since $\lim s_n=0$, there exists $N&gt;0$ such that<br>$$<br>|s_n-0|=s_n &lt; \epsilon^2<br>$$ for all $n&gt;N$. Therefore $n&gt;N$ implies that<br>$$<br>|\sqrt{s_n}-0|=\sqrt{s_n}&lt;\sqrt{\epsilon^2}=\epsilon<br>$$ for all $n&gt;N$ as desired. Thus $\lim s_n=0$.</p>
+<p>Solution: Let $\epsilon&gt;0$. Since $\lim s_n=0$, there exists $N&gt;0$ such that<br>$$<br>|s_n-0|=s_n &lt; \frac{\epsilon}{M+1}<br>$$ for all $n&gt;N$. Therefore $n&gt;N$ implies that<br>$$<br>|s_nt_n|=|s_n|M&lt;\frac{\epsilon}{M+1}M&lt;\epsilon<br>$$ for all $n&gt;N$ as desired. Thus $\lim (s_nt_n)=0$.</p>
+<div class="note warning flat"><p>Here we use $\dfrac{\epsilon}{M+1}$ instead of $\dfrac{\epsilon}{M}$ because $M$ may be <em>zero</em>. With this modification, we do not need to consider the case where $M=0$ separately.</p>
+</div>
+
+<script type="text/javascript">
+amzn_assoc_placement = "adunit0";
+amzn_assoc_search_bar = "true";
+amzn_assoc_tracking_id = "linearalgeb0e-20";
+amzn_assoc_ad_mode = "manual";
+amzn_assoc_ad_type = "smart";
+amzn_assoc_marketplace = "amazon";
+amzn_assoc_region = "US";
+amzn_assoc_title = "My recommendations on Calculus and Analysis";
+amzn_assoc_linkid = "cfda343bc63399373d473026228d47e1";
+amzn_assoc_asins = "1493927116,1461462703,0471000051,0471000078,1259064786,1077254547,366248790X,1285741552";
+</script>
+<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
+      <categories>
+        <category>Solution</category>
+        <category>Elementary Analysis</category>
+      </categories>
+      <tags>
+        <tag>Sequence</tag>
+        <tag>Limit</tag>
+        <tag>Proof</tag>
+        <tag>Bounded</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Formal proof of limits I</title>
+    <url>/elementary-analysis-08-01.html</url>
+    <content><![CDATA[<div class="note info flat"><p><a href="/elementary-analysis-toc.html">Solution to Elementary Analysis: The Theory of Calculus Second Edition</a> Section 8 Exercise 8.1</p>
+</div>
+
+<a id="more"></a>
+
+
+<p>Solution: </p>
+<h3 id="Part-a"><a href="#Part-a" class="headerlink" title="Part a"></a>Part a</h3><p>Let $\epsilon&gt;0$ and let $N=\dfrac{1}{\epsilon}$. Then $n&gt;N$ implies<br>$$<br>\frac{1}{n}&lt;\frac{1}{N}=\epsilon,<br>$$ and hence<br>$$<br>\left|\dfrac{(-1)^n}{n}-0\right|=\frac{1}{n}&lt;\epsilon<br>$$ as desired. Therefore $\lim\dfrac{(-1)^n}{n}=0$.</p>
+<hr>
+<h3 id="Part-b"><a href="#Part-b" class="headerlink" title="Part b"></a>Part b</h3><p>Let $\epsilon&gt;0$ and let $N=\dfrac{1}{\epsilon^3}$. Then $n&gt;N$ implies<br>$$<br>\frac{1}{n^{1/3}}&lt;\dfrac{1}{N^{1/3}}=\frac{1}{1/\epsilon}=\epsilon.<br>$$ and hence<br>$$<br>\left|\frac{1}{n^{1/3}}-0\right|=\frac{1}{n^{1/3}}&lt;\epsilon.<br>$$ as desired. Therefore $\lim\dfrac{1}{n^{1/3}}=0$.</p>
+<hr>
+<h3 id="Part-c"><a href="#Part-c" class="headerlink" title="Part c"></a>Part c</h3><p>Let $\epsilon&gt;0$ and let $N=\dfrac{7}{9\epsilon}$. Then $n&gt;N$ implies<br>$$<br>\frac{7}{9n+6}&lt;\frac{7}{9N}=\epsilon.<br>$$ and hence<br>\begin{align*}<br>\left|\frac{2n-1}{3n+2}-\frac{2}{3}\right|=\frac{7}{9n+6}&lt;\epsilon.<br>\end{align*} as desired. Therefore $\lim\dfrac{2n-1}{3n+2}=\dfrac{2}{3}$.</p>
+<hr>
+<h3 id="Part-d"><a href="#Part-d" class="headerlink" title="Part d"></a>Part d</h3><p>Let $\epsilon&gt;0$ and let $N=6+\dfrac{1}{\epsilon}$. Then $n&gt;N$ implies<br>$$<br>0&lt;\frac{n+6}{n^2-6}&lt;\frac{n+6}{n^2-36}=\frac{1}{n-6}&lt;\frac{1}{N-6}=\epsilon,<br>$$ and hence<br>$$<br>\left|\frac{n+6}{n^2-6}-0\right|=\frac{n+6}{n^2-6}&lt;\epsilon<br>$$ as desired. Therefore $\lim\dfrac{n+6}{n^2-6}=0$.</p>
 <script type="text/javascript">
 amzn_assoc_placement = "adunit0";
 amzn_assoc_search_bar = "true";
@@ -323,17 +359,21 @@ amzn_assoc_asins = "1493927116,1461462703,0471000051,0471000078,1259064786,10772
       </tags>
   </entry>
   <entry>
-    <title>If the limit of sequence is zero then so is the limit of sequence multiplied by a bounded one</title>
-    <url>/elementary-analysis-08-04.html</url>
-    <content><![CDATA[<div class="note info flat"><p><a href="/elementary-analysis-toc.html">Solution to Elementary Analysis: The Theory of Calculus Second Edition</a> Section 8 Exercise 8.4</p>
+    <title>When the limit of a sequence is zero</title>
+    <url>/elementary-analysis-08-06.html</url>
+    <content><![CDATA[<div class="note info flat"><p><a href="/elementary-analysis-toc.html">Solution to Elementary Analysis: The Theory of Calculus Second Edition</a> Section 8 Exercise 8.6</p>
 </div>
 
 <a id="more"></a>
 
-<p>Solution: Let $\epsilon&gt;0$. Since $\lim s_n=0$, there exists $N&gt;0$ such that<br>$$<br>|s_n-0|=s_n &lt; \frac{\epsilon}{M+1}<br>$$ for all $n&gt;N$. Therefore $n&gt;N$ implies that<br>$$<br>|s_nt_n|=|s_n|M&lt;\frac{\epsilon}{M+1}M&lt;\epsilon<br>$$ for all $n&gt;N$ as desired. Thus $\lim (s_nt_n)=0$.</p>
-<div class="note warning flat"><p>Here we use $\dfrac{\epsilon}{M+1}$ instead of $\dfrac{\epsilon}{M}$ because $M$ may be <em>zero</em>. With this modification, we do not need to consider the case where $M=0$ separately.</p>
-</div>
-
+<p>Solution: </p>
+<h3 id="Part-a"><a href="#Part-a" class="headerlink" title="Part a"></a>Part a</h3><p>We first show that if $\lim s_n=0$ then $\lim |s_n|=0$.</p>
+<p>Let $\epsilon&gt;0$. Since $\lim s_n=0$, there exists $N&gt;0$ such that<br>$$<br>|s_n-0|=|s_n|&lt;\epsilon<br>$$ for all $n&gt;N$. Therefore, $n&gt;N$ implies that<br>$$<br>||s_n|-0|=|s_n|&lt;\epsilon<br>$$ as desired. Thus $\lim |s_n|=0$.</p>
+<p>Then we show that if $\lim |s_n|=0$ then $\lim s_n=0$.</p>
+<p>Let $\epsilon&gt;0$. Since $\lim |s_n|=0$, there exists $N&gt;0$ such that<br>$$<br>||s_n|-0|=|s_n|&lt;\epsilon<br>$$ for all $n&gt;N$. Therefore, $n&gt;N$ implies that<br>$$<br>|s_n-0|=|s_n|&lt;\epsilon<br>$$ as desired. Thus $\lim s_n=0$.</p>
+<hr>
+<h3 id="Part-b"><a href="#Part-b" class="headerlink" title="Part b"></a>Part b</h3><p>Clearly, $|s_n|=1$ and hence we have $\lim|s_n|=1$ because $||s_n|-1|=0$ for all $n$.</p>
+<p>However, $\lim s_n$ does not exist as you may see from Example 4.</p>
 <script type="text/javascript">
 amzn_assoc_placement = "adunit0";
 amzn_assoc_search_bar = "true";
@@ -354,8 +394,6 @@ amzn_assoc_asins = "1493927116,1461462703,0471000051,0471000078,1259064786,10772
       <tags>
         <tag>Sequence</tag>
         <tag>Limit</tag>
-        <tag>Proof</tag>
-        <tag>Bounded</tag>
       </tags>
   </entry>
   <entry>
@@ -394,44 +432,6 @@ amzn_assoc_asins = "1493927116,1461462703,0471000051,0471000078,1259064786,10772
         <tag>Limit</tag>
         <tag>Proof</tag>
         <tag>Triangle Inequality</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>When the limit of a sequence is zero</title>
-    <url>/elementary-analysis-08-06.html</url>
-    <content><![CDATA[<div class="note info flat"><p><a href="/elementary-analysis-toc.html">Solution to Elementary Analysis: The Theory of Calculus Second Edition</a> Section 8 Exercise 8.6</p>
-</div>
-
-<a id="more"></a>
-
-<p>Solution: </p>
-<h3 id="Part-a"><a href="#Part-a" class="headerlink" title="Part a"></a>Part a</h3><p>We first show that if $\lim s_n=0$ then $\lim |s_n|=0$.</p>
-<p>Let $\epsilon&gt;0$. Since $\lim s_n=0$, there exists $N&gt;0$ such that<br>$$<br>|s_n-0|=|s_n|&lt;\epsilon<br>$$ for all $n&gt;N$. Therefore, $n&gt;N$ implies that<br>$$<br>||s_n|-0|=|s_n|&lt;\epsilon<br>$$ as desired. Thus $\lim |s_n|=0$.</p>
-<p>Then we show that if $\lim |s_n|=0$ then $\lim s_n=0$.</p>
-<p>Let $\epsilon&gt;0$. Since $\lim |s_n|=0$, there exists $N&gt;0$ such that<br>$$<br>||s_n|-0|=|s_n|&lt;\epsilon<br>$$ for all $n&gt;N$. Therefore, $n&gt;N$ implies that<br>$$<br>|s_n-0|=|s_n|&lt;\epsilon<br>$$ as desired. Thus $\lim s_n=0$.</p>
-<hr>
-<h3 id="Part-b"><a href="#Part-b" class="headerlink" title="Part b"></a>Part b</h3><p>Clearly, $|s_n|=1$ and hence we have $\lim|s_n|=1$ because $||s_n|-1|=0$ for all $n$.</p>
-<p>However, $\lim s_n$ does not exist as you may see from Example 4.</p>
-<script type="text/javascript">
-amzn_assoc_placement = "adunit0";
-amzn_assoc_search_bar = "true";
-amzn_assoc_tracking_id = "linearalgeb0e-20";
-amzn_assoc_ad_mode = "manual";
-amzn_assoc_ad_type = "smart";
-amzn_assoc_marketplace = "amazon";
-amzn_assoc_region = "US";
-amzn_assoc_title = "My recommendations on Calculus and Analysis";
-amzn_assoc_linkid = "cfda343bc63399373d473026228d47e1";
-amzn_assoc_asins = "1493927116,1461462703,0471000051,0471000078,1259064786,1077254547,366248790X,1285741552";
-</script>
-<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
-      <categories>
-        <category>Solution</category>
-        <category>Elementary Analysis</category>
-      </categories>
-      <tags>
-        <tag>Sequence</tag>
-        <tag>Limit</tag>
       </tags>
   </entry>
   <entry>
@@ -647,6 +647,116 @@ amzn_assoc_asins = "1493927116,1461462703,0471000051,0471000078,1259064786,10772
       </tags>
   </entry>
   <entry>
+    <title>Find the limit by solving equations</title>
+    <url>/elementary-analysis-09-04.html</url>
+    <content><![CDATA[<div class="note info flat"><p><a href="/elementary-analysis-toc.html">Solution to Elementary Analysis: The Theory of Calculus Second Edition</a> Section 9 Exercise 9.4</p>
+</div>
+
+<a id="more"></a>
+
+<p>Solution: </p>
+<h3 id="Part-a"><a href="#Part-a" class="headerlink" title="Part a"></a>Part a</h3><p>$s_1=1$, $s_2=\sqrt{2}$, $s_3=\sqrt{\sqrt 2+1}$, $s_4=\sqrt{\sqrt{\sqrt 2+1}+1}$.</p>
+<hr>
+<h3 id="Part-b"><a href="#Part-b" class="headerlink" title="Part b"></a>Part b</h3><p>Since $(s_n)$ converges. Set $\lim s_n=s$. By $s_{n+1}=\sqrt{s_n+1}$, we have<br>$$<br>s_{n+1}^2=s_n+1.<br>$$ Hence we have<br>\begin{equation}\label{09-04-01}<br>\lim s_{n+1}^2=\lim (s_n+1).<br>\end{equation} On one hand, by Theorem 9.4, we have<br>\begin{equation}\label{09-04-02}<br>\lim s_{n+1}^2=(\lim s_{n+1})^2=s^2.<br>\end{equation} On the other hand, by Theorem 9.3, we have<br>\begin{equation}\label{09-04-03}<br>\lim(s_n+1)=\lim s_n+\lim 1=s+1.<br>\end{equation} Combining \eqref{09-04-01}, \eqref{09-04-02}, \eqref{09-04-03}, we have<br>$$<br>s^2=s+1.<br>$$ Solving for $s$, we must have $s=\dfrac{1\pm \sqrt 5}{2}$.</p>
+<p>Since $s_n&gt;0$ for all $n$, it follows from <a href="/elementary-analysis-08-09.html">Exercise 8.9</a> that $s&gt;0$. Therefore, we conclude that $s=\dfrac{1+\sqrt 5}{2}$</p>
+<script type="text/javascript">
+amzn_assoc_placement = "adunit0";
+amzn_assoc_search_bar = "true";
+amzn_assoc_tracking_id = "linearalgeb0e-20";
+amzn_assoc_ad_mode = "manual";
+amzn_assoc_ad_type = "smart";
+amzn_assoc_marketplace = "amazon";
+amzn_assoc_region = "US";
+amzn_assoc_title = "My recommendations on Calculus and Analysis";
+amzn_assoc_linkid = "cfda343bc63399373d473026228d47e1";
+amzn_assoc_asins = "1493927116,1461462703,0471000051,0471000078,1259064786,1077254547,366248790X,1285741552";
+</script>
+<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
+      <categories>
+        <category>Solution</category>
+        <category>Elementary Analysis</category>
+      </categories>
+      <tags>
+        <tag>Sequence</tag>
+        <tag>Limit</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Find the limit by solving equation II</title>
+    <url>/elementary-analysis-09-05.html</url>
+    <content><![CDATA[<div class="note info flat"><p><a href="/elementary-analysis-toc.html">Solution to Elementary Analysis: The Theory of Calculus Second Edition</a> Section 9 Exercise 9.5</p>
+</div>
+
+<a id="more"></a>
+
+<div class="note default flat"><p>The idea is pretty much the same as <a href="/elementary-analysis-09-04.html">Exercise 9.4</a>.</p>
+</div>
+
+<p>Solution: Since $(t_n)$ converges. Set $\lim t_n=s$. By $t_{n+1}=\dfrac{t_n^2+2}{2t_n}$, we have<br>\begin{equation}\label{09-05-01}<br>\lim 2t_{n+1}t_n=\lim (t_n^2+2).<br>\end{equation} On one hand, by Theorems 9.2 and 9.4, we have<br>\begin{equation}\label{09-05-02}<br>\lim 2t_{n+1}t_n=2\lim t_{n+1}\lim t_n=2t^2.<br>\end{equation} On the other hand, by Theorems 9.3 and 9.4, we have<br>\begin{equation}\label{09-05-03}<br>\lim (t_n^2+2)=\lim t_n\lim t_n+\lim 2=t^2+2.<br>\end{equation} Combining \eqref{09-05-01}, \eqref{09-05-02}, \eqref{09-05-03}, we have<br>$$<br>2t^2=t^2+2.<br>$$ Solving for $t$, we must have $t=\pm \sqrt 2$.</p>
+<p>Since $t_1&gt;0$, it is clear by induction that $t_n&gt;0$ for all $n$. Now it follows from <a href="/elementary-analysis-08-09.html">Exercise 8.9</a> that $t&gt;0$. Therefore, we conclude that $t=\sqrt 2$.</p>
+<script type="text/javascript">
+amzn_assoc_placement = "adunit0";
+amzn_assoc_search_bar = "true";
+amzn_assoc_tracking_id = "linearalgeb0e-20";
+amzn_assoc_ad_mode = "manual";
+amzn_assoc_ad_type = "smart";
+amzn_assoc_marketplace = "amazon";
+amzn_assoc_region = "US";
+amzn_assoc_title = "My recommendations on Calculus and Analysis";
+amzn_assoc_linkid = "cfda343bc63399373d473026228d47e1";
+amzn_assoc_asins = "1493927116,1461462703,0471000051,0471000078,1259064786,1077254547,366248790X,1285741552";
+</script>
+<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
+      <categories>
+        <category>Solution</category>
+        <category>Elementary Analysis</category>
+      </categories>
+      <tags>
+        <tag>Sequence</tag>
+        <tag>Limit</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Finding the limit by solving equation needs convergence</title>
+    <url>/elementary-analysis-09-06.html</url>
+    <content><![CDATA[<div class="note info flat"><p><a href="/elementary-analysis-toc.html">Solution to Elementary Analysis: The Theory of Calculus Second Edition</a> Section 9 Exercise 9.6</p>
+</div>
+
+<a id="more"></a>
+
+<p>Solution: </p>
+<h3 id="Part-a"><a href="#Part-a" class="headerlink" title="Part a"></a>Part a</h3><p>This part is the same as that of <a href="/elementary-analysis-09-04.html">Exercise 9.4</a> and <a href="/elementary-analysis-09-05.html">Exercise 9.5</a>. One needs to solve<br>$$<br>a=3a^2<br>$$ for $a$. Hence $a=0$ or $a=\dfrac{1}{3}$.</p>
+<h3 id="Part-b"><a href="#Part-b" class="headerlink" title="Part b"></a>Part b</h3><p>The sequence $x_1$ diverges to $+\infty$. Indeed, one can show that $x_n\ge 3^{n-1}$ by induction and hence $\lim x_n=+\infty$.</p>
+<p>We show $x_n\ge 3^{n-1}$ by induction. The base case is clear. </p>
+<p>Suppose $x_n\ge 3^{n-1}$, we show that $x_{n+1}\ge 3^{n}$. This follows from<br>$$<br>x_{n+1}=3x_n^2\ge 3(3^{n-1})^2=3\cdot 3^{2n-2}=3^{2n-1}\ge 3^n.<br>$$ Hence we have $x_n\ge 3^{n-1}$ for all $n$.</p>
+<p>Now it is clear that $\lim x_n$ is infinity.</p>
+<h3 id="Part-c"><a href="#Part-c" class="headerlink" title="Part c"></a>Part c</h3><p>There is no contradiction at all. Part (a) is obtained from the assumption that $\lim x_n$ exists. However, we can show that $\lim x_n$ does not exist in Part (b). Hence in reality, we cannot obtain $\lim x_n=\dfrac{1}{3}$ or $\lim x_n=0$.</p>
+<div class="note warning flat"><p>This exercise explains if we would like to find limit using the method used in <a href="/elementary-analysis-09-04.html">Exercise 9.4</a> and <a href="/elementary-analysis-09-05.html">Exercise 9.5</a>. We must show convergence first. Otherwise, such a method cannot be applied at all.</p>
+</div>
+
+<script type="text/javascript">
+amzn_assoc_placement = "adunit0";
+amzn_assoc_search_bar = "true";
+amzn_assoc_tracking_id = "linearalgeb0e-20";
+amzn_assoc_ad_mode = "manual";
+amzn_assoc_ad_type = "smart";
+amzn_assoc_marketplace = "amazon";
+amzn_assoc_region = "US";
+amzn_assoc_title = "My recommendations on Calculus and Analysis";
+amzn_assoc_linkid = "cfda343bc63399373d473026228d47e1";
+amzn_assoc_asins = "1493927116,1461462703,0471000051,0471000078,1259064786,1077254547,366248790X,1285741552";
+</script>
+<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
+      <categories>
+        <category>Solution</category>
+        <category>Elementary Analysis</category>
+      </categories>
+      <tags>
+        <tag>Sequence</tag>
+        <tag>Limit</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Using the principle of mathematical induction to show identities I</title>
     <url>/elementary-analysis-1-01.html</url>
     <content><![CDATA[<div class="note info flat"><p><a href="/elementary-analysis-toc.html">Solution to Elementary Analysis: The Theory of Calculus Second Edition</a> Section 1 Exercise 1.1</p>
@@ -708,41 +818,6 @@ amzn_assoc_asins = "1493927116,1461462703,0471000051,0471000078,1259064786,10772
       <tags>
         <tag>Induction</tag>
         <tag>Identity</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Find the limit by solving equations</title>
-    <url>/elementary-analysis-09-04.html</url>
-    <content><![CDATA[<div class="note info flat"><p><a href="/elementary-analysis-toc.html">Solution to Elementary Analysis: The Theory of Calculus Second Edition</a> Section 9 Exercise 9.4</p>
-</div>
-
-<a id="more"></a>
-
-<p>Solution: </p>
-<h3 id="Part-a"><a href="#Part-a" class="headerlink" title="Part a"></a>Part a</h3><p>$s_1=1$, $s_2=\sqrt{2}$, $s_3=\sqrt{\sqrt 2+1}$, $s_4=\sqrt{\sqrt{\sqrt 2+1}+1}$.</p>
-<hr>
-<h3 id="Part-b"><a href="#Part-b" class="headerlink" title="Part b"></a>Part b</h3><p>Since $(s_n)$ converges. Set $\lim s_n=s$. By $s_{n+1}=\sqrt{s_n+1}$, we have<br>$$<br>s_{n+1}^2=s_n+1.<br>$$ Hence we have<br>\begin{equation}\label{09-04-01}<br>\lim s_{n+1}^2=\lim (s_n+1).<br>\end{equation} On one hand, by Theorem 9.4, we have<br>\begin{equation}\label{09-04-02}<br>\lim s_{n+1}^2=(\lim s_{n+1})^2=s^2.<br>\end{equation} On the other hand, by Theorem 9.3, we have<br>\begin{equation}\label{09-04-03}<br>\lim(s_n+1)=\lim s_n+\lim 1=s+1.<br>\end{equation} Combining \eqref{09-04-01}, \eqref{09-04-02}, \eqref{09-04-03}, we have<br>$$<br>s^2=s+1.<br>$$ Solving for $s$, we must have $s=\dfrac{1\pm \sqrt 5}{2}$.</p>
-<p>Since $s_n&gt;0$ for all $n$, it follows from <a href="/elementary-analysis-08-09.html">Exercise 8.9</a> that $s&gt;0$. Therefore, we conclude that $s=\dfrac{1+\sqrt 5}{2}$</p>
-<script type="text/javascript">
-amzn_assoc_placement = "adunit0";
-amzn_assoc_search_bar = "true";
-amzn_assoc_tracking_id = "linearalgeb0e-20";
-amzn_assoc_ad_mode = "manual";
-amzn_assoc_ad_type = "smart";
-amzn_assoc_marketplace = "amazon";
-amzn_assoc_region = "US";
-amzn_assoc_title = "My recommendations on Calculus and Analysis";
-amzn_assoc_linkid = "cfda343bc63399373d473026228d47e1";
-amzn_assoc_asins = "1493927116,1461462703,0471000051,0471000078,1259064786,1077254547,366248790X,1285741552";
-</script>
-<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
-      <categories>
-        <category>Solution</category>
-        <category>Elementary Analysis</category>
-      </categories>
-      <tags>
-        <tag>Sequence</tag>
-        <tag>Limit</tag>
       </tags>
   </entry>
   <entry>
@@ -916,19 +991,19 @@ amzn_assoc_asins = "1493927116,1461462703,0471000051,0471000078,1259064786,10772
       </tags>
   </entry>
   <entry>
-    <title>Using the principle of mathematical induction to show inequalities II</title>
-    <url>/elementary-analysis-1-09.html</url>
-    <content><![CDATA[<div class="note info flat"><p><a href="/elementary-analysis-toc.html">Solution to Elementary Analysis: The Theory of Calculus Second Edition</a> Section 1 Exercise 1.9</p>
+    <title>Using the principle of mathematical induction to show inequalities I</title>
+    <url>/elementary-analysis-1-08.html</url>
+    <content><![CDATA[<div class="note info flat"><p><a href="/elementary-analysis-toc.html">Solution to Elementary Analysis: The Theory of Calculus Second Edition</a> Section 1 Exercise 1.8</p>
 </div>
 
 <a id="more"></a>
 
 <p>Solution: </p>
-<h3 id="Part-a"><a href="#Part-a" class="headerlink" title="Part a"></a>Part a</h3><p>If $n=1$, $2^1=2$ and $1^2=1$. True!<br>If $n=2$, $2^2=4$ and $2^2=4$. False!<br>If $n=3$, $2^3=8$ and $3^2=9$. False!<br>If $n=4$, $2^4=16$ and $4^2=16$. False!<br>If $n=5$, $2^5=32$ and $5^2=25$. True!<br>If $n=6$, $2^6=64$ and $6^2=36$. True!</p>
-<p>We probably should guess that $2^n&gt;n^2$ is true for all integers $n\ge 5$.</p>
+<h3 id="Part-a"><a href="#Part-a" class="headerlink" title="Part a"></a>Part a</h3><p>The $n$-th proposition is<br>$$<br>P_n: \quad n^2&gt;n+1.<br>$$ Clearly, $P_2$ is true because $2^2=4$ which is greater than $2+1=3$. We have the induction basis.</p>
+<p>Now we assume $P_n$ is true (here we assume that $n\ge 2$), that is $n^2&gt;n+1$. We would like to show $P_{n+1}$ is true based on $P_n$. Note that $n&gt;0$, we have<br>\begin{align*}<br>(n+1)^2=n^2+2n+1&gt;n+1+2n+1&gt;(n+1)+1.<br>\end{align*} Therefore $P_{n+1}$ is true if $P_n$ is true. By the principle of mathematical induction, we make the conclusion that $P_n$ is true for all positive integers $n$.</p>
 <hr>
-<h3 id="Part-b"><a href="#Part-b" class="headerlink" title="Part b"></a>Part b</h3><p>The $n$-th proposition is<br>$$<br>P_n: \quad 2^n&gt; n^2.<br>$$ Clearly, $P_5$ is true as we checked in Part a. We have the induction basis.</p>
-<p>Now we assume $P_n$ is true (here we assume that $n\ge 5$), that is $2^n&gt; n^2$. We would like to show $P_{n+1}$ is true based on $P_n$. Note that $n\ge 5$, we have<br>\begin{equation}\label{eq:1-9-1}<br>n^2\ge 5n&gt;3n\ge 2n+1.<br>\end{equation} Therefore<br>\begin{align*}<br>2^{n+1}=&amp;\ 2\cdot 2^n&gt; 2\cdot n^2\\<br>=&amp;\ n^2+n^2&gt;n^2+2n+1=(n+1)^2.<br>\end{align*} Here in the last inequality we used \eqref{eq:1-9-1}. Therefore $P_{n+1}$ is true if $P_n$ is true. By the principle of mathematical induction, we make the conclusion that $P_n$ is true for all positive integers $n$.</p>
+<h3 id="Part-b"><a href="#Part-b" class="headerlink" title="Part b"></a>Part b</h3><p>The $n$-th proposition is<br>$$<br>P_n: \quad n!&gt; n^2.<br>$$ Clearly, $P_4$ is true because $4!=24$ which is greater than $4^2=16$. We have the induction basis.</p>
+<p>Now we assume $P_n$ is true (here we assume that $n\ge 4$), that is $n!&gt; n^2$. We would like to show $P_{n+1}$ is true based on $P_n$. Note that $n\ge 4$, we have<br>\begin{equation}\label{eq:1-8-1}<br>n^2\ge 4n&gt;n,\quad n^2 &gt;1.<br>\end{equation} Therefore<br>\begin{align*}<br>(n+1)!=&amp;\ (n+1)\cdot n!&gt;4\cdot n^2\\<br>=&amp;\ n^2+2n^2+n^2\\<br>\text{use \eqref{eq:1-8-1}}\quad &gt;&amp;\ n^2+2n+1=(n+1)^2.<br>\end{align*} Therefore $P_{n+1}$ is true if $P_n$ is true. By the principle of mathematical induction, we make the conclusion that $P_n$ is true for all positive integers $n$.</p>
 <script type="text/javascript">
 amzn_assoc_placement = "adunit0";
 amzn_assoc_search_bar = "true";
@@ -952,19 +1027,19 @@ amzn_assoc_asins = "1493927116,1461462703,0471000051,0471000078,1259064786,10772
       </tags>
   </entry>
   <entry>
-    <title>Using the principle of mathematical induction to show inequalities I</title>
-    <url>/elementary-analysis-1-08.html</url>
-    <content><![CDATA[<div class="note info flat"><p><a href="/elementary-analysis-toc.html">Solution to Elementary Analysis: The Theory of Calculus Second Edition</a> Section 1 Exercise 1.8</p>
+    <title>Using the principle of mathematical induction to show inequalities II</title>
+    <url>/elementary-analysis-1-09.html</url>
+    <content><![CDATA[<div class="note info flat"><p><a href="/elementary-analysis-toc.html">Solution to Elementary Analysis: The Theory of Calculus Second Edition</a> Section 1 Exercise 1.9</p>
 </div>
 
 <a id="more"></a>
 
 <p>Solution: </p>
-<h3 id="Part-a"><a href="#Part-a" class="headerlink" title="Part a"></a>Part a</h3><p>The $n$-th proposition is<br>$$<br>P_n: \quad n^2&gt;n+1.<br>$$ Clearly, $P_2$ is true because $2^2=4$ which is greater than $2+1=3$. We have the induction basis.</p>
-<p>Now we assume $P_n$ is true (here we assume that $n\ge 2$), that is $n^2&gt;n+1$. We would like to show $P_{n+1}$ is true based on $P_n$. Note that $n&gt;0$, we have<br>\begin{align*}<br>(n+1)^2=n^2+2n+1&gt;n+1+2n+1&gt;(n+1)+1.<br>\end{align*} Therefore $P_{n+1}$ is true if $P_n$ is true. By the principle of mathematical induction, we make the conclusion that $P_n$ is true for all positive integers $n$.</p>
+<h3 id="Part-a"><a href="#Part-a" class="headerlink" title="Part a"></a>Part a</h3><p>If $n=1$, $2^1=2$ and $1^2=1$. True!<br>If $n=2$, $2^2=4$ and $2^2=4$. False!<br>If $n=3$, $2^3=8$ and $3^2=9$. False!<br>If $n=4$, $2^4=16$ and $4^2=16$. False!<br>If $n=5$, $2^5=32$ and $5^2=25$. True!<br>If $n=6$, $2^6=64$ and $6^2=36$. True!</p>
+<p>We probably should guess that $2^n&gt;n^2$ is true for all integers $n\ge 5$.</p>
 <hr>
-<h3 id="Part-b"><a href="#Part-b" class="headerlink" title="Part b"></a>Part b</h3><p>The $n$-th proposition is<br>$$<br>P_n: \quad n!&gt; n^2.<br>$$ Clearly, $P_4$ is true because $4!=24$ which is greater than $4^2=16$. We have the induction basis.</p>
-<p>Now we assume $P_n$ is true (here we assume that $n\ge 4$), that is $n!&gt; n^2$. We would like to show $P_{n+1}$ is true based on $P_n$. Note that $n\ge 4$, we have<br>\begin{equation}\label{eq:1-8-1}<br>n^2\ge 4n&gt;n,\quad n^2 &gt;1.<br>\end{equation} Therefore<br>\begin{align*}<br>(n+1)!=&amp;\ (n+1)\cdot n!&gt;4\cdot n^2\\<br>=&amp;\ n^2+2n^2+n^2\\<br>\text{use \eqref{eq:1-8-1}}\quad &gt;&amp;\ n^2+2n+1=(n+1)^2.<br>\end{align*} Therefore $P_{n+1}$ is true if $P_n$ is true. By the principle of mathematical induction, we make the conclusion that $P_n$ is true for all positive integers $n$.</p>
+<h3 id="Part-b"><a href="#Part-b" class="headerlink" title="Part b"></a>Part b</h3><p>The $n$-th proposition is<br>$$<br>P_n: \quad 2^n&gt; n^2.<br>$$ Clearly, $P_5$ is true as we checked in Part a. We have the induction basis.</p>
+<p>Now we assume $P_n$ is true (here we assume that $n\ge 5$), that is $2^n&gt; n^2$. We would like to show $P_{n+1}$ is true based on $P_n$. Note that $n\ge 5$, we have<br>\begin{equation}\label{eq:1-9-1}<br>n^2\ge 5n&gt;3n\ge 2n+1.<br>\end{equation} Therefore<br>\begin{align*}<br>2^{n+1}=&amp;\ 2\cdot 2^n&gt; 2\cdot n^2\\<br>=&amp;\ n^2+n^2&gt;n^2+2n+1=(n+1)^2.<br>\end{align*} Here in the last inequality we used \eqref{eq:1-9-1}. Therefore $P_{n+1}$ is true if $P_n$ is true. By the principle of mathematical induction, we make the conclusion that $P_n$ is true for all positive integers $n$.</p>
 <script type="text/javascript">
 amzn_assoc_placement = "adunit0";
 amzn_assoc_search_bar = "true";
@@ -1363,21 +1438,21 @@ amzn_assoc_asins = "1493927116,1461462703,0471000051,0471000078,1259064786,10772
       </tags>
   </entry>
   <entry>
-    <title>Compute limits using L’Hospital’s Rule II</title>
-    <url>/elementary-analysis-30-02.html</url>
-    <content><![CDATA[<div class="note info flat"><p><a href="/elementary-analysis-toc.html">Solution to Elementary Analysis: The Theory of Calculus Second Edition</a> Section 30 Exercises 30.2</p>
+    <title>Compute limits using L’Hospital’s Rule I</title>
+    <url>/elementary-analysis-30-01.html</url>
+    <content><![CDATA[<div class="note info flat"><p><a href="/elementary-analysis-toc.html">Solution to Elementary Analysis: The Theory of Calculus Second Edition</a> Section 30 Exercises 30.1</p>
 </div>
 
 <a id="more"></a>
 
 <p>Solution: </p>
-<h3 id="Part-a"><a href="#Part-a" class="headerlink" title="Part a"></a>Part a</h3><p>We can apply L’Hospital’s Rule repeatedly to get the answer. Please check the conditions for applying L’Hospital’s Rule carefully for every step. We have<br>\begin{align*}<br>\lim_{x\to 0}\frac{x^3}{\sin x-x}<br>=&amp;\ \lim_{x\to 0}\frac{3x^2}{\cos x-1}\\<br>=&amp;\ \lim_{x\to 0}\frac{6x}{-\sin x}\\<br>=&amp;\ \lim_{x\to 0}\frac{6}{-\cos x}\\<br>=&amp;\ \frac{6}{-1}=-6.<br>\end{align*}</p>
+<h3 id="Part-a"><a href="#Part-a" class="headerlink" title="Part a"></a>Part a</h3><p>We have $\lim_{x\to 0}(e^{2x}-\cos x)=1-1=0$ and $\lim_{x\to 0} x=0$. Hence we can apply L’Hospital’s Rule and obtain that<br>\begin{align*}<br>\lim_{x\to 0}\frac{e^{2x}-\cos x}{x}<br>=&amp;\ \lim_{x\to 0}\frac{(e^{2x}-\cos x)’}{(x)’}\\<br>=&amp;\ \lim_{x\to 0}\frac{2e^{2x}+\sin x}{1}\\<br>=&amp;\ \lim_{x\to 0}(2e^{2x}+\sin x)=2+0=2.<br>\end{align*}</p>
 <hr>
-<h3 id="Part-b"><a href="#Part-b" class="headerlink" title="Part b"></a>Part b</h3><p>We shall use the following limit from Example 1, that is<br>$$<br>\lim_{x\to 0}\frac{\sin x}{x}=1.<br>$$ This also implies that<br>\begin{equation}\label{eq:30-2}<br>\lim_{x\to 0}\frac{\tan x}{x}=\lim_{x\to 0}\frac{\sin x}{x}\lim_{x\to 0}\frac{1}{\cos x}=1.<br>\end{equation} Therefore, we have<br>\begin{align*}<br>\lim_{x\to 0}\frac{\tan x-x}{x^3}<br>=&amp;\ \lim_{x\to 0}\frac{\sec^2 x-1}{3x^2}\\<br>=&amp;\ \lim_{x\to 0}\frac{\tan^2 x}{3x^2}\\<br>=&amp;\ \frac{1}{3}\lim_{x\to 0}\Big(\frac{\tan x}{x}\Big)^2\\<br>=&amp;\ \frac{1}{3}\Big(\lim_{x\to 0}\frac{\tan x}{x}\Big)^2\\<br>\text{ Use \eqref{eq:30-2} }=&amp;\ \frac{1}{3}\cdot 1=\frac{1}{3}.<br>\end{align*}</p>
+<h3 id="Part-b"><a href="#Part-b" class="headerlink" title="Part b"></a>Part b</h3><p>We have $\lim_{x\to 0}(1-\cos x)=1-1=0$ and $\lim_{x\to 0} x^2=0$. Hence we can apply L’Hospital’s Rule and obtain that<br>\begin{align*}<br>\lim_{x\to 0}\frac{1-\cos x}{x^2}<br>=&amp;\ \lim_{x\to 0}\frac{(1-\cos x)’}{(x^2)’}\\<br>=&amp;\ \lim_{x\to 0}\frac{\sin x}{2x}\\<br>\text{ Apply L’Hospital’s Rule again }\ =&amp;\ \lim_{x\to 0}\frac{\cos x}{2}=\frac{1}{2}.<br>\end{align*} Here we can apply L’Hospital’s Rule again because $\lim_{x\to 0}\sin x=0$ and $\lim_{x\to 0}2x=0$.</p>
 <hr>
-<h3 id="Part-c"><a href="#Part-c" class="headerlink" title="Part c"></a>Part c</h3><p>We can apply L’Hospital’s Rule repeatedly to get the answer. Please check the conditions for applying L’Hospital’s Rule carefully for every step. We have<br>\begin{align*}<br>\lim_{x\to 0}\left(\frac{1}{\sin x}-\frac{1}{x}\right)<br>=&amp;\ \lim_{x\to 0}\frac{x-\sin x}{x\sin x}\\<br>=&amp;\ \lim_{x\to 0}\frac{1-\cos x}{\sin x+x\cos x}\\<br>=&amp;\ \lim_{x\to 0}\frac{\sin x}{\cos x+\cos x-x\sin x}\\<br>=&amp;\ \frac{0}{1+1-0}=0.<br>\end{align*}</p>
+<h3 id="Part-c"><a href="#Part-c" class="headerlink" title="Part c"></a>Part c</h3><p>Whenever the denominator tends to infinity, we can apply L’Hospital’s Rule. Therefore, we can repeatedly apply L’Hospital’s Rule as follows<br>\begin{align*}<br>\lim_{x\to \infty}\frac{x^3}{e^{2x}}<br>=&amp;\ \lim_{x\to \infty}\frac{3x^2}{2e^{2x}}\\<br>\text{ Apply L’Hospital’s Rule again }\ =&amp;\ \lim_{x\to \infty}\frac{6x}{4e^{2x}}\\<br>\text{ Apply L’Hospital’s Rule again }\ =&amp;\ \lim_{x\to \infty}\frac{6}{8e^{2x}}=0.<br>\end{align*}</p>
 <hr>
-<h3 id="Part-d"><a href="#Part-d" class="headerlink" title="Part d"></a>Part d</h3><p>We have<br>$$<br>\ln(\cos x)^{1/x^2}=\frac{1}{x^2}\ln(\cos x).<br>$$ Instead of computing $\lim_{x\to 0} (\cos x)^{1/x^2}$ directly, we compute $\lim_{x\to 0}\dfrac{1}{x^2}\ln(\cos x)$ first. We can apply L’Hospital’s Rule and obtain that<br>\begin{align*}<br>\lim_{x\to 0}\frac{1}{x^2}\ln(\cos x)<br>=&amp;\ \lim_{x\to 0}\frac{\ln(\cos x)}{x^2}\\<br>=&amp;\ \lim_{x\to 0}\frac{ \frac{-\sin x}{\cos x} }{2x}\\<br>=&amp;\ -\frac{1}{2}\lim_{x\to 0}\frac{\tan x}{x}\\<br>\text{ Use \eqref{eq:30-2} }=&amp;\ -\frac{1}{2}.<br>\end{align*} Therefore, by Theorem 20.5, we have<br>$$<br>\lim_{x\to 0}\ln(\cos x)^{1/x^2}=e^{-1/2}=\frac{1}{\sqrt e}.<br>$$</p>
+<h3 id="Part-d"><a href="#Part-d" class="headerlink" title="Part d"></a>Part d</h3><p>We have $\lim_{x\to 0}(\sqrt{1+x}-\sqrt{1-x})=1-1=0$ and $\lim_{x\to 0} x=0$. Hence we can apply L’Hospital’s Rule and obtain that<br>\begin{align*}<br>\lim_{x\to 0}\frac{\sqrt{1+x}-\sqrt{1-x}}{x}<br>=&amp;\ \lim_{x\to 0}\frac{(\sqrt{1+x}-\sqrt{1-x})’}{(x)’}\\<br>=&amp;\ \lim_{x\to 0}\frac{ \frac{1}{2\sqrt{1+x}}+\frac{1}{2\sqrt{1-x}} }{1}\\<br>=&amp;\ \lim_{x\to 0}\Big(\frac{1}{2\sqrt{1+x}}+\frac{1}{2\sqrt{1-x}}\Big)\\<br>=&amp;\ \frac{1}{2}+\frac{1}{2}=1.<br>\end{align*}</p>
 <script type="text/javascript">
 amzn_assoc_placement = "adunit0";
 amzn_assoc_search_bar = "true";
@@ -1402,21 +1477,21 @@ amzn_assoc_asins = "1493927116,1461462703,0471000051,0471000078,1259064786,10772
       </tags>
   </entry>
   <entry>
-    <title>Compute limits using L’Hospital’s Rule I</title>
-    <url>/elementary-analysis-30-01.html</url>
-    <content><![CDATA[<div class="note info flat"><p><a href="/elementary-analysis-toc.html">Solution to Elementary Analysis: The Theory of Calculus Second Edition</a> Section 30 Exercises 30.1</p>
+    <title>Compute limits using L’Hospital’s Rule II</title>
+    <url>/elementary-analysis-30-02.html</url>
+    <content><![CDATA[<div class="note info flat"><p><a href="/elementary-analysis-toc.html">Solution to Elementary Analysis: The Theory of Calculus Second Edition</a> Section 30 Exercises 30.2</p>
 </div>
 
 <a id="more"></a>
 
 <p>Solution: </p>
-<h3 id="Part-a"><a href="#Part-a" class="headerlink" title="Part a"></a>Part a</h3><p>We have $\lim_{x\to 0}(e^{2x}-\cos x)=1-1=0$ and $\lim_{x\to 0} x=0$. Hence we can apply L’Hospital’s Rule and obtain that<br>\begin{align*}<br>\lim_{x\to 0}\frac{e^{2x}-\cos x}{x}<br>=&amp;\ \lim_{x\to 0}\frac{(e^{2x}-\cos x)’}{(x)’}\\<br>=&amp;\ \lim_{x\to 0}\frac{2e^{2x}+\sin x}{1}\\<br>=&amp;\ \lim_{x\to 0}(2e^{2x}+\sin x)=2+0=2.<br>\end{align*}</p>
+<h3 id="Part-a"><a href="#Part-a" class="headerlink" title="Part a"></a>Part a</h3><p>We can apply L’Hospital’s Rule repeatedly to get the answer. Please check the conditions for applying L’Hospital’s Rule carefully for every step. We have<br>\begin{align*}<br>\lim_{x\to 0}\frac{x^3}{\sin x-x}<br>=&amp;\ \lim_{x\to 0}\frac{3x^2}{\cos x-1}\\<br>=&amp;\ \lim_{x\to 0}\frac{6x}{-\sin x}\\<br>=&amp;\ \lim_{x\to 0}\frac{6}{-\cos x}\\<br>=&amp;\ \frac{6}{-1}=-6.<br>\end{align*}</p>
 <hr>
-<h3 id="Part-b"><a href="#Part-b" class="headerlink" title="Part b"></a>Part b</h3><p>We have $\lim_{x\to 0}(1-\cos x)=1-1=0$ and $\lim_{x\to 0} x^2=0$. Hence we can apply L’Hospital’s Rule and obtain that<br>\begin{align*}<br>\lim_{x\to 0}\frac{1-\cos x}{x^2}<br>=&amp;\ \lim_{x\to 0}\frac{(1-\cos x)’}{(x^2)’}\\<br>=&amp;\ \lim_{x\to 0}\frac{\sin x}{2x}\\<br>\text{ Apply L’Hospital’s Rule again }\ =&amp;\ \lim_{x\to 0}\frac{\cos x}{2}=\frac{1}{2}.<br>\end{align*} Here we can apply L’Hospital’s Rule again because $\lim_{x\to 0}\sin x=0$ and $\lim_{x\to 0}2x=0$.</p>
+<h3 id="Part-b"><a href="#Part-b" class="headerlink" title="Part b"></a>Part b</h3><p>We shall use the following limit from Example 1, that is<br>$$<br>\lim_{x\to 0}\frac{\sin x}{x}=1.<br>$$ This also implies that<br>\begin{equation}\label{eq:30-2}<br>\lim_{x\to 0}\frac{\tan x}{x}=\lim_{x\to 0}\frac{\sin x}{x}\lim_{x\to 0}\frac{1}{\cos x}=1.<br>\end{equation} Therefore, we have<br>\begin{align*}<br>\lim_{x\to 0}\frac{\tan x-x}{x^3}<br>=&amp;\ \lim_{x\to 0}\frac{\sec^2 x-1}{3x^2}\\<br>=&amp;\ \lim_{x\to 0}\frac{\tan^2 x}{3x^2}\\<br>=&amp;\ \frac{1}{3}\lim_{x\to 0}\Big(\frac{\tan x}{x}\Big)^2\\<br>=&amp;\ \frac{1}{3}\Big(\lim_{x\to 0}\frac{\tan x}{x}\Big)^2\\<br>\text{ Use \eqref{eq:30-2} }=&amp;\ \frac{1}{3}\cdot 1=\frac{1}{3}.<br>\end{align*}</p>
 <hr>
-<h3 id="Part-c"><a href="#Part-c" class="headerlink" title="Part c"></a>Part c</h3><p>Whenever the denominator tends to infinity, we can apply L’Hospital’s Rule. Therefore, we can repeatedly apply L’Hospital’s Rule as follows<br>\begin{align*}<br>\lim_{x\to \infty}\frac{x^3}{e^{2x}}<br>=&amp;\ \lim_{x\to \infty}\frac{3x^2}{2e^{2x}}\\<br>\text{ Apply L’Hospital’s Rule again }\ =&amp;\ \lim_{x\to \infty}\frac{6x}{4e^{2x}}\\<br>\text{ Apply L’Hospital’s Rule again }\ =&amp;\ \lim_{x\to \infty}\frac{6}{8e^{2x}}=0.<br>\end{align*}</p>
+<h3 id="Part-c"><a href="#Part-c" class="headerlink" title="Part c"></a>Part c</h3><p>We can apply L’Hospital’s Rule repeatedly to get the answer. Please check the conditions for applying L’Hospital’s Rule carefully for every step. We have<br>\begin{align*}<br>\lim_{x\to 0}\left(\frac{1}{\sin x}-\frac{1}{x}\right)<br>=&amp;\ \lim_{x\to 0}\frac{x-\sin x}{x\sin x}\\<br>=&amp;\ \lim_{x\to 0}\frac{1-\cos x}{\sin x+x\cos x}\\<br>=&amp;\ \lim_{x\to 0}\frac{\sin x}{\cos x+\cos x-x\sin x}\\<br>=&amp;\ \frac{0}{1+1-0}=0.<br>\end{align*}</p>
 <hr>
-<h3 id="Part-d"><a href="#Part-d" class="headerlink" title="Part d"></a>Part d</h3><p>We have $\lim_{x\to 0}(\sqrt{1+x}-\sqrt{1-x})=1-1=0$ and $\lim_{x\to 0} x=0$. Hence we can apply L’Hospital’s Rule and obtain that<br>\begin{align*}<br>\lim_{x\to 0}\frac{\sqrt{1+x}-\sqrt{1-x}}{x}<br>=&amp;\ \lim_{x\to 0}\frac{(\sqrt{1+x}-\sqrt{1-x})’}{(x)’}\\<br>=&amp;\ \lim_{x\to 0}\frac{ \frac{1}{2\sqrt{1+x}}+\frac{1}{2\sqrt{1-x}} }{1}\\<br>=&amp;\ \lim_{x\to 0}\Big(\frac{1}{2\sqrt{1+x}}+\frac{1}{2\sqrt{1-x}}\Big)\\<br>=&amp;\ \frac{1}{2}+\frac{1}{2}=1.<br>\end{align*}</p>
+<h3 id="Part-d"><a href="#Part-d" class="headerlink" title="Part d"></a>Part d</h3><p>We have<br>$$<br>\ln(\cos x)^{1/x^2}=\frac{1}{x^2}\ln(\cos x).<br>$$ Instead of computing $\lim_{x\to 0} (\cos x)^{1/x^2}$ directly, we compute $\lim_{x\to 0}\dfrac{1}{x^2}\ln(\cos x)$ first. We can apply L’Hospital’s Rule and obtain that<br>\begin{align*}<br>\lim_{x\to 0}\frac{1}{x^2}\ln(\cos x)<br>=&amp;\ \lim_{x\to 0}\frac{\ln(\cos x)}{x^2}\\<br>=&amp;\ \lim_{x\to 0}\frac{ \frac{-\sin x}{\cos x} }{2x}\\<br>=&amp;\ -\frac{1}{2}\lim_{x\to 0}\frac{\tan x}{x}\\<br>\text{ Use \eqref{eq:30-2} }=&amp;\ -\frac{1}{2}.<br>\end{align*} Therefore, by Theorem 20.5, we have<br>$$<br>\lim_{x\to 0}\ln(\cos x)^{1/x^2}=e^{-1/2}=\frac{1}{\sqrt e}.<br>$$</p>
 <script type="text/javascript">
 amzn_assoc_placement = "adunit0";
 amzn_assoc_search_bar = "true";
@@ -1600,42 +1675,6 @@ amzn_assoc_asins = "1493927116,1461462703,0471000051,0471000078,1259064786,10772
       </tags>
   </entry>
   <entry>
-    <title>Solution to Elementary Analysis The Theory of Calculus Second Edition</title>
-    <url>/elementary-analysis-toc.html</url>
-    <content><![CDATA[<div class="note info flat"><p><a href="https://amzn.to/3dF59Lt">Elementary Analysis: The Theory of Calculus Second Edition</a> by Kenneth A. Ross</p>
-</div>
-
-<a id="more"></a>
-
-<h3 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h3><h4 id="1-The-Set-mathbb-N-of-Natural-Numbers"><a href="#1-The-Set-mathbb-N-of-Natural-Numbers" class="headerlink" title="1 The Set $\mathbb N$ of Natural Numbers"></a>1 The Set $\mathbb N$ of Natural Numbers</h4><p><a href="/elementary-analysis-1-01.html">#1</a>, <a href="/elementary-analysis-1-02.html">#2</a>, <a href="/elementary-analysis-1-03.html">#3</a>, <a href="/elementary-analysis-1-04.html">#4</a>, <a href="/elementary-analysis-1-05.html">#5</a>, <a href="/elementary-analysis-1-06.html">#6</a>, <a href="-elementary-analysis/1-07.html">#7</a>, <a href="/elementary-analysis-1-08.html">#8</a>, <a href="/elementary-analysis-1-09.html">#9</a>, <a href="/elementary-analysis-1-10.html">#10</a>, <a href="/elementary-analysis-1-11.html">#11</a>, <a href="/elementary-analysis-1-12.html">#12</a></p>
-<h4 id="2-The-Set-mathbb-Q-of-Rational-Numbers"><a href="#2-The-Set-mathbb-Q-of-Rational-Numbers" class="headerlink" title="2 The Set $\mathbb Q$ of Rational Numbers"></a>2 The Set $\mathbb Q$ of Rational Numbers</h4><p><a href="/elementary-analysis-2-01.html">#1</a>, <a href="/elementary-analysis-2-01.html#Exercise-2-2">#2</a>, <a href="/elementary-analysis-2-03.html">#3</a>, <a href="/elementary-analysis-2-04.html">#4</a>, <a href="/elementary-analysis-2-05.html">#5</a>, <a href="/elementary-analysis-2-06.html">#6</a>, <a href="/elementary-analysis-2-07.html">#7</a>, <a href="/elementary-analysis-2-08.html">#8</a></p>
-<h4 id="3-The-Set-mathbb-R-of-Real-Numbers"><a href="#3-The-Set-mathbb-R-of-Real-Numbers" class="headerlink" title="3 The Set $\mathbb R$ of Real Numbers"></a>3 The Set $\mathbb R$ of Real Numbers</h4><h4 id="4-The-Completeness-Axiom"><a href="#4-The-Completeness-Axiom" class="headerlink" title="4 The Completeness Axiom"></a>4 The Completeness Axiom</h4><h4 id="5-The-Symbols-infty-and-infty"><a href="#5-The-Symbols-infty-and-infty" class="headerlink" title="5 The Symbols $\infty$ and $-\infty$"></a>5 The Symbols $\infty$ and $-\infty$</h4><h4 id="6-A-Development-of-mathbb-R"><a href="#6-A-Development-of-mathbb-R" class="headerlink" title="6 * A Development of $\mathbb R$"></a>6 * A Development of $\mathbb R$</h4><h3 id="Sequences"><a href="#Sequences" class="headerlink" title="Sequences"></a>Sequences</h3><h4 id="7-Limits-of-Sequences"><a href="#7-Limits-of-Sequences" class="headerlink" title="7 Limits of Sequences"></a>7 Limits of Sequences</h4><p><a href="/elementary-analysis-07-01.html">#1</a>, <a href="/elementary-analysis-07-01.html#Exercise-7-2">#2</a>, <a href="/elementary-analysis-07-03.html">#3</a>, <a href="/elementary-analysis-07-04.html">#4</a>, <a href="/elementary-analysis-07-05.html">#5</a></p>
-<h4 id="8-A-Discussion-about-Proofs"><a href="#8-A-Discussion-about-Proofs" class="headerlink" title="8 A Discussion about Proofs"></a>8 A Discussion about Proofs</h4><p><a href="/elementary-analysis-08-01.html">#1</a>, <a href="/elementary-analysis-08-02.html">#2</a>, <a href="/elementary-analysis-08-03.html">#3</a>, <a href="/elementary-analysis-08-04.html">#4</a>, <a href="/elementary-analysis-08-05.html">#5</a>, <a href="/elementary-analysis-08-06.html">#6</a>, <a href="/elementary-analysis-08-07.html">#7</a>, <a href="/elementary-analysis-08-08.html">#8</a>, <a href="/elementary-analysis-08-09.html">#9</a>, <a href="/elementary-analysis-08-10.html">#10</a></p>
-<h4 id="9-Limit-Theorems-for-Sequences"><a href="#9-Limit-Theorems-for-Sequences" class="headerlink" title="9 Limit Theorems for Sequences"></a>9 Limit Theorems for Sequences</h4><p><a href="/elementary-analysis-09-01.html">#1</a>, <a href="/elementary-analysis-09-02.html">#2</a>, <a href="/elementary-analysis-09-03.html">#3</a>, <a href="/elementary-analysis-09-04.html">#4</a>,</p>
-<h4 id="10-Monotone-Sequences-and-Cauchy-Sequences"><a href="#10-Monotone-Sequences-and-Cauchy-Sequences" class="headerlink" title="10 Monotone Sequences and Cauchy Sequences"></a>10 Monotone Sequences and Cauchy Sequences</h4><h4 id="11-Subsequences"><a href="#11-Subsequences" class="headerlink" title="11 Subsequences"></a>11 Subsequences</h4><h4 id="12-limsup’s-and-liminf’s"><a href="#12-limsup’s-and-liminf’s" class="headerlink" title="12 limsup’s and liminf’s"></a>12 limsup’s and liminf’s</h4><h4 id="13-Some-Topological-Concepts-in-Metric-Spaces"><a href="#13-Some-Topological-Concepts-in-Metric-Spaces" class="headerlink" title="13 * Some Topological Concepts in Metric Spaces"></a>13 * Some Topological Concepts in Metric Spaces</h4><h4 id="14-Series"><a href="#14-Series" class="headerlink" title="14 Series"></a>14 Series</h4><h4 id="15-Alternating-Series-and-Integral-Tests"><a href="#15-Alternating-Series-and-Integral-Tests" class="headerlink" title="15 Alternating Series and Integral Tests"></a>15 Alternating Series and Integral Tests</h4><h4 id="16-Decimal-Expansions-of-Real-Numbers"><a href="#16-Decimal-Expansions-of-Real-Numbers" class="headerlink" title="16 * Decimal Expansions of Real Numbers"></a>16 * Decimal Expansions of Real Numbers</h4><h3 id="Continuity"><a href="#Continuity" class="headerlink" title="Continuity"></a>Continuity</h3><h4 id="17-Continuous-Functions"><a href="#17-Continuous-Functions" class="headerlink" title="17 Continuous Functions"></a>17 Continuous Functions</h4><h4 id="18-Properties-of-Continuous-Functions"><a href="#18-Properties-of-Continuous-Functions" class="headerlink" title="18 Properties of Continuous Functions"></a>18 Properties of Continuous Functions</h4><h4 id="19-Uniform-Continuity"><a href="#19-Uniform-Continuity" class="headerlink" title="19 Uniform Continuity"></a>19 Uniform Continuity</h4><h4 id="20-Limits-of-Functions"><a href="#20-Limits-of-Functions" class="headerlink" title="20 Limits of Functions"></a>20 Limits of Functions</h4><h4 id="21-More-on-Metric-Spaces-Continuity"><a href="#21-More-on-Metric-Spaces-Continuity" class="headerlink" title="21 More on Metric Spaces:Continuity"></a>21 More on Metric Spaces:Continuity</h4><h4 id="22-More-on-Metric-Spaces-Connectedness"><a href="#22-More-on-Metric-Spaces-Connectedness" class="headerlink" title="22 More on Metric Spaces: Connectedness"></a>22 More on Metric Spaces: Connectedness</h4><h3 id="Sequences-and-Series-of-Functions"><a href="#Sequences-and-Series-of-Functions" class="headerlink" title="Sequences and Series of Functions"></a>Sequences and Series of Functions</h3><h4 id="23-Power-Series"><a href="#23-Power-Series" class="headerlink" title="23 Power Series"></a>23 Power Series</h4><h4 id="24-Uniform-Convergence"><a href="#24-Uniform-Convergence" class="headerlink" title="24 Uniform Convergence"></a>24 Uniform Convergence</h4><h4 id="25-More-on-Uniform-Convergence"><a href="#25-More-on-Uniform-Convergence" class="headerlink" title="25 More on Uniform Convergence"></a>25 More on Uniform Convergence</h4><h4 id="26-Differentiation-and-Integration-of-Power-Series"><a href="#26-Differentiation-and-Integration-of-Power-Series" class="headerlink" title="26 Differentiation and Integration of Power Series"></a>26 Differentiation and Integration of Power Series</h4><h4 id="27-Weierstrass’s-Approximation-Theorem"><a href="#27-Weierstrass’s-Approximation-Theorem" class="headerlink" title="27 Weierstrass’s Approximation Theorem"></a>27 Weierstrass’s Approximation Theorem</h4><h3 id="Differentiation"><a href="#Differentiation" class="headerlink" title="Differentiation"></a>Differentiation</h3><h4 id="28-Basic-Properties-of-the-Derivative"><a href="#28-Basic-Properties-of-the-Derivative" class="headerlink" title="28 Basic Properties of the Derivative"></a>28 Basic Properties of the Derivative</h4><h4 id="29-The-Mean-Value-Theorem"><a href="#29-The-Mean-Value-Theorem" class="headerlink" title="29 The Mean Value Theorem"></a>29 The Mean Value Theorem</h4><h4 id="30-L’Hospital’s-Rule"><a href="#30-L’Hospital’s-Rule" class="headerlink" title="30 L’Hospital’s Rule"></a>30 L’Hospital’s Rule</h4><p><a href="/elementary-analysis-30-01.html">#1</a>, <a href="/elementary-analysis-30-02.html">#2</a>, <a href="/elementary-analysis-30-03.html">#3</a>, <a href="/elementary-analysis-30-04.html">#4</a>, <a href="/elementary-analysis-30-05.html">#5</a>, <a href="/elementary-analysis-30-06.html">#6</a>, <a href="/elementary-analysis-30-07.html">#7</a></p>
-<h4 id="31-Taylor’sTheorem"><a href="#31-Taylor’sTheorem" class="headerlink" title="31 Taylor’sTheorem"></a>31 Taylor’sTheorem</h4><script type="text/javascript">
-amzn_assoc_placement = "adunit0";
-amzn_assoc_search_bar = "true";
-amzn_assoc_tracking_id = "linearalgeb0e-20";
-amzn_assoc_ad_mode = "manual";
-amzn_assoc_ad_type = "smart";
-amzn_assoc_marketplace = "amazon";
-amzn_assoc_region = "US";
-amzn_assoc_title = "My recommendations on Calculus and Analysis";
-amzn_assoc_linkid = "cfda343bc63399373d473026228d47e1";
-amzn_assoc_asins = "1493927116,1461462703,0471000051,0471000078,1259064786,1077254547,366248790X,1285741552";
-</script>
-<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
-      <categories>
-        <category>Solution</category>
-        <category>Elementary Analysis</category>
-      </categories>
-      <tags>
-        <tag>Solution Manual</tag>
-        <tag>Solution Content</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>An example explains the impotance of assumption in L’Hospital’s Rule</title>
     <url>/elementary-analysis-30-07.html</url>
     <content><![CDATA[<div class="note info flat"><p><a href="/elementary-analysis-toc.html">Solution to Elementary Analysis: The Theory of Calculus Second Edition</a> Section 30 Exercises 30.6</p>
@@ -1676,6 +1715,42 @@ amzn_assoc_asins = "1493927116,1461462703,0471000051,0471000078,1259064786,10772
         <tag>L’Hospital’s Rule</tag>
         <tag>Chain Rule</tag>
         <tag>Product Rule</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Solution to Elementary Analysis The Theory of Calculus Second Edition</title>
+    <url>/elementary-analysis-toc.html</url>
+    <content><![CDATA[<div class="note info flat"><p><a href="https://amzn.to/3dF59Lt">Elementary Analysis: The Theory of Calculus Second Edition</a> by Kenneth A. Ross</p>
+</div>
+
+<a id="more"></a>
+
+<h3 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h3><h4 id="1-The-Set-mathbb-N-of-Natural-Numbers"><a href="#1-The-Set-mathbb-N-of-Natural-Numbers" class="headerlink" title="1 The Set $\mathbb N$ of Natural Numbers"></a>1 The Set $\mathbb N$ of Natural Numbers</h4><p><a href="/elementary-analysis-1-01.html">#1</a>, <a href="/elementary-analysis-1-02.html">#2</a>, <a href="/elementary-analysis-1-03.html">#3</a>, <a href="/elementary-analysis-1-04.html">#4</a>, <a href="/elementary-analysis-1-05.html">#5</a>, <a href="/elementary-analysis-1-06.html">#6</a>, <a href="-elementary-analysis/1-07.html">#7</a>, <a href="/elementary-analysis-1-08.html">#8</a>, <a href="/elementary-analysis-1-09.html">#9</a>, <a href="/elementary-analysis-1-10.html">#10</a>, <a href="/elementary-analysis-1-11.html">#11</a>, <a href="/elementary-analysis-1-12.html">#12</a></p>
+<h4 id="2-The-Set-mathbb-Q-of-Rational-Numbers"><a href="#2-The-Set-mathbb-Q-of-Rational-Numbers" class="headerlink" title="2 The Set $\mathbb Q$ of Rational Numbers"></a>2 The Set $\mathbb Q$ of Rational Numbers</h4><p><a href="/elementary-analysis-2-01.html">#1</a>, <a href="/elementary-analysis-2-01.html#Exercise-2-2">#2</a>, <a href="/elementary-analysis-2-03.html">#3</a>, <a href="/elementary-analysis-2-04.html">#4</a>, <a href="/elementary-analysis-2-05.html">#5</a>, <a href="/elementary-analysis-2-06.html">#6</a>, <a href="/elementary-analysis-2-07.html">#7</a>, <a href="/elementary-analysis-2-08.html">#8</a></p>
+<h4 id="3-The-Set-mathbb-R-of-Real-Numbers"><a href="#3-The-Set-mathbb-R-of-Real-Numbers" class="headerlink" title="3 The Set $\mathbb R$ of Real Numbers"></a>3 The Set $\mathbb R$ of Real Numbers</h4><h4 id="4-The-Completeness-Axiom"><a href="#4-The-Completeness-Axiom" class="headerlink" title="4 The Completeness Axiom"></a>4 The Completeness Axiom</h4><h4 id="5-The-Symbols-infty-and-infty"><a href="#5-The-Symbols-infty-and-infty" class="headerlink" title="5 The Symbols $\infty$ and $-\infty$"></a>5 The Symbols $\infty$ and $-\infty$</h4><h4 id="6-A-Development-of-mathbb-R"><a href="#6-A-Development-of-mathbb-R" class="headerlink" title="6 * A Development of $\mathbb R$"></a>6 * A Development of $\mathbb R$</h4><h3 id="Sequences"><a href="#Sequences" class="headerlink" title="Sequences"></a>Sequences</h3><h4 id="7-Limits-of-Sequences"><a href="#7-Limits-of-Sequences" class="headerlink" title="7 Limits of Sequences"></a>7 Limits of Sequences</h4><p><a href="/elementary-analysis-07-01.html">#1</a>, <a href="/elementary-analysis-07-01.html#Exercise-7-2">#2</a>, <a href="/elementary-analysis-07-03.html">#3</a>, <a href="/elementary-analysis-07-04.html">#4</a>, <a href="/elementary-analysis-07-05.html">#5</a></p>
+<h4 id="8-A-Discussion-about-Proofs"><a href="#8-A-Discussion-about-Proofs" class="headerlink" title="8 A Discussion about Proofs"></a>8 A Discussion about Proofs</h4><p><a href="/elementary-analysis-08-01.html">#1</a>, <a href="/elementary-analysis-08-02.html">#2</a>, <a href="/elementary-analysis-08-03.html">#3</a>, <a href="/elementary-analysis-08-04.html">#4</a>, <a href="/elementary-analysis-08-05.html">#5</a>, <a href="/elementary-analysis-08-06.html">#6</a>, <a href="/elementary-analysis-08-07.html">#7</a>, <a href="/elementary-analysis-08-08.html">#8</a>, <a href="/elementary-analysis-08-09.html">#9</a>, <a href="/elementary-analysis-08-10.html">#10</a></p>
+<h4 id="9-Limit-Theorems-for-Sequences"><a href="#9-Limit-Theorems-for-Sequences" class="headerlink" title="9 Limit Theorems for Sequences"></a>9 Limit Theorems for Sequences</h4><p><a href="/elementary-analysis-09-01.html">#1</a>, <a href="/elementary-analysis-09-02.html">#2</a>, <a href="/elementary-analysis-09-03.html">#3</a>, <a href="/elementary-analysis-09-04.html">#4</a>, <a href="/elementary-analysis-09-05.html">#5</a>, <a href="/elementary-analysis-09-06.html">#6</a>,</p>
+<h4 id="10-Monotone-Sequences-and-Cauchy-Sequences"><a href="#10-Monotone-Sequences-and-Cauchy-Sequences" class="headerlink" title="10 Monotone Sequences and Cauchy Sequences"></a>10 Monotone Sequences and Cauchy Sequences</h4><h4 id="11-Subsequences"><a href="#11-Subsequences" class="headerlink" title="11 Subsequences"></a>11 Subsequences</h4><h4 id="12-limsup’s-and-liminf’s"><a href="#12-limsup’s-and-liminf’s" class="headerlink" title="12 limsup’s and liminf’s"></a>12 limsup’s and liminf’s</h4><h4 id="13-Some-Topological-Concepts-in-Metric-Spaces"><a href="#13-Some-Topological-Concepts-in-Metric-Spaces" class="headerlink" title="13 * Some Topological Concepts in Metric Spaces"></a>13 * Some Topological Concepts in Metric Spaces</h4><h4 id="14-Series"><a href="#14-Series" class="headerlink" title="14 Series"></a>14 Series</h4><h4 id="15-Alternating-Series-and-Integral-Tests"><a href="#15-Alternating-Series-and-Integral-Tests" class="headerlink" title="15 Alternating Series and Integral Tests"></a>15 Alternating Series and Integral Tests</h4><h4 id="16-Decimal-Expansions-of-Real-Numbers"><a href="#16-Decimal-Expansions-of-Real-Numbers" class="headerlink" title="16 * Decimal Expansions of Real Numbers"></a>16 * Decimal Expansions of Real Numbers</h4><h3 id="Continuity"><a href="#Continuity" class="headerlink" title="Continuity"></a>Continuity</h3><h4 id="17-Continuous-Functions"><a href="#17-Continuous-Functions" class="headerlink" title="17 Continuous Functions"></a>17 Continuous Functions</h4><h4 id="18-Properties-of-Continuous-Functions"><a href="#18-Properties-of-Continuous-Functions" class="headerlink" title="18 Properties of Continuous Functions"></a>18 Properties of Continuous Functions</h4><h4 id="19-Uniform-Continuity"><a href="#19-Uniform-Continuity" class="headerlink" title="19 Uniform Continuity"></a>19 Uniform Continuity</h4><h4 id="20-Limits-of-Functions"><a href="#20-Limits-of-Functions" class="headerlink" title="20 Limits of Functions"></a>20 Limits of Functions</h4><h4 id="21-More-on-Metric-Spaces-Continuity"><a href="#21-More-on-Metric-Spaces-Continuity" class="headerlink" title="21 More on Metric Spaces:Continuity"></a>21 More on Metric Spaces:Continuity</h4><h4 id="22-More-on-Metric-Spaces-Connectedness"><a href="#22-More-on-Metric-Spaces-Connectedness" class="headerlink" title="22 More on Metric Spaces: Connectedness"></a>22 More on Metric Spaces: Connectedness</h4><h3 id="Sequences-and-Series-of-Functions"><a href="#Sequences-and-Series-of-Functions" class="headerlink" title="Sequences and Series of Functions"></a>Sequences and Series of Functions</h3><h4 id="23-Power-Series"><a href="#23-Power-Series" class="headerlink" title="23 Power Series"></a>23 Power Series</h4><h4 id="24-Uniform-Convergence"><a href="#24-Uniform-Convergence" class="headerlink" title="24 Uniform Convergence"></a>24 Uniform Convergence</h4><h4 id="25-More-on-Uniform-Convergence"><a href="#25-More-on-Uniform-Convergence" class="headerlink" title="25 More on Uniform Convergence"></a>25 More on Uniform Convergence</h4><h4 id="26-Differentiation-and-Integration-of-Power-Series"><a href="#26-Differentiation-and-Integration-of-Power-Series" class="headerlink" title="26 Differentiation and Integration of Power Series"></a>26 Differentiation and Integration of Power Series</h4><h4 id="27-Weierstrass’s-Approximation-Theorem"><a href="#27-Weierstrass’s-Approximation-Theorem" class="headerlink" title="27 Weierstrass’s Approximation Theorem"></a>27 Weierstrass’s Approximation Theorem</h4><h3 id="Differentiation"><a href="#Differentiation" class="headerlink" title="Differentiation"></a>Differentiation</h3><h4 id="28-Basic-Properties-of-the-Derivative"><a href="#28-Basic-Properties-of-the-Derivative" class="headerlink" title="28 Basic Properties of the Derivative"></a>28 Basic Properties of the Derivative</h4><h4 id="29-The-Mean-Value-Theorem"><a href="#29-The-Mean-Value-Theorem" class="headerlink" title="29 The Mean Value Theorem"></a>29 The Mean Value Theorem</h4><h4 id="30-L’Hospital’s-Rule"><a href="#30-L’Hospital’s-Rule" class="headerlink" title="30 L’Hospital’s Rule"></a>30 L’Hospital’s Rule</h4><p><a href="/elementary-analysis-30-01.html">#1</a>, <a href="/elementary-analysis-30-02.html">#2</a>, <a href="/elementary-analysis-30-03.html">#3</a>, <a href="/elementary-analysis-30-04.html">#4</a>, <a href="/elementary-analysis-30-05.html">#5</a>, <a href="/elementary-analysis-30-06.html">#6</a>, <a href="/elementary-analysis-30-07.html">#7</a></p>
+<h4 id="31-Taylor’sTheorem"><a href="#31-Taylor’sTheorem" class="headerlink" title="31 Taylor’sTheorem"></a>31 Taylor’sTheorem</h4><script type="text/javascript">
+amzn_assoc_placement = "adunit0";
+amzn_assoc_search_bar = "true";
+amzn_assoc_tracking_id = "linearalgeb0e-20";
+amzn_assoc_ad_mode = "manual";
+amzn_assoc_ad_type = "smart";
+amzn_assoc_marketplace = "amazon";
+amzn_assoc_region = "US";
+amzn_assoc_title = "My recommendations on Calculus and Analysis";
+amzn_assoc_linkid = "cfda343bc63399373d473026228d47e1";
+amzn_assoc_asins = "1493927116,1461462703,0471000051,0471000078,1259064786,1077254547,366248790X,1285741552";
+</script>
+<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
+      <categories>
+        <category>Solution</category>
+        <category>Elementary Analysis</category>
+      </categories>
+      <tags>
+        <tag>Solution Manual</tag>
+        <tag>Solution Content</tag>
       </tags>
   </entry>
   <entry>
@@ -1749,6 +1824,46 @@ amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
       </tags>
   </entry>
   <entry>
+    <title>Determine if vectors are linearly independent</title>
+    <url>/mml-exercise-2-10.html</url>
+    <content><![CDATA[<div class="note info flat"><p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 2 Exercise 2.10</strong></p>
+</div>
+
+<a id="more"></a>
+
+<p>Solution:</p>
+<p><strong>Part a</strong></p>
+<p>If we form a matrix out of these three vectors and compute its determinant, we get zero. Thus, the vectors are not linearly independent.</p>
+<p><strong>Part b</strong></p>
+<p>Let’s form the equation $\alpha_1 x_1 + \alpha_2 x_2 + \alpha_3 x_3 = 0$. These three vectors are linearly independent if and only if the $only$ solution to this equation is $\alpha_1=\alpha_2=\alpha_3=0$.</p>
+<p>Looking at the third component, we have that $\alpha_1\cdot 1 + \alpha_2 \cdot 0 + \alpha_3 \cdot 0 = 0$, that is to say, $\alpha_1 = 0$.</p>
+<p>Next, look at the second component. We already know $\alpha_1 = 0$, so we have $\alpha_2 \cdot 1 + \alpha_3 \cdot 0 = 0$, that is to say $\alpha_2=0$ also.</p>
+<p>Finally, look at the first component. We have that $\alpha_3 \cdot 1 = 0$, so all of the $\alpha_i$’s are zero. Therefore, our three vectors are linearly independent.</p>
+<script type="text/javascript">
+amzn_assoc_placement = "adunit0";
+amzn_assoc_search_bar = "true";
+amzn_assoc_tracking_id = "linearalgeb0e-20";
+amzn_assoc_search_bar_position = "bottom";
+amzn_assoc_ad_mode = "search";
+amzn_assoc_ad_type = "smart";
+amzn_assoc_marketplace = "amazon";
+amzn_assoc_region = "US";
+amzn_assoc_title = "Shop Related Products";
+amzn_assoc_default_search_phrase = "Linear Algebra";
+amzn_assoc_default_category = "All";
+amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
+</script><br />
+<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
+      <categories>
+        <category>Machine Learning</category>
+        <category>Linear Algebra</category>
+      </categories>
+      <tags>
+        <tag>Vector Space</tag>
+        <tag>Linearly Independent</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Write a vector as a linear combination of other vectors</title>
     <url>/mml-exercise-2-11.html</url>
     <content><![CDATA[<div class="note info flat"><p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 2 Exercise 2.11</strong></p>
@@ -1818,46 +1933,6 @@ amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
       <tags>
         <tag>Vector Space</tag>
         <tag>Basis</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Determine if vectors are linearly independent</title>
-    <url>/mml-exercise-2-10.html</url>
-    <content><![CDATA[<div class="note info flat"><p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 2 Exercise 2.10</strong></p>
-</div>
-
-<a id="more"></a>
-
-<p>Solution:</p>
-<p><strong>Part a</strong></p>
-<p>If we form a matrix out of these three vectors and compute its determinant, we get zero. Thus, the vectors are not linearly independent.</p>
-<p><strong>Part b</strong></p>
-<p>Let’s form the equation $\alpha_1 x_1 + \alpha_2 x_2 + \alpha_3 x_3 = 0$. These three vectors are linearly independent if and only if the $only$ solution to this equation is $\alpha_1=\alpha_2=\alpha_3=0$.</p>
-<p>Looking at the third component, we have that $\alpha_1\cdot 1 + \alpha_2 \cdot 0 + \alpha_3 \cdot 0 = 0$, that is to say, $\alpha_1 = 0$.</p>
-<p>Next, look at the second component. We already know $\alpha_1 = 0$, so we have $\alpha_2 \cdot 1 + \alpha_3 \cdot 0 = 0$, that is to say $\alpha_2=0$ also.</p>
-<p>Finally, look at the first component. We have that $\alpha_3 \cdot 1 = 0$, so all of the $\alpha_i$’s are zero. Therefore, our three vectors are linearly independent.</p>
-<script type="text/javascript">
-amzn_assoc_placement = "adunit0";
-amzn_assoc_search_bar = "true";
-amzn_assoc_tracking_id = "linearalgeb0e-20";
-amzn_assoc_search_bar_position = "bottom";
-amzn_assoc_ad_mode = "search";
-amzn_assoc_ad_type = "smart";
-amzn_assoc_marketplace = "amazon";
-amzn_assoc_region = "US";
-amzn_assoc_title = "Shop Related Products";
-amzn_assoc_default_search_phrase = "Linear Algebra";
-amzn_assoc_default_category = "All";
-amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
-</script><br />
-<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
-      <categories>
-        <category>Machine Learning</category>
-        <category>Linear Algebra</category>
-      </categories>
-      <tags>
-        <tag>Vector Space</tag>
-        <tag>Linearly Independent</tag>
       </tags>
   </entry>
   <entry>
@@ -1942,6 +2017,47 @@ amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
       </tags>
   </entry>
   <entry>
+    <title>Find a basis of the intersection of two solution spaces III</title>
+    <url>/mml-exercise-2-15.html</url>
+    <content><![CDATA[<div class="note info flat"><p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 2 Exercise 2.15</strong></p>
+</div>
+
+<a id="more"></a>
+
+<p>Solution:</p>
+<p><strong>Part a</strong></p>
+<p>Firstly, observe that $(0,0,0) \in F$, and $(0,0,0)\in G$ also. Next, we check that adding any two elements of the set does indeed get us another element of the set. Finally, if we multiply any element of the set by any real number, we again get another element of the required form. Thus $F$ and $G$ are subspaces indeed!</p>
+<p><strong>Part b</strong></p>
+<p>A vector in $F\cap G$ will satisfy both conditions in the sets, so if we put $G$’s condition into $F$’s, we find $$(a-b)+(a+b)-(a-3b) = 0,$$ from which we have $a=-3b$. Thus, $$F\cap G = \{ (-4b,-2b,-6b) : b\in \mathbb{R} \} = \mathsf{span}[ (2,1,3)].$$</p>
+<p><strong>Part c</strong></p>
+<p>Doing the same dimensional analysis as the previous three questions, we find that $F\cap G$ has dimension 1. We have $$F=\mathsf{span}[(1,0,1), (0,1,1)],$$ and $$G=\mathsf{span}[ (1,1,1),(-1,1,-3)].$$</p>
+<p>Proceeding in the same way as <a href="/mml-exercise-2-12.html">Problem 2.12</a>, we find that $-4v_1-2v_2 = -3v_3+v_4$, and hence $\{(-4,-2,-6)\}$ is a basis of $F \cap G$, which agrees with Part b.</p>
+<script type="text/javascript">
+amzn_assoc_placement = "adunit0";
+amzn_assoc_search_bar = "true";
+amzn_assoc_tracking_id = "linearalgeb0e-20";
+amzn_assoc_search_bar_position = "bottom";
+amzn_assoc_ad_mode = "search";
+amzn_assoc_ad_type = "smart";
+amzn_assoc_marketplace = "amazon";
+amzn_assoc_region = "US";
+amzn_assoc_title = "Shop Related Products";
+amzn_assoc_default_search_phrase = "Linear Algebra";
+amzn_assoc_default_category = "All";
+amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
+</script><br />
+<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
+      <categories>
+        <category>Machine Learning</category>
+        <category>Linear Algebra</category>
+      </categories>
+      <tags>
+        <tag>Vector Space</tag>
+        <tag>Basis</tag>
+        <tag>Linear Equations</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Determine if maps are linear mappings</title>
     <url>/mml-exercise-2-16.html</url>
     <content><![CDATA[<div class="note info flat"><p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 2 Exercise 2.16</strong></p>
@@ -1986,41 +2102,6 @@ amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
       </tags>
   </entry>
   <entry>
-    <title>Properties of automorphisms of vector space</title>
-    <url>/mml-exercise-2-18.html</url>
-    <content><![CDATA[<div class="note info flat"><p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 2 Exercise 2.18</strong></p>
-</div>
-
-<a id="more"></a>
-
-<p>Solution:</p>
-<p>We have two automorphisms, which means they map linearly and bijectively from the space, $E$, to itself. The maps therefore both have kernel $\{0\}$ (by injectivity) and image $E$ (by surjectivity). From this, we immediately deduce that $\ker(f)\cap \mathsf{Im}(g) = \{0\}$, indeed. Similarly, we deduce that $g\circ f$ also has kernel $\{0\}$ and image $E$, as required. Note that we didn’t need the condition that $f\circ g = \mathsf{id}_E$.</p>
-<script type="text/javascript">
-amzn_assoc_placement = "adunit0";
-amzn_assoc_search_bar = "true";
-amzn_assoc_tracking_id = "linearalgeb0e-20";
-amzn_assoc_search_bar_position = "bottom";
-amzn_assoc_ad_mode = "search";
-amzn_assoc_ad_type = "smart";
-amzn_assoc_marketplace = "amazon";
-amzn_assoc_region = "US";
-amzn_assoc_title = "Shop Related Products";
-amzn_assoc_default_search_phrase = "Linear Algebra";
-amzn_assoc_default_category = "All";
-amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
-</script><br />
-<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
-      <categories>
-        <category>Machine Learning</category>
-        <category>Linear Algebra</category>
-      </categories>
-      <tags>
-        <tag>Vector Space</tag>
-        <tag>Linear Map</tag>
-        <tag>Automorphism</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Computations involving a linear mapping</title>
     <url>/mml-exercise-2-17.html</url>
     <content><![CDATA[<div class="note info flat"><p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 2 Exercise 2.17</strong></p>
@@ -2060,6 +2141,41 @@ amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
       </tags>
   </entry>
   <entry>
+    <title>Properties of automorphisms of vector space</title>
+    <url>/mml-exercise-2-18.html</url>
+    <content><![CDATA[<div class="note info flat"><p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 2 Exercise 2.18</strong></p>
+</div>
+
+<a id="more"></a>
+
+<p>Solution:</p>
+<p>We have two automorphisms, which means they map linearly and bijectively from the space, $E$, to itself. The maps therefore both have kernel $\{0\}$ (by injectivity) and image $E$ (by surjectivity). From this, we immediately deduce that $\ker(f)\cap \mathsf{Im}(g) = \{0\}$, indeed. Similarly, we deduce that $g\circ f$ also has kernel $\{0\}$ and image $E$, as required. Note that we didn’t need the condition that $f\circ g = \mathsf{id}_E$.</p>
+<script type="text/javascript">
+amzn_assoc_placement = "adunit0";
+amzn_assoc_search_bar = "true";
+amzn_assoc_tracking_id = "linearalgeb0e-20";
+amzn_assoc_search_bar_position = "bottom";
+amzn_assoc_ad_mode = "search";
+amzn_assoc_ad_type = "smart";
+amzn_assoc_marketplace = "amazon";
+amzn_assoc_region = "US";
+amzn_assoc_title = "Shop Related Products";
+amzn_assoc_default_search_phrase = "Linear Algebra";
+amzn_assoc_default_category = "All";
+amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
+</script><br />
+<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
+      <categories>
+        <category>Machine Learning</category>
+        <category>Linear Algebra</category>
+      </categories>
+      <tags>
+        <tag>Vector Space</tag>
+        <tag>Linear Map</tag>
+        <tag>Automorphism</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Computations of an automorphism of vector space</title>
     <url>/mml-exercise-2-19.html</url>
     <content><![CDATA[<div class="note info flat"><p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 2 Exercise 2.19</strong></p>
@@ -2096,47 +2212,6 @@ amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
         <tag>Vector Space</tag>
         <tag>Linear Map</tag>
         <tag>Automorphism</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Find a basis of the intersection of two solution spaces III</title>
-    <url>/mml-exercise-2-15.html</url>
-    <content><![CDATA[<div class="note info flat"><p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 2 Exercise 2.15</strong></p>
-</div>
-
-<a id="more"></a>
-
-<p>Solution:</p>
-<p><strong>Part a</strong></p>
-<p>Firstly, observe that $(0,0,0) \in F$, and $(0,0,0)\in G$ also. Next, we check that adding any two elements of the set does indeed get us another element of the set. Finally, if we multiply any element of the set by any real number, we again get another element of the required form. Thus $F$ and $G$ are subspaces indeed!</p>
-<p><strong>Part b</strong></p>
-<p>A vector in $F\cap G$ will satisfy both conditions in the sets, so if we put $G$’s condition into $F$’s, we find $$(a-b)+(a+b)-(a-3b) = 0,$$ from which we have $a=-3b$. Thus, $$F\cap G = \{ (-4b,-2b,-6b) : b\in \mathbb{R} \} = \mathsf{span}[ (2,1,3)].$$</p>
-<p><strong>Part c</strong></p>
-<p>Doing the same dimensional analysis as the previous three questions, we find that $F\cap G$ has dimension 1. We have $$F=\mathsf{span}[(1,0,1), (0,1,1)],$$ and $$G=\mathsf{span}[ (1,1,1),(-1,1,-3)].$$</p>
-<p>Proceeding in the same way as <a href="/mml-exercise-2-12.html">Problem 2.12</a>, we find that $-4v_1-2v_2 = -3v_3+v_4$, and hence $\{(-4,-2,-6)\}$ is a basis of $F \cap G$, which agrees with Part b.</p>
-<script type="text/javascript">
-amzn_assoc_placement = "adunit0";
-amzn_assoc_search_bar = "true";
-amzn_assoc_tracking_id = "linearalgeb0e-20";
-amzn_assoc_search_bar_position = "bottom";
-amzn_assoc_ad_mode = "search";
-amzn_assoc_ad_type = "smart";
-amzn_assoc_marketplace = "amazon";
-amzn_assoc_region = "US";
-amzn_assoc_title = "Shop Related Products";
-amzn_assoc_default_search_phrase = "Linear Algebra";
-amzn_assoc_default_category = "All";
-amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
-</script><br />
-<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
-      <categories>
-        <category>Machine Learning</category>
-        <category>Linear Algebra</category>
-      </categories>
-      <tags>
-        <tag>Vector Space</tag>
-        <tag>Basis</tag>
-        <tag>Linear Equations</tag>
       </tags>
   </entry>
   <entry>
@@ -2186,6 +2261,57 @@ amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
       <tags>
         <tag>Abelian Group</tag>
         <tag>Group</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Computations of a linear mapping using two bases</title>
+    <url>/mml-exercise-2-20.html</url>
+    <content><![CDATA[<div class="note info flat"><p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 2 Exercise 2.20</strong></p>
+</div>
+
+<a id="more"></a>
+
+<p>Solution:</p>
+<p><strong>Part a</strong></p>
+<p>Each set $B$ and $B’$ has the correct number of (clearly!) linearly independent vectors, so they are both bases of $\mathbb{R}^2$.</p>
+<p><strong>Part b</strong></p>
+<p>We write the old basis vectors ($B’$) in terms of the new ($B$), and then transpose the matrix of coefficients. We have $$b_1’ = 4 b_1 + 6 b_2, \quad b_2’ = 0b_1 -b_2.$$ Thus $P_1 = \begin{bmatrix} 4 &amp; 0\\ 6 &amp; -1 \end{bmatrix}$.</p>
+<p><strong>Part c</strong></p>
+<p>Let $M=[c_1|c_2|c_3]$, and observe that $\det M = 4 \neq 0$, so the vectors are linearly independent. Since $\mathbb{R}^3$ had dimension 3, and we have three linearly independent vectors, $C$ must indeed be a basis.</p>
+<p>Indeed, such an $M$ is the change of basis matrix from $C$ to $C’$ (write the old vectors in terms of the new!) and this is thus the $P_2$ we require. Thus $$P_2 = \begin{bmatrix} 1&amp;0&amp;1\\ 2&amp;-1&amp;0\\-1&amp;2&amp;-1 \end{bmatrix}.$$</p>
+<p><strong>Part d</strong></p>
+<p>Observe that by adding the given results, we find that $$\Phi(b_1) = c_1 + 2c_3;$$ by subtracting, we have $$\Phi(b_2) = -c_1 +c_2 -c_3.$$ Then $A_\Phi$ is given by the transpose of the matrix of coefficients, so $$A_\Phi = \begin{bmatrix} 1&amp;-1\\ 0&amp;1\\ 2&amp;-1 \end{bmatrix}.$$</p>
+<p><strong>Part e</strong></p>
+<p>We first need to apply $P_1$ to change from basis $B’$ to $B$. Then $A_\Phi$ will map us to $(\mathbb{R}^3, C)$, before $P_2$ will take us to $C’$. Remember that matrices are acting like functions here, so they are applied to (column) vectors from right to left. Therefore the multiplication we require is $A’=P_2 A_\Phi P_1$. (This is what part f is asking us to recognise.)</p>
+<p>We have $A’ = \begin{bmatrix} 0&amp;2\\-10&amp;3\\ 12&amp;-4 \end{bmatrix}$.</p>
+<p><strong>Part f</strong></p>
+<p>$$P_1 \begin{bmatrix}2\\3\end{bmatrix}=\begin{bmatrix}8\\9\end{bmatrix}.$$</p>
+<p>$$A_\Phi \begin{bmatrix}8\\9\end{bmatrix}=\begin{bmatrix}-1\\9\\7\end{bmatrix}.$$</p>
+<p>$$P_2 \begin{bmatrix}-1\\9\\7\end{bmatrix}=\begin{bmatrix}6\\-11\\12\end{bmatrix}.$$</p>
+<p>And observe that $A’ \begin{bmatrix}2\\3\end{bmatrix}=\begin{bmatrix}6\\-11\\12\end{bmatrix}$, indeed!</p>
+<script type="text/javascript">
+amzn_assoc_placement = "adunit0";
+amzn_assoc_search_bar = "true";
+amzn_assoc_tracking_id = "linearalgeb0e-20";
+amzn_assoc_search_bar_position = "bottom";
+amzn_assoc_ad_mode = "search";
+amzn_assoc_ad_type = "smart";
+amzn_assoc_marketplace = "amazon";
+amzn_assoc_region = "US";
+amzn_assoc_title = "Shop Related Products";
+amzn_assoc_default_search_phrase = "Linear Algebra";
+amzn_assoc_default_category = "All";
+amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
+</script><br />
+<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
+      <categories>
+        <category>Machine Learning</category>
+        <category>Linear Algebra</category>
+      </categories>
+      <tags>
+        <tag>Vector Space</tag>
+        <tag>Basis</tag>
+        <tag>Linear Map</tag>
       </tags>
   </entry>
   <entry>
@@ -2267,57 +2393,6 @@ amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
       </categories>
       <tags>
         <tag>Matrix</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Computations of a linear mapping using two bases</title>
-    <url>/mml-exercise-2-20.html</url>
-    <content><![CDATA[<div class="note info flat"><p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 2 Exercise 2.20</strong></p>
-</div>
-
-<a id="more"></a>
-
-<p>Solution:</p>
-<p><strong>Part a</strong></p>
-<p>Each set $B$ and $B’$ has the correct number of (clearly!) linearly independent vectors, so they are both bases of $\mathbb{R}^2$.</p>
-<p><strong>Part b</strong></p>
-<p>We write the old basis vectors ($B’$) in terms of the new ($B$), and then transpose the matrix of coefficients. We have $$b_1’ = 4 b_1 + 6 b_2, \quad b_2’ = 0b_1 -b_2.$$ Thus $P_1 = \begin{bmatrix} 4 &amp; 0\\ 6 &amp; -1 \end{bmatrix}$.</p>
-<p><strong>Part c</strong></p>
-<p>Let $M=[c_1|c_2|c_3]$, and observe that $\det M = 4 \neq 0$, so the vectors are linearly independent. Since $\mathbb{R}^3$ had dimension 3, and we have three linearly independent vectors, $C$ must indeed be a basis.</p>
-<p>Indeed, such an $M$ is the change of basis matrix from $C$ to $C’$ (write the old vectors in terms of the new!) and this is thus the $P_2$ we require. Thus $$P_2 = \begin{bmatrix} 1&amp;0&amp;1\\ 2&amp;-1&amp;0\\-1&amp;2&amp;-1 \end{bmatrix}.$$</p>
-<p><strong>Part d</strong></p>
-<p>Observe that by adding the given results, we find that $$\Phi(b_1) = c_1 + 2c_3;$$ by subtracting, we have $$\Phi(b_2) = -c_1 +c_2 -c_3.$$ Then $A_\Phi$ is given by the transpose of the matrix of coefficients, so $$A_\Phi = \begin{bmatrix} 1&amp;-1\\ 0&amp;1\\ 2&amp;-1 \end{bmatrix}.$$</p>
-<p><strong>Part e</strong></p>
-<p>We first need to apply $P_1$ to change from basis $B’$ to $B$. Then $A_\Phi$ will map us to $(\mathbb{R}^3, C)$, before $P_2$ will take us to $C’$. Remember that matrices are acting like functions here, so they are applied to (column) vectors from right to left. Therefore the multiplication we require is $A’=P_2 A_\Phi P_1$. (This is what part f is asking us to recognise.)</p>
-<p>We have $A’ = \begin{bmatrix} 0&amp;2\\-10&amp;3\\ 12&amp;-4 \end{bmatrix}$.</p>
-<p><strong>Part f</strong></p>
-<p>$$P_1 \begin{bmatrix}2\\3\end{bmatrix}=\begin{bmatrix}8\\9\end{bmatrix}.$$</p>
-<p>$$A_\Phi \begin{bmatrix}8\\9\end{bmatrix}=\begin{bmatrix}-1\\9\\7\end{bmatrix}.$$</p>
-<p>$$P_2 \begin{bmatrix}-1\\9\\7\end{bmatrix}=\begin{bmatrix}6\\-11\\12\end{bmatrix}.$$</p>
-<p>And observe that $A’ \begin{bmatrix}2\\3\end{bmatrix}=\begin{bmatrix}6\\-11\\12\end{bmatrix}$, indeed!</p>
-<script type="text/javascript">
-amzn_assoc_placement = "adunit0";
-amzn_assoc_search_bar = "true";
-amzn_assoc_tracking_id = "linearalgeb0e-20";
-amzn_assoc_search_bar_position = "bottom";
-amzn_assoc_ad_mode = "search";
-amzn_assoc_ad_type = "smart";
-amzn_assoc_marketplace = "amazon";
-amzn_assoc_region = "US";
-amzn_assoc_title = "Shop Related Products";
-amzn_assoc_default_search_phrase = "Linear Algebra";
-amzn_assoc_default_category = "All";
-amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
-</script><br />
-<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
-      <categories>
-        <category>Machine Learning</category>
-        <category>Linear Algebra</category>
-      </categories>
-      <tags>
-        <tag>Vector Space</tag>
-        <tag>Basis</tag>
-        <tag>Linear Map</tag>
       </tags>
   </entry>
   <entry>
@@ -3083,17 +3158,19 @@ amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
       </tags>
   </entry>
   <entry>
-    <title>Compute the eigenspaces of a 4 by 4 matrices</title>
-    <url>/mml-exercise-4-4.html</url>
-    <content><![CDATA[<div class="note info flat"><p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 4 Exercise 4.4</strong></p>
+    <title>Compute the eigenspaces of two by two matrices</title>
+    <url>/mml-exercise-4-3.html</url>
+    <content><![CDATA[<div class="note info flat"><p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 4 Exercise 4.3</strong></p>
 </div>
 
 <a id="more"></a>
 
 <p>Solution: </p>
-<p>If we take $\det(A-\lambda I)$ and simplify, we have $$(\lambda-2)(\lambda-1)(\lambda+1)^2.$$ So we have three eigenvalues. For $\lambda=2,1$, our eigenspace will certainly have dimension 1. For $\lambda = -1$, it could (at this stage!) have dimension 1 or 2.</p>
-<p>Observe that $(1,0,1,1)$ is an eigenvector with eigenvalue 2, and $(1,1,1,1)$ is an eigenvector with eigenvalue 1. Thus $$E_2=\mathrm{span}\{(1,0,1,1)\}$$ and $$E_1 = \mathrm{span}\{(1,1,1,1)\}.$$</p>
-<p>Now observe that $\mathrm{rank}(A+I)=3$, so there can only be one linearly independent eigenvector with eigenvalue -1. Note that $(0,1,1,0)$ will do. Hence $$E_{-1} = \mathrm{span}\{(0,1,1,0)\}.$$</p>
+<p><strong>Part a</strong></p>
+<p>If we solve the equation $\det(A-\lambda I) = 0$ for $\lambda$, we obtain $\lambda = 1$ only. (Or, indeed, we can observe that $A$ is in lower triangular form, so the eigenvalues are the entries on the main diagonal.)</p>
+<p>The eigenspace is $$E_1 = \{x\in \mathbb{R}^2 : (A-I)(x)=0\} = \mathrm{span}\{(0,1)\}.$$</p>
+<p><strong>Part b</strong></p>
+<p>Again, solving $\det(B-\lambda I ) = 0$, we find that $\lambda=2$ or $\lambda = -3$. We then have the eigenspaces $$E_2 = \mathrm{span}\{(1,2)\}$$ and $$E_{-3} = \mathrm{span}\{ (-2,1) \}.$$</p>
 <script type="text/javascript">
 amzn_assoc_placement = "adunit0";
 amzn_assoc_search_bar = "true";
@@ -3121,19 +3198,17 @@ amzn_assoc_linkid = "5d941cdffc23d9a550f0004271073955";
       </tags>
   </entry>
   <entry>
-    <title>Compute the eigenspaces of two by two matrices</title>
-    <url>/mml-exercise-4-3.html</url>
-    <content><![CDATA[<div class="note info flat"><p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 4 Exercise 4.3</strong></p>
+    <title>Compute the eigenspaces of a 4 by 4 matrices</title>
+    <url>/mml-exercise-4-4.html</url>
+    <content><![CDATA[<div class="note info flat"><p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 4 Exercise 4.4</strong></p>
 </div>
 
 <a id="more"></a>
 
 <p>Solution: </p>
-<p><strong>Part a</strong></p>
-<p>If we solve the equation $\det(A-\lambda I) = 0$ for $\lambda$, we obtain $\lambda = 1$ only. (Or, indeed, we can observe that $A$ is in lower triangular form, so the eigenvalues are the entries on the main diagonal.)</p>
-<p>The eigenspace is $$E_1 = \{x\in \mathbb{R}^2 : (A-I)(x)=0\} = \mathrm{span}\{(0,1)\}.$$</p>
-<p><strong>Part b</strong></p>
-<p>Again, solving $\det(B-\lambda I ) = 0$, we find that $\lambda=2$ or $\lambda = -3$. We then have the eigenspaces $$E_2 = \mathrm{span}\{(1,2)\}$$ and $$E_{-3} = \mathrm{span}\{ (-2,1) \}.$$</p>
+<p>If we take $\det(A-\lambda I)$ and simplify, we have $$(\lambda-2)(\lambda-1)(\lambda+1)^2.$$ So we have three eigenvalues. For $\lambda=2,1$, our eigenspace will certainly have dimension 1. For $\lambda = -1$, it could (at this stage!) have dimension 1 or 2.</p>
+<p>Observe that $(1,0,1,1)$ is an eigenvector with eigenvalue 2, and $(1,1,1,1)$ is an eigenvector with eigenvalue 1. Thus $$E_2=\mathrm{span}\{(1,0,1,1)\}$$ and $$E_1 = \mathrm{span}\{(1,1,1,1)\}.$$</p>
+<p>Now observe that $\mathrm{rank}(A+I)=3$, so there can only be one linearly independent eigenvector with eigenvalue -1. Note that $(0,1,1,0)$ will do. Hence $$E_{-1} = \mathrm{span}\{(0,1,1,0)\}.$$</p>
 <script type="text/javascript">
 amzn_assoc_placement = "adunit0";
 amzn_assoc_search_bar = "true";
@@ -3498,6 +3573,41 @@ amzn_assoc_search_bar_position = "bottom";
       </tags>
   </entry>
   <entry>
+    <title>Differentiate vector-valued functions with respect to vector-valued variables</title>
+    <url>/mml-exercise-5-6.html</url>
+    <content><![CDATA[<div class="note info flat"><p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 5 Exercise 5.6</strong></p>
+</div>
+
+<a id="more"></a>
+
+<p>Solution: </p>
+<p>We have $$\frac{df}{dt} = \cos(\log(t^{\mathsf{T}}t))\cdot\frac1{t^{\mathsf{T}}t}\cdot \begin{bmatrix} 2t_1&amp;2t_2&amp;\cdots&amp;2t_D \end{bmatrix} = \cos(\log(t^{\mathsf{T}}t))\cdot\frac{2t^{\mathsf{T}}}{t^{\mathsf{T}}t}.$$</p>
+<p>For $g$, if we explicitly compute $AXB$ and find its trace, we have that $$g(X) = \sum_{k=1}^D \sum_{j=1}^F \sum_{i=1}^E a_{ki}x_{ij}b_{jk}.$$ Thus we have, $$\frac{\partial g}{\partial x_{ij}} = \sum_{k=1}^D b_{jk}a_{ki},$$ and this is the $(i,j)$-th entry of the required derivative. Hence $$\frac{dg}{dX} = B^{\mathsf{T}}A^{\mathsf{T}}.$$</p>
+<script type="text/javascript">
+amzn_assoc_placement = "adunit0";
+amzn_assoc_tracking_id = "linearalgeb0e-20";
+amzn_assoc_ad_mode = "search";
+amzn_assoc_ad_type = "smart";
+amzn_assoc_marketplace = "amazon";
+amzn_assoc_region = "US";
+amzn_assoc_title = "Shop Related Products";
+amzn_assoc_default_search_phrase = "Real Analysis";
+amzn_assoc_default_category = "All";
+amzn_assoc_linkid = "402d8b59cc9faa66d8d6b3b1eef9c01e";
+amzn_assoc_search_bar = "true";
+amzn_assoc_search_bar_position = "bottom";
+</script><br />
+<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
+      <categories>
+        <category>Machine Learning</category>
+        <category>Calculus</category>
+      </categories>
+      <tags>
+        <tag>Derivative</tag>
+        <tag>Multivariable Calculus</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Compute the Jacobians of functions</title>
     <url>/mml-exercise-5-5.html</url>
     <content><![CDATA[<div class="note info flat"><p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 5 Exercise 5.5</strong></p>
@@ -3536,41 +3646,6 @@ amzn_assoc_search_bar_position = "bottom";
       <tags>
         <tag>Derivative</tag>
         <tag>Jacobian</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Differentiate vector-valued functions with respect to vector-valued variables</title>
-    <url>/mml-exercise-5-6.html</url>
-    <content><![CDATA[<div class="note info flat"><p><strong><a href="/mml-solution-manual.html">Solution to Mathematics for Machine learning</a> Chapter 5 Exercise 5.6</strong></p>
-</div>
-
-<a id="more"></a>
-
-<p>Solution: </p>
-<p>We have $$\frac{df}{dt} = \cos(\log(t^{\mathsf{T}}t))\cdot\frac1{t^{\mathsf{T}}t}\cdot \begin{bmatrix} 2t_1&amp;2t_2&amp;\cdots&amp;2t_D \end{bmatrix} = \cos(\log(t^{\mathsf{T}}t))\cdot\frac{2t^{\mathsf{T}}}{t^{\mathsf{T}}t}.$$</p>
-<p>For $g$, if we explicitly compute $AXB$ and find its trace, we have that $$g(X) = \sum_{k=1}^D \sum_{j=1}^F \sum_{i=1}^E a_{ki}x_{ij}b_{jk}.$$ Thus we have, $$\frac{\partial g}{\partial x_{ij}} = \sum_{k=1}^D b_{jk}a_{ki},$$ and this is the $(i,j)$-th entry of the required derivative. Hence $$\frac{dg}{dX} = B^{\mathsf{T}}A^{\mathsf{T}}.$$</p>
-<script type="text/javascript">
-amzn_assoc_placement = "adunit0";
-amzn_assoc_tracking_id = "linearalgeb0e-20";
-amzn_assoc_ad_mode = "search";
-amzn_assoc_ad_type = "smart";
-amzn_assoc_marketplace = "amazon";
-amzn_assoc_region = "US";
-amzn_assoc_title = "Shop Related Products";
-amzn_assoc_default_search_phrase = "Real Analysis";
-amzn_assoc_default_category = "All";
-amzn_assoc_linkid = "402d8b59cc9faa66d8d6b3b1eef9c01e";
-amzn_assoc_search_bar = "true";
-amzn_assoc_search_bar_position = "bottom";
-</script><br />
-<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>]]></content>
-      <categories>
-        <category>Machine Learning</category>
-        <category>Calculus</category>
-      </categories>
-      <tags>
-        <tag>Derivative</tag>
-        <tag>Multivariable Calculus</tag>
       </tags>
   </entry>
   <entry>
