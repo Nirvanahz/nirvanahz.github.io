@@ -4458,10 +4458,6 @@ _:future,
 .katex-wrap::-webkit-scrollbar {
   display: none;
 }
-.mathjax-overflow {
-  overflow-x: auto;
-  overflow-y: hidden;
-}
 mjx-container[jax='CHTML'][display='true'] {
   overflow-x: auto;
   overflow-y: hidden;
