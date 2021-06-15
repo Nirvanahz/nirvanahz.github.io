@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://clanlu.com/post/leetcode-1323.html</loc>
+    
+    <lastmod>2021-06-15</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://clanlu.com/post/leetcode-1732.html</loc>
+    
+    <lastmod>2021-06-15</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://clanlu.com/post/leetcode-0492.html</loc>
+    
+    <lastmod>2021-06-15</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://clanlu.com/post/leetcode-0374.html</loc>
     
     <lastmod>2021-06-15</lastmod>
@@ -109,13 +130,6 @@
   </url>
   
   <url>
-    <loc>http://clanlu.com/tags/Binary-Search/</loc>
-    <lastmod>2021-06-15</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://clanlu.com/tags/Medium/</loc>
     <lastmod>2021-06-15</lastmod>
     <changefreq>daily</changefreq>
@@ -124,6 +138,20 @@
   
   <url>
     <loc>http://clanlu.com/tags/Daily-Challenge/</loc>
+    <lastmod>2021-06-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://clanlu.com/tags/Binary-Search/</loc>
+    <lastmod>2021-06-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://clanlu.com/tags/Math/</loc>
     <lastmod>2021-06-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
