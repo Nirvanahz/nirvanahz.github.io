@@ -1,6 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>LeetCode 374. Guess Number Higher or Lower</title>
+    <url>//post/leetcode-0374.html</url>
+    <content><![CDATA[<h3 id="06-14-2021"><a href="#06-14-2021" class="headerlink" title="06/14/2021"></a>06/14/2021</h3><pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token keyword">class</span> <span class="token class-name">Solution</span><span class="token punctuation">:</span>
+    <span class="token keyword">def</span> <span class="token function">guessNumber</span><span class="token punctuation">(</span>self<span class="token punctuation">,</span> n<span class="token punctuation">:</span> <span class="token builtin">int</span><span class="token punctuation">)</span> <span class="token operator">-</span><span class="token operator">></span> <span class="token builtin">int</span><span class="token punctuation">:</span>
+        left<span class="token punctuation">,</span> right <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">,</span> n
+        <span class="token keyword">while</span> left <span class="token operator">&lt;</span> right <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">:</span>
+            mid <span class="token operator">=</span> left <span class="token operator">+</span> <span class="token punctuation">(</span>right <span class="token operator">+</span> <span class="token number">1</span> <span class="token operator">-</span>left<span class="token punctuation">)</span> <span class="token operator">//</span> <span class="token number">2</span>
+            <span class="token keyword">if</span> guess<span class="token punctuation">(</span>mid<span class="token punctuation">)</span> <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">:</span> <span class="token keyword">return</span> mid
+            <span class="token keyword">if</span> guess<span class="token punctuation">(</span>mid<span class="token punctuation">)</span> <span class="token operator">==</span> <span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">:</span> right <span class="token operator">=</span> mid
+            <span class="token keyword">if</span> guess<span class="token punctuation">(</span>mid<span class="token punctuation">)</span> <span class="token operator">==</span> <span class="token number">1</span><span class="token punctuation">:</span> left <span class="token operator">=</span> mid
+        <span class="token keyword">if</span> guess<span class="token punctuation">(</span>left<span class="token punctuation">)</span> <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">:</span> <span class="token keyword">return</span> left
+        <span class="token keyword">return</span> right<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+]]></content>
+      <categories>
+        <category>Python</category>
+        <category>Leetcode</category>
+      </categories>
+      <tags>
+        <tag>Easy</tag>
+        <tag>Binary Search</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>LeetCode 455. Assign Cookies</title>
     <url>//post/leetcode-0455.html</url>
     <content><![CDATA[<h3 id="06-14-2021"><a href="#06-14-2021" class="headerlink" title="06/14/2021"></a>06/14/2021</h3><pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token keyword">class</span> <span class="token class-name">Solution</span><span class="token punctuation">:</span>
@@ -37,6 +60,41 @@
       </tags>
   </entry>
   <entry>
+    <title>LeetCode 22. Generate Parentheses 06/16/2021</title>
+    <url>//post/leetcode-0022.html</url>
+    <content><![CDATA[<h3 id="06-16-2021"><a href="#06-16-2021" class="headerlink" title="06/16/2021"></a>06/16/2021</h3><p>My solution.</p>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token keyword">class</span> <span class="token class-name">Solution</span><span class="token punctuation">:</span>
+    <span class="token keyword">def</span> <span class="token function">generateParenthesis</span><span class="token punctuation">(</span>self<span class="token punctuation">,</span> n<span class="token punctuation">:</span> <span class="token builtin">int</span><span class="token punctuation">)</span> <span class="token operator">-</span><span class="token operator">></span> List<span class="token punctuation">[</span><span class="token builtin">str</span><span class="token punctuation">]</span><span class="token punctuation">:</span>
+        res <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">[</span><span class="token string">"()"</span><span class="token punctuation">]</span><span class="token punctuation">]</span> <span class="token operator">*</span> n
+        i <span class="token operator">=</span> <span class="token number">0</span>
+        <span class="token keyword">while</span> i <span class="token operator">&lt;</span> n <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">:</span>
+            res<span class="token punctuation">[</span>i <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">"("</span> <span class="token operator">+</span> x <span class="token operator">+</span> <span class="token string">")"</span> <span class="token keyword">for</span> x <span class="token keyword">in</span> res<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">]</span>
+            <span class="token keyword">for</span> j <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span>i <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+                <span class="token keyword">for</span> x <span class="token keyword">in</span> res<span class="token punctuation">[</span>j<span class="token punctuation">]</span><span class="token punctuation">:</span>
+                    <span class="token keyword">for</span> y <span class="token keyword">in</span> res<span class="token punctuation">[</span>i <span class="token operator">-</span> j<span class="token punctuation">]</span><span class="token punctuation">:</span>
+                        <span class="token keyword">if</span> x <span class="token operator">+</span> y <span class="token keyword">not</span> <span class="token keyword">in</span> res<span class="token punctuation">[</span>i <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">:</span>
+                            res<span class="token punctuation">[</span>i <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">]</span> <span class="token operator">=</span> res<span class="token punctuation">[</span>i <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">]</span> <span class="token operator">+</span> <span class="token punctuation">[</span>x <span class="token operator">+</span> y<span class="token punctuation">]</span>
+            i <span class="token operator">+=</span> <span class="token number">1</span>
+        <span class="token keyword">return</span> res<span class="token punctuation">[</span><span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">]</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>A better solution</p>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token keyword">class</span> <span class="token class-name">Solution</span><span class="token punctuation">:</span>
+    <span class="token keyword">def</span> <span class="token function">generateParenthesis</span><span class="token punctuation">(</span>self<span class="token punctuation">,</span> n<span class="token punctuation">:</span> <span class="token builtin">int</span><span class="token punctuation">)</span> <span class="token operator">-</span><span class="token operator">></span> List<span class="token punctuation">[</span><span class="token builtin">str</span><span class="token punctuation">]</span><span class="token punctuation">:</span>
+        dp <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">[</span><span class="token punctuation">]</span> <span class="token keyword">for</span> i <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span>n <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">]</span>
+        dp<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">.</span>append<span class="token punctuation">(</span><span class="token string">''</span><span class="token punctuation">)</span>
+        <span class="token keyword">for</span> i <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span>n <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+            <span class="token keyword">for</span> j <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span>i<span class="token punctuation">)</span><span class="token punctuation">:</span>
+                dp<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">+=</span> <span class="token punctuation">[</span><span class="token string">'('</span> <span class="token operator">+</span> x <span class="token operator">+</span> <span class="token string">')'</span> <span class="token operator">+</span> y <span class="token keyword">for</span> x <span class="token keyword">in</span> dp<span class="token punctuation">[</span>j<span class="token punctuation">]</span> <span class="token keyword">for</span> y <span class="token keyword">in</span> dp<span class="token punctuation">[</span>i <span class="token operator">-</span> j <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">]</span>
+        <span class="token keyword">return</span> dp<span class="token punctuation">[</span>n<span class="token punctuation">]</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+]]></content>
+      <categories>
+        <category>Python</category>
+        <category>Leetcode</category>
+      </categories>
+      <tags>
+        <tag>Medium</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>LeetCode 504. Base 7</title>
     <url>//post/leetcode-0504.html</url>
     <content><![CDATA[<h3 id="06-14-2021"><a href="#06-14-2021" class="headerlink" title="06/14/2021"></a>06/14/2021</h3><pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token keyword">class</span> <span class="token class-name">Solution</span><span class="token punctuation">:</span>
@@ -56,61 +114,6 @@
       </categories>
       <tags>
         <tag>Easy</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Jump Game 篇</title>
-    <url>//post/jump-game.html</url>
-    <content><![CDATA[<h3 id="55-Jump-Game"><a href="#55-Jump-Game" class="headerlink" title="55. Jump Game"></a>55. Jump Game</h3><p><code>m</code> 表示目前可以达到的最大的 <code>index</code>. 注意如果能够到 i, 必然能够到小于 i 的 <code>index</code>.</p>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python">m <span class="token operator">=</span> nums<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span>
-<span class="token keyword">for</span> i <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token builtin">len</span><span class="token punctuation">(</span>nums<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
-    <span class="token keyword">if</span> i <span class="token operator">></span> m<span class="token punctuation">:</span>
-        <span class="token keyword">return</span> <span class="token boolean">False</span>
-    <span class="token keyword">else</span><span class="token punctuation">:</span>
-        m <span class="token operator">=</span> <span class="token builtin">max</span><span class="token punctuation">(</span>m<span class="token punctuation">,</span> i <span class="token operator">+</span> nums<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">)</span>
-<span class="token keyword">return</span> <span class="token boolean">True</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<p>从后面开始</p>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python">goal <span class="token operator">=</span> <span class="token builtin">len</span><span class="token punctuation">(</span>nums<span class="token punctuation">)</span> <span class="token operator">-</span> <span class="token number">1</span>
-<span class="token keyword">for</span> i <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span><span class="token builtin">len</span><span class="token punctuation">(</span>nums<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">[</span><span class="token punctuation">:</span><span class="token punctuation">:</span><span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">:</span>
-    <span class="token keyword">if</span> i <span class="token operator">+</span> nums<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">>=</span> goal<span class="token punctuation">:</span>
-        goal <span class="token operator">=</span> i
-<span class="token keyword">return</span> <span class="token keyword">not</span> goal<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-]]></content>
-      <categories>
-        <category>Python</category>
-        <category>Leetcode</category>
-      </categories>
-      <tags>
-        <tag>Medium</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>LeetCode 1710. Maximum Units on a Truck 06/14/2021</title>
-    <url>//post/leetcode-1710.html</url>
-    <content><![CDATA[<h3 id="06-14-2021"><a href="#06-14-2021" class="headerlink" title="06/14/2021"></a>06/14/2021</h3><p>The idea is pretty much simple. </p>
-<ul>
-<li>First, we sort <code>boxTypes</code> based on <code>numberOfUnitsPerBox</code> with <code>reverse = True</code>. </li>
-<li>Then we start from the beginning, we modify <code>truckSize</code> by subtracting the minimum <code>truckSize</code> and the available <code>numberOfBoxes</code>.</li>
-<li>We stop when <code>truckSize == 0</code> or we run out all elements in <code>boxTypes</code>.</li>
-</ul>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token keyword">class</span> <span class="token class-name">Solution</span><span class="token punctuation">:</span>
-    <span class="token keyword">def</span> <span class="token function">maximumUnits</span><span class="token punctuation">(</span>self<span class="token punctuation">,</span> boxTypes<span class="token punctuation">:</span> List<span class="token punctuation">[</span>List<span class="token punctuation">[</span><span class="token builtin">int</span><span class="token punctuation">]</span><span class="token punctuation">]</span><span class="token punctuation">,</span> truckSize<span class="token punctuation">:</span> <span class="token builtin">int</span><span class="token punctuation">)</span> <span class="token operator">-</span><span class="token operator">></span> <span class="token builtin">int</span><span class="token punctuation">:</span>
-        boxTypes<span class="token punctuation">.</span>sort<span class="token punctuation">(</span>reverse <span class="token operator">=</span> <span class="token boolean">True</span><span class="token punctuation">,</span> key <span class="token operator">=</span> <span class="token keyword">lambda</span> x<span class="token punctuation">:</span> x<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
-        units<span class="token punctuation">,</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">0</span>
-        <span class="token keyword">while</span> i <span class="token operator">&lt;</span> <span class="token builtin">len</span><span class="token punctuation">(</span>boxTypes<span class="token punctuation">)</span> <span class="token keyword">and</span> truckSize<span class="token punctuation">:</span>
-            adds <span class="token operator">=</span> <span class="token builtin">min</span><span class="token punctuation">(</span>truckSize<span class="token punctuation">,</span> boxTypes<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
-            units <span class="token operator">+=</span> adds <span class="token operator">*</span> boxTypes<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span>
-            truckSize <span class="token operator">-=</span> adds
-            i <span class="token operator">+=</span> <span class="token number">1</span>
-        <span class="token keyword">return</span> units<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-]]></content>
-      <categories>
-        <category>Python</category>
-        <category>Leetcode</category>
-      </categories>
-      <tags>
-        <tag>Easy</tag>
-        <tag>Daily Challenge</tag>
       </tags>
   </entry>
   <entry>
@@ -149,18 +152,19 @@
       </tags>
   </entry>
   <entry>
-    <title>LeetCode 374. Guess Number Higher or Lower</title>
-    <url>//post/leetcode-0374.html</url>
-    <content><![CDATA[<h3 id="06-14-2021"><a href="#06-14-2021" class="headerlink" title="06/14/2021"></a>06/14/2021</h3><pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token keyword">class</span> <span class="token class-name">Solution</span><span class="token punctuation">:</span>
-    <span class="token keyword">def</span> <span class="token function">guessNumber</span><span class="token punctuation">(</span>self<span class="token punctuation">,</span> n<span class="token punctuation">:</span> <span class="token builtin">int</span><span class="token punctuation">)</span> <span class="token operator">-</span><span class="token operator">></span> <span class="token builtin">int</span><span class="token punctuation">:</span>
-        left<span class="token punctuation">,</span> right <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">,</span> n
-        <span class="token keyword">while</span> left <span class="token operator">&lt;</span> right <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">:</span>
-            mid <span class="token operator">=</span> left <span class="token operator">+</span> <span class="token punctuation">(</span>right <span class="token operator">+</span> <span class="token number">1</span> <span class="token operator">-</span>left<span class="token punctuation">)</span> <span class="token operator">//</span> <span class="token number">2</span>
-            <span class="token keyword">if</span> guess<span class="token punctuation">(</span>mid<span class="token punctuation">)</span> <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">:</span> <span class="token keyword">return</span> mid
-            <span class="token keyword">if</span> guess<span class="token punctuation">(</span>mid<span class="token punctuation">)</span> <span class="token operator">==</span> <span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">:</span> right <span class="token operator">=</span> mid
-            <span class="token keyword">if</span> guess<span class="token punctuation">(</span>mid<span class="token punctuation">)</span> <span class="token operator">==</span> <span class="token number">1</span><span class="token punctuation">:</span> left <span class="token operator">=</span> mid
-        <span class="token keyword">if</span> guess<span class="token punctuation">(</span>left<span class="token punctuation">)</span> <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">:</span> <span class="token keyword">return</span> left
-        <span class="token keyword">return</span> right<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+    <title>LeetCode 507. Perfect Number</title>
+    <url>//post/leetcode-0507.html</url>
+    <content><![CDATA[<h3 id="06-14-2021"><a href="#06-14-2021" class="headerlink" title="06/14/2021"></a>06/14/2021</h3><pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token keyword">class</span> <span class="token class-name">Solution</span><span class="token punctuation">:</span>    
+    <span class="token keyword">def</span> <span class="token function">checkPerfectNumber</span><span class="token punctuation">(</span>self<span class="token punctuation">,</span> num<span class="token punctuation">:</span> <span class="token builtin">int</span><span class="token punctuation">)</span> <span class="token operator">-</span><span class="token operator">></span> <span class="token builtin">bool</span><span class="token punctuation">:</span>
+        <span class="token keyword">if</span> num <span class="token operator">==</span> <span class="token number">1</span><span class="token punctuation">:</span> <span class="token keyword">return</span> <span class="token boolean">False</span>
+        res<span class="token punctuation">,</span> i <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span>
+        <span class="token keyword">while</span> i <span class="token operator">&lt;=</span> num <span class="token operator">//</span> i<span class="token punctuation">:</span>
+            <span class="token keyword">if</span> <span class="token keyword">not</span> num <span class="token operator">%</span> i <span class="token keyword">and</span> i <span class="token operator">!=</span> num <span class="token operator">//</span> i<span class="token punctuation">:</span> 
+                res <span class="token operator">+=</span> <span class="token punctuation">(</span>i <span class="token operator">+</span> num <span class="token operator">//</span> i<span class="token punctuation">)</span>
+            <span class="token keyword">elif</span> <span class="token keyword">not</span> num <span class="token operator">%</span> i<span class="token punctuation">:</span> 
+                res <span class="token operator">+=</span> i
+            i <span class="token operator">+=</span> <span class="token number">1</span>
+        <span class="token keyword">return</span> res <span class="token operator">==</span> num<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 ]]></content>
       <categories>
         <category>Python</category>
@@ -168,19 +172,27 @@
       </categories>
       <tags>
         <tag>Easy</tag>
-        <tag>Binary Search</tag>
       </tags>
   </entry>
   <entry>
-    <title>LeetCode 492. Construct the Rectangle</title>
-    <url>//post/leetcode-0492.html</url>
-    <content><![CDATA[<h3 id="06-14-2021"><a href="#06-14-2021" class="headerlink" title="06/14/2021"></a>06/14/2021</h3><pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token keyword">class</span> <span class="token class-name">Solution</span><span class="token punctuation">:</span>
-    <span class="token keyword">def</span> <span class="token function">constructRectangle</span><span class="token punctuation">(</span>self<span class="token punctuation">,</span> area<span class="token punctuation">:</span> <span class="token builtin">int</span><span class="token punctuation">)</span> <span class="token operator">-</span><span class="token operator">></span> List<span class="token punctuation">[</span><span class="token builtin">int</span><span class="token punctuation">]</span><span class="token punctuation">:</span>
-        width <span class="token operator">=</span> <span class="token builtin">int</span><span class="token punctuation">(</span>area <span class="token operator">**</span> <span class="token number">0.5</span><span class="token punctuation">)</span>
-        <span class="token keyword">while</span> width <span class="token operator">></span> <span class="token number">0</span><span class="token punctuation">:</span>
-            <span class="token keyword">if</span> <span class="token keyword">not</span> area <span class="token operator">%</span> width<span class="token punctuation">:</span> 
-                <span class="token keyword">return</span> <span class="token punctuation">[</span>area <span class="token operator">//</span> width<span class="token punctuation">,</span> width<span class="token punctuation">]</span>
-            width <span class="token operator">-=</span> <span class="token number">1</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+    <title>LeetCode 1710. Maximum Units on a Truck 06/14/2021</title>
+    <url>//post/leetcode-1710.html</url>
+    <content><![CDATA[<h3 id="06-14-2021"><a href="#06-14-2021" class="headerlink" title="06/14/2021"></a>06/14/2021</h3><p>The idea is pretty much simple. </p>
+<ul>
+<li>First, we sort <code>boxTypes</code> based on <code>numberOfUnitsPerBox</code> with <code>reverse = True</code>. </li>
+<li>Then we start from the beginning, we modify <code>truckSize</code> by subtracting the minimum <code>truckSize</code> and the available <code>numberOfBoxes</code>.</li>
+<li>We stop when <code>truckSize == 0</code> or we run out all elements in <code>boxTypes</code>.</li>
+</ul>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token keyword">class</span> <span class="token class-name">Solution</span><span class="token punctuation">:</span>
+    <span class="token keyword">def</span> <span class="token function">maximumUnits</span><span class="token punctuation">(</span>self<span class="token punctuation">,</span> boxTypes<span class="token punctuation">:</span> List<span class="token punctuation">[</span>List<span class="token punctuation">[</span><span class="token builtin">int</span><span class="token punctuation">]</span><span class="token punctuation">]</span><span class="token punctuation">,</span> truckSize<span class="token punctuation">:</span> <span class="token builtin">int</span><span class="token punctuation">)</span> <span class="token operator">-</span><span class="token operator">></span> <span class="token builtin">int</span><span class="token punctuation">:</span>
+        boxTypes<span class="token punctuation">.</span>sort<span class="token punctuation">(</span>reverse <span class="token operator">=</span> <span class="token boolean">True</span><span class="token punctuation">,</span> key <span class="token operator">=</span> <span class="token keyword">lambda</span> x<span class="token punctuation">:</span> x<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+        units<span class="token punctuation">,</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">0</span>
+        <span class="token keyword">while</span> i <span class="token operator">&lt;</span> <span class="token builtin">len</span><span class="token punctuation">(</span>boxTypes<span class="token punctuation">)</span> <span class="token keyword">and</span> truckSize<span class="token punctuation">:</span>
+            adds <span class="token operator">=</span> <span class="token builtin">min</span><span class="token punctuation">(</span>truckSize<span class="token punctuation">,</span> boxTypes<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+            units <span class="token operator">+=</span> adds <span class="token operator">*</span> boxTypes<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span>
+            truckSize <span class="token operator">-=</span> adds
+            i <span class="token operator">+=</span> <span class="token number">1</span>
+        <span class="token keyword">return</span> units<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 ]]></content>
       <categories>
         <category>Python</category>
@@ -188,7 +200,7 @@
       </categories>
       <tags>
         <tag>Easy</tag>
-        <tag>Math</tag>
+        <tag>Daily Challenge</tag>
       </tags>
   </entry>
   <entry>
@@ -215,19 +227,143 @@
       </tags>
   </entry>
   <entry>
-    <title>LeetCode 507. Perfect Number</title>
-    <url>//post/leetcode-0507.html</url>
-    <content><![CDATA[<h3 id="06-14-2021"><a href="#06-14-2021" class="headerlink" title="06/14/2021"></a>06/14/2021</h3><pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token keyword">class</span> <span class="token class-name">Solution</span><span class="token punctuation">:</span>    
-    <span class="token keyword">def</span> <span class="token function">checkPerfectNumber</span><span class="token punctuation">(</span>self<span class="token punctuation">,</span> num<span class="token punctuation">:</span> <span class="token builtin">int</span><span class="token punctuation">)</span> <span class="token operator">-</span><span class="token operator">></span> <span class="token builtin">bool</span><span class="token punctuation">:</span>
-        <span class="token keyword">if</span> num <span class="token operator">==</span> <span class="token number">1</span><span class="token punctuation">:</span> <span class="token keyword">return</span> <span class="token boolean">False</span>
-        res<span class="token punctuation">,</span> i <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span>
-        <span class="token keyword">while</span> i <span class="token operator">&lt;=</span> num <span class="token operator">//</span> i<span class="token punctuation">:</span>
-            <span class="token keyword">if</span> <span class="token keyword">not</span> num <span class="token operator">%</span> i <span class="token keyword">and</span> i <span class="token operator">!=</span> num <span class="token operator">//</span> i<span class="token punctuation">:</span> 
-                res <span class="token operator">+=</span> <span class="token punctuation">(</span>i <span class="token operator">+</span> num <span class="token operator">//</span> i<span class="token punctuation">)</span>
-            <span class="token keyword">elif</span> <span class="token keyword">not</span> num <span class="token operator">%</span> i<span class="token punctuation">:</span> 
-                res <span class="token operator">+=</span> i
+    <title>Leetcode 动态规划篇</title>
+    <url>//post/leetcode-dynamic-programming.html</url>
+    <content><![CDATA[<h3 id="简单"><a href="#简单" class="headerlink" title="简单"></a>简单</h3><h4 id="70-爬楼梯"><a href="#70-爬楼梯" class="headerlink" title="70. 爬楼梯"></a>70. 爬楼梯</h4><pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token keyword">class</span> <span class="token class-name">Solution</span><span class="token punctuation">:</span>
+    <span class="token keyword">def</span> <span class="token function">climbStairs</span><span class="token punctuation">(</span>self<span class="token punctuation">,</span> n<span class="token punctuation">:</span> <span class="token builtin">int</span><span class="token punctuation">)</span> <span class="token operator">-</span><span class="token operator">></span> <span class="token builtin">int</span><span class="token punctuation">:</span>
+        d <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span> <span class="token operator">*</span> <span class="token punctuation">(</span>n <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">)</span>
+        <span class="token keyword">for</span> i <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">,</span> n <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+            d<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">=</span> d<span class="token punctuation">[</span>i<span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">]</span> <span class="token operator">+</span>d<span class="token punctuation">[</span>i<span class="token operator">-</span><span class="token number">2</span><span class="token punctuation">]</span>
+        <span class="token keyword">return</span> d<span class="token punctuation">[</span>n<span class="token punctuation">]</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>或者</p>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token keyword">class</span> <span class="token class-name">Solution</span><span class="token punctuation">:</span>
+    <span class="token keyword">def</span> <span class="token function">climbStairs</span><span class="token punctuation">(</span>self<span class="token punctuation">,</span> n<span class="token punctuation">:</span> <span class="token builtin">int</span><span class="token punctuation">)</span> <span class="token operator">-</span><span class="token operator">></span> <span class="token builtin">int</span><span class="token punctuation">:</span>
+        a<span class="token punctuation">,</span> b <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">1</span>
+        <span class="token keyword">for</span> i <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span>n<span class="token punctuation">)</span><span class="token punctuation">:</span>
+            a<span class="token punctuation">,</span> b <span class="token operator">=</span> b<span class="token punctuation">,</span> a <span class="token operator">+</span> b            
+        <span class="token keyword">return</span> b<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h4 id="509-斐波那契数"><a href="#509-斐波那契数" class="headerlink" title="509. 斐波那契数"></a>509. 斐波那契数</h4><p>不要用迭代, 会超时!</p>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token keyword">class</span> <span class="token class-name">Solution</span><span class="token punctuation">:</span>
+    <span class="token keyword">def</span> <span class="token function">fib</span><span class="token punctuation">(</span>self<span class="token punctuation">,</span> n<span class="token punctuation">:</span> <span class="token builtin">int</span><span class="token punctuation">)</span> <span class="token operator">-</span><span class="token operator">></span> <span class="token builtin">int</span><span class="token punctuation">:</span>
+        a<span class="token punctuation">,</span> b <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">1</span>
+        i <span class="token operator">=</span> <span class="token number">0</span>
+        <span class="token keyword">while</span> i <span class="token operator">&lt;</span> n<span class="token punctuation">:</span>
+            a<span class="token punctuation">,</span> b <span class="token operator">=</span> b<span class="token punctuation">,</span> a <span class="token operator">+</span> b
             i <span class="token operator">+=</span> <span class="token number">1</span>
-        <span class="token keyword">return</span> res <span class="token operator">==</span> num<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+        <span class="token keyword">return</span> a<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h4 id="★-746-使用最小花费爬楼梯"><a href="#★-746-使用最小花费爬楼梯" class="headerlink" title="★ 746. 使用最小花费爬楼梯"></a>★ 746. 使用最小花费爬楼梯</h4><p>不要用迭代, 会超时!</p>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token keyword">class</span> <span class="token class-name">Solution</span><span class="token punctuation">:</span>
+    <span class="token keyword">def</span> <span class="token function">minCostClimbingStairs</span><span class="token punctuation">(</span>self<span class="token punctuation">,</span> cost<span class="token punctuation">:</span> List<span class="token punctuation">[</span><span class="token builtin">int</span><span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token operator">-</span><span class="token operator">></span> <span class="token builtin">int</span><span class="token punctuation">:</span>
+        <span class="token keyword">if</span> <span class="token builtin">len</span><span class="token punctuation">(</span>cost<span class="token punctuation">)</span> <span class="token operator">==</span> <span class="token number">2</span><span class="token punctuation">:</span> 
+            <span class="token keyword">return</span> <span class="token builtin">min</span><span class="token punctuation">(</span>cost<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">,</span> cost<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+        <span class="token keyword">elif</span> <span class="token builtin">len</span><span class="token punctuation">(</span>cost<span class="token punctuation">)</span> <span class="token operator">==</span> <span class="token number">3</span><span class="token punctuation">:</span>
+            <span class="token keyword">return</span> <span class="token builtin">min</span><span class="token punctuation">(</span>cost<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token operator">+</span>cost<span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">]</span><span class="token punctuation">,</span> cost<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+        <span class="token keyword">else</span><span class="token punctuation">:</span> 
+            <span class="token keyword">return</span> <span class="token builtin">min</span><span class="token punctuation">(</span>cost<span class="token punctuation">[</span><span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token operator">+</span>self<span class="token punctuation">.</span>minCostClimbingStairs<span class="token punctuation">(</span>cost<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">:</span><span class="token builtin">len</span><span class="token punctuation">(</span>cost<span class="token punctuation">)</span><span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+                  cost<span class="token punctuation">[</span><span class="token operator">-</span><span class="token number">2</span><span class="token punctuation">]</span><span class="token operator">+</span>self<span class="token punctuation">.</span>minCostClimbingStairs<span class="token punctuation">(</span>cost<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">:</span><span class="token builtin">len</span><span class="token punctuation">(</span>cost<span class="token punctuation">)</span><span class="token operator">-</span><span class="token number">2</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>考虑清楚再写! 当然也可以不用数组, 就用两个变量.</p>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token keyword">class</span> <span class="token class-name">Solution</span><span class="token punctuation">:</span>
+    <span class="token keyword">def</span> <span class="token function">minCostClimbingStairs</span><span class="token punctuation">(</span>self<span class="token punctuation">,</span> cost<span class="token punctuation">:</span> List<span class="token punctuation">[</span><span class="token builtin">int</span><span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token operator">-</span><span class="token operator">></span> <span class="token builtin">int</span><span class="token punctuation">:</span>
+        d <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span> <span class="token operator">*</span> <span class="token punctuation">(</span><span class="token builtin">len</span><span class="token punctuation">(</span>cost<span class="token punctuation">)</span> <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">)</span>
+        i <span class="token operator">=</span> <span class="token number">2</span>
+        <span class="token keyword">for</span> i <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token builtin">len</span><span class="token punctuation">(</span>d<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+            d<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token builtin">min</span><span class="token punctuation">(</span>d<span class="token punctuation">[</span>i<span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token operator">+</span>cost<span class="token punctuation">[</span>i<span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">,</span> d<span class="token punctuation">[</span>i<span class="token operator">-</span><span class="token number">2</span><span class="token punctuation">]</span><span class="token operator">+</span>cost<span class="token punctuation">[</span>i<span class="token operator">-</span><span class="token number">2</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+        <span class="token keyword">return</span> d<span class="token punctuation">[</span><span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">]</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>稍微不同点的版本 </p>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token keyword">class</span> <span class="token class-name">Solution</span><span class="token punctuation">:</span>
+    <span class="token keyword">def</span> <span class="token function">minCostClimbingStairs</span><span class="token punctuation">(</span>self<span class="token punctuation">,</span> cost<span class="token punctuation">:</span> List<span class="token punctuation">[</span><span class="token builtin">int</span><span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token operator">-</span><span class="token operator">></span> <span class="token builtin">int</span><span class="token punctuation">:</span>
+        dp <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span> <span class="token operator">*</span> <span class="token punctuation">(</span><span class="token builtin">len</span><span class="token punctuation">(</span>cost<span class="token punctuation">)</span><span class="token punctuation">)</span>
+        dp<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span> <span class="token operator">=</span> cost<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span>
+        dp<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span> <span class="token operator">=</span> cost<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span>
+        <span class="token keyword">for</span> i <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">,</span> <span class="token builtin">len</span><span class="token punctuation">(</span>cost<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+            dp<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token builtin">min</span><span class="token punctuation">(</span>dp<span class="token punctuation">[</span>i <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">,</span> dp<span class="token punctuation">[</span>i <span class="token operator">-</span> <span class="token number">2</span><span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token operator">+</span> cost<span class="token punctuation">[</span>i<span class="token punctuation">]</span>
+        <span class="token keyword">return</span> <span class="token builtin">min</span><span class="token punctuation">(</span>dp<span class="token punctuation">[</span><span class="token builtin">len</span><span class="token punctuation">(</span>cost<span class="token punctuation">)</span> <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">,</span> dp<span class="token punctuation">[</span><span class="token builtin">len</span><span class="token punctuation">(</span>cost<span class="token punctuation">)</span> <span class="token operator">-</span> <span class="token number">2</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h3 id="中等"><a href="#中等" class="headerlink" title="中等"></a>中等</h3><h3 id="困难"><a href="#困难" class="headerlink" title="困难"></a>困难</h3>]]></content>
+      <categories>
+        <category>Python</category>
+        <category>Note</category>
+      </categories>
+      <tags>
+        <tag>Python</tag>
+        <tag>Dynamic Programming</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Leetcode 刷题资源</title>
+    <url>//post/leetcode-resources.html</url>
+    <content><![CDATA[<h3 id="Data-Structure"><a href="#Data-Structure" class="headerlink" title="Data Structure"></a>Data Structure</h3><ul>
+<li><a href="https://leetcode.com/explore/learn/">Introduction to Data Structure by Leetcode</a></li>
+<li><a href="https://github.com/youngyangyang04/leetcode-master">部分刷题顺序中文</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Leetcode</category>
+      </categories>
+      <tags>
+        <tag>Resources</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Jump Game 篇</title>
+    <url>//post/jump-game.html</url>
+    <content><![CDATA[<h3 id="55-Jump-Game"><a href="#55-Jump-Game" class="headerlink" title="55. Jump Game"></a>55. Jump Game</h3><p><code>m</code> 表示目前可以达到的最大的 <code>index</code>. 注意如果能够到 i, 必然能够到小于 i 的 <code>index</code>.</p>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python">m <span class="token operator">=</span> nums<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span>
+<span class="token keyword">for</span> i <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token builtin">len</span><span class="token punctuation">(</span>nums<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token keyword">if</span> i <span class="token operator">></span> m<span class="token punctuation">:</span>
+        <span class="token keyword">return</span> <span class="token boolean">False</span>
+    <span class="token keyword">else</span><span class="token punctuation">:</span>
+        m <span class="token operator">=</span> <span class="token builtin">max</span><span class="token punctuation">(</span>m<span class="token punctuation">,</span> i <span class="token operator">+</span> nums<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">)</span>
+<span class="token keyword">return</span> <span class="token boolean">True</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>从后面开始</p>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python">goal <span class="token operator">=</span> <span class="token builtin">len</span><span class="token punctuation">(</span>nums<span class="token punctuation">)</span> <span class="token operator">-</span> <span class="token number">1</span>
+<span class="token keyword">for</span> i <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span><span class="token builtin">len</span><span class="token punctuation">(</span>nums<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">[</span><span class="token punctuation">:</span><span class="token punctuation">:</span><span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">:</span>
+    <span class="token keyword">if</span> i <span class="token operator">+</span> nums<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">>=</span> goal<span class="token punctuation">:</span>
+        goal <span class="token operator">=</span> i
+<span class="token keyword">return</span> <span class="token keyword">not</span> goal<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+]]></content>
+      <categories>
+        <category>Python</category>
+        <category>Leetcode</category>
+      </categories>
+      <tags>
+        <tag>Medium</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>LeetCode 1897. Redistribute Characters to Make All Strings Equal</title>
+    <url>//post/leetcode-1897.html</url>
+    <content><![CDATA[<h3 id="06-14-2021"><a href="#06-14-2021" class="headerlink" title="06/14/2021"></a>06/14/2021</h3><p>It is true iff the frequency of every letter is a multiple of <code>len(words)</code>.</p>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token keyword">class</span> <span class="token class-name">Solution</span><span class="token punctuation">:</span>
+    <span class="token keyword">def</span> <span class="token function">makeEqual</span><span class="token punctuation">(</span>self<span class="token punctuation">,</span> words<span class="token punctuation">:</span> List<span class="token punctuation">[</span><span class="token builtin">str</span><span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token operator">-</span><span class="token operator">></span> <span class="token builtin">bool</span><span class="token punctuation">:</span>
+        freq <span class="token operator">=</span> <span class="token punctuation">&#123;</span><span class="token punctuation">&#125;</span>
+        <span class="token keyword">for</span> word <span class="token keyword">in</span> words<span class="token punctuation">:</span>
+            <span class="token keyword">for</span> char <span class="token keyword">in</span> word<span class="token punctuation">:</span>
+                freq<span class="token punctuation">[</span>char<span class="token punctuation">]</span> <span class="token operator">=</span> freq<span class="token punctuation">.</span>get<span class="token punctuation">(</span>char<span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token operator">+</span> <span class="token number">1</span>
+        
+        <span class="token keyword">for</span> char <span class="token keyword">in</span> freq<span class="token punctuation">:</span>
+            <span class="token keyword">if</span> freq<span class="token punctuation">[</span>char<span class="token punctuation">]</span> <span class="token operator">%</span> <span class="token builtin">len</span><span class="token punctuation">(</span>words<span class="token punctuation">)</span><span class="token punctuation">:</span>
+                <span class="token keyword">return</span> <span class="token boolean">False</span>
+        <span class="token keyword">return</span> <span class="token boolean">True</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>It can be made one line with <code>collections.Counter</code>.</p>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token keyword">return</span> <span class="token builtin">all</span><span class="token punctuation">(</span><span class="token punctuation">[</span> val <span class="token operator">%</span> <span class="token builtin">len</span><span class="token punctuation">(</span>w<span class="token punctuation">)</span> <span class="token operator">==</span> <span class="token number">0</span> <span class="token keyword">for</span> val <span class="token keyword">in</span> collections<span class="token punctuation">.</span>Counter<span class="token punctuation">(</span><span class="token string">''</span><span class="token punctuation">.</span>join<span class="token punctuation">(</span>w<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">.</span>values<span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">]</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>]]></content>
+      <categories>
+        <category>Python</category>
+        <category>Leetcode</category>
+      </categories>
+      <tags>
+        <tag>Easy</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>LeetCode 492. Construct the Rectangle</title>
+    <url>//post/leetcode-0492.html</url>
+    <content><![CDATA[<h3 id="06-14-2021"><a href="#06-14-2021" class="headerlink" title="06/14/2021"></a>06/14/2021</h3><pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token keyword">class</span> <span class="token class-name">Solution</span><span class="token punctuation">:</span>
+    <span class="token keyword">def</span> <span class="token function">constructRectangle</span><span class="token punctuation">(</span>self<span class="token punctuation">,</span> area<span class="token punctuation">:</span> <span class="token builtin">int</span><span class="token punctuation">)</span> <span class="token operator">-</span><span class="token operator">></span> List<span class="token punctuation">[</span><span class="token builtin">int</span><span class="token punctuation">]</span><span class="token punctuation">:</span>
+        width <span class="token operator">=</span> <span class="token builtin">int</span><span class="token punctuation">(</span>area <span class="token operator">**</span> <span class="token number">0.5</span><span class="token punctuation">)</span>
+        <span class="token keyword">while</span> width <span class="token operator">></span> <span class="token number">0</span><span class="token punctuation">:</span>
+            <span class="token keyword">if</span> <span class="token keyword">not</span> area <span class="token operator">%</span> width<span class="token punctuation">:</span> 
+                <span class="token keyword">return</span> <span class="token punctuation">[</span>area <span class="token operator">//</span> width<span class="token punctuation">,</span> width<span class="token punctuation">]</span>
+            width <span class="token operator">-=</span> <span class="token number">1</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 ]]></content>
       <categories>
         <category>Python</category>
@@ -235,6 +371,7 @@
       </categories>
       <tags>
         <tag>Easy</tag>
+        <tag>Math</tag>
       </tags>
   </entry>
   <entry>
@@ -428,46 +565,6 @@
       </categories>
       <tags>
         <tag>Python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>LeetCode 1897. Redistribute Characters to Make All Strings Equal</title>
-    <url>//post/leetcode-1897md.html</url>
-    <content><![CDATA[<h3 id="06-14-2021"><a href="#06-14-2021" class="headerlink" title="06/14/2021"></a>06/14/2021</h3><p>It is true iff the frequency of every letter is a multiple of ‘len(words)’.</p>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token keyword">class</span> <span class="token class-name">Solution</span><span class="token punctuation">:</span>
-    <span class="token keyword">def</span> <span class="token function">makeEqual</span><span class="token punctuation">(</span>self<span class="token punctuation">,</span> words<span class="token punctuation">:</span> List<span class="token punctuation">[</span><span class="token builtin">str</span><span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token operator">-</span><span class="token operator">></span> <span class="token builtin">bool</span><span class="token punctuation">:</span>
-        freq <span class="token operator">=</span> <span class="token punctuation">&#123;</span><span class="token punctuation">&#125;</span>
-        <span class="token keyword">for</span> word <span class="token keyword">in</span> words<span class="token punctuation">:</span>
-            <span class="token keyword">for</span> char <span class="token keyword">in</span> word<span class="token punctuation">:</span>
-                freq<span class="token punctuation">[</span>char<span class="token punctuation">]</span> <span class="token operator">=</span> freq<span class="token punctuation">.</span>get<span class="token punctuation">(</span>char<span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token operator">+</span> <span class="token number">1</span>
-        
-        <span class="token keyword">for</span> char <span class="token keyword">in</span> freq<span class="token punctuation">:</span>
-            <span class="token keyword">if</span> freq<span class="token punctuation">[</span>char<span class="token punctuation">]</span> <span class="token operator">%</span> <span class="token builtin">len</span><span class="token punctuation">(</span>words<span class="token punctuation">)</span><span class="token punctuation">:</span>
-                <span class="token keyword">return</span> <span class="token boolean">False</span>
-        <span class="token keyword">return</span> <span class="token boolean">True</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<p>It can be made one line with <code>collections.Counter</code>.</p>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token keyword">return</span> <span class="token builtin">all</span><span class="token punctuation">(</span><span class="token punctuation">[</span> val <span class="token operator">%</span> <span class="token builtin">len</span><span class="token punctuation">(</span>w<span class="token punctuation">)</span> <span class="token operator">==</span> <span class="token number">0</span> <span class="token keyword">for</span> val <span class="token keyword">in</span> collections<span class="token punctuation">.</span>Counter<span class="token punctuation">(</span><span class="token string">''</span><span class="token punctuation">.</span>join<span class="token punctuation">(</span>w<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">.</span>values<span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">]</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>]]></content>
-      <categories>
-        <category>Python</category>
-        <category>Leetcode</category>
-      </categories>
-      <tags>
-        <tag>Easy</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Leetcode 刷题资源</title>
-    <url>//post/leetcode-resources.html</url>
-    <content><![CDATA[<h3 id="Data-Structure"><a href="#Data-Structure" class="headerlink" title="Data Structure"></a>Data Structure</h3><ul>
-<li><a href="https://leetcode.com/explore/learn/">Introduction to Data Structure by Leetcode</a></li>
-<li><a href="https://github.com/youngyangyang04/leetcode-master">部分刷题顺序中文</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>Leetcode</category>
-      </categories>
-      <tags>
-        <tag>Resources</tag>
       </tags>
   </entry>
 </search>
