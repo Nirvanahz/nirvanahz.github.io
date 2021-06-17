@@ -2,70 +2,70 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://clanlu.com/post/leetcode-dynamic-programming.html</loc>
+    <loc>http://clanlu.com/leetcode-dynamic-programming.html</loc>
+    
+    <lastmod>2021-06-17</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://clanlu.com/leetcode-0022.html</loc>
     
     <lastmod>2021-06-16</lastmod>
     
   </url>
   
   <url>
-    <loc>http://clanlu.com/post/leetcode-0022.html</loc>
-    
-    <lastmod>2021-06-16</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://clanlu.com/post/leetcode-0492.html</loc>
+    <loc>http://clanlu.com/leetcode-0492.html</loc>
     
     <lastmod>2021-06-15</lastmod>
     
   </url>
   
   <url>
-    <loc>http://clanlu.com/post/leetcode-1897.html</loc>
+    <loc>http://clanlu.com/leetcode-1897.html</loc>
     
     <lastmod>2021-06-15</lastmod>
     
   </url>
   
   <url>
-    <loc>http://clanlu.com/post/leetcode-1323.html</loc>
+    <loc>http://clanlu.com/leetcode-1323.html</loc>
     
     <lastmod>2021-06-15</lastmod>
     
   </url>
   
   <url>
-    <loc>http://clanlu.com/post/leetcode-1732.html</loc>
+    <loc>http://clanlu.com/leetcode-1732.html</loc>
     
     <lastmod>2021-06-15</lastmod>
     
   </url>
   
   <url>
-    <loc>http://clanlu.com/post/leetcode-0374.html</loc>
+    <loc>http://clanlu.com/leetcode-0374.html</loc>
     
     <lastmod>2021-06-15</lastmod>
     
   </url>
   
   <url>
-    <loc>http://clanlu.com/post/leetcode-0455.html</loc>
+    <loc>http://clanlu.com/leetcode-0455.html</loc>
     
     <lastmod>2021-06-15</lastmod>
     
   </url>
   
   <url>
-    <loc>http://clanlu.com/post/leetcode-0504.html</loc>
+    <loc>http://clanlu.com/leetcode-0504.html</loc>
     
     <lastmod>2021-06-15</lastmod>
     
   </url>
   
   <url>
-    <loc>http://clanlu.com/post/leetcode-0507.html</loc>
+    <loc>http://clanlu.com/leetcode-0507.html</loc>
     
     <lastmod>2021-06-15</lastmod>
     
@@ -79,35 +79,35 @@
   </url>
   
   <url>
-    <loc>http://clanlu.com/post/leetcode-1710.html</loc>
+    <loc>http://clanlu.com/leetcode-1710.html</loc>
     
     <lastmod>2021-06-14</lastmod>
     
   </url>
   
   <url>
-    <loc>http://clanlu.com/post/leetcode-resources.html</loc>
+    <loc>http://clanlu.com/leetcode-resources.html</loc>
     
     <lastmod>2021-06-11</lastmod>
     
   </url>
   
   <url>
-    <loc>http://clanlu.com/post/python-notes.html</loc>
+    <loc>http://clanlu.com/python-notes.html</loc>
     
     <lastmod>2021-06-09</lastmod>
     
   </url>
   
   <url>
-    <loc>http://clanlu.com/post/jump-game.html</loc>
+    <loc>http://clanlu.com/jump-game.html</loc>
     
     <lastmod>2021-06-08</lastmod>
     
   </url>
   
   <url>
-    <loc>http://clanlu.com/post/leetcode-problems-array.html</loc>
+    <loc>http://clanlu.com/leetcode-problems-array.html</loc>
     
     <lastmod>2021-06-08</lastmod>
     
@@ -130,7 +130,7 @@
 
   <url>
     <loc>http://clanlu.com/</loc>
-    <lastmod>2021-06-16</lastmod>
+    <lastmod>2021-06-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -138,56 +138,56 @@
   
   <url>
     <loc>http://clanlu.com/tags/Easy/</loc>
-    <lastmod>2021-06-16</lastmod>
+    <lastmod>2021-06-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://clanlu.com/tags/Binary-Search/</loc>
-    <lastmod>2021-06-16</lastmod>
+    <lastmod>2021-06-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://clanlu.com/tags/Medium/</loc>
-    <lastmod>2021-06-16</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://clanlu.com/tags/Daily-Challenge/</loc>
-    <lastmod>2021-06-16</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://clanlu.com/tags/Python/</loc>
-    <lastmod>2021-06-16</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://clanlu.com/tags/Dynamic-Programming/</loc>
-    <lastmod>2021-06-16</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://clanlu.com/tags/Resources/</loc>
-    <lastmod>2021-06-16</lastmod>
+    <lastmod>2021-06-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://clanlu.com/tags/Math/</loc>
-    <lastmod>2021-06-16</lastmod>
+    <lastmod>2021-06-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://clanlu.com/tags/Daily-Challenge/</loc>
+    <lastmod>2021-06-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://clanlu.com/tags/Python/</loc>
+    <lastmod>2021-06-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://clanlu.com/tags/Dynamic-Programming/</loc>
+    <lastmod>2021-06-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://clanlu.com/tags/Resources/</loc>
+    <lastmod>2021-06-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -196,28 +196,28 @@
   
   <url>
     <loc>http://clanlu.com/categories/Python/</loc>
-    <lastmod>2021-06-16</lastmod>
+    <lastmod>2021-06-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://clanlu.com/categories/Python/Leetcode/</loc>
-    <lastmod>2021-06-16</lastmod>
+    <lastmod>2021-06-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://clanlu.com/categories/Python/Note/</loc>
-    <lastmod>2021-06-16</lastmod>
+    <lastmod>2021-06-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://clanlu.com/categories/Leetcode/</loc>
-    <lastmod>2021-06-16</lastmod>
+    <lastmod>2021-06-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
