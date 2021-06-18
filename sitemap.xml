@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://clanlu.com/leetcode-mysql.html</loc>
+    
+    <lastmod>2021-06-18</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://clanlu.com/hackerrank-mysql.html</loc>
     
     <lastmod>2021-06-18</lastmod>
@@ -17,13 +24,6 @@
   
   <url>
     <loc>http://clanlu.com/leetcode-dynamic-programming.html</loc>
-    
-    <lastmod>2021-06-17</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://clanlu.com/leetcode-mysql.html</loc>
     
     <lastmod>2021-06-17</lastmod>
     
@@ -135,6 +135,342 @@
   </url>
   
   <url>
+    <loc>http://clanlu.com/Employees-Earning-More-Than-Their-Managers.html</loc>
+    
+    <lastmod>2020-05-08</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://clanlu.com/Rising-Temperature.html</loc>
+    
+    <lastmod>2020-03-22</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://clanlu.com/Customers-Who-Never-Order.html</loc>
+    
+    <lastmod>2020-03-22</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://clanlu.com/Combine-Two-Tables.html</loc>
+    
+    <lastmod>2020-03-22</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://clanlu.com/Duplicate-Emails.html</loc>
+    
+    <lastmod>2020-03-22</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://clanlu.com/Draw-The-Triangle-2.html</loc>
+    
+    <lastmod>2020-03-21</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://clanlu.com/Draw-The-Triangle-1.html</loc>
+    
+    <lastmod>2020-03-21</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://clanlu.com/Average-Population-Each-Continent.html</loc>
+    
+    <lastmod>2020-03-08</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://clanlu.com/African-Cities.html</loc>
+    
+    <lastmod>2020-03-08</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://clanlu.com/Asian-Population.html</loc>
+    
+    <lastmod>2020-03-08</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://clanlu.com/Top-Earners.html</loc>
+    
+    <lastmod>2020-03-08</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://clanlu.com/The-Blunder.html</loc>
+    
+    <lastmod>2020-03-08</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://clanlu.com/Population-Density-Difference.html</loc>
+    
+    <lastmod>2020-03-06</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://clanlu.com/Japan-Population.html</loc>
+    
+    <lastmod>2020-03-06</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://clanlu.com/Japanese-Cities-Names.html</loc>
+    
+    <lastmod>2020-03-06</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://clanlu.com/Average-Population.html</loc>
+    
+    <lastmod>2020-03-06</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://clanlu.com/Revising-Aggregations-Averages.html</loc>
+    
+    <lastmod>2020-03-06</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://clanlu.com/Revising-Aggregations-The-Sum-Function.html</loc>
+    
+    <lastmod>2020-03-06</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://clanlu.com/Revising-Aggregations-The-Count-Function.html</loc>
+    
+    <lastmod>2020-03-06</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://clanlu.com/Type-of-Triangle.html</loc>
+    
+    <lastmod>2020-03-04</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://clanlu.com/Employee-Salaries.html</loc>
+    
+    <lastmod>2020-03-04</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://clanlu.com/Employee-Names.html</loc>
+    
+    <lastmod>2020-03-04</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://clanlu.com/higher-than-75-marks.html</loc>
+    
+    <lastmod>2020-03-04</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://clanlu.com/Weather-Observation-Station-20.html</loc>
+    
+    <lastmod>2020-03-04</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://clanlu.com/Weather-Observation-Station-19.html</loc>
+    
+    <lastmod>2020-03-03</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://clanlu.com/Weather-Observation-Station-18.html</loc>
+    
+    <lastmod>2020-03-03</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://clanlu.com/Weather-Observation-Station-17.html</loc>
+    
+    <lastmod>2020-03-03</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://clanlu.com/Weather-Observation-Station-16.html</loc>
+    
+    <lastmod>2020-03-03</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://clanlu.com/Weather-Observation-Station-15.html</loc>
+    
+    <lastmod>2020-03-03</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://clanlu.com/Weather-Observation-Station-14.html</loc>
+    
+    <lastmod>2020-03-03</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://clanlu.com/Weather-Observation-Station-13.html</loc>
+    
+    <lastmod>2020-03-01</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://clanlu.com/Weather-Observation-Station-11.html</loc>
+    
+    <lastmod>2020-03-01</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://clanlu.com/Weather-Observation-Station-12.html</loc>
+    
+    <lastmod>2020-03-01</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://clanlu.com/Weather-Observation-Station-10.html</loc>
+    
+    <lastmod>2020-03-01</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://clanlu.com/Weather-Observation-Station-9.html</loc>
+    
+    <lastmod>2020-02-29</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://clanlu.com/Weather-Observation-Station-8.html</loc>
+    
+    <lastmod>2020-02-29</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://clanlu.com/Weather-Observation-Station-7.html</loc>
+    
+    <lastmod>2020-02-29</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://clanlu.com/Weather-Observation-Station-6.html</loc>
+    
+    <lastmod>2020-02-29</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://clanlu.com/Weather-Observation-Station-5.html</loc>
+    
+    <lastmod>2020-02-29</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://clanlu.com/Weather-Observation-Station-3.html</loc>
+    
+    <lastmod>2020-02-29</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://clanlu.com/Weather-Observation-Station-4.html</loc>
+    
+    <lastmod>2020-02-29</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://clanlu.com/select-by-ID.html</loc>
+    
+    <lastmod>2020-02-29</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://clanlu.com/select-all.html</loc>
+    
+    <lastmod>2020-02-29</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://clanlu.com/revising-the-select-query-1.html</loc>
+    
+    <lastmod>2020-02-29</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://clanlu.com/revising-the-select-query-2.html</loc>
+    
+    <lastmod>2020-02-29</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://clanlu.com/Japanese-Cities-Attributes.html</loc>
+    
+    <lastmod>2020-02-29</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://clanlu.com/Weather-Observation-Station-1.html</loc>
+    
+    <lastmod>2020-02-29</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://clanlu.com/Weather-Observation-Station-2.html</loc>
+    
+    <lastmod>2020-02-29</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://clanlu.com/categories/index.html</loc>
     
     <lastmod>2019-11-29</lastmod>
@@ -158,14 +494,28 @@
 
   
   <url>
-    <loc>http://clanlu.com/tags/SQL/</loc>
+    <loc>http://clanlu.com/tags/Hackerrank/</loc>
     <lastmod>2021-06-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://clanlu.com/tags/Hackerrank/</loc>
+    <loc>http://clanlu.com/tags/LeetCode/</loc>
+    <lastmod>2021-06-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://clanlu.com/tags/EASY/</loc>
+    <lastmod>2021-06-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://clanlu.com/tags/SQL/</loc>
     <lastmod>2021-06-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -193,13 +543,6 @@
   </url>
   
   <url>
-    <loc>http://clanlu.com/tags/Dynamic-Programming/</loc>
-    <lastmod>2021-06-18</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://clanlu.com/tags/Math/</loc>
     <lastmod>2021-06-18</lastmod>
     <changefreq>daily</changefreq>
@@ -208,6 +551,13 @@
   
   <url>
     <loc>http://clanlu.com/tags/Binary-Search/</loc>
+    <lastmod>2021-06-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://clanlu.com/tags/Dynamic-Programming/</loc>
     <lastmod>2021-06-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -228,14 +578,14 @@
   </url>
   
   <url>
-    <loc>http://clanlu.com/tags/Resources/</loc>
+    <loc>http://clanlu.com/tags/Leetcode/</loc>
     <lastmod>2021-06-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://clanlu.com/tags/Leetcode/</loc>
+    <loc>http://clanlu.com/tags/Resources/</loc>
     <lastmod>2021-06-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -251,14 +601,14 @@
   </url>
   
   <url>
-    <loc>http://clanlu.com/categories/Python/</loc>
+    <loc>http://clanlu.com/categories/SQL/Hackerrank/</loc>
     <lastmod>2021-06-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://clanlu.com/categories/SQL/Hackerrank/</loc>
+    <loc>http://clanlu.com/categories/Python/</loc>
     <lastmod>2021-06-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -279,14 +629,14 @@
   </url>
   
   <url>
-    <loc>http://clanlu.com/categories/Leetcode/</loc>
+    <loc>http://clanlu.com/categories/SQL/Leetcode/</loc>
     <lastmod>2021-06-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://clanlu.com/categories/SQL/Leetcode/</loc>
+    <loc>http://clanlu.com/categories/Leetcode/</loc>
     <lastmod>2021-06-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
