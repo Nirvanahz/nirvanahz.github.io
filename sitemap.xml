@@ -2,7 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://clanlu.com/hackerrank-mysql.html</loc>
+    
+    <lastmod>2021-06-18</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://clanlu.com/leetcode-array.html</loc>
+    
+    <lastmod>2021-06-17</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://clanlu.com/leetcode-dynamic-programming.html</loc>
+    
+    <lastmod>2021-06-17</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://clanlu.com/leetcode-mysql.html</loc>
+    
+    <lastmod>2021-06-17</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://clanlu.com/leetcode-0473.html</loc>
     
     <lastmod>2021-06-17</lastmod>
     
@@ -11,7 +39,7 @@
   <url>
     <loc>http://clanlu.com/leetcode-0022.html</loc>
     
-    <lastmod>2021-06-16</lastmod>
+    <lastmod>2021-06-17</lastmod>
     
   </url>
   
@@ -107,13 +135,6 @@
   </url>
   
   <url>
-    <loc>http://clanlu.com/leetcode-problems-array.html</loc>
-    
-    <lastmod>2021-06-08</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://clanlu.com/categories/index.html</loc>
     
     <lastmod>2019-11-29</lastmod>
@@ -130,64 +151,92 @@
 
   <url>
     <loc>http://clanlu.com/</loc>
-    <lastmod>2021-06-17</lastmod>
+    <lastmod>2021-06-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
-    <loc>http://clanlu.com/tags/Easy/</loc>
-    <lastmod>2021-06-17</lastmod>
+    <loc>http://clanlu.com/tags/SQL/</loc>
+    <lastmod>2021-06-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://clanlu.com/tags/Binary-Search/</loc>
-    <lastmod>2021-06-17</lastmod>
+    <loc>http://clanlu.com/tags/Hackerrank/</loc>
+    <lastmod>2021-06-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://clanlu.com/tags/Medium/</loc>
-    <lastmod>2021-06-17</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://clanlu.com/tags/Math/</loc>
-    <lastmod>2021-06-17</lastmod>
+    <lastmod>2021-06-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://clanlu.com/tags/Daily-Challenge/</loc>
-    <lastmod>2021-06-17</lastmod>
+    <lastmod>2021-06-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://clanlu.com/tags/Python/</loc>
-    <lastmod>2021-06-17</lastmod>
+    <loc>http://clanlu.com/tags/Easy/</loc>
+    <lastmod>2021-06-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://clanlu.com/tags/Dynamic-Programming/</loc>
-    <lastmod>2021-06-17</lastmod>
+    <lastmod>2021-06-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://clanlu.com/tags/Math/</loc>
+    <lastmod>2021-06-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://clanlu.com/tags/Binary-Search/</loc>
+    <lastmod>2021-06-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://clanlu.com/tags/Python/</loc>
+    <lastmod>2021-06-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://clanlu.com/tags/Array/</loc>
+    <lastmod>2021-06-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://clanlu.com/tags/Resources/</loc>
-    <lastmod>2021-06-17</lastmod>
+    <lastmod>2021-06-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://clanlu.com/tags/Leetcode/</loc>
+    <lastmod>2021-06-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -195,29 +244,50 @@
 
   
   <url>
+    <loc>http://clanlu.com/categories/SQL/</loc>
+    <lastmod>2021-06-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://clanlu.com/categories/Python/</loc>
-    <lastmod>2021-06-17</lastmod>
+    <lastmod>2021-06-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://clanlu.com/categories/SQL/Hackerrank/</loc>
+    <lastmod>2021-06-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://clanlu.com/categories/Python/Leetcode/</loc>
-    <lastmod>2021-06-17</lastmod>
+    <lastmod>2021-06-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://clanlu.com/categories/Python/Note/</loc>
-    <lastmod>2021-06-17</lastmod>
+    <lastmod>2021-06-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://clanlu.com/categories/Leetcode/</loc>
-    <lastmod>2021-06-17</lastmod>
+    <lastmod>2021-06-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://clanlu.com/categories/SQL/Leetcode/</loc>
+    <lastmod>2021-06-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
