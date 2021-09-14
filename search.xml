@@ -1,6 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Citations by others</title>
+    <url>//citations.html</url>
+    <content><![CDATA[<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Total: 9.5</span><br></pre></td></tr></table></figure>
+
+<h4 id="On-the-Gaudin-model-associated-to-Lie-algebras-of-classical-types"><a href="#On-the-Gaudin-model-associated-to-Lie-algebras-of-classical-types" class="headerlink" title="On the Gaudin model associated to Lie algebras of classical types"></a>On the Gaudin model associated to Lie algebras of classical types</h4><ol>
+<li><a href="https://doi.org/10.1093/imrn/rny245">L Rybnikov, A proof of the Gaudin Bethe Ansatz conjecture</a></li>
+<li><a href="https://arxiv.org/abs/2009.12243">Peng Liu, Wei-Dong Ruan, Yang-Yang functions, Monodromy and knot polynomials</a> </li>
+</ol>
+<h4 id="Self-dual-Grassmannian-Wronski-map-and-representations-of-mathfrak-gl-N-mathfrak-sp-2r-mathfrak-so-2r-1"><a href="#Self-dual-Grassmannian-Wronski-map-and-representations-of-mathfrak-gl-N-mathfrak-sp-2r-mathfrak-so-2r-1" class="headerlink" title="Self-dual Grassmannian, Wronski map, and representations of \(\mathfrak{gl}_N\), \(\mathfrak{sp}_{2r}\), \(\mathfrak{so}_{2r+1}\)"></a>Self-dual Grassmannian, Wronski map, and representations of \(\mathfrak{gl}_N\), \(\mathfrak{sp}_{2r}\), \(\mathfrak{so}_{2r+1}\)</h4><ol>
+<li><a href="https://bookstore.ams.org/surv-229/">A Molev, Sugawara operators for classical Lie algebras</a> </li>
+<li><a href="https://arxiv.org/abs/1907.11924">J Levinson, K Purbhoo, A topological proof of the Shapiro-Shapiro conjecture</a></li>
+</ol>
+<h4 id="Solutions-of-mathfrak-gl-m-n-XXX-Bethe-ansatz-equation-and-rational-difference-operators"><a href="#Solutions-of-mathfrak-gl-m-n-XXX-Bethe-ansatz-equation-and-rational-difference-operators" class="headerlink" title="Solutions of \(\mathfrak{gl}_{m|n}\) XXX Bethe ansatz equation and rational difference operators"></a>Solutions of \(\mathfrak{gl}_{m|n}\) XXX Bethe ansatz equation and rational difference operators</h4><ol>
+<li><a href="https://arxiv.org/abs/1907.08124">JM Maillet, G Niccoli, L Vignoli, Separation of variables bases for integrable $gl_{\mathcal M|\mathcal N}$ and Hubbard models</a></li>
+<li><a href="https://arxiv.org/abs/2004.02865">D Chernyak, S Leurent, D Volin, Completeness of Wronskian Bethe equations for rational $\mathfrak{gl}(m|n)$ spin chain</a></li>
+<li><a href="https://etheses.whiterose.ac.uk/28790/1/Gerrard_203033043_CorrectedThesis.pdf">AJ Gerrard, Nested algebraic Bethe ansaetze for orthogonal and symplectic spin chains</a> Only cited in reference</li>
+</ol>
+<h4 id="On-the-supersymmetric-XXX-spin-chains-associated-to-mathfrak-gl-1-1"><a href="#On-the-supersymmetric-XXX-spin-chains-associated-to-mathfrak-gl-1-1" class="headerlink" title="On the supersymmetric XXX spin chains associated to $\mathfrak{gl}_{1|1}$"></a>On the supersymmetric XXX spin chains associated to $\mathfrak{gl}_{1|1}$</h4><ol>
+<li><a href="https://arxiv.org/abs/1907.08124">JM Maillet, G Niccoli, L Vignoli, Separation of variables bases for integrable $gl_{\mathcal M|\mathcal N}$ and Hubbard models</a></li>
+<li><a href="https://arxiv.org/abs/2004.02865">D Chernyak, S Leurent, D Volin, Completeness of Wronskian Bethe equations for rational $\mathfrak{gl}(m|n)$ spin chain</a></li>
+</ol>
+<h4 id="Jacobi-Trudi-identity-and-Drinfeld-functor-for-super-Yangian"><a href="#Jacobi-Trudi-identity-and-Drinfeld-functor-for-super-Yangian" class="headerlink" title="Jacobi-Trudi identity and Drinfeld functor for super Yangian"></a>Jacobi-Trudi identity and Drinfeld functor for super Yangian</h4><ol>
+<li><a href="https://arxiv.org/abs/2106.08931">Zengo Tsuboi, Boson-Fermion correspondence, QQ-relations and Wronskian solutions of the T-system</a></li>
+</ol>
+]]></content>
+  </entry>
+  <entry>
     <title>Activities</title>
     <url>//activities.html</url>
     <content><![CDATA[<h3 id="Upcoming-talks"><a href="#Upcoming-talks" class="headerlink" title="Upcoming talks"></a><a href="#Upcoming-travels" title="Upcoming talks"></a>Upcoming talks</h3><p>None</p>
@@ -56,7 +83,7 @@
 <p>See also <a href="https://mathscinet.ams.org/mathscinet/search/author.html?mrauthid=1181282">MathSciNet</a>.</p>
 </blockquote>
 <ol>
-<li><em>Bethe ansatz equations for orthosymplectic Lie superalgebra and self-dual superspaces</em><br> (with <a href="http://www.math.iupui.edu/~mukhin/">E. Mukhin</a>), Mar. 31, 2021, (<a href="https://arxiv.org/abs/2103.16729">arXiv:2103.16729</a>), <a href="https://doi.org/10.1007/s00023-021-01091-8">Annales Henri Poincaré</a>. </li>
+<li><em>Bethe ansatz equations for orthosymplectic Lie superalgebra and self-dual superspaces</em><br> (with <a href="http://www.math.iupui.edu/~mukhin/">E. Mukhin</a>), <a href="https://doi.org/10.1007/s00023-021-01091-8">Annales Henri Poincaré</a>, (<a href="https://arxiv.org/abs/2103.16729">arXiv:2103.16729</a>)</li>
 <li><em>On the supersymmetric XXX spin chains associated to $\mathfrak{gl}_{1|1}$</em><br> (with <a href="http://www.math.iupui.edu/~mukhin/">E. Mukhin</a>), <a href="https://doi.org/10.1007/s00220-021-04155-2">Commun. Math. Phys. <strong>386</strong> (2021), 711–747</a>, (<a href="https://arxiv.org/abs/1910.13360">arXiv:1910.13360</a>)</li>
 <li><em>Jacobi-Trudi identity and Drinfeld functor for super Yangian</em><br> (with <a href="http://www.math.iupui.edu/~mukhin/">E. Mukhin</a>), Jul. 31, 2020. (<a href="https://arxiv.org/abs/2007.15573">arXiv:2007.15573</a>), <a href="http://dx.doi.org/10.1093/imrn/rnab023">Int. Math. Res. Not. IMRN</a>.</li>
 <li><em>Perfect integrability and Gaudin models</em><br> <a href="https://doi.org/10.3842/SIGMA.2020.132">SIGMA <strong>16</strong> (2020), 132</a>, 10 pages, (<a href="https://arxiv.org/abs/2008.06825">arXiv:2008.06825</a>).</li>
@@ -96,33 +123,6 @@
 ]]></content>
   </entry>
   <entry>
-    <title>Citations by others</title>
-    <url>//citations.html</url>
-    <content><![CDATA[<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Total: 9.5</span><br></pre></td></tr></table></figure>
-
-<h4 id="On-the-Gaudin-model-associated-to-Lie-algebras-of-classical-types"><a href="#On-the-Gaudin-model-associated-to-Lie-algebras-of-classical-types" class="headerlink" title="On the Gaudin model associated to Lie algebras of classical types"></a>On the Gaudin model associated to Lie algebras of classical types</h4><ol>
-<li><a href="https://doi.org/10.1093/imrn/rny245">L Rybnikov, A proof of the Gaudin Bethe Ansatz conjecture</a></li>
-<li><a href="https://arxiv.org/abs/2009.12243">Peng Liu, Wei-Dong Ruan, Yang-Yang functions, Monodromy and knot polynomials</a> </li>
-</ol>
-<h4 id="Self-dual-Grassmannian-Wronski-map-and-representations-of-mathfrak-gl-N-mathfrak-sp-2r-mathfrak-so-2r-1"><a href="#Self-dual-Grassmannian-Wronski-map-and-representations-of-mathfrak-gl-N-mathfrak-sp-2r-mathfrak-so-2r-1" class="headerlink" title="Self-dual Grassmannian, Wronski map, and representations of \(\mathfrak{gl}_N\), \(\mathfrak{sp}_{2r}\), \(\mathfrak{so}_{2r+1}\)"></a>Self-dual Grassmannian, Wronski map, and representations of \(\mathfrak{gl}_N\), \(\mathfrak{sp}_{2r}\), \(\mathfrak{so}_{2r+1}\)</h4><ol>
-<li><a href="https://bookstore.ams.org/surv-229/">A Molev, Sugawara operators for classical Lie algebras</a> </li>
-<li><a href="https://arxiv.org/abs/1907.11924">J Levinson, K Purbhoo, A topological proof of the Shapiro-Shapiro conjecture</a></li>
-</ol>
-<h4 id="Solutions-of-mathfrak-gl-m-n-XXX-Bethe-ansatz-equation-and-rational-difference-operators"><a href="#Solutions-of-mathfrak-gl-m-n-XXX-Bethe-ansatz-equation-and-rational-difference-operators" class="headerlink" title="Solutions of \(\mathfrak{gl}_{m|n}\) XXX Bethe ansatz equation and rational difference operators"></a>Solutions of \(\mathfrak{gl}_{m|n}\) XXX Bethe ansatz equation and rational difference operators</h4><ol>
-<li><a href="https://arxiv.org/abs/1907.08124">JM Maillet, G Niccoli, L Vignoli, Separation of variables bases for integrable $gl_{\mathcal M|\mathcal N}$ and Hubbard models</a></li>
-<li><a href="https://arxiv.org/abs/2004.02865">D Chernyak, S Leurent, D Volin, Completeness of Wronskian Bethe equations for rational $\mathfrak{gl}(m|n)$ spin chain</a></li>
-<li><a href="https://etheses.whiterose.ac.uk/28790/1/Gerrard_203033043_CorrectedThesis.pdf">AJ Gerrard, Nested algebraic Bethe ansaetze for orthogonal and symplectic spin chains</a> Only cited in reference</li>
-</ol>
-<h4 id="On-the-supersymmetric-XXX-spin-chains-associated-to-mathfrak-gl-1-1"><a href="#On-the-supersymmetric-XXX-spin-chains-associated-to-mathfrak-gl-1-1" class="headerlink" title="On the supersymmetric XXX spin chains associated to $\mathfrak{gl}_{1|1}$"></a>On the supersymmetric XXX spin chains associated to $\mathfrak{gl}_{1|1}$</h4><ol>
-<li><a href="https://arxiv.org/abs/1907.08124">JM Maillet, G Niccoli, L Vignoli, Separation of variables bases for integrable $gl_{\mathcal M|\mathcal N}$ and Hubbard models</a></li>
-<li><a href="https://arxiv.org/abs/2004.02865">D Chernyak, S Leurent, D Volin, Completeness of Wronskian Bethe equations for rational $\mathfrak{gl}(m|n)$ spin chain</a></li>
-</ol>
-<h4 id="Jacobi-Trudi-identity-and-Drinfeld-functor-for-super-Yangian"><a href="#Jacobi-Trudi-identity-and-Drinfeld-functor-for-super-Yangian" class="headerlink" title="Jacobi-Trudi identity and Drinfeld functor for super Yangian"></a>Jacobi-Trudi identity and Drinfeld functor for super Yangian</h4><ol>
-<li><a href="https://arxiv.org/abs/2106.08931">Zengo Tsuboi, Boson-Fermion correspondence, QQ-relations and Wronskian solutions of the T-system</a></li>
-</ol>
-]]></content>
-  </entry>
-  <entry>
     <title>Research</title>
     <url>//research.html</url>
     <content><![CDATA[<h3 id="Research-Interests"><a href="#Research-Interests" class="headerlink" title="Research Interests"></a><a href="#Research-Interests" title="Research Interests"></a>Research Interests</h3><p>Generally speaking, I am interested in <a href="https://arxiv.org/list/math.RT/recent">Representation Theory</a> and <a href="https://arxiv.org/list/math.QA/recent">Quantum Algebras</a>.</p>
@@ -138,7 +138,7 @@
 <p>See also <a href="https://mathscinet.ams.org/mathscinet/search/author.html?mrauthid=1181282">MathSciNet</a>.</p>
 </blockquote>
 <ol>
-<li><em>Bethe ansatz equations for orthosymplectic Lie superalgebra and self-dual superspaces</em><br> (with <a href="http://www.math.iupui.edu/~mukhin/">E. Mukhin</a>), Mar. 31, 2021, (<a href="https://arxiv.org/abs/2103.16729">arXiv:2103.16729</a>), <a href="https://doi.org/10.1007/s00023-021-01091-8">Annales Henri Poincaré</a>  </li>
+<li><em>Bethe ansatz equations for orthosymplectic Lie superalgebra and self-dual superspaces</em><br> (with <a href="http://www.math.iupui.edu/~mukhin/">E. Mukhin</a>), <a href="https://doi.org/10.1007/s00023-021-01091-8">Annales Henri Poincaré</a>, (<a href="https://arxiv.org/abs/2103.16729">arXiv:2103.16729</a>)  </li>
 <li><em>On the supersymmetric XXX spin chains associated to $\mathfrak{gl}_{1|1}$</em><br> (with <a href="http://www.math.iupui.edu/~mukhin/">E. Mukhin</a>), <a href="https://doi.org/10.1007/s00220-021-04155-2">Commun. Math. Phys. <strong>386</strong> (2021), 711–747</a>, (<a href="https://arxiv.org/abs/1910.13360">arXiv:1910.13360</a>)</li>
 <li><em>Jacobi-Trudi identity and Drinfeld functor for super Yangian</em><br> (with <a href="http://www.math.iupui.edu/~mukhin/">E. Mukhin</a>), Jul. 31, 2020. (<a href="https://arxiv.org/abs/2007.15573">arXiv:2007.15573</a>), <a href="http://dx.doi.org/10.1093/imrn/rnab023">Int. Math. Res. Not. IMRN</a>.</li>
 <li><em>Perfect integrability and Gaudin models</em><br> <a href="https://doi.org/10.3842/SIGMA.2020.132">SIGMA <strong>16</strong> (2020), 132</a>, 10 pages, (<a href="https://arxiv.org/abs/2008.06825">arXiv:2008.06825</a>).</li>
