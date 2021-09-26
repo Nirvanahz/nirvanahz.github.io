@@ -76,6 +76,7 @@
 <p>See also <a href="https://arxiv.org/a/lu_k_2.html"><i class="ai ai-arxiv"></i> arXiv</a></p>
 </blockquote>
 <ol>
+<li><em>Schur-Weyl duality for quantum toroidal superalgebras</em><br> Sept. 21, (<a href="https://arxiv.org/abs/2109.09005">arXiv:2109.09005</a>)</li>
 <li><em>Gelfand-Tsetlin bases of representations for super Yangian and quantum affine superalgebra</em><br> Mar. 16, (<a href="https://arxiv.org/abs/2103.08758">arXiv:2103.08758</a>), submitted.</li>
 <li><em>Fine gradings of complex simple Lie algebras and Finite Root Systems</em><br> (with <a href="http://www.math.zju.edu.cn/hangang/">Gang Han</a>, Jun Yu), 29 Oct. 2014. (<a href="https://arxiv.org/abs/1410.7945">arXiv:1410.7945</a>) not for publication.</li>
 </ol>
@@ -100,29 +101,6 @@
 ]]></content>
   </entry>
   <entry>
-    <title>Teaching</title>
-    <url>//teach.html</url>
-    <content><![CDATA[<h3 id="University-of-Denver"><a href="#University-of-Denver" class="headerlink" title="University of Denver"></a>University of Denver</h3><ul>
-<li>  MATH 1952 Calculus II, 2021 Spring</li>
-<li>  MATH 2070 Introduction to differential equations, 2021 Winter </li>
-<li>  MATH 1150 Introduction to Cryptography, 2021 Winter</li>
-<li>  MATH 1951 Calculus I, 2020 Fall (2 sessions)</li>
-</ul>
-<h3 id="IUPUI"><a href="#IUPUI" class="headerlink" title="IUPUI"></a>IUPUI</h3><ul>
-<li>  MATH 16500: Analytic Geometry and Calculus I, 2020 Summer I</li>
-<li>  MATH 15300: College Algebra, 2020 Spring</li>
-<li>  MATH 22100: Calculus for Technology I, 2020 Spring</li>
-<li>  MATH 15400: Trigonometry, 2019 Fall (2 sessions)</li>
-<li>  MATH 26600: Ordinary Differential Equations, 2019 Summer II</li>
-<li>  MATH 22100: Calculus for Technology I, 2019 Spring</li>
-<li>  MATH 11100: Intermediate Algebra, 2018 Fall</li>
-<li>  MATH 15400: Trigonometry, 2018 Summer II</li>
-<li>  MATH 11000: Fundamentals of Algebra, 2018 Spring</li>
-<li>  MATH 16500: Integrated Calculus and Analytic Geometry I, 2017 Fall (recitation, 2 sessions)</li>
-</ul>
-]]></content>
-  </entry>
-  <entry>
     <title>Research</title>
     <url>//research.html</url>
     <content><![CDATA[<h3 id="Research-Interests"><a href="#Research-Interests" class="headerlink" title="Research Interests"></a><a href="#Research-Interests" title="Research Interests"></a>Research Interests</h3><p>Generally speaking, I am interested in <a href="https://arxiv.org/list/math.RT/recent">Representation Theory</a> and <a href="https://arxiv.org/list/math.QA/recent">Quantum Algebras</a>.</p>
@@ -131,6 +109,7 @@
 <p>See also <a href="https://arxiv.org/a/lu_k_2.html"><i class="ai ai-arxiv "></i> arXiv</a></p>
 </blockquote>
 <ol>
+<li><em>Schur-Weyl duality for quantum toroidal superalgebras</em><br> Sept. 21, (<a href="https://arxiv.org/abs/2109.09005">arXiv:2109.09005</a>)</li>
 <li><em>Gelfand-Tsetlin bases of representations for super Yangian and quantum affine superalgebra</em><br> Mar. 16, (<a href="https://arxiv.org/abs/2103.08758">arXiv:2103.08758</a>), submitted.</li>
 <li><em>Fine gradings of complex simple Lie algebras and Finite Root Systems</em><br> (with <a href="http://www.math.zju.edu.cn/hangang/">Gang Han</a>, Jun Yu), 29 Oct. 2014. (<a href="https://arxiv.org/abs/1410.7945">arXiv:1410.7945</a>) not for publication.</li>
 </ol>
@@ -155,6 +134,29 @@
     <title>Step-by-step guide to Webassign</title>
     <url>//webassign.html</url>
     <content><![CDATA[<p><img src="/img/webassign/1.png"><br><img src="/img/webassign/2.png"><br><img src="/img/webassign/3.png"><br><img src="/img/webassign/4.png"><br><img src="/img/webassign/5.png"><br><img src="/img/webassign/6.png"><br><img src="/img/webassign/7.png"><br><img src="/img/webassign/8.png"><br><img src="/img/webassign/9.png"><br><img src="/img/webassign/10.png"><br><img src="/img/webassign/11.png"><br><img src="/img/webassign/12.png"></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Teaching</title>
+    <url>//teach.html</url>
+    <content><![CDATA[<h3 id="University-of-Denver"><a href="#University-of-Denver" class="headerlink" title="University of Denver"></a>University of Denver</h3><ul>
+<li>  MATH 1952 Calculus II, 2021 Spring</li>
+<li>  MATH 2070 Introduction to differential equations, 2021 Winter </li>
+<li>  MATH 1150 Introduction to Cryptography, 2021 Winter</li>
+<li>  MATH 1951 Calculus I, 2020 Fall (2 sessions)</li>
+</ul>
+<h3 id="IUPUI"><a href="#IUPUI" class="headerlink" title="IUPUI"></a>IUPUI</h3><ul>
+<li>  MATH 16500: Analytic Geometry and Calculus I, 2020 Summer I</li>
+<li>  MATH 15300: College Algebra, 2020 Spring</li>
+<li>  MATH 22100: Calculus for Technology I, 2020 Spring</li>
+<li>  MATH 15400: Trigonometry, 2019 Fall (2 sessions)</li>
+<li>  MATH 26600: Ordinary Differential Equations, 2019 Summer II</li>
+<li>  MATH 22100: Calculus for Technology I, 2019 Spring</li>
+<li>  MATH 11100: Intermediate Algebra, 2018 Fall</li>
+<li>  MATH 15400: Trigonometry, 2018 Summer II</li>
+<li>  MATH 11000: Fundamentals of Algebra, 2018 Spring</li>
+<li>  MATH 16500: Integrated Calculus and Analytic Geometry I, 2017 Fall (recitation, 2 sessions)</li>
+</ul>
 ]]></content>
   </entry>
 </search>
