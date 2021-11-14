@@ -26,42 +26,6 @@
 ]]></content>
   </entry>
   <entry>
-    <title>Step-by-step guide to Webassign</title>
-    <url>//webassign.html</url>
-    <content><![CDATA[<p><img src="/img/webassign/1.png"><br><img src="/img/webassign/2.png"><br><img src="/img/webassign/3.png"><br><img src="/img/webassign/4.png"><br><img src="/img/webassign/5.png"><br><img src="/img/webassign/6.png"><br><img src="/img/webassign/7.png"><br><img src="/img/webassign/8.png"><br><img src="/img/webassign/9.png"><br><img src="/img/webassign/10.png"><br><img src="/img/webassign/11.png"><br><img src="/img/webassign/12.png"></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>Research</title>
-    <url>//research.html</url>
-    <content><![CDATA[<h3 id="Research-Interests"><a href="#Research-Interests" class="headerlink" title="Research Interests"></a><a href="#Research-Interests" title="Research Interests"></a>Research Interests</h3><p>Generally speaking, I am interested in <a href="https://arxiv.org/list/math.RT/recent">Representation Theory</a> and <a href="https://arxiv.org/list/math.QA/recent">Quantum Algebras</a>.</p>
-<p>More specifically, my current research interests are: Bethe ansatz method, Representation Theory of Quantum Groups, Lie Algebras and Superalgebras, and Integrable System.</p>
-<h3 id="Preprints"><a href="#Preprints" class="headerlink" title="Preprints"></a>Preprints</h3><blockquote>
-<p>See also <a href="https://arxiv.org/a/lu_k_2.html"><i class="ai ai-arxiv "></i> arXiv</a></p>
-</blockquote>
-<ol>
-<li><em>Schur-Weyl duality for quantum toroidal superalgebras</em><br> Sept. 21, (<a href="https://arxiv.org/abs/2109.09005">arXiv:2109.09005</a>)</li>
-<li><em>Gelfand-Tsetlin bases of representations for super Yangian and quantum affine superalgebra</em><br> Mar. 16, (<a href="https://arxiv.org/abs/2103.08758">arXiv:2103.08758</a>), submitted.</li>
-<li><em>Fine gradings of complex simple Lie algebras and Finite Root Systems</em><br> (with <a href="http://www.math.zju.edu.cn/hangang/">Gang Han</a>, Jun Yu), 29 Oct. 2014. (<a href="https://arxiv.org/abs/1410.7945">arXiv:1410.7945</a>) not for publication.</li>
-</ol>
-<h3 id="Publications"><a href="#Publications" class="headerlink" title="Publications"></a>Publications</h3><blockquote>
-<p>See also <a href="https://mathscinet.ams.org/mathscinet/search/author.html?mrauthid=1181282">MathSciNet</a>.</p>
-</blockquote>
-<ol>
-<li><em>Bethe ansatz equations for orthosymplectic Lie superalgebra and self-dual superspaces</em><br> (with <a href="http://www.math.iupui.edu/~mukhin/">E. Mukhin</a>), <a href="https://doi.org/10.1007/s00023-021-01091-8">Annales Henri Poincaré</a>, (<a href="https://arxiv.org/abs/2103.16729">arXiv:2103.16729</a>)  </li>
-<li><em>On the supersymmetric XXX spin chains associated to $\mathfrak{gl}_{1|1}$</em><br> (with <a href="http://www.math.iupui.edu/~mukhin/">E. Mukhin</a>), <a href="https://doi.org/10.1007/s00220-021-04155-2">Commun. Math. Phys. <strong>386</strong> (2021), 711–747</a>, (<a href="https://arxiv.org/abs/1910.13360">arXiv:1910.13360</a>)</li>
-<li><em>Jacobi-Trudi identity and Drinfeld functor for super Yangian</em><br> (with <a href="http://www.math.iupui.edu/~mukhin/">E. Mukhin</a>), Jul. 31, 2020. (<a href="https://arxiv.org/abs/2007.15573">arXiv:2007.15573</a>), <a href="http://dx.doi.org/10.1093/imrn/rnab023">Int. Math. Res. Not. IMRN</a>.</li>
-<li><em>Perfect integrability and Gaudin models</em><br> <a href="https://doi.org/10.3842/SIGMA.2020.132">SIGMA <strong>16</strong> (2020), 132</a>, 10 pages, (<a href="https://arxiv.org/abs/2008.06825">arXiv:2008.06825</a>).</li>
-<li><em>Solutions of \(\mathfrak{gl}_{m|n}\) XXX Bethe ansatz equation and rational difference operators</em><br> (with Chenliang Huang, <a href="http://www.math.iupui.edu/~mukhin/">E. Mukhin</a>), <a href="https://doi.org/10.1088/1751-8121/ab1960">J. Phys. A: Math. Theor. <strong>52</strong> (2019) 375204 (31pp)</a>, (<a href="https://arxiv.org/abs/1811.11225">arXiv:1811.11225</a>)</li>
-<li><em>On the Gaudin model of type \(G_2\)</em><br> (with <a href="http://www.math.iupui.edu/~mukhin/">E. Mukhin</a>), <a href="https://doi.org/10.1142/S0219199718500128">Commun. Contemp. Math. <strong>21</strong> (2019), no. 3, 1850012, 31 pages</a>, (<a href="https://arxiv.org/abs/1711.02511">arXiv:1711.02511</a>)</li>
-<li><em>Multiplicity free gradings on semisimple Lie and Jordan algebras and skew root systems</em><br> (with <a href="http://www.math.zju.edu.cn/hangang/">Gang Han</a>, Yucheng Liu), <a href="https://doi.org/10.1142/S1005386719000129">Algebra Colloq. <strong>26</strong> (2019), no. 1, 123-138</a>, (<a href="https://arxiv.org/abs/1611.03943">arXiv:1611.03943</a>)</li>
-<li><em>Lower bounds for numbers of real self-dual spaces in problems of Schubert calculus</em><br> <a href="https://doi.org/10.3842/SIGMA.2018.046">SIGMA <strong>14</strong> (2018), 046</a>, 15 pages, (<a href="https://arxiv.org/abs/1710.06534">arXiv:1710.06534</a>)</li>
-<li><em>Self-dual Grassmannian, Wronski map, and representations of \(\mathfrak{gl}_N\), \(\mathfrak{sp}_{2r}\), \(\mathfrak{so}_{2r+1}\)</em><br> (with <a href="http://www.math.iupui.edu/~mukhin/">E. Mukhin</a>, <a href="http://varchenko.web.unc.edu/">A. Varchenko</a>), <a href="https://dx.doi.org/10.4310/PAMQ.2017.v13.n2.a4">Pure Appl. Math. Q. <strong>13</strong> (2017), no.2, 291 – 335</a> , a special issue of in honor of Yuri Manin’s 80-th birthday, (<a href="https://arxiv.org/abs/1705.02048">arXiv:1705.02048</a>)</li>
-<li><em>On the Gaudin model associated to Lie algebras of classical types</em><br>(with <a href="http://www.math.iupui.edu/~mukhin/">E. Mukhin</a>, <a href="http://varchenko.web.unc.edu/">A. Varchenko</a>), <a href="https://doi.org/10.1063/1.4964389">J. Math. Phys. <strong>57</strong> (2016), 101703, 23 pages</a> (<a href="https://arxiv.org/abs/1512.08524">arXiv:1512.08524</a>)</li>
-</ol>
-]]></content>
-  </entry>
-  <entry>
     <title>Citations by others</title>
     <url>//citations.html</url>
     <content><![CDATA[<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Total: 11.5</span><br></pre></td></tr></table></figure>
@@ -77,7 +41,7 @@
 <h4 id="Solutions-of-mathfrak-gl-m-n-XXX-Bethe-ansatz-equation-and-rational-difference-operators"><a href="#Solutions-of-mathfrak-gl-m-n-XXX-Bethe-ansatz-equation-and-rational-difference-operators" class="headerlink" title="Solutions of \(\mathfrak{gl}_{m|n}\) XXX Bethe ansatz equation and rational difference operators"></a>Solutions of \(\mathfrak{gl}_{m|n}\) XXX Bethe ansatz equation and rational difference operators</h4><ol>
 <li><a href="https://arxiv.org/abs/1907.08124">JM Maillet, G Niccoli, L Vignoli, Separation of variables bases for integrable $gl_{\mathcal M|\mathcal N}$ and Hubbard models</a></li>
 <li><a href="https://arxiv.org/abs/2004.02865">D Chernyak, S Leurent, D Volin, Completeness of Wronskian Bethe equations for rational $\mathfrak{gl}(m|n)$ spin chain</a></li>
-<li><a href="https://etheses.whiterose.ac.uk/28790/1/Gerrard_203033043_CorrectedThesis.pdf">AJ Gerrard, Nested algebraic Bethe ansaetze for orthogonal and symplectic spin chains</a> Only cited in reference</li>
+<li><a href="https://etheses.whiterose.ac.uk/28790/1/Gerrard_203033043_CorrectedThesis.pdf">AJ Gerrard, Nested algebraic Bethe ansaetz for orthogonal and symplectic spin chains</a> Only cited in reference</li>
 </ol>
 <h4 id="On-the-supersymmetric-XXX-spin-chains-associated-to-mathfrak-gl-1-1"><a href="#On-the-supersymmetric-XXX-spin-chains-associated-to-mathfrak-gl-1-1" class="headerlink" title="On the supersymmetric XXX spin chains associated to $\mathfrak{gl}_{1|1}$"></a>On the supersymmetric XXX spin chains associated to $\mathfrak{gl}_{1|1}$</h4><ol>
 <li><a href="https://arxiv.org/abs/1907.08124">JM Maillet, G Niccoli, L Vignoli, Separation of variables bases for integrable $gl_{\mathcal M|\mathcal N}$ and Hubbard models</a></li>
@@ -88,29 +52,6 @@
 <li><a href="http://www.tara.tcd.ie/bitstream/handle/2262/97300/Paul_Ryan_PhD_Final.pdf?sequence=1">Paul Ryan, Integrable systems, separation of variables and the Yang-Baxter equation</a></li>
 <li><a href="https://arxiv.org/abs/2004.02865">D Chernyak, S Leurent, D Volin, Completeness of Wronskian Bethe equations for rational $\mathfrak{gl}(m|n)$ spin chain</a></li>
 </ol>
-]]></content>
-  </entry>
-  <entry>
-    <title>Teaching</title>
-    <url>//teach.html</url>
-    <content><![CDATA[<h3 id="University-of-Denver"><a href="#University-of-Denver" class="headerlink" title="University of Denver"></a>University of Denver</h3><ul>
-<li>  MATH 1952 Calculus II, 2021 Spring</li>
-<li>  MATH 2070 Introduction to differential equations, 2021 Winter </li>
-<li>  MATH 1150 Introduction to Cryptography, 2021 Winter</li>
-<li>  MATH 1951 Calculus I, 2020 Fall (2 sessions)</li>
-</ul>
-<h3 id="IUPUI"><a href="#IUPUI" class="headerlink" title="IUPUI"></a>IUPUI</h3><ul>
-<li>  MATH 16500: Analytic Geometry and Calculus I, 2020 Summer I</li>
-<li>  MATH 15300: College Algebra, 2020 Spring</li>
-<li>  MATH 22100: Calculus for Technology I, 2020 Spring</li>
-<li>  MATH 15400: Trigonometry, 2019 Fall (2 sessions)</li>
-<li>  MATH 26600: Ordinary Differential Equations, 2019 Summer II</li>
-<li>  MATH 22100: Calculus for Technology I, 2019 Spring</li>
-<li>  MATH 11100: Intermediate Algebra, 2018 Fall</li>
-<li>  MATH 15400: Trigonometry, 2018 Summer II</li>
-<li>  MATH 11000: Fundamentals of Algebra, 2018 Spring</li>
-<li>  MATH 16500: Integrated Calculus and Analytic Geometry I, 2017 Fall (recitation, 2 sessions)</li>
-</ul>
 ]]></content>
   </entry>
   <entry>
@@ -145,9 +86,9 @@
 <p>See also <a href="https://mathscinet.ams.org/mathscinet/search/author.html?mrauthid=1181282">MathSciNet</a>.</p>
 </blockquote>
 <ol>
-<li><em>Bethe ansatz equations for orthosymplectic Lie superalgebra and self-dual superspaces</em><br> (with <a href="http://www.math.iupui.edu/~mukhin/">E. Mukhin</a>), <a href="https://doi.org/10.1007/s00023-021-01091-8">Annales Henri Poincaré</a>, (<a href="https://arxiv.org/abs/2103.16729">arXiv:2103.16729</a>)</li>
-<li><em>On the supersymmetric XXX spin chains associated to $\mathfrak{gl}_{1|1}$</em><br> (with <a href="http://www.math.iupui.edu/~mukhin/">E. Mukhin</a>), <a href="https://doi.org/10.1007/s00220-021-04155-2">Commun. Math. Phys. <strong>386</strong> (2021), 711–747</a>, (<a href="https://arxiv.org/abs/1910.13360">arXiv:1910.13360</a>)</li>
-<li><em>Jacobi-Trudi identity and Drinfeld functor for super Yangian</em><br> (with <a href="http://www.math.iupui.edu/~mukhin/">E. Mukhin</a>), Jul. 31, 2020. (<a href="https://arxiv.org/abs/2007.15573">arXiv:2007.15573</a>), <a href="http://dx.doi.org/10.1093/imrn/rnab023">Int. Math. Res. Not. IMRN</a>.</li>
+<li><em>Bethe ansatz equations for orthosymplectic Lie superalgebra and self-dual superspaces</em><br> (with <a href="http://www.math.iupui.edu/~mukhin/">E. Mukhin</a>), <a href="https://doi.org/10.1007/s00023-021-01091-8">Annales Henri Poincaré <strong>22</strong> (2021), 4087–4130 </a>, (<a href="https://arxiv.org/abs/2103.16729">arXiv:2103.16729</a>).</li>
+<li><em>On the supersymmetric XXX spin chains associated to $\mathfrak{gl}_{1|1}$</em><br> (with <a href="http://www.math.iupui.edu/~mukhin/">E. Mukhin</a>), <a href="https://doi.org/10.1007/s00220-021-04155-2">Commun. Math. Phys. <strong>386</strong> (2021), 711–747</a>, (<a href="https://arxiv.org/abs/1910.13360">arXiv:1910.13360</a>).</li>
+<li><em>Jacobi-Trudi identity and Drinfeld functor for super Yangian</em><br> (with <a href="http://www.math.iupui.edu/~mukhin/">E. Mukhin</a>), <a href="http://dx.doi.org/10.1093/imrn/rnab023">Int. Math. Res. Not. IMRN <strong>2021</strong> (2021), no. 21, 16749–16808</a>, (<a href="https://arxiv.org/abs/2007.15573">arXiv:2007.15573</a>).</li>
 <li><em>Perfect integrability and Gaudin models</em><br> <a href="https://doi.org/10.3842/SIGMA.2020.132">SIGMA <strong>16</strong> (2020), 132</a>, 10 pages, (<a href="https://arxiv.org/abs/2008.06825">arXiv:2008.06825</a>).</li>
 <li><em>Solutions of \(\mathfrak{gl}_{m|n}\) XXX Bethe ansatz equation and rational difference operators</em><br> (with Chenliang Huang, <a href="http://www.math.iupui.edu/~mukhin/">E. Mukhin</a>), <a href="https://doi.org/10.1088/1751-8121/ab1960">J. Phys. A: Math. Theor. <strong>52</strong> (2019) 375204 (31pp)</a>, (<a href="https://arxiv.org/abs/1811.11225">arXiv:1811.11225</a>)</li>
 <li><em>On the Gaudin model of type \(G_2\)</em><br> (with <a href="http://www.math.iupui.edu/~mukhin/">E. Mukhin</a>), <a href="https://doi.org/10.1142/S0219199718500128">Commun. Contemp. Math. <strong>21</strong> (2019), no. 3, 1850012, 31 pages</a>, (<a href="https://arxiv.org/abs/1711.02511">arXiv:1711.02511</a>)</li>
@@ -159,6 +100,65 @@
 <blockquote>
 <p>My <a href="http://www.ams.org/mathscinet/collaborationDistance.html">Erdös Number</a>: 4.<br>Paul Erdős–&gt;<a href="http://www.ams.org/mathscinet-getitem?mr=34972">Shizuo Kakutani</a>–&gt;<a href="http://www.ams.org/mathscinet-getitem?mr=612450">Karl Endel Petersen</a>–&gt;<a href="http://www.ams.org/mathscinet-getitem?mr=2779260">A. N. Varchenko</a>–&gt;<a href="https://doi.org/10.1063/1.4964389">Kang Lu</a></p>
 </blockquote>
+]]></content>
+  </entry>
+  <entry>
+    <title>Research</title>
+    <url>//research.html</url>
+    <content><![CDATA[<h3 id="Research-Interests"><a href="#Research-Interests" class="headerlink" title="Research Interests"></a><a href="#Research-Interests" title="Research Interests"></a>Research Interests</h3><p>Generally speaking, I am interested in <a href="https://arxiv.org/list/math.RT/recent">Representation Theory</a> and <a href="https://arxiv.org/list/math.QA/recent">Quantum Algebras</a>.</p>
+<p>More specifically, my current research interests are: Bethe ansatz method, Representation Theory of Quantum Groups, Lie Algebras and Superalgebras, and Integrable System.</p>
+<h3 id="Preprints"><a href="#Preprints" class="headerlink" title="Preprints"></a>Preprints</h3><blockquote>
+<p>See also <a href="https://arxiv.org/a/lu_k_2.html"><i class="ai ai-arxiv "></i> arXiv</a></p>
+</blockquote>
+<ol>
+<li><em>Schur-Weyl duality for quantum toroidal superalgebras</em><br> Sept. 21, (<a href="https://arxiv.org/abs/2109.09005">arXiv:2109.09005</a>)</li>
+<li><em>Gelfand-Tsetlin bases of representations for super Yangian and quantum affine superalgebra</em><br> Mar. 16, (<a href="https://arxiv.org/abs/2103.08758">arXiv:2103.08758</a>), submitted.</li>
+<li><em>Fine gradings of complex simple Lie algebras and Finite Root Systems</em><br> (with <a href="http://www.math.zju.edu.cn/hangang/">Gang Han</a>, Jun Yu), 29 Oct. 2014. (<a href="https://arxiv.org/abs/1410.7945">arXiv:1410.7945</a>) not for publication.</li>
+</ol>
+<h3 id="Publications"><a href="#Publications" class="headerlink" title="Publications"></a>Publications</h3><blockquote>
+<p>See also <a href="https://mathscinet.ams.org/mathscinet/search/author.html?mrauthid=1181282">MathSciNet</a>.</p>
+</blockquote>
+<ol>
+<li><em>Bethe ansatz equations for orthosymplectic Lie superalgebra and self-dual superspaces</em><br> (with <a href="http://www.math.iupui.edu/~mukhin/">E. Mukhin</a>), <a href="https://doi.org/10.1007/s00023-021-01091-8">Annales Henri Poincaré <strong>22</strong> (2021), 4087–4130 </a>, (<a href="https://arxiv.org/abs/2103.16729">arXiv:2103.16729</a>).</li>
+<li><em>On the supersymmetric XXX spin chains associated to $\mathfrak{gl}_{1|1}$</em><br> (with <a href="http://www.math.iupui.edu/~mukhin/">E. Mukhin</a>), <a href="https://doi.org/10.1007/s00220-021-04155-2">Commun. Math. Phys. <strong>386</strong> (2021), 711–747</a>, (<a href="https://arxiv.org/abs/1910.13360">arXiv:1910.13360</a>).</li>
+<li><em>Jacobi-Trudi identity and Drinfeld functor for super Yangian</em><br> (with <a href="http://www.math.iupui.edu/~mukhin/">E. Mukhin</a>), <a href="http://dx.doi.org/10.1093/imrn/rnab023">Int. Math. Res. Not. IMRN <strong>2021</strong> (2021), no. 21, 16749–16808</a>, (<a href="https://arxiv.org/abs/2007.15573">arXiv:2007.15573</a>).</li>
+<li><em>Perfect integrability and Gaudin models</em><br> <a href="https://doi.org/10.3842/SIGMA.2020.132">SIGMA <strong>16</strong> (2020), 132</a>, 10 pages, (<a href="https://arxiv.org/abs/2008.06825">arXiv:2008.06825</a>).</li>
+<li><em>Solutions of \(\mathfrak{gl}_{m|n}\) XXX Bethe ansatz equation and rational difference operators</em><br> (with Chenliang Huang, <a href="http://www.math.iupui.edu/~mukhin/">E. Mukhin</a>), <a href="https://doi.org/10.1088/1751-8121/ab1960">J. Phys. A: Math. Theor. <strong>52</strong> (2019) 375204 (31pp)</a>, (<a href="https://arxiv.org/abs/1811.11225">arXiv:1811.11225</a>)</li>
+<li><em>On the Gaudin model of type \(G_2\)</em><br> (with <a href="http://www.math.iupui.edu/~mukhin/">E. Mukhin</a>), <a href="https://doi.org/10.1142/S0219199718500128">Commun. Contemp. Math. <strong>21</strong> (2019), no. 3, 1850012, 31 pages</a>, (<a href="https://arxiv.org/abs/1711.02511">arXiv:1711.02511</a>)</li>
+<li><em>Multiplicity free gradings on semisimple Lie and Jordan algebras and skew root systems</em><br> (with <a href="http://www.math.zju.edu.cn/hangang/">Gang Han</a>, Yucheng Liu), <a href="https://doi.org/10.1142/S1005386719000129">Algebra Colloq. <strong>26</strong> (2019), no. 1, 123-138</a>, (<a href="https://arxiv.org/abs/1611.03943">arXiv:1611.03943</a>)</li>
+<li><em>Lower bounds for numbers of real self-dual spaces in problems of Schubert calculus</em><br> <a href="https://doi.org/10.3842/SIGMA.2018.046">SIGMA <strong>14</strong> (2018), 046</a>, 15 pages, (<a href="https://arxiv.org/abs/1710.06534">arXiv:1710.06534</a>)</li>
+<li><em>Self-dual Grassmannian, Wronski map, and representations of \(\mathfrak{gl}_N\), \(\mathfrak{sp}_{2r}\), \(\mathfrak{so}_{2r+1}\)</em><br> (with <a href="http://www.math.iupui.edu/~mukhin/">E. Mukhin</a>, <a href="http://varchenko.web.unc.edu/">A. Varchenko</a>), <a href="https://dx.doi.org/10.4310/PAMQ.2017.v13.n2.a4">Pure Appl. Math. Q. <strong>13</strong> (2017), no.2, 291 – 335</a> , a special issue of in honor of Yuri Manin’s 80-th birthday, (<a href="https://arxiv.org/abs/1705.02048">arXiv:1705.02048</a>)</li>
+<li><em>On the Gaudin model associated to Lie algebras of classical types</em><br>(with <a href="http://www.math.iupui.edu/~mukhin/">E. Mukhin</a>, <a href="http://varchenko.web.unc.edu/">A. Varchenko</a>), <a href="https://doi.org/10.1063/1.4964389">J. Math. Phys. <strong>57</strong> (2016), 101703, 23 pages</a> (<a href="https://arxiv.org/abs/1512.08524">arXiv:1512.08524</a>)</li>
+</ol>
+]]></content>
+  </entry>
+  <entry>
+    <title>Teaching</title>
+    <url>//teach.html</url>
+    <content><![CDATA[<h3 id="University-of-Denver"><a href="#University-of-Denver" class="headerlink" title="University of Denver"></a>University of Denver</h3><ul>
+<li>  MATH 1952 Calculus II, 2021 Spring</li>
+<li>  MATH 2070 Introduction to differential equations, 2021 Winter </li>
+<li>  MATH 1150 Introduction to Cryptography, 2021 Winter</li>
+<li>  MATH 1951 Calculus I, 2020 Fall (2 sessions)</li>
+</ul>
+<h3 id="IUPUI"><a href="#IUPUI" class="headerlink" title="IUPUI"></a>IUPUI</h3><ul>
+<li>  MATH 16500: Analytic Geometry and Calculus I, 2020 Summer I</li>
+<li>  MATH 15300: College Algebra, 2020 Spring</li>
+<li>  MATH 22100: Calculus for Technology I, 2020 Spring</li>
+<li>  MATH 15400: Trigonometry, 2019 Fall (2 sessions)</li>
+<li>  MATH 26600: Ordinary Differential Equations, 2019 Summer II</li>
+<li>  MATH 22100: Calculus for Technology I, 2019 Spring</li>
+<li>  MATH 11100: Intermediate Algebra, 2018 Fall</li>
+<li>  MATH 15400: Trigonometry, 2018 Summer II</li>
+<li>  MATH 11000: Fundamentals of Algebra, 2018 Spring</li>
+<li>  MATH 16500: Integrated Calculus and Analytic Geometry I, 2017 Fall (recitation, 2 sessions)</li>
+</ul>
+]]></content>
+  </entry>
+  <entry>
+    <title>Step-by-step guide to Webassign</title>
+    <url>//webassign.html</url>
+    <content><![CDATA[<p><img src="/img/webassign/1.png"><br><img src="/img/webassign/2.png"><br><img src="/img/webassign/3.png"><br><img src="/img/webassign/4.png"><br><img src="/img/webassign/5.png"><br><img src="/img/webassign/6.png"><br><img src="/img/webassign/7.png"><br><img src="/img/webassign/8.png"><br><img src="/img/webassign/9.png"><br><img src="/img/webassign/10.png"><br><img src="/img/webassign/11.png"><br><img src="/img/webassign/12.png"></p>
 ]]></content>
   </entry>
 </search>
