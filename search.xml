@@ -1,34 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Activities</title>
-    <url>//activities.html</url>
-    <content><![CDATA[<h3 id="Upcoming-talks"><a href="#Upcoming-talks" class="headerlink" title="Upcoming talks"></a><a href="#Upcoming-travels" title="Upcoming talks"></a>Upcoming talks</h3><p>None</p>
-<h3 id="Past-talks"><a href="#Past-talks" class="headerlink" title="Past talks"></a><a href="#Past-travels" title="Past travels"></a>Past talks</h3><ul>
-<li><a href="http://www.ams.org/meetings/sectional/2287_special.html">2021 AMS Spring Southeastern Sectional Meeting</a>, <a href="http://www.ams.org/meetings/sectional/2287_program_ss13.html#title">Special Session on Superalgebras, Quantum Groups, and Related Topics</a>.<br> <strong>Talk</strong>: Skew representations of super Yangian</li>
-<li><a href="https://sites.google.com/view/rockymountainreptheory/home">Rocky Mountain Representation Theory Seminar</a>, Zoom, March 11, 2021.<br> <strong>Talk</strong>: Skew representations of super Yangian</li>
-<li><a href="https://research.math.osu.edu/reps/">Representations and Lie Theory</a>, @ Ohio State University, Zoom, February 17, 2021.<br> <strong>Talk</strong>: Skew representations of super Yangian</li>
-<li>  <del><a href="http://www.ams.org/meetings/sectional/2280_program.html">2020 AMS Spring Central Sectional Meeting</a>, @ Purdue University, West Lafayette, IN, April 4-5, 2020, canceled due to COVID-19.</del></li>
-<li><a href="http://jointmathematicsmeetings.org/meetings/national/jmm2020/2245_progfull.html">Joint Mathematics Meetings 2020</a>, @ Colorado Convention Center, Denver, CO January 15-18, 2020.<br>  <strong>Talk</strong>: <a href="/slides/susy-XXX-spin-chain.pdf">On the $\mathfrak{gl}_{1|1}$ supersymmetric XXX spin chains.</a></li>
-<li><a href="https://math.virginia.edu/seminars/algebra/">Algebra seminar</a>, @ University of Virginia, Charlottesville, VA, November 15, 2019.<br>  <strong>Talk</strong>: <a href="https://math.virginia.edu/seminars/algebra/2019-20/">Jacobi-Trudi identity, Berezinian, and transfer matrices</a></li>
-<li><a href="https://math.unc.edu/seminars/physically-inspired-mathematics-seminar/">Physically inspired mathematics seminar</a>, @ University of North Carolina, Chapel Hill, NC, October 4, 2019.<br>  <strong>Talk</strong>: <a href="https://math.unc.edu/event/kang-lu-indiana-university-purdue-university-indianapolis-physically-inspired-mathematics-seminar/">Supersymmetric quantum spin chains</a></li>
-<li>  <a href="http://www.ams.org/meetings/sectional/2267_program.html">2019 AMS Fall Central Sectional Meeting</a>, @ University of Wisconsin-Madison, Madison, WI, September 14-15, 2019.</li>
-<li><a href="http://rtis2019.math.iupui.edu/">Representation Theory and Integrable Systems</a>, on the occasion of the 60th birthday of <a href="https://math.iupui.edu/people/tarasov-vitaly">V. Tarasov</a> and the 70th birthday of <a href="http://varchenko.web.unc.edu/">A. Varchenko</a>, @ ETHZ, Zurich, Switzerland, August 12-16, 2019.<br>  <strong>Talk</strong>: On the supersymmetric XXX spin chain associated to $\mathfrak{gl}_{1|1}$</li>
-<li><a href="http://www.ams.org/meetings/sectional/2265_program.html">2019 AMS Spring Eastern Sectional Meeting</a>, @ University of Connecticut, Hartford, CT, April 13-14, 2019.<br>  <strong>Talk</strong>: On the supersymmetric XXX spin chain</li>
-<li><a href="http://www.ams.org/meetings/sectional/2261_program.html">2019 AMS Spring Southeastern Sectional Meeting</a>, @ Auburn University, Auburn, AL, March 15-17, 2019.<br>  <strong>Talk</strong>: Self-dual Grassmannian and Representations of \(\mathfrak{gl}_N\), \(\mathfrak{sp}_{2r}\), and \(\mathfrak{so}_{2r+1}\)</li>
-<li>  <a href="https://conferences.cirm-math.fr/1746.html">Representation Theory, Mathematical Physics and Integrable Systems</a>, in honor of the 60th birthday of <a href="https://math.berkeley.edu/~reshetik/">N. Reshetikhin</a>, @ CIRM – Luminy, June 4-8, 2018.</li>
-<li>  <a href="http://monge.u-bourgogne.fr/gdito/masaki70/index.php?page=home">Algebraic Analysis</a>, in honor of <a href="http://www.kurims.kyoto-u.ac.jp/~kenkyubu/kashiwara/">Masaki Kashiwara</a>’s 70th birthday, @ IHÉS, June 6-9, 2017.</li>
-<li><a href="http://reims.math.cnrs.fr/pevzner/aak81.html">Representation Theory at the Crossroads of Modern Mathematics</a>, in honor of <a href="https://www.math.upenn.edu/~kirillov/">A. Kirillov</a>’s 80th birthday, @ Université de Reims Champagne Ardenne, May 29-June 2, 2017.<br>  <strong>Poster</strong>: <a href="/writings/poster-Reims.pdf">Self-dual Grassmannian and Representations of \(\mathfrak{gl}_N\), \(\mathfrak{sp}_{2r}\), and \(\mathfrak{so}_{2r+1}\)</a><br>  <strong>Picture</strong>: <a href="/img/Reims2017.JPG">click here</a>.</li>
-<li><a href="http://www.ams.org/meetings/sectional/2233_program.html">2017 AMS Spring Central Sectional Meeting</a>, @ Indiana University, Bloomington, IN, April 1-2, 2017.<br>  <strong>Talk</strong>: <a href="/writings/ams-sec-2017.pdf">Bethe ansatz method in Gaudin Model</a></li>
-<li>  <a href="https://sites.google.com/site/algecomday/algecom-13-1">Algebra, Geometry and Combinatorics Day (ALGECOM-13)</a>, @ University of Notre Dame, April 30, 2016.</li>
-<li>  <a href="http://www3.nd.edu/~conf/LieConf15/">Lie Algebras, Vertex Operator Algebras, and Related Topics</a>, in honor of <a href="https://www.math.rutgers.edu/component/comprofiler/userprofile/lepowsky">J. Lepowsky</a> and <a href="http://sites.math.rutgers.edu/~rwilson/">R. Wilson</a>, @ University of Notre Dame, Aug 14-18, 2015.</li>
-</ul>
-]]></content>
-  </entry>
-  <entry>
     <title>Citations by others</title>
     <url>//citations.html</url>
-    <content><![CDATA[<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Total: 13.5</span><br></pre></td></tr></table></figure>
+    <content><![CDATA[<h2 id="Independent-citations"><a href="#Independent-citations" class="headerlink" title="Independent citations"></a>Independent citations</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Total: 14.5</span><br></pre></td></tr></table></figure>
 
 <h4 id="On-the-Gaudin-model-associated-to-Lie-algebras-of-classical-types"><a href="#On-the-Gaudin-model-associated-to-Lie-algebras-of-classical-types" class="headerlink" title="On the Gaudin model associated to Lie algebras of classical types"></a>On the Gaudin model associated to Lie algebras of classical types</h4><ol>
 <li><a href="https://doi.org/10.1093/imrn/rny245">L Rybnikov, A proof of the Gaudin Bethe Ansatz conjecture</a></li>
@@ -55,6 +30,61 @@
 <li><a href="https://www.sciencedirect.com/science/article/pii/S0550321321002601?via=ihub">Zengo Tsuboi, Boson-Fermion correspondence, QQ-relations and Wronskian solutions of the T-system</a></li>
 <li><a href="http://www.tara.tcd.ie/bitstream/handle/2262/97300/Paul_Ryan_PhD_Final.pdf?sequence=1">Paul Ryan, Integrable systems, separation of variables and the Yang-Baxter equation</a></li>
 <li><a href="https://arxiv.org/abs/2004.02865">D Chernyak, S Leurent, D Volin, Completeness of Wronskian Bethe equations for rational $\mathfrak{gl}(m|n)$ spin chain</a></li>
+</ol>
+<h4 id="A-note-on-odd-reflections-of-super-Yangian-and-Bethe-ansatz"><a href="#A-note-on-odd-reflections-of-super-Yangian-and-Bethe-ansatz" class="headerlink" title="A note on odd reflections of super Yangian and Bethe ansatz"></a>A note on odd reflections of super Yangian and Bethe ansatz</h4><ol>
+<li><a href="https://link.springer.com/article/10.1007/s11005-021-01501-2">Odd reflections in the Yangian associated with \(\mathfrak{gl}_{m|n}\)</a></li>
+</ol>
+<h2 id="Self-citations"><a href="#Self-citations" class="headerlink" title="Self citations"></a>Self citations</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Total: 29 + 6 (Thesis)</span><br></pre></td></tr></table></figure>
+
+<h4 id="On-the-Gaudin-model-associated-to-Lie-algebras-of-classical-types-1"><a href="#On-the-Gaudin-model-associated-to-Lie-algebras-of-classical-types-1" class="headerlink" title="On the Gaudin model associated to Lie algebras of classical types"></a>On the Gaudin model associated to Lie algebras of classical types</h4><ol>
+<li>Self-dual Grassmannian, Wronski map, and representations of \(\mathfrak{gl}_N\), \(\mathfrak{sp}_{2r}\), \(\mathfrak{so}_{2r+1}\)</li>
+<li>Lower Bounds for Numbers of Real Self-Dual Spaces in Problems of Schubert Calculus</li>
+<li>On the Gaudin model of type G$_2$</li>
+</ol>
+<h4 id="Self-dual-Grassmannian-Wronski-map-and-representations-of-mathfrak-gl-N-mathfrak-sp-2r-mathfrak-so-2r-1-1"><a href="#Self-dual-Grassmannian-Wronski-map-and-representations-of-mathfrak-gl-N-mathfrak-sp-2r-mathfrak-so-2r-1-1" class="headerlink" title="Self-dual Grassmannian, Wronski map, and representations of \(\mathfrak{gl}_N\), \(\mathfrak{sp}_{2r}\), \(\mathfrak{so}_{2r+1}\)"></a>Self-dual Grassmannian, Wronski map, and representations of \(\mathfrak{gl}_N\), \(\mathfrak{sp}_{2r}\), \(\mathfrak{so}_{2r+1}\)</h4><ol>
+<li>Lower Bounds for Numbers of Real Self-Dual Spaces in Problems of Schubert Calculus</li>
+<li>On the Gaudin model of type G$_2$</li>
+<li>Perfect integrability and Gaudin models</li>
+<li>Bethe ansatz equations for orthosymplectic Lie superalgebra and self-dual superspaces</li>
+</ol>
+<h4 id="Lower-Bounds-for-Numbers-of-Real-Self-Dual-Spaces-in-Problems-of-Schubert-Calculus"><a href="#Lower-Bounds-for-Numbers-of-Real-Self-Dual-Spaces-in-Problems-of-Schubert-Calculus" class="headerlink" title="Lower Bounds for Numbers of Real Self-Dual Spaces in Problems of Schubert Calculus"></a>Lower Bounds for Numbers of Real Self-Dual Spaces in Problems of Schubert Calculus</h4><ol>
+<li>Perfect integrability and Gaudin models</li>
+<li>Bethe ansatz equations for orthosymplectic Lie superalgebra and self-dual superspaces</li>
+</ol>
+<h4 id="On-the-Gaudin-model-of-type-G-2"><a href="#On-the-Gaudin-model-of-type-G-2" class="headerlink" title="On the Gaudin model of type G$_2$"></a>On the Gaudin model of type G$_2$</h4><ol>
+<li>Lower Bounds for Numbers of Real Self-Dual Spaces in Problems of Schubert Calculus</li>
+<li>Perfect integrability and Gaudin models</li>
+</ol>
+<h4 id="Solutions-of-mathfrak-gl-m-n-XXX-Bethe-ansatz-equation-and-rational-difference-operators-1"><a href="#Solutions-of-mathfrak-gl-m-n-XXX-Bethe-ansatz-equation-and-rational-difference-operators-1" class="headerlink" title="Solutions of \(\mathfrak{gl}_{m|n}\) XXX Bethe ansatz equation and rational difference operators"></a>Solutions of \(\mathfrak{gl}_{m|n}\) XXX Bethe ansatz equation and rational difference operators</h4><ol>
+<li>On the supersymmetric XXX spin chains associated to $\mathfrak{gl}_{1|1}$</li>
+<li>Jacobi-Trudi identity and Drinfeld functor for super Yangian</li>
+<li>Gelfand-Tsetlin bases of representations for super Yangian and quantum affine superalgebra</li>
+<li>Bethe ansatz equations for orthosymplectic Lie superalgebra and self-dual superspaces</li>
+<li>A note on odd reflections of super Yangian and Bethe ansatz</li>
+</ol>
+<h4 id="On-the-supersymmetric-XXX-spin-chains-associated-to-mathfrak-gl-1-1-1"><a href="#On-the-supersymmetric-XXX-spin-chains-associated-to-mathfrak-gl-1-1-1" class="headerlink" title="On the supersymmetric XXX spin chains associated to $\mathfrak{gl}_{1|1}$"></a>On the supersymmetric XXX spin chains associated to $\mathfrak{gl}_{1|1}$</h4><ol>
+<li>Perfect integrability and Gaudin models</li>
+<li>Jacobi-Trudi identity and Drinfeld functor for super Yangian</li>
+<li>Solutions of \(\mathfrak{gl}_{m|n}\) XXX Bethe ansatz equation and rational difference operators</li>
+<li>Bethe ansatz equations for orthosymplectic Lie superalgebra and self-dual superspaces</li>
+<li>Gelfand-Tsetlin bases of representations for super Yangian and quantum affine superalgebra</li>
+<li>A note on odd reflections of super Yangian and Bethe ansatz</li>
+</ol>
+<h4 id="Perfect-integrability-and-Gaudin-models-1"><a href="#Perfect-integrability-and-Gaudin-models-1" class="headerlink" title="Perfect integrability and Gaudin models"></a>Perfect integrability and Gaudin models</h4><ol>
+<li>Bethe ansatz equations for orthosymplectic Lie superalgebra and self-dual superspaces</li>
+</ol>
+<h4 id="Jacobi-Trudi-identity-and-Drinfeld-functor-for-super-Yangian-1"><a href="#Jacobi-Trudi-identity-and-Drinfeld-functor-for-super-Yangian-1" class="headerlink" title="Jacobi-Trudi identity and Drinfeld functor for super Yangian"></a>Jacobi-Trudi identity and Drinfeld functor for super Yangian</h4><ol>
+<li>Bethe ansatz equations for orthosymplectic Lie superalgebra and self-dual superspaces</li>
+<li>Gelfand-Tsetlin bases of representations for super Yangian and quantum affine superalgebra</li>
+<li>Schur-Weyl duality for quantum toroidal superalgebras</li>
+<li>A note on odd reflections of super Yangian and Bethe ansatz</li>
+</ol>
+<h4 id="Gelfand-Tsetlin-bases-of-representations-for-super-Yangian-and-quantum-affine-superalgebra"><a href="#Gelfand-Tsetlin-bases-of-representations-for-super-Yangian-and-quantum-affine-superalgebra" class="headerlink" title="Gelfand-Tsetlin bases of representations for super Yangian and quantum affine superalgebra"></a>Gelfand-Tsetlin bases of representations for super Yangian and quantum affine superalgebra</h4><ol>
+<li>Schur-Weyl duality for quantum toroidal superalgebras</li>
+<li>A note on odd reflections of super Yangian and Bethe ansatz</li>
+</ol>
+<h4 id="Bethe-ansatz-equations-for-orthosymplectic-Lie-superalgebra-and-self-dual-superspaces"><a href="#Bethe-ansatz-equations-for-orthosymplectic-Lie-superalgebra-and-self-dual-superspaces" class="headerlink" title="Bethe ansatz equations for orthosymplectic Lie superalgebra and self-dual superspaces"></a>Bethe ansatz equations for orthosymplectic Lie superalgebra and self-dual superspaces</h4><ol>
+<li>A note on odd reflections of super Yangian and Bethe ansatz</li>
 </ol>
 ]]></content>
   </entry>
@@ -113,9 +143,28 @@
 ]]></content>
   </entry>
   <entry>
-    <title>Step-by-step guide to Webassign</title>
-    <url>//webassign.html</url>
-    <content><![CDATA[<p><img src="/img/webassign/1.png"><br><img src="/img/webassign/2.png"><br><img src="/img/webassign/3.png"><br><img src="/img/webassign/4.png"><br><img src="/img/webassign/5.png"><br><img src="/img/webassign/6.png"><br><img src="/img/webassign/7.png"><br><img src="/img/webassign/8.png"><br><img src="/img/webassign/9.png"><br><img src="/img/webassign/10.png"><br><img src="/img/webassign/11.png"><br><img src="/img/webassign/12.png"></p>
+    <title>Activities</title>
+    <url>//activities.html</url>
+    <content><![CDATA[<h3 id="Upcoming-talks"><a href="#Upcoming-talks" class="headerlink" title="Upcoming talks"></a><a href="#Upcoming-travels" title="Upcoming talks"></a>Upcoming talks</h3><p>None</p>
+<h3 id="Past-talks"><a href="#Past-talks" class="headerlink" title="Past talks"></a><a href="#Past-travels" title="Past travels"></a>Past talks</h3><ul>
+<li><a href="http://www.ams.org/meetings/sectional/2287_special.html">2021 AMS Spring Southeastern Sectional Meeting</a>, <a href="http://www.ams.org/meetings/sectional/2287_program_ss13.html#title">Special Session on Superalgebras, Quantum Groups, and Related Topics</a>.<br> <strong>Talk</strong>: Skew representations of super Yangian</li>
+<li><a href="https://sites.google.com/view/rockymountainreptheory/home">Rocky Mountain Representation Theory Seminar</a>, Zoom, March 11, 2021.<br> <strong>Talk</strong>: Skew representations of super Yangian</li>
+<li><a href="https://research.math.osu.edu/reps/">Representations and Lie Theory</a>, @ Ohio State University, Zoom, February 17, 2021.<br> <strong>Talk</strong>: Skew representations of super Yangian</li>
+<li>  <del><a href="http://www.ams.org/meetings/sectional/2280_program.html">2020 AMS Spring Central Sectional Meeting</a>, @ Purdue University, West Lafayette, IN, April 4-5, 2020, canceled due to COVID-19.</del></li>
+<li><a href="http://jointmathematicsmeetings.org/meetings/national/jmm2020/2245_progfull.html">Joint Mathematics Meetings 2020</a>, @ Colorado Convention Center, Denver, CO January 15-18, 2020.<br>  <strong>Talk</strong>: <a href="/slides/susy-XXX-spin-chain.pdf">On the $\mathfrak{gl}_{1|1}$ supersymmetric XXX spin chains.</a></li>
+<li><a href="https://math.virginia.edu/seminars/algebra/">Algebra seminar</a>, @ University of Virginia, Charlottesville, VA, November 15, 2019.<br>  <strong>Talk</strong>: <a href="https://math.virginia.edu/seminars/algebra/2019-20/">Jacobi-Trudi identity, Berezinian, and transfer matrices</a></li>
+<li><a href="https://math.unc.edu/seminars/physically-inspired-mathematics-seminar/">Physically inspired mathematics seminar</a>, @ University of North Carolina, Chapel Hill, NC, October 4, 2019.<br>  <strong>Talk</strong>: <a href="https://math.unc.edu/event/kang-lu-indiana-university-purdue-university-indianapolis-physically-inspired-mathematics-seminar/">Supersymmetric quantum spin chains</a></li>
+<li>  <a href="http://www.ams.org/meetings/sectional/2267_program.html">2019 AMS Fall Central Sectional Meeting</a>, @ University of Wisconsin-Madison, Madison, WI, September 14-15, 2019.</li>
+<li><a href="http://rtis2019.math.iupui.edu/">Representation Theory and Integrable Systems</a>, on the occasion of the 60th birthday of <a href="https://math.iupui.edu/people/tarasov-vitaly">V. Tarasov</a> and the 70th birthday of <a href="http://varchenko.web.unc.edu/">A. Varchenko</a>, @ ETHZ, Zurich, Switzerland, August 12-16, 2019.<br>  <strong>Talk</strong>: On the supersymmetric XXX spin chain associated to $\mathfrak{gl}_{1|1}$</li>
+<li><a href="http://www.ams.org/meetings/sectional/2265_program.html">2019 AMS Spring Eastern Sectional Meeting</a>, @ University of Connecticut, Hartford, CT, April 13-14, 2019.<br>  <strong>Talk</strong>: On the supersymmetric XXX spin chain</li>
+<li><a href="http://www.ams.org/meetings/sectional/2261_program.html">2019 AMS Spring Southeastern Sectional Meeting</a>, @ Auburn University, Auburn, AL, March 15-17, 2019.<br>  <strong>Talk</strong>: Self-dual Grassmannian and Representations of \(\mathfrak{gl}_N\), \(\mathfrak{sp}_{2r}\), and \(\mathfrak{so}_{2r+1}\)</li>
+<li>  <a href="https://conferences.cirm-math.fr/1746.html">Representation Theory, Mathematical Physics and Integrable Systems</a>, in honor of the 60th birthday of <a href="https://math.berkeley.edu/~reshetik/">N. Reshetikhin</a>, @ CIRM – Luminy, June 4-8, 2018.</li>
+<li>  <a href="http://monge.u-bourgogne.fr/gdito/masaki70/index.php?page=home">Algebraic Analysis</a>, in honor of <a href="http://www.kurims.kyoto-u.ac.jp/~kenkyubu/kashiwara/">Masaki Kashiwara</a>’s 70th birthday, @ IHÉS, June 6-9, 2017.</li>
+<li><a href="http://reims.math.cnrs.fr/pevzner/aak81.html">Representation Theory at the Crossroads of Modern Mathematics</a>, in honor of <a href="https://www.math.upenn.edu/~kirillov/">A. Kirillov</a>’s 80th birthday, @ Université de Reims Champagne Ardenne, May 29-June 2, 2017.<br>  <strong>Poster</strong>: <a href="/writings/poster-Reims.pdf">Self-dual Grassmannian and Representations of \(\mathfrak{gl}_N\), \(\mathfrak{sp}_{2r}\), and \(\mathfrak{so}_{2r+1}\)</a><br>  <strong>Picture</strong>: <a href="/img/Reims2017.JPG">click here</a>.</li>
+<li><a href="http://www.ams.org/meetings/sectional/2233_program.html">2017 AMS Spring Central Sectional Meeting</a>, @ Indiana University, Bloomington, IN, April 1-2, 2017.<br>  <strong>Talk</strong>: <a href="/writings/ams-sec-2017.pdf">Bethe ansatz method in Gaudin Model</a></li>
+<li>  <a href="https://sites.google.com/site/algecomday/algecom-13-1">Algebra, Geometry and Combinatorics Day (ALGECOM-13)</a>, @ University of Notre Dame, April 30, 2016.</li>
+<li>  <a href="http://www3.nd.edu/~conf/LieConf15/">Lie Algebras, Vertex Operator Algebras, and Related Topics</a>, in honor of <a href="https://www.math.rutgers.edu/component/comprofiler/userprofile/lepowsky">J. Lepowsky</a> and <a href="http://sites.math.rutgers.edu/~rwilson/">R. Wilson</a>, @ University of Notre Dame, Aug 14-18, 2015.</li>
+</ul>
 ]]></content>
   </entry>
   <entry>
@@ -165,6 +214,12 @@
 <blockquote>
 <p>My <a href="http://www.ams.org/mathscinet/collaborationDistance.html">Erdös Number</a>: 4.<br>Paul Erdős–&gt;<a href="http://www.ams.org/mathscinet-getitem?mr=34972">Shizuo Kakutani</a>–&gt;<a href="http://www.ams.org/mathscinet-getitem?mr=612450">Karl Endel Petersen</a>–&gt;<a href="http://www.ams.org/mathscinet-getitem?mr=2779260">A. N. Varchenko</a>–&gt;<a href="https://doi.org/10.1063/1.4964389">Kang Lu</a></p>
 </blockquote>
+]]></content>
+  </entry>
+  <entry>
+    <title>Step-by-step guide to Webassign</title>
+    <url>//webassign.html</url>
+    <content><![CDATA[<p><img src="/img/webassign/1.png"><br><img src="/img/webassign/2.png"><br><img src="/img/webassign/3.png"><br><img src="/img/webassign/4.png"><br><img src="/img/webassign/5.png"><br><img src="/img/webassign/6.png"><br><img src="/img/webassign/7.png"><br><img src="/img/webassign/8.png"><br><img src="/img/webassign/9.png"><br><img src="/img/webassign/10.png"><br><img src="/img/webassign/11.png"><br><img src="/img/webassign/12.png"></p>
 ]]></content>
   </entry>
 </search>
