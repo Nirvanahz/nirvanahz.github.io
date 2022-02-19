@@ -1,0 +1,411 @@
+\documentclass[11pt,reqno]{amsart}
+\usepackage{amsmath,amssymb,graphicx,times,mathrsfs,amsopn,stmaryrd,amsthm,color,bm}
+\usepackage[colorlinks=true,citecolor=blue,linkcolor=blue]{hyperref}
+\usepackage[scr=boondoxo]{mathalfa}
+\usepackage{geometry}
+\geometry{verbose,margin=2.25cm}
+%\linespread{1.1}
+\usepackage[alphabetic,nobysame]{amsrefs}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\numberwithin{equation}{section}
+\newtheorem{thm}{Theorem}[section]
+\newtheorem{prop}[thm]{Proposition}
+\newtheorem{lem}[thm]{Lemma}
+\newtheorem{cor}[thm]{Corollary}
+\newtheorem{conj}[thm]{Conjecture}
+\newtheorem{open}[thm]{Question}
+\theoremstyle{definition} 
+\newtheorem{eg}[thm]{Example}
+\newtheorem{dfn}[thm]{Definition}
+\theoremstyle{remark}
+\newtheorem{rem}[thm]{Remark}
+
+\renewcommand{\theequation}{\thesection.\arabic{equation}}
+\def\theenumi{\roman{enumi}}
+\def\labelenumi{(\theenumi)}
+
+\newcommand{\beq}{\begin{equation}}
+\newcommand{\eeq}{\end{equation}}
+\newcommand{\be}{\begin{equation*}}
+\newcommand{\ee}{\end{equation*}}
+\newcommand{\bs}{\boldsymbol}
+
+%%%%%%%%%%%  mathbb  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\bK}{\mathbb{K}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\bP}{\mathbb{P}}
+\newcommand{\bB}{\mathbb{B}}
+\newcommand{\bV}{\mathbb{V}}
+
+%%%%%%%%%%%  mathcal  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\mc}{\mathcal}
+\newcommand{\cD}{\mathcal{D}}
+\newcommand{\cF}{\mathcal{F}}
+\newcommand{\cK}{\mathcal{K}}
+\newcommand{\cR}{\mathcal{R}}
+\newcommand{\cT}{\mathcal{T}}
+
+%%%%%%%%%%%  mathfrak  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\mfk}{\mathfrak}
+\newcommand{\gl}{\mathfrak{gl}}
+\newcommand{\slt}{{\mathfrak{sl}_2}}
+\newcommand{\g}{\mathfrak{g}}
+\newcommand{\h}{\mathfrak{h}}
+\newcommand{\n}{\mathfrak{n}}
+\newcommand{\fkb}{\mathfrak{b}}
+\newcommand{\fksl}{\mathfrak{sl}}
+\newcommand{\fkS}{\mathfrak{S}}
+\newcommand{\fkT}{\mathfrak{T}}
+
+%%%%%%%%%%%  mathrm  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\Wr}{\mathrm{Wr}}
+\newcommand{\rY}{\mathrm{Y}}
+\newcommand{\End}{\mathrm{End}}
+\newcommand{\ord}{\mathrm{ord}}
+\newcommand{\id}{{\mathrm{id}}}   
+\newcommand{\sing}{{\mathrm{sing}}}   
+\newcommand{\ch}{{\mathrm{ch}}} 
+\newcommand{\str}{{\mathrm{str}}} 
+
+%%%%%%%%%%%  mathscr  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\sF}{\mathscr{F}}
+\newcommand{\sR}{\mathscr{R}}
+
+%%%%%%%%%%%  abb  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\pa}{\partial}
+\newcommand{\tl}{\tilde}
+\newcommand{\gge}{\geqslant}
+\newcommand{\lle}{\leqslant}
+\newcommand{\la}{\lambda}
+\newcommand{\La}{\Lambda}
+\newcommand{\bti}{\bm{t_i}}
+\newcommand{\btij}{\bm{t_{ij}}}
+\newcommand{\bals}{\bm{\alpha_s}}
+\newcommand{\bbes}{\bm{\beta_s}}
+\newcommand{\bla}{\bm\lambda}
+\newcommand{\bLa}{\bm\Lambda}
+\newcommand{\Ug}{\mathrm{U}(\mathfrak{g})}
+\newcommand{\glMN}{\mathfrak{gl}_{m|n}}
+\newcommand{\UglMN}{\mathrm{U}(\mathfrak{gl}_{m|n})}
+\newcommand{\Uone}{\mathrm{U}(\mathfrak{gl}_{1|1})}
+\newcommand{\YglMN}{\mathrm{Y}(\mathfrak{gl}_{m|n})}
+\newcommand{\Yone}{\mathrm{Y}(\mathfrak{gl}_{1|1})}
+\newcommand{\bmx}{\begin{pmatrix}}    
+\newcommand{\emx}{\end{pmatrix}}   
+\newcommand{\wt}{\widetilde}    
+\newcommand{\ka}{\kappa}
+\newcommand{\bka}{\bm{\kappa}}
+\newcommand{\qedd}{\tag*{$\square$}}
+\newcommand{\vSi}{\varSigma}
+\newcommand{\zg}{\mathfrak{z}(\widehat{\g})}
+\newcommand{\uqgh}{\mathrm{U}_q(\widehat{\g})}
+\newcommand{\UqglMN}{\mathrm{U}_q(\widehat{\mathfrak{gl}}_{m|n})}
+
+\begin{document}
+\pagestyle{myheadings}
+\setcounter{page}{1}
+
+\title{Research Statement}
+
+\author{Kang Lu}
+
+\maketitle
+\thispagestyle{empty}
+\begin{abstract}
+I study representation theory of quantum groups and its deep connections to quantum integrable systems, geometric Langlands correspondence, using a combination of algebraic, analytic and geometric methods. In the next few pages, I intend to give an overview of my research and of the techniques used.
+\end{abstract}
+\section{Motivation}
+Quantum spin chains are one of the most important models in integrable system. They have connections with mathematics in many different aspects. To name a few, for example 
+
+(1) \textbf{Quantum groups}, see \cite{Dri:1985,CP:1994}: finite-dimensional irreducible representations of quantum affine algebras were classified in \cite{CP:1991,CP:1995}. The character theory of quantum group, was introduced for Yangians in \cite{Knight:1995} and for quantum affine algebras in \cite{FR:1999}. It turns out to be one of the most important tool for studying the representation theory of quantum groups. As described in \cite{FR:1999}, the $q$-character of quantum affine algebras is essentially the Harish-chandra image of transfer matrices which are generating series of Hamiltonians of quantum spin chain. Conversely, the $q$-character itself also carries information about the spectrum of transfer matrices when acting on finite-dimensional irreducible representations, see \cite[Theorem 5.11]{FH:2015} and \cite[Theorem 7.5]{FJMM:2017}.
+
+(2) \textbf{Algebraic geometry}: in the work \cite{MV:2004}, it is shown that the Bethe ansatz for Gaudin model of type A is related to the Schubert calculus in Grassmannian. This connection was further established  in the work \cite{MTV:2009b}, where the algebra of Hamiltonians (Bethe subalgebra) acting on finite-dimensional irreducible representation of the current algebra is identified with the scheme-theoretic intersection of suitable Schubert varieties. This result gives the proof of the strong Shapiro-Shapiro conjecture and transversality conjecture of intersection of Schubert varieties. Moreover, a lower bound for the numbers of real solutions in problems appearing in Schubert calculus for Grassmannian is given in \cite{MT:2016}.
+
+(3) \textbf{Quantum cohomology and quantum K-theory}: it is shown in \cite{GRTV:2012} that the quantum cohomology algebra of the cotangent bundle of a partial flag variety can be identified as the Bethe subalgebra of Yangian $\mathrm{Y}(\gl_N)$. Moreover, the idempotents of the quantum cohomology algebra can be determined by the XXX Bethe ansatz method. There are also parallel results for equivariant cohomology and quantum $K$-theory corresponding to Gaudin model and XXZ spin chains, respectively, see \cite{RSTV:2011,RTV:2015}. The literature on the connections between quantum integrable system and quantum cohomology  becomes immense and keeps growing. 
+
+(4) \textbf{Feigin-Frenkel center}: the algebra of Hamiltonians for Gaudin model was described by Feigin-Frenkel center, see \cite{FFRe}. The theory about Feigin-Frenkel center and Sugawara operators is very beautiful and has many important applications, which is beautifully summarised in \cite{Fre:2007,Molev:2018}. Applications include, for example, the proof of Kac-Kazhadan conjecture \cite{GW:1989,Hay:1988}, giving rise to the center of the local completion of the universal enveloping algebra $\mathrm{U}(\widehat \g)$ at the critical level, see \cite{FF:1992}, providing a quantization of the local Hitchin's system \cite{FFTL:2010}, solving Vinberg's quantization problem, see \cite{MY:2019} and references therein, etc.
+
+
+
+(5) \textbf{Combinatorics}: the alternating sign matrix conjecture is proved by studying six-vertex model using the Izergin-Korepin determinant for a partition function for square ice with domain wall boundary, see \cite{Kuperberg:1995}.  The number of alternating sign matrices can also be described as the largest coefficient of the normalized
+ground state eigenvector of the XXZ spin chain of size $2n+1$, see \cite{RS:2001,RSZJ:2007}. Quantum spin chains are also related to standard Young tableaux. A bijective correspondence between the set of standard Young tableaux (bitableaux) and rigged configurations was constructed in \cite{KR:1986} , where rigged configurations ``parametrize" the solutions of Bethe ansatz equations. 
+
+(6) There are also other directions, for example orthogonal polynomial \cite{MV:2007}, hypergeometric functions, $q$KZ equations, Selberg type Integrals, arrangement of hyperplanes \cite{SV:1991}, etc, see \cite{V:2003} for a review.
+
+All these connections and applications show that quantum spin chains play a central role in mathematics. It is important to study quantum spin chains in a mathematical and rigorous way. A modern approach to describe quantum integrable systems is using the representation theory of various quantum algebras \cite{FRT:1988}. For example, enveloping algebras of current algebras, Yangians, quantum affine algebras, and elliptic quantum groups correspond to Gaudin model, XXX, XXZ, and XYZ spin chains, respectively. We discuss the formulation of the problem below in more detail.
+
+\section{Introduction}
+Let us recall Gaudin models and XXX spin chains. Let $\g$ be a simple (or reductive) Lie algebra (or superalgebra). Let $\Ug$ be the universal enveloping algebra of $\g$. Let $\mathcal A(\g)$ be an affinization of $\g$ such that $\Ug$ can be identified as a Hopf subalgebra of $\mc A(\g)$. Here $\mathcal A(\g)$ is either the universal enveloping algebra of the current algebra $\mathrm{U}(\g[t])$ which describes the symmetry for Gaudin models, or Yangian $\mathrm{Y}(\g)$ associated to $\g$ for XXX spin chains. In both cases the algebra $\mathcal A(\g)$ has a remarkable commutative subalgebra called the \emph{Bethe algebra}. We denote the Bethe algebra by $\mathcal B(\g)$. The Bethe algebra $\mathcal B(\g)$ commutes with $\Ug$. The Bethe algebra commutes with the algebra $\Ug$. Take any finite-dimensional irreducible representation $V$ of $\mathcal A(\g)$, then $\mathcal B(\g)$ acts naturally on the space of singular vectors $V^\sing$. The problem is to study the spectrum of $\mathcal B(\g)$ acting on $V^\sing$ \footnote{The reason these models are called spin chains is that $V$ is usually a tensor product of evaluation modules where each factor corresponds to a particle of some spin.}. 
+
+Let $\mathcal E:\mathcal B(\g)\to \C$ be a character, then the {\it $\mc B(\g)$-eigenspace} and {\it generalized $\mc B(\g)$-eigenspace associated to $\mc E$} in ${V^\sing}$ are defined by $\bigcap_{a\in \mathcal B(\g)}\ker(a|_{V^\sing}-\mathcal E(a))$ and $\bigcap_{a\in \mathcal B(\g)}\big(\bigcup_{m=1}^\infty\ker(a|_{V^\sing}-\mathcal E(a))^m\big)$, respectively. We call $\mc E$ an \emph{eigenvalue} of $\mc B(\g)$ acting on ${V^\sing}$ if the $\mc B(\g)$-eigenspace associated to $\mc E$ is non-trivial. We call a non-zero vector in a $\mc B(\g)$-eigenspace an \emph{eigenvector} of $\mc B(\g)$.
+
+\begin{open}\label{que eigenvalues}
+Find eigenvalues and eigenvectors of $\mc B(\g)$ acting on $V^\sing$.
+\end{open}
+
+The main approach to address Question \ref{que eigenvalues} is the \textit{Bethe ansatz} method, which was introduced by H. Bethe back in 1931 \cite{Be31}. The Bethe ansatz usually works well for the generic situation. For the degenerate situation, the problem is more subtle.
+
+Let $\mc B_V(\g)$ be the image of $\mc B(\g)$ in $\End(V^\sing)$. A \textit{Frobenius algebra} is a finite-dimensional unital commutative algebra whose regular and coregular representations are isomorphic. Based on the extensive study of quantum integrable systems, the following conjecture is expected.
+
+\begin{conj}[\cite{Lu:2019}]\label{conj frob-int}
+The $\mc B_V(\g)$-module $V^\sing$ is isomorphic to a regular representation of a Frobenius algebra.
+\end{conj}
+
+When Conjecture \ref{conj frob-int} holds, we call the corresponding integrable system \emph{perfectly integrable}. This conjecture has been proved for the following cases, (1) Gaudin model of type A in \cite{MTV:2008a,MTV:2009b}; (2) Gaudin model of all types in \cite{Lu:2019} with the help of \cite{FF:1992,FFRy:2010,Ryb:2018}; (3) XXX spin chains of type $A$ associated to irreducible tensor products of evaluation vector representations in \cite{MTV:2014}; (4) XXX spin chains of Lie superalgebra $\gl_{1|1}$ associated to cyclic tensor products of evaluation polynomial modules in \cite{LM:2019}.
+
+The notion of perfect integrability (or Conjecture \ref{conj frob-int}) is motivated by the following corollary about general facts of regular and coregular representations, geometric Langlands correspondence, and Bethe ansatz conjecture.
+
+\begin{cor}
+For each eigenvalue $\mathcal E$, the corresponding $\mc B(\g)$-eigenspace has dimension one. There exists a bijection between $\mc B(\g)$-eigenspaces and $\mathsf{Specm}(\mc B_V(\g))$ - the subset of closed points in $\mathsf{Spec}(\mc B_V(\g))$. Moreover, each generalized $\mc B(\g)$-eigenspace is a cyclic $\mc B(\g)$-module. The image of Bethe algebra in $\End(V^\sing)$ is a maximal commutative subalgebra of dimension equal to $\dim V^\sing$.
+\end{cor}
+
+By the philosophy of geometric Langlands correspondence, one would like to understand the following question.
+\begin{open}\label{que langlands}
+Describe the finite-dimensional algebra $\mc B_V(\g)$ and the scheme $\mathrm{spec}(\mc B_V(\g))$. Find the geometric object parametrizing the eigenspace of $\mc B(\g)$ when $V$ runs over all finite-dimensional irreducible representations.
+\end{open}
+
+It is well-known that if $\mathrm{spec}(\mc B_V(\g))$ is a complete intersection, then $\mc B_V(\g)$ is a Frobenius algebra. Conversely if $\mc B_V(\g)$ is Frobenius, it would be interesting to check if $\mathrm{spec}(\mc B_V(\g))$ is a complete intersection, see \cite{MTV:2009b}.
+
+\section{Gaudin model}
+In this section, we discuss our contribution \cite{LMV:2016,LMV:2018,Lu:2018,LM:2018,Lu:2019} to the study of Gaudin model in Sections \ref{sec oper-frob}-\ref{sec:Grass}.
+\subsection{Gaudin model}\label{sec Gaudin intro}
+The Gaudin model was introduced by M. Gaudin in \cite{Ga:1976} for the simple Lie algebra $\slt$ and later generalized to arbitrary semi-simple Lie algebras in \cite[Section 13.2.2]{Ga:1983}. 
+
+Let $\g$ be a simple Lie algebra. Let $\bla=(\la_i)_{i=1}^n$ be a sequence of dominant integral weight. Let $\bm z=(z_i)_{i=1}^n$ be a sequence of pair-wise distinct complex numbers. Let $V_{\bla}$ be the tensor product of finite-dimensional irreducible representations of highest weights $\la_s$, $s=1,\dots,n$. Let $\{X_i\}_{i=1}^{\dim\g}$ be an orthonormal basis of $\g$ with respect to the Killing form. For $X\in\g$, denote by $X^{(a)}$ the operator $1^{\otimes(a-1)}\otimes X\otimes 1^{\otimes(n-a)}\in \Ug^{\otimes n}$.
+
+The \emph{Gaudin Hamiltonians} are given by
+\beq\label{eq Gaudin}
+\mathcal H_i=\sum_{j,j\ne i}\frac{\sum_{k=1}^{\dim \g} X_k^{(i)}\otimes X_{k}^{(j)}}{z_i-z_j},\qquad i=1,\dots,n.
+\eeq
+The Gaudin Hamiltonians commute, $[\mc H_i,\mc H_j]=0$. In Gaudin model, we study the spectrum of Gaudin Hamiltonians acting on $V_{\bla}$. The Gaudin Hamiltonians also commute with the diagonal action $\g$. 
+
+\subsection{Feigin-Frenkel center and Bethe subalgebra}
+In the seminal work \cite{FFRe}, Feigin, Frenkel, and Reshetikhin established a connection between the center $\zg$ of affine vertex algebra at the critical level and higher Gaudin Hamiltonians in the Gaudin model. Let us discuss $\zg$ in more detail.
+
+Let $\g$ be a simple Lie algebra. Consider the affine Kac-Moody algebra $\widehat \g=\g[t,t^{-1}]\oplus \C K$, $\g[t,t^{-1}]=\g\otimes \C[t,t^{-1}]$. We simply write $X[s]$ for $X\otimes t^s$ for $X\in\g$ and $s\in\Z$. Let $\g_-=\g\otimes t^{-1}\C[t^{-1}]$ and $\g[t]=\g\otimes \C[t]$. Let $h^\vee$ be the \emph{dual Coxeter number} of $\g$. Define the module $V_{-h^\vee}(\g)$ as the quotient of $\mathrm{U}(\widehat \g)$ by the ideal generated by $\g[t]$ and $K+h^\vee$. We call the module $V_{-h^\vee}(\g)$ the \emph{Vaccum module at the critical level over} $\widehat \g$. The vacuum module $V_{-h^\vee}(\g)$ has a vertex algebra structure. 
+
+Define the \emph{center} $\mathfrak z(\widehat\g)$ of $V_{-h^\vee}(\g)$ by
+\[
+\mathfrak z(\widehat \g)=\{v\in V_{-h^\vee}(\g)~|~ \g[t]v=0\}.
+\]
+Using the PBW theorem, it is clear that $V_{-h^\vee}(\g)$ is isomorphic to $\mathrm U(\g_-)$ as vector spaces. There is an injective homomorphism from $\mathfrak z(\widehat\g)$ to $\mathrm{U}(\g_-)$. Hence $\mathfrak z(\widehat\g)$ is identified as a commutative subalgebra of $\mathrm{U}(\g_-)$. The algebra $\mathfrak z(\widehat\g)$ is called the \emph{Feigin-Frenkel center}, see \cite{FF:1992}. An element in $\zg$ is called a {\it Segal-Sugawara vector}. There is a distinguished element $S_1\in \mathfrak z(\widehat \g)$ given by
+\vspace{-0.3cm}
+\[
+S_1=\sum_{a=1}^{\dim \g}X_a[-1]^2.\vspace{-0.2cm}
+\]
+
+To obtain the Bethe subalgebra of $\g[t]$, one applies an anti-homomorphism to $\zg$ which sends $X[-s-1]$ to $\pa^{s}_uX(u)/s!$, where $X(u)=X[0]u^{-1}+X[1]u^{-2}+\cdots\in \mathrm U(\g[t])[[u^{-1}]]$. One obtains generating series in $u^{-1}$. Then the \emph{Bethe subalgebra} $\mc B(\g)$ of $\g[t]$ is the unital subalgebra of $\mathrm U(\g[t])$ generated by all coefficients of generating series corresponding to elements in $\zg$. The Bethe algebra is considered as the algebra of Hamiltonians. For instance, the Gaudin Hamiltonians $\mc H_i$ \eqref{eq Gaudin} can be obtained by taking the residues of the generating series corresponding to $S_1$ at $z_i$  acting on $V_{\la_1}(z_1)\otimes\cdots\otimes V_{\la_n}(z_n)$, where $V_{\la_i}(z_i)$ is the evaluation module of $\g[t]$ with evaluation parameter $z_i$. This procedure can be found for e.g. in \cite{M,MR:2014}.
+
+Let $V$ be a finite-dimensional irreducible representation of $\g[t]$, namely a tensor product of evaluation modules $V_{\la_1}(z_1)\otimes\cdots\otimes V_{\la_{n}}(z_n)$, where $\bla=(\la_i)_{i=1}^n$ and $\bm z=(z_i)_{i=1}^n$ as before. We are interested in the spectrum of $\mc B(\g)$ acting on $V^\sing$.
+
+There is also a generalization of Gaudin model, which is called Gaudin model with irregular singularities, see \cite{Ryb:2006,FFTL:2010}. In this case, the Bethe algebra also depends on an element $\mu\in\g^*$.
+
+\subsection{Opers and perfect integrability} \label{sec oper-frob}
+In this section, we discuss the known results posed in the introduction.
+
+It was shown in \cite[Theorem 2.7]{Fre:2005} that $\mc B_V(\g)$ is isomorphic to the algebra of functions on the space of monodromy-free $^L\g$-opers on $\mathbb P^1$ which has regular singularities at the point $z_i$ of residues described by $\la_i$ and also at infinity. Moreover, the joint eigenvalues of the Bethe algebra acting on $V^\sing$ are encoded by these $^L\g$-opers. It was also conjectured there that there exists a bijection between joint eigenvalues of Bethe algebra acting on $V^\sing$ and monodromy-free $^L\g$-opers on $\mathbb P^1$ stated above. 
+
+Similar statements are also obtained for Gaudin model with irregular singularities in \cite{FFTL:2010}. In this case, the difference is that the corresponding $^L\g$-opers now have irregular singularities at infinity. It is then shown in \cite[Corollary 5]{FFRy:2010} for Gaudin model with irregular singularities associated to regular $\mu\in\g^*$ that the Bethe algebra acts on $V$ cyclically and there exists a bijection between joint eigenvalues of Bethe algebra acting on $V$ with monodromy-free $^L\g$-opers on $\mathbb P^1$ which has regular singularities at the point $z_i$ of residues described by $\la_{i}$ and a irregular singularity at infinity. %Moreover, the image of Bethe algebra acting on $V$ is described using the monodromy-free conditions of $^L\g$-opers.
+
+Using the results of \cite{FFTL:2010} and taking $\mu$ to be the principal nilpotent element, Rybnikov managed to prove the conjecture in \cite{Fre:2005} for Gaudin model, see \cite{Ryb:2018}. Namely, the Bethe algebra $\mc B_V(\g)$ acts on $V^\sing$ cyclically and there exists a bijection between joint eigenvalues of Bethe algebra acting on $V^\sing$ with monodromy-free $^L\g$-opers on $\mathbb P^1$ which has regular singularities at the point $z_i$ of residues described by $\la_i$ and also at infinity. 
+
+These results give answers for Questions \ref{que eigenvalues}, \ref{que langlands} and the essential parts of Conjecture \ref{conj frob-int} for Gaudin model, that is the $\mc B_V(\g)$-module $V^\sing$ is isomorphic to the regular representation of $\mc B_V(\g)$. 
+
+To show Conjecture \ref{conj frob-int}, it remains to show that $\mc B_V(\g)$ is a Frobenius algebra. Combining the results  \cite{FF:1992,FFRy:2010,Ryb:2018} and using the Shapovalov form on $V$, we are able to construct an invariant nondegenerate symmetric bilinear form on $\mc B_V(\g)$, which in turn shows that $\mc B_V(\g)$ is Frobenius. Hence we obtain
+
+\begin{thm}[\cite{Lu:2019}]
+Gaudin model for $\mu=0$ and regular $\mu\in\h^*$ is perfectly integrable.
+\end{thm}
+In other words, we obtain the perfect integrability for Gaudin model with periodic and regular quasi periodic boundaries. As a corollary, we also obtain that there exists a bijection between common eigenvectors of Bethe algebra acting on $V^\sing$ with aforementioned $^L\g$-opers. This can be thought as the proof of Bethe ansatz conjecture of eigenvector form.
+
+\subsection{Grassmannian and Gaudin model}\label{sec:Grass}
+A remarkable observation is the connection between Guadin model of type A and Grassmannian. This was first observed in \cite{MV:2004} by studying the reproduction procedure of solutions of Bethe ansatz equation. An invariant object for reproduction procedure is a differential operator whose kernel is a space of polynomials with prescribed exponents at $z_i$ described by the corresponding partitions $\la_i$ (dominant weights). This differential operator can be explicitly written in terms of the corresponding solution of Bethe ansatz equation. It is essentially the same as the $\mathfrak{sl}_N$-opers, namely it describes the joint eigenvalues of the Bethe algebra acting on the corresponding Bethe vector constructed from the solution of Bethe ansatz equation, see \cite{FFRe,MTV:2006}.
+
+This connection leads to a proof of Shapiro-Shapiro conjecture in real algebraic geometry, see \cite{MTV:2009a}. This connection was made precise in \cite{MTV:2009b} by interpreting the Bethe algebra $\mathcal B_V(\g)$ as the space of functions on the intersection of suitable Schubert cycles in a Grassmannian variety. This interpretation gives a relation between representation theory of $\gl_N$ and Schubert calculus useful in both directions. In particular, the proofs of a strong form of Shapiro-Shapiro conjecture and the transversality conjecture of intersection of Schubert varieties are deduced from that, see \cite{MTV:2009b}.
+
+We further study this connection in \cite{LMV:2018}. To state our result, we make the statement in \cite{MTV:2009b} more precise. Let $\Omega_{\bla,\bm z}$ be the intersection of Schubert cells $\Omega_{\la_i,z_i}$ with respect to the osculating flag at $z_i$ and the partition $\la_i$, see \cite[Section 3.1]{LMV:2018} for more detail.
+\begin{thm}[\cite{MTV:2009b}]\label{thm mtv09}
+There exists a bijection between eigenvectors of $\mc B_V(\gl_N)$ in $V^\sing$ and $\Omega_{\bla,\bm z}$. 
+\end{thm}
+Note that, for generic $\bm z$, $\mc B_V(\gl_N)$ is diagonalizable and has simple spectrum on $V^\sing$. Let $\Omega_{\bla}$ be the disjoint union of all $\Omega_{\bla,\bm z}$ with $\bm z$ running over all tuples of distinct coordinates. These $\Omega_{\bla}$ are constructible subsets in the Grassmannian. We show that these $\Omega_{\bla}$ form a stratification of Grassmannian, see \cite[Section 3.3]{LMV:2018}, similar to the well-known stratification consisting of Schubert cells. By taking closure of $\Omega_{\bla}$, it means we allow distinct $z_i$ and $z_j$ coinciding. Note that
+$$V_{\mu}(z)\otimes V_{\nu}(z)= \bigoplus_{\la} C_{\mu,\nu}^{\la}V_{\la}(z),$$ where $C_{\mu,\nu}^{\la}$ are the Littlewood-Richardson coefficients, therefore we know how $V$ decomposes if several $z_i$ coincide. Using Theorem \ref{thm mtv09}, it tells us that the closure of $\Omega_{\bla}$ is exact a disjoint union of $\Omega_{\bm \mu}$ and those $\bm \mu$ are determined by the representation theory of $\gl_N$ and $\bla$. Therefore this shows these $\Omega_{\bla}$ form a new stratification of the Grassmannian. This generalizes the standard
+stratification of the swallowtail, see for example  \cite[Section 2.5 of Part 1]{AGV:1985}.
+
+Since this connection is so important, it would be interesting to explore similar connections by studying Gaudin model of other types. We are able to deal with types B, C, G$_2$ with the following reasons. Since the Bethe algebra can be obtained from Feigin-Frenkel center $\zg$, we need a complete set of explicitly generators of $\zg$. These generators are obtained for types A \cite{CT:2006}, BCD \cite{M}, and G$_2$ \cite{MRR:2016}. This method for type D is not applicable as the Dynkin diagram has branch. As a result, after using the Miura transformation to the $^L\g$-opers, one obtains pseudo-differential operators.
+
+Let $\g$ be a simple Lie algebra of types B and C. Identifying a $^L\g$-oper as a $\mathfrak{sl}_N$-oper of special form and using Miura transformation, one obtains a differential operator in a symmetric form as follows depending type B or C,
+\[
+(\pa_x-f_1(x))\cdots (\pa_x-f_{n}(x))(\pa_x+f_n(x))\cdots (\pa_x+f_{1}(x)),
+\]
+\[
+(\pa_x-f_1(x))\cdots (\pa_x-f_{n}(x))\pa_x(\pa_x+f_n(x))\cdots (\pa_x+f_{1}(x)).
+\]
+Therefore, the kernels of these differential operators have certain symmetry, which are the same as the ones introduced in \cite[Section 6]{MV:2004}. Such spaces are coming from the reproduction procedure for types BC and called \emph{self-dual spaces}. The subset of all self-dual spaces in the Grassmannian is called \emph{self-dual Grassmannian}. The self-dual Grassmannian is a new geometric object which is an algebraic subset in Grassmannian and different from the orthogonal Grassmannian.
+
+Using the main result of \cite{Ryb:2018}, we managed to obtain a stratification for self-dual Grassmannian described by the representation theory of Lie algebras of types B and C similar to the one of type A for Grassmannian, see \cite[Section 4.4]{LMV:2018}. Combining \cite[Theorem 4.5]{LMV:2018} and the perfect integrability of Gaudin model, we have
+\begin{thm}[\cite{Lu:2019}]
+There exists a bijection between eigenvectors of $\mc B_V(\g)$ in $V^\sing$ and the subset of all self-dual spaces in $\Omega_{\bla,\bm z}$.
+\end{thm}
+
+To be more precise, $\bla$ has to be changed to the corresponding partitions, see \cite[Section 4]{LMV:2018} for the definition. There is a similar study for type G$_2$ in this direction. The corresponding geometric object is called \emph{self-self-dual Grassmannian} due to a further symmetry, see \cite{LM:2018}.
+
+Following the idea of \cite{MT:2016}, we obtain a lower bound for number of real self-dual spaces in $\Omega_{\bla,\bm z}$ by analyzing a modified Shapovalov form on $V_{\bla}$, see \cite{Lu:2018}. The Bethe ansatz equations of Gaudin models associated to orthosymplectic Lie superalgebras have been studied in \cite{LM:2021}, and the relations between Bethe ansatz and self-dual superspaces are discussed. However, due to the technicality issue, the self-dual superspaces and the corresponding opers still need to be better understood.
+
+
+\section{XXX spin chains and Yangian}
+In this section, we discuss our contribution \cite{HLM:2019,LM:2019} to the study of XXX spin chains in Sections \ref{sec repro}, \ref{sec XXX frob}. We remark that Gaudin model is the classical limit of XXX spin chains. Much more is unknown for XXX spin chains comparing to Gaudin models.
+\subsection{Super Yangian and Bethe subalgebra}
+In the XXX spin chain, the algebra of symmetry $\mc A(\g)$ is the Yangian $\mathrm Y(\g)$ while the Bethe subalgebra $\mc B(\g)$ is generated by the coefficients of the transfer matrices associated to certain finite-dimensional representations. We consider it mainly for the case when $\g$ is the general Lie superalgebra $\glMN$. Let $|i|=0$ if $i=1,\dots,m$ and $|j|=1$ if $j=m+1,\dots,m+n$. Let $\epsilon_i=(-1)^{|i|}$. Let $\C^{m|n}$ (the defining representation of $\glMN$) be the superspace whose even part is $\C^m$ and odd part is $\C^n$. 
+
+Let $R(x)$ be the rational R-matrix $R(x)=1+P/x$, where $P$ is the graded flip operator. The rational R-matrix is a solution to the Yang-Baxter equation. Let $T(x)$ be the generating matrix of the Yangian $\YglMN$. The defining relation of the Yangian is given by the RTT relations, see \cite{Naz:1991},
+\[
+R_{1,2}(x_1-x_2)T_1(x_1)T_2(x_2)=T_2(x_2)T_1(x_1)R_{1,2}(x_1-x_2).
+\]
+Following \cite{MR:2014}, the generating function of higher transfer matrices is given by the Berezinian in terms of the generating matrix $T(x)\tau$, where $\tau$ is the difference operator $\tau f(x)=f(x-1)\tau$ and $t$ stands for the supertranspose. We describe it in more detail as follows. We identify the operator $Z=\sum_{i,j=1}^{m+n}(-1)^{|i||j|+|j|}E_{ij}\otimes Z_{ij}$ with the matrix $Z=[Z_{ij}]$, where $E_{ij}$ are the standard matrix units. Let $Z^{-1}=[Z_{ij}']$. Define the Berezinian $\mathrm{Ber}(Z)$, see \cite{Naz:1991}, by
+\[
+\mathrm{Ber}(Z)=\sum_{\sigma\in\fkS_m}\mathrm{sign}(\sigma)Z_{\sigma(1)1}\cdots Z_{\sigma(m)m}\sum_{\tl\sigma\in\fkS_n}\mathrm{sign}(\tl\sigma)Z'_{m+1,m+\tl\sigma(1)}\cdots Z'_{m+n,m+\tl\sigma(n)}.
+\]
+Let $\str$ stand for the supertrace. Let $Z(x,\tau)=1-T(x)^t\tau$, then $Z(x,\tau)$ is a Manin matrix. It is shown in \cite[Theorem 2.13]{MR:2014} that \begin{align*}
+&\mathrm{Ber}(Z(x,\tau))= \sum_{k=0}^\infty (-1)^k\mathrm{str}(A_kT_1(x)\cdots T_k(x-k+1))\tau^k,\\
+&(\mathrm{Ber}(Z(x,\tau)))^{-1}= \sum_{k=1}^\infty \mathrm{str}(H_kT_1(x)\cdots T_k(x-k+1))\tau^k ,
+\end{align*}
+where $A_k$ and $H_k$ are the anti-symmetrizer and symmetrizer in $\End((\C^{m|n})^{\otimes k})$, respectively. The Bethe subalgebra $\mc B(\glMN)$ is generated by the coefficients of $\fkT_k(x):=\mathrm{str}(A_kT_1(x)\cdots T_k(x-k+1))$ for $k\in \Z_{\gge 0}$. The Bethe subalgebra is also generated by the coefficients of $\mathfrak H_k(x):=\mathrm{str}(H_kT_1(x)\cdots T_k(x-k+1))$ for $k\in \Z_{\gge 0}$. The generating series $\fkT_k(x)$ and $\mathfrak H_k(x)$ are called \emph{transfer matrices}.
+
+\subsection{Jacobi-Trudi identity for transfer matrices and $q$-characters}
+Indeed, there are more transfer matrices. Given a skew Young diagram $\la/\mu$, one can construct the transfer matrix $\mathscr T_{\la/\mu}(x)$ associated to $\la/\mu$ by specializing the universal R-matrix to the corresponding skew representation \cite[Sec. 3]{LM:2020} and then taking the supertrace, see \cite[Sec. 5]{LM:2020}. In particular, $\fkT_i(x)$ corresponds to a Young diagram of a column of $i$ boxes while $\mathfrak H_i(x)$ corresponds to a Young diagram of a row of $i$ boxes. These transfer matrices are related as follows.
+
+\begin{thm}[{\cite[Theorem 5.3]{LM:2020}}]
+Transfer matrices satisfy Jacobi-Trudi identity,
+$$
+\mathscr T_{\la/\mu}(x)=\det_{1\lle i,j\lle \ell}(\mathfrak H_{\la_i-\mu_j-i+j}(x+\mu_j-j+1))=\det_{1\lle i,j\lle \ell'}(\fkT_{\la'_i-\mu'_j-i+j}(x-\mu_j+j-1)),
+$$
+where $\ell=\la_1'$ and $\ell'=\la_1$.
+\end{thm}
+This was conjectured by Tsuboi on the level of eigenvalues, see \cite{Tsu:1997}, and proved for the case of hook Young diagrams in \cite{KV:2008}. We obtain by specializing the universal R-matrix to the Jacobi-Trudi identity for $q$-characters \cite[Theorem 3.16]{LM:2020}, cf. \cite[Conjecture 2.2]{NN:2006}.
+
+
+%Transfer matrices can be constructed in two ways. The first way is to use the universal R-matrix, see e.g. \cite{FR:1999}. Let $\mathscr R$ be the universal R-matrix in the completion $\YglMN\widehat{\otimes}\YglMN$. For a finite dimensional representation $(V,\rho_V)$ of the Yangian $\YglMN$, let $\mathscr T_V(x)=\str((\rho_{V(x)}\otimes \id)\mathscr R)\in\YglMN[[x^{-1}]]$. Similar to \cite[Lemma 2]{FR:1999}, one has $[\mathscr T_V(x_1),\mathscr T_W(x_2)]=0$, $\mathscr T_{V\otimes W}(x)=\mathscr T_V(x)\mathscr T_W(x)$. Moreover, $\mathscr T_W(x)=\mathscr T_V(x)+\mathscr T_U(x)$ for a short exact sequence $ V\hookrightarrow W \twoheadrightarrow U$. Another way is to use ``fusion procedure", see e.g. \cite[Theorem 10.1.2]{Molev:2018} for formulas of transfer matrices associated to Young diagrams in the $\gl_m$ case. The ``fusion procedure" was used in the pioneering works of St.-Petersburg school as a tool to produce new solutions of the Yang-Baxter equation out of the given ones, see e.g. \cite{KRS:1981}. The transfer matrices $\fkT_i(x)$ and $\mathfrak H_i(x)$ in the expansion of $\mathrm{Ber}(Z(x,\tau))$ are given by the fusion procedure, where 
+%(1) {\bf Jacobi-Trudi identity for transfer matrices and $q$-characters}: Consider the skew Hook Young-diagram $\la/\mu$ and the transfer matrix $\mathscr T_{\la/\mu}(x)$ associated to $\la/\mu$. Similar to the character of $\glMN$,   In our ongoing project we have computed the $q$-characters for $\YglMN$-modules associated to skew Young diagram. The answer is very similar to $\mathrm{Y}(\gl_m)$ case, namely it can be described using semi-standard Young tableaux and contents of boxes. We proved the Jacobi-Trudi identity for $q$-characters, c.f. \cite[Conjecture 2.2]{NN:2006}, and hence for transfer matrices. We expect the restriction of Harish-chandra map on Bethe algebra is injective. It is also interesting to describe its image which is a supersymmetric analogue of deformed $\mathcal W$-algebra.
+
+\subsection{Bethe ansatz}\label{sec ba}
+The simplest non-trivial transfer matrix is the transfer matrix $\fkT_1(x)$ associated to the vector representation $\C^{m|n}$. The Bethe ansatz for $\fkT_1(x)$ was studied in \cite{K:1985,BR:2008}. For simplicity we recall it for the standard root system of $\glMN$ from there. Let $\bs l=(l_1,\dots,l_{m+n-1})$ be a sequence of non-negative integers. Let $\bm{t}=(t_{1}^{(1)},\dots,t_{l_1}^{(1)};\dots;t_{1}^{(m+n-1)},\dots,t_{l_{m+n-1}}^{(m+n-1)})$ be a sequence of complex numbers. Let $y_i(x)=\prod_{j=1}^{l_i}(x-t_j^{(i)})$ and denote $\bm{y_t}=(y_i(x))_{i=1}^{m+n-1}$. When $\bm t$ satisfies a certain system of algebraic equations, called \emph{Bethe ansatz equation}, 
+\beq\label{eq bae xxx}
+\frac{\zeta_i(t_j^{(i)})}{\zeta_{i+1}(t_j^{(i)})}\frac{y_{i-1}(t_j^{(i)}+\epsilon_i)}{y_{i-1}(t_j^{(i)})}\frac{y_{i}(t_j^{(i)}-\epsilon_i)}{y_{i}(t_j^{(i)}+\epsilon_{i+1})}\frac{y_{i+1}(t_j^{(i)})}{y_{i+1}(t_j^{(i)}-\epsilon_{i+1})}=1,\ i=1,\dots,m+n-1,\ j=1,\dots,l_i,
+\eeq
+where $\bm\zeta=(\zeta_i(x))_{i=1}^{m+n}$, $\zeta_i(x)\in 1+x^{-1}\C[[x^{-1}]]$, is the highest $\ell$-weight of the finite-dimensional irreducible representation $V$ and $y_0(x)=y_{m+n}(x)=1$. One can construct a Bethe vector $\mathbb B(\bm t)$ depending on $\bm t$ using Bethe ansatz. When $\mathbb B(\bm t)$ is non-zero, it is an eigenvector of $\fkT_1(x)$ with the eigenvalue given by
+\beq\label{eq eigenvalue}
+\mathcal E_{\bm t}(x)=\sum_{i=1}^{m+n}\epsilon_i\zeta_i(x)\frac{y_{i-1}(x+\epsilon_i)}{y_{i-1}(x)}\frac{y_{i}(x-\epsilon_i)}{y_{i}(x)}.
+\eeq
+
+One of the main problem in Bethe ansatz is completeness. We say that Bethe ansatz is \textit{complete} if all eigenvectors of $\fkT_1(x)$ can be constructed from Bethe ansatz. In general, for different solutions of Bethe ansatz equations, the corresponding eigenvalues are different. Hence for the Bethe ansatz to be complete, each eigenspace has to be 1-dimensional.
+
+\subsection{Reproduction procedure and rational difference operator}\label{sec repro}
+For this Bethe ansatz construction, it is only shown that the Bethe vector $\mathbb B(\bm t)$ is an eigenvector of the transfer matrix $\fkT_1(x)$. It is natural to expect that $\mathbb B(\bm t)$ is an eigenvector for the Bethe subalgebra $\mc B(\glMN)$. This is shown in \cite{MTV:2006} for the case $n=0$. In this case, the Berezinian becomes the column determinant. It turns out $\mathrm{Ber}(Z(x,\tau))\mathbb B(\bm t)=\mc D_{\bm t}\mathbb B(\bm t)$, where $\mc D_{\bm t}$ is a product of linear difference operators written explicitly using the highest $\ell$-weight $\bm \zeta$ and polynomials $y_i(x)$. Remarkably, this difference operator is the same as the one obtained in \cite{MV:2003} by studying the invariant object under reproduction procedure for solutions the Bethe ansatz equation. This motivates us to study the reproduction procedure, its invariant object, and its geometric structure for $\glMN$ case, see \cite{HLM:2019}. 
+
+The reproduction procedure is a process to obtain solutions of Bethe ansatz equation from a given solution of Bethe ansatz equation. In the $\glMN$ case, there are two kinds of reproduction procedures, \textit{bosonic} and \textit{fermionic} reproduction procedure on the $i$-th direction, depending on the simple root $\alpha_i$ is even or odd. We explain it only for $\gl_2$ and $\gl_{1|1}$ cases.
+
+In the $\gl_2$ case, the Bethe ansatz equation can be written in terms of Wronskian equality, see \cite{MV:2003,MV:2005}, namely $y$ satisifies Bethe ansatz equation if and only if there exists a polynomial $\tl y$ such that $\Wr(y,\tl y)=p(x)$, where $y=y_1$ and $p(x)$ is the Drinfeld polynomial corresponding to the representation. Clearly for any $c\in\C$ the map $y\mapsto \tl y+cy$ gives a family of solutions of Bethe ansatz equation and we call it the \textit{bosonic reproduction procedure}. The invariant object of the bosonic reproduction procedure is the difference operator $$\Big(1-\zeta_1(x)\frac{y(x-1)}{y(x)}\tau\Big)\Big(1-\zeta_2(x)\frac{y(x+1)}{y(x)}\tau\Big)=\Big(1-\zeta_1(x)\frac{\tl y(x-1)}{\tl y(x)}\tau\Big)\Big(1-\zeta_2(x)\frac{\tl y(x+1)}{\tl y(x)}\tau\Big).$$
+We remark that the general $\gl_m$ reproduction procedure corresponds to the Gauge transformation of Miura opers, see \cite{F:2004,MV:2005miura}.
+
+In the $\gl_{1|1}$ case, there are two choices of root systems depending on parity sequences, see \cite{CW:2012}. The Bethe ansatz equation can be written in terms of divisibility condition. Since $V$ is finite-dimensional irreducible, there exist two relatively prime polynomials $\varphi(x)$ and $\psi(x)$ such that $\varphi(x)/\psi(x)=\zeta_1(x)/\zeta_2(x)$, see \cite{Zh:1995}. Then the Bethe ansatz equation for $\gl_{1|1}$ is the same as the condition that $y(x):=y_1(x)$ divides $\varphi(x)-\psi(x)$. Let $\tl y(x)$ be the polynomial such that $y(x)\tl y(x+1)=\varphi(x)-\psi(x)$. Then $\tl y(x)$ divides $\psi(x-1)-\varphi(x-1)$ which  corresponds to the Bethe ansatz equation associated to $V$ with respect to $\gl_{1|1}$ of a different parity sequence. With this new parity sequence, $\psi(x-1)$ and $\varphi(x-1)$ play similar role as $\varphi(x)$ and $\psi(x)$ under the standard parity sequence, respectively. We call the replacement $y\mapsto \tl y$ the \textit{fermionic reproduction procedure}. Note that the fermionic reproduction procedure is very similar to the mutation in cluster algebra. The eigenvalue \eqref{eq eigenvalue} does not change under the replacement $y\mapsto \tl y$. The invariant object of the fermionic reproduction procedure is the rational difference operator 
+\beq\label{eq:odd}
+\Big(1-\zeta_1(x)\frac{y(x-1)}{y(x)}\tau\Big)\Big(1-\zeta_2(x)\frac{y(x-1)}{y(x)}\tau\Big)^{-1}=\Big(1-\tl\zeta_1(x)\frac{\tl y(x+1)}{\tl y(x)}\tau\Big)^{-1}\Big(1-\tl\zeta_2(x)\frac{\tl y(x+1)}{\tl y(x)}\tau\Big).
+\eeq
+We expect that the general $\gl_{m|n}$ reproduction procedure can be understood as the super Gauge transformation of Miura superopers.
+
+Our main result in \cite{HLM:2019} is as follows. For the general $\gl_{m|n}$ case, we concentrate on the case $V=\otimes_{i=1}^k L_{\la_i}(z_i)$ is a tensor product of evaluation typical representations with evaluation parameters satisfying $z_i-z_j\not\in\Z$. Starting from a solution $\bm t$ of Bethe ansatz equation \eqref{eq bae xxx} (with standard parity sequence), we call the set of all solutions obtained from the bosonic and fermionic reproduction procedures from this solution a \emph{population originated from} $\bm t$ and denote it by $\mc P_{\bm t}$. We associated $\mc P_{\bm t}$ a rational difference operator $\mc D_{\bm t}$ by
+\beq\label{eq rational diff oper}
+\mc D_{\bm t}=\mc D_{\bm t,\bar 0}\mc D^{-1}_{\bm t,\bar 1}=\mathop{\overrightarrow\prod}\limits_{1\lle i\lle m+n}\Big(1-\zeta_i(x)\frac{y_{i-1}(x+\epsilon_i)y_i(x-\epsilon_i)}{y_{i-1}(x)y_i(x)}\, \tau\Big)^{\epsilon_i},
+\eeq
+where $\mc D_{\bm t,\bar 0}$ are $\mc D_{\bm t,\bar 1}$ are difference operators of order $m$ and $n$, respectively. It is known that $\ker \mc D_{\bm t,\bar 0}\cap \ker \mc D_{\bm t,\bar 1}=0$. Let $W$ be the superspace, whose even part is $\ker \mc D_{\bm t,\bar 0}$ and odd part is $\ker \mc D_{\bm t,\bar 1}$.
+
+\begin{thm}\cite[Theorem 6.7]{HLM:2019}
+There are natural bijections between three objects:
+elements of the population $\mc P_{\bm t}$ of the solutions of the Bethe ansatz equation, superflags in $W$, and complete
+factorizations of $\mc D_{\bm t}$ into products of linear difference operators and their inverses.
+\end{thm}
+
+As explained at the beginning of this section, we have the following conjecture.
+\begin{conj}\label{conj oper}
+We have $\mathrm{Ber}(Z(x,\tau))\mathbb B(\bm t)=\mc D_{\bm t}\mathbb B(\bm t)$.
+\end{conj}
+
+Here $V$ can be any module of highest $\ell$-weight. This conjecture is proved for the $\gl_m$ case in \cite[Theorem 6.1]{MTV:2006} and for the case $\gl_{1|1}$ in \cite[Theorem 6.4]{LM:2019}. The conjecture is an analogue of \cite[Theorem 5.11]{FH:2015} and \cite[Theorem 7.5]{FJMM:2017}.
+
+It is shown \cite[Thm. 5.12]{LM:2020} the universal rational difference operator $\mathrm{Ber}(Z(x,\tau))$ can be written into a ratio form as follows,
+\[
+\mathrm{Ber}(Z(x,\tau))=\big(1+\sum_{i=1}^m \mathfrak C_i(x)\tau^i\big)\big(1+\sum_{j=1}^n \mathfrak D_j(x)\tau^j\big)^{-1}.
+\]
+Using the Jacobi-Trudi identity for transfer matrices, it turns out each $\mathfrak C_i(x)$ and $\mathfrak D_i(x)$ can be written as a ratio of one transfer matrix $\mathscr T_{\la_1/\mu_1}(x)$ associated to skew Young diagrams over another transfer matrix $\mathscr T_{\la_2}(x)$ associated to a rectangle of size $m\times n$. Moreover, though $\mathscr T_{\la_2}(x)$ does not divide $\mathscr T_{\la_1/\mu_1}(x)$, but the $q$-character corresponding to $\mathscr T_{\la_2}(x)$ divides that corresponding to $\mathscr T_{\la_1/\mu_1}(x)$. This fact is also related to Kac-modules of $\glMN$, see \cite[Rem. 3.15]{LM:2020}. Note that this ratio is consistent with the ration form \eqref{eq rational diff oper} under Conjecture \ref{conj oper}, see \cite[Sec. 5.5]{LM:2020}. We expect this would be important to further understand conjecture \ref{conj oper}.
+
+\subsection{Perfect integrability and completeness of Bethe ansatz for $\gl_{1|1}$ case} \label{sec XXX frob}
+In \cite{LM:2019}, we give an (almost) complete study of the $\gl_{1|1}$ case when $V$ is a cyclic (generated by the highest $\ell$-weight vector) tensor product of evaluation polynomial modules (up to twisted by a one-dimensional module). Following the idea of \cite{MTV:2009b}, we managed to show that XXX spin chain associated to $V$ is perfectly integrable and the Bethe ansatz is complete if we suppose further that $V$ is irreducible.
+
+Let $\bla=(\la_s)_{s=1}^k$ be a sequence of polynomial $\gl_{1|1}$-weights such that $\sum_{s=1}^k(a_s+b_s)=n$ where $\la_s=(a_s,b_s)$. Let $\bm z=(z_1,\dots,z_k)$ be a sequence of complex numbers. Suppose the $\Yone$-module $V=\otimes_{s=1}^k V_{\la^{(s)}}(z_s)$ is cyclic. Set $\varphi(x)=\prod_{s=1}^k(x-z_s+a_s)$ and $\psi(x)=\prod_{s=1}^k(x-z_s-b_s)$.
+
+\begin{thm}[{\cite[Theorem 4.9]{LM:2019}}]\label{thm tensor irr}
+The XXX spin chain associated to $V$ is perfectly integrable. In particular, the $\mc B(\gl_{1|1})$-eigenspaces in $V^\sing$ bijectively correspond to the monic divisors $y(x)$ of the polynomial $\varphi(x)-\psi(x)$. Moreover, the eigenvalue of $\fkT_1(x)$ corresponding to the monic divisor $y$ is described by $\mc E_{\bm t}(x)$, see \eqref{eq eigenvalue}.
+\end{thm}
+
+This shows Conjecture \ref{conj frob-int} for XXX spin chain associated to $\gl_{1|1}$ when $V$ is a cyclic tensor product of evaluation polynomial modules. We also remark that the image of Bethe algebra is very similar to the equivariant cohomology algebra of the cotangent bundle of flag varieties, see \cite[equation (5.1)]{GRTV:2012}. We also obtain similar result for $\gl_{1|1}$ Gaudin models, see \cite{L:2022}.
+
+\begin{thm}[{\cite[Theorem 2.11]{LM:2019}}]
+Let $\bla$ be a sequence of polynomial $\gl_{1|1}$-weights. If $L(\bla,\bm b)$ is an irreducible $\Yone$-module, then the Bethe ansatz is complete.
+\end{thm}
+
+Combining this with Theorem \ref{thm tensor irr}
+, it addresses Question \ref{que eigenvalues}. The situation with tensor products of arbitrary finite-dimensional modules is even more interesting as the category of finite-dimensional $\gl_{1|1}$-modules is not semisimple and therefore we have more symmetries of the model, see \cite[Section 8.3]{HMVY:2019}. The methods of \cite{LM:2019} are not applicable and one needs a different approach.
+
+We also remark that attempts to obtain similar results in the $\gl_m$ ($m\gge 4$) case have not been fully successful so far.
+
+\section{Representation theory of quantum groups}
+The representation theory of super Yangian $\YglMN$ or $\mathrm{U}_q(\widehat{\mathfrak{gl}}_{m|n})$ has been studied in \cite{Zh:1995,Zh:1996,Zhh:2014,Zhh:2017,Zhh:2018}. However, it is still far from being well-understood. A first question is that what is the ``correct" definition of $q$-characters (though a $q$-character can be defined) for super case. Here by correctness, we mean the one which has nice combinatorial properties that can be useful and powerful to study the representation theory of $\YglMN$, see \cite{FM:2001}. For example, a $q$-character theory which produces a good definition of dominant monomials and preserves the right-negativity, and so on.
+
+Most works are done for the evaluation of polynomial modules which are associated to hook Young diagrams. It would be interesting to work on a more general class of representations which are associated to skew Young diagrams. Namely, we are interested in generalizing the work of Nazarov and Tarasov \cite{NT:1998IMRN,NT:1998,NT:2002} to the supersymmetric setting. We explain it in more detail as follows.
+
+\subsection{Drinfeld functor for super Yangian}
+Affine quantum Schur-Weyl duality was first proved by Drinfeld in \cite{Dri:1986} for Yangian and by Chari and Pressley for quantum affine algebras in \cite{CP:1996}. It was further explored by Arakawa in \cite{Ara:1999}. Following \cite{Ara:1999}, we study the Drinfeld functor for super Yangian, see \cite[Sec. 4]{LM:2020}. Given any finite-dimensional irreducible representation $M$ of the degenerate Hecke algebra, the image of $M$ under the Drinfeld functor remains irreducible as a super Yangian module.  Unlike the even case, it is not clear how to compute the highest $\ell$-weight of the image of $M$ under Drinfeld functor since the highest $\ell$-weight vector is in general not the top vector any more. We show the Jacobi-Trudi identity for $q$-characters of skew representations, see \cite[Thm 3.4]{LM:2020}. Using this and the resolution of  we show that this image is exactly the skew representations associated to skew Young diagrams in \cite{NT:1998IMRN} defined in the same way for super case. Moreover, Consequently, many known results from non-super case can be obtained using Drinfeld functor. For example, if all $V_i$ are elementary modules, then $V_1\otimes \cdots\otimes V_\ell$ is simple if and only if $V_i\otimes V_j$ is simple for all $i<j$, cf. \cite[Theorem 4.9]{NT:2002} and \cite{Her:2010}. It would be nice to generalize similar results to the cyclic case, cf. \cite{Her:2019}, and give explicit cyclic conditions of these modules, cf. \cite[Proposition 3.1 and Theorem 3.3]{NT:1998IMRN} and \cite{Cha:2002}. The $q$-character of these modules give solutions of extended T-systems, cf. \cite{MY:2012}.
+
+\subsection{Gelfand-Zetlin bases} The explicit formulas for generators acting on Gelfand-Zetlin bases of covariant representations (polynomial moduels) for the Lie superalgebra $\glMN$ has been obtained \cite{SV:2010}. Using this result, we give explicit actions of the current generating series of the super Yangian action on representations of $\YglMN$ associated to skew Young diagrams in \cite{L:2021a}. Instead of following \cite{NT:1994}, we use a property from \cite{Y:2015} which says if the module is thin, then the action of current generating series on the eigenbasis of Cartan generating series is essentially determined by the action of the first mode and their $\ell$-weights. In particular, we give another proof that the skew representations of super Yangian is irreducible. We also give similar results for the quantum affine superalgebra associated to $\glMN$.
+
+The main reason to avoid the technic from \cite{NT:1994} is that the Berezinian, a super analogue of determinant, makes the problem more complex. One is not able to get a polynomial action for all Berezinians (previously quantum minors) by simply multiplying a polynomial. Such a discussion is written in \cite{M:2021} for the simplest case $\Yone$. It would be interesting to generalize it to higher ranks.
+
+\subsection{Super Yangian associated to different parity sequences, see \cite{CW:2012,P:2016}} It is also interesting to generalize the results mentioned above to the case of Yangian $\YglMN$ with arbitrary parity sequences. Another question arose in the study \cite{HLM:2019} is as follows. For a finite-dimensional irreducible $\YglMN$-module $V$ of highest $\ell$-weight $\bm \zeta$ with respect to the standard parity sequence, consider the Borel part of $\YglMN$ associated to another parity sequence, what is the highest $\ell$-weight of $V$ with respect to this new Borel part. The answer for tensor products of evaluation modules can be addressed using the result from representation theory of $\glMN$. This result has been obtained recently in \cite{M:2021}. Indeed, similar results are obtained by me in 2020 Summer. We remark that the answer is indeed simple for $\gl_{1|1}$ case as all irreducible finite-dimensional representations of $\Yone$ are essentially tensor products of evaluation modules and then it is trivially generalized to the general $\YglMN$ case, see e.g. \cite{M:2021}. Moreover, such a transition rule can also be obtained using Bethe ansatz, see \eqref{eq:odd}. To be more precise, one can compute explicitly the new $\ell$-weights $(\tl{\zeta}_1(x),\tl\zeta_2(x))$ using \cite[Lemma 2.2]{HLM:2019} which is exactly the highest $\ell$-weight for the same module with respect to the new Borel subalgebra of super Yangian after the odd reflection. We reproduced the result using Drinfeld generators and gave an algorithm how $q$-characters change under odd reflections in \cite{L:2021c}.
+
+\subsection{Schur-Weyl duality for quantum toroidal superalgebras}
+Let $\ddot{\mathbb H}_{\ell}$ be the double affine Hecke algebra (elliptic Cherednik algebras) depending on a parameter $\zeta$, $\mathcal E$ the quantum toroidal superalgebra associated to $\glMN$ depending on two generic parameters $q,d$, see \cite{BM21}. Set $q_1=dq^{-1}$. 
+
+We establish the Schur-Weyl type duality between double affine Hecke algebras and quantum toroidal superalgebras, generalizing the well known result of \cite{VV:1996} to the super case.
+\begin{thm}[\cite{L:2021b}]\label{thm:toroidal}
+If $\zeta=q_1^{n-m}$ and $m+n\gge 4$, then there exists a functor $\mathcal F$ from the category of right $\ddot{\mathbb H}_{\ell}$-modules to the category of integrable $\mathcal E$-modules with trivial central charge and of level $\ell$. Moreover, if $\ell<m+n-2$, then the functor $\mathcal F$ is an equivalence of categories.
+\end{thm}
+It would be an interesting problem that how the representations of quantum toroidal superalgebras can be deduced using the Schur-Weyl duality directly from the known results of quantum toroidal algebras, cf. \cite{LM:2020}.
+\subsection{Group gradings} I also worked on group gradings when I was a master student in Zhejiang University, see \cite{HLY,HLL}.
+
+\section{Future work}\label{Sec future}
+In this section, we discuss the ongoing and possible future projects. My long term goal is to understand the questions described in the introduction for XXX and XXZ spin chains and their super or affine analogues (also including Gaudin model). Certain projects for quantum spin chains have been already mentioned before. Below, we list my interests in the relation with representation theory of quantum group, in particular for the supersymmetric case. 
+
+\subsection{Ongoing projects}Here we discuss a few ongoing projects.
+
+(1) {\bf Conjecture \ref{conj oper}}: It is shown in \cite{LM:2020} that the Harish-Chandra image of $\mathrm{Ber}(Z(x,\tau))$ is given by
+\beq\label{eq harish-chandra ber}
+\mathop{\overrightarrow\prod}\limits_{1\lle i\lle m+n}(1-d_i(x)\, \tau)^{\epsilon_i},
+\eeq
+where $d_i(x)$ correspond to the Harish-chandra images of $T_{ii}(x)$ and generate the Cartan part of $\YglMN$, see \cite{Gow:2007}. Then \eqref{eq rational diff oper} is obtained from \eqref{eq harish-chandra ber} by the replacement $d_i(x)\to \zeta_i(x)\frac{y_{i-1}(x+\epsilon_i)y_i(x-\epsilon_i)}{y_{i-1}(x)y_i(x)}$, c.f. \cite[Theorem 5.11]{FH:2015}. One of the ongoing project is to give a positive solution to Conjecture \ref{conj oper} following the strategy of \cite{MTV:2006} using nested Bethe ansatz.
+
+(2) \textbf{Conjecture \ref{conj frob-int} for XXX spin chains on tensor products of fundamental representations}: In a recent paper \cite{IMGR:2021}, the perfect integrability was proved for the XXX spin chains on tame representations of $\mathrm{Y}(\gl_{n})$ for generic regular evaluation parameters. When I was a PhD students, together with E. Mukhin and V. Tarasov, we obtained the perfect duality for XXX spin chains on tensor products of fundamental representations or representations corresponding to rows. Note that there are tensor products of fundamental representations which are not tame representations.  Our methods are different from that of \cite{IMGR:2021}. We will explain the relations of this results with quantum cohomology in the next section.
+
+(3) \textbf{Quantum cohomology ring of type A quiver variety}: In \cite{MO:2019}, Maulik and Okounkov describe an
+action of the Yangian $\mathrm{Y}(\gl_n)$ on the localized equivariant cohomology of type A quiver varieties such that
+some elements from Bethe algebras with regular semisimple element $C$ act as operators of quantum multiplication
+by some cohomology classes (with $C$ being the quantum parameter). According to a conjecture
+of \cite{MO:2019} the quantum cohomology ring coincides with the image of the corresponding Bethe
+subalgebra. The $\mathrm{Y}(\gl_n)$-modules arising in this construction have the form are tensor products of fundamental evaluation modules. This would be an interesting problem
+once the previous ongoing project is done. We will describe explicitly the image of the Bethe algebra and hence compare the quantum cohomology ring and the image of Bethe algebra. Note that the cases when all fundamental representations are exactly the vector representations are discussed in \cite{GRTV:2012}. 
+
+
+\bibliographystyle{amsalpha}
+\bibliography{all}
+
+\end{document}
