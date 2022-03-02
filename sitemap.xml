@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://kanglu.me/index.html</loc>
+    
+    <lastmod>2022-03-02</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://kanglu.me/manuscripts.html</loc>
     
     <lastmod>2022-02-19</lastmod>
@@ -19,13 +26,6 @@
     <loc>https://kanglu.me/citations.html</loc>
     
     <lastmod>2022-02-18</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://kanglu.me/index.html</loc>
-    
-    <lastmod>2022-02-17</lastmod>
     
   </url>
   
@@ -74,7 +74,7 @@
 
   <url>
     <loc>https://kanglu.me/</loc>
-    <lastmod>2022-02-19</lastmod>
+    <lastmod>2022-03-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
