@@ -26,102 +26,6 @@
 ]]></content>
   </entry>
   <entry>
-    <title>Citations by others</title>
-    <url>//citations.html</url>
-    <content><![CDATA[<h2 id="Independent-citations"><a href="#Independent-citations" class="headerlink" title="Independent citations"></a>Independent citations</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Total: 18.5</span><br></pre></td></tr></table></figure>
-
-<h4 id="On-the-Gaudin-model-associated-to-Lie-algebras-of-classical-types"><a href="#On-the-Gaudin-model-associated-to-Lie-algebras-of-classical-types" class="headerlink" title="On the Gaudin model associated to Lie algebras of classical types"></a>On the Gaudin model associated to Lie algebras of classical types</h4><ol>
-<li><a href="https://doi.org/10.1093/imrn/rny245">L Rybnikov, A proof of the Gaudin Bethe Ansatz conjecture</a></li>
-<li><a href="https://arxiv.org/abs/2009.12243">Peng Liu, Wei-Dong Ruan, Yang-Yang functions, Monodromy and knot polynomials</a> </li>
-</ol>
-<h4 id="Self-dual-Grassmannian-Wronski-map-and-representations-of-mathfrak-gl-N-mathfrak-sp-2r-mathfrak-so-2r-1"><a href="#Self-dual-Grassmannian-Wronski-map-and-representations-of-mathfrak-gl-N-mathfrak-sp-2r-mathfrak-so-2r-1" class="headerlink" title="Self-dual Grassmannian, Wronski map, and representations of \(\mathfrak{gl}_N\), \(\mathfrak{sp}_{2r}\), \(\mathfrak{so}_{2r+1}\)"></a>Self-dual Grassmannian, Wronski map, and representations of \(\mathfrak{gl}_N\), \(\mathfrak{sp}_{2r}\), \(\mathfrak{so}_{2r+1}\)</h4><ol>
-<li><a href="https://bookstore.ams.org/surv-229/">A Molev, Sugawara operators for classical Lie algebras</a> </li>
-<li><a href="https://arxiv.org/abs/1907.11924">J Levinson, K Purbhoo, A topological proof of the Shapiro-Shapiro conjecture</a></li>
-</ol>
-<h4 id="Solutions-of-mathfrak-gl-m-n-XXX-Bethe-ansatz-equation-and-rational-difference-operators"><a href="#Solutions-of-mathfrak-gl-m-n-XXX-Bethe-ansatz-equation-and-rational-difference-operators" class="headerlink" title="Solutions of \(\mathfrak{gl}_{m|n}\) XXX Bethe ansatz equation and rational difference operators"></a>Solutions of \(\mathfrak{gl}_{m|n}\) XXX Bethe ansatz equation and rational difference operators</h4><ol>
-<li><a href="https://arxiv.org/abs/1907.08124">JM Maillet, G Niccoli, L Vignoli, Separation of variables bases for integrable $gl_{\mathcal M|\mathcal N}$ and Hubbard models</a></li>
-<li><a href="https://arxiv.org/abs/2004.02865">D Chernyak, S Leurent, D Volin, Completeness of Wronskian Bethe equations for rational $\mathfrak{gl}(m|n)$ spin chain</a></li>
-<li><a href="https://etheses.whiterose.ac.uk/28790/1/Gerrard_203033043_CorrectedThesis.pdf">AJ Gerrard, Nested algebraic Bethe ansaetz for orthogonal and symplectic spin chains</a> Only cited in reference</li>
-</ol>
-<h4 id="Perfect-integrability-and-Gaudin-models"><a href="#Perfect-integrability-and-Gaudin-models" class="headerlink" title="Perfect integrability and Gaudin models"></a>Perfect integrability and Gaudin models</h4><ol>
-<li><a href="https://arxiv.org/abs/2201.03087">E. Mukhin, A. Varchenko, Frobenius-like structure in Gaudin model</a></li>
-</ol>
-<h4 id="On-the-supersymmetric-XXX-spin-chains-associated-to-mathfrak-gl-1-1"><a href="#On-the-supersymmetric-XXX-spin-chains-associated-to-mathfrak-gl-1-1" class="headerlink" title="On the supersymmetric XXX spin chains associated to $\mathfrak{gl}_{1|1}$"></a>On the supersymmetric XXX spin chains associated to $\mathfrak{gl}_{1|1}$</h4><ol>
-<li><a href="https://arxiv.org/abs/1907.08124">JM Maillet, G Niccoli, L Vignoli, Separation of variables bases for integrable $gl_{\mathcal M|\mathcal N}$ and Hubbard models</a></li>
-<li><a href="https://arxiv.org/abs/2004.02865">D Chernyak, S Leurent, D Volin, Completeness of Wronskian Bethe equations for rational $\mathfrak{gl}(m|n)$ spin chain</a></li>
-<li><a href="https://iopscience.iop.org/article/10.1088/1751-8121/ac491b/pdf">A. Liashyk, S. Pakuliak, Recurrence relations for off-shell Bethe vectors in trigonometric integrable models</a></li>
-</ol>
-<h4 id="Jacobi-Trudi-identity-and-Drinfeld-functor-for-super-Yangian"><a href="#Jacobi-Trudi-identity-and-Drinfeld-functor-for-super-Yangian" class="headerlink" title="Jacobi-Trudi identity and Drinfeld functor for super Yangian"></a>Jacobi-Trudi identity and Drinfeld functor for super Yangian</h4><ol>
-<li><a href="https://www.sciencedirect.com/science/article/pii/S0550321321002601?via=ihub">Zengo Tsuboi, Boson-Fermion correspondence, QQ-relations and Wronskian solutions of the T-system</a></li>
-<li><a href="http://www.tara.tcd.ie/bitstream/handle/2262/97300/Paul_Ryan_PhD_Final.pdf?sequence=1">Paul Ryan, Integrable systems, separation of variables and the Yang-Baxter equation</a></li>
-<li><a href="https://arxiv.org/abs/2004.02865">D Chernyak, S Leurent, D Volin, Completeness of Wronskian Bethe equations for rational $\mathfrak{gl}(m|n)$ spin chain</a></li>
-<li>A. Molev, Representations of the super Yangians of types A and C</li>
-</ol>
-<h4 id="A-note-on-odd-reflections-of-super-Yangian-and-Bethe-ansatz"><a href="#A-note-on-odd-reflections-of-super-Yangian-and-Bethe-ansatz" class="headerlink" title="A note on odd reflections of super Yangian and Bethe ansatz"></a>A note on odd reflections of super Yangian and Bethe ansatz</h4><ol>
-<li><a href="https://link.springer.com/article/10.1007/s11005-021-01501-2">A. Molev, Odd reflections in the Yangian associated with \(\mathfrak{gl}_{m|n}\)</a></li>
-<li>A. Molev, Representations of the super Yangians of types A and C</li>
-</ol>
-<h4 id="Gelfand-Tsetlin-bases-of-representations-for-super-Yangian-and-quantum-affine-superalgebra"><a href="#Gelfand-Tsetlin-bases-of-representations-for-super-Yangian-and-quantum-affine-superalgebra" class="headerlink" title="Gelfand-Tsetlin bases of representations for super Yangian and quantum affine superalgebra"></a>Gelfand-Tsetlin bases of representations for super Yangian and quantum affine superalgebra</h4><ol>
-<li><a href="https://arxiv.org/pdf/2012.14986.pdf">Robert G. Donnelly and Molly W. Dunkum, Gelfand-Tsetlin-type weight bases for all special linear Lie algebra representations corresponding to skew Schur functions</a></li>
-</ol>
-<h4 id="Bethe-ansatz-equations-for-orthosymplectic-Lie-superalgebra-and-self-dual-superspaces"><a href="#Bethe-ansatz-equations-for-orthosymplectic-Lie-superalgebra-and-self-dual-superspaces" class="headerlink" title="Bethe ansatz equations for orthosymplectic Lie superalgebra and self-dual superspaces"></a>Bethe ansatz equations for orthosymplectic Lie superalgebra and self-dual superspaces</h4><ol>
-<li><a href="https://arxiv.org/pdf/2109.06164.pdf">Simon Ekhammar, D. Volin, Monodromy Bootstrap for SU(2|2) Quantum Spectral Curves: From Hubbard model to AdS3/CFT2</a></li>
-</ol>
-<h2 id="Self-citations"><a href="#Self-citations" class="headerlink" title="Self citations"></a>Self citations</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Total: 29 + 6 (Thesis)</span><br></pre></td></tr></table></figure>
-
-<h4 id="On-the-Gaudin-model-associated-to-Lie-algebras-of-classical-types-1"><a href="#On-the-Gaudin-model-associated-to-Lie-algebras-of-classical-types-1" class="headerlink" title="On the Gaudin model associated to Lie algebras of classical types"></a>On the Gaudin model associated to Lie algebras of classical types</h4><ol>
-<li>Self-dual Grassmannian, Wronski map, and representations of \(\mathfrak{gl}_N\), \(\mathfrak{sp}_{2r}\), \(\mathfrak{so}_{2r+1}\)</li>
-<li>Lower Bounds for Numbers of Real Self-Dual Spaces in Problems of Schubert Calculus</li>
-<li>On the Gaudin model of type G$_2$</li>
-</ol>
-<h4 id="Self-dual-Grassmannian-Wronski-map-and-representations-of-mathfrak-gl-N-mathfrak-sp-2r-mathfrak-so-2r-1-1"><a href="#Self-dual-Grassmannian-Wronski-map-and-representations-of-mathfrak-gl-N-mathfrak-sp-2r-mathfrak-so-2r-1-1" class="headerlink" title="Self-dual Grassmannian, Wronski map, and representations of \(\mathfrak{gl}_N\), \(\mathfrak{sp}_{2r}\), \(\mathfrak{so}_{2r+1}\)"></a>Self-dual Grassmannian, Wronski map, and representations of \(\mathfrak{gl}_N\), \(\mathfrak{sp}_{2r}\), \(\mathfrak{so}_{2r+1}\)</h4><ol>
-<li>Lower Bounds for Numbers of Real Self-Dual Spaces in Problems of Schubert Calculus</li>
-<li>On the Gaudin model of type G$_2$</li>
-<li>Perfect integrability and Gaudin models</li>
-<li>Bethe ansatz equations for orthosymplectic Lie superalgebra and self-dual superspaces</li>
-</ol>
-<h4 id="Lower-Bounds-for-Numbers-of-Real-Self-Dual-Spaces-in-Problems-of-Schubert-Calculus"><a href="#Lower-Bounds-for-Numbers-of-Real-Self-Dual-Spaces-in-Problems-of-Schubert-Calculus" class="headerlink" title="Lower Bounds for Numbers of Real Self-Dual Spaces in Problems of Schubert Calculus"></a>Lower Bounds for Numbers of Real Self-Dual Spaces in Problems of Schubert Calculus</h4><ol>
-<li>Perfect integrability and Gaudin models</li>
-<li>Bethe ansatz equations for orthosymplectic Lie superalgebra and self-dual superspaces</li>
-</ol>
-<h4 id="On-the-Gaudin-model-of-type-G-2"><a href="#On-the-Gaudin-model-of-type-G-2" class="headerlink" title="On the Gaudin model of type G$_2$"></a>On the Gaudin model of type G$_2$</h4><ol>
-<li>Lower Bounds for Numbers of Real Self-Dual Spaces in Problems of Schubert Calculus</li>
-<li>Perfect integrability and Gaudin models</li>
-</ol>
-<h4 id="Solutions-of-mathfrak-gl-m-n-XXX-Bethe-ansatz-equation-and-rational-difference-operators-1"><a href="#Solutions-of-mathfrak-gl-m-n-XXX-Bethe-ansatz-equation-and-rational-difference-operators-1" class="headerlink" title="Solutions of \(\mathfrak{gl}_{m|n}\) XXX Bethe ansatz equation and rational difference operators"></a>Solutions of \(\mathfrak{gl}_{m|n}\) XXX Bethe ansatz equation and rational difference operators</h4><ol>
-<li>On the supersymmetric XXX spin chains associated to $\mathfrak{gl}_{1|1}$</li>
-<li>Jacobi-Trudi identity and Drinfeld functor for super Yangian</li>
-<li>Gelfand-Tsetlin bases of representations for super Yangian and quantum affine superalgebra</li>
-<li>Bethe ansatz equations for orthosymplectic Lie superalgebra and self-dual superspaces</li>
-<li>A note on odd reflections of super Yangian and Bethe ansatz</li>
-</ol>
-<h4 id="On-the-supersymmetric-XXX-spin-chains-associated-to-mathfrak-gl-1-1-1"><a href="#On-the-supersymmetric-XXX-spin-chains-associated-to-mathfrak-gl-1-1-1" class="headerlink" title="On the supersymmetric XXX spin chains associated to $\mathfrak{gl}_{1|1}$"></a>On the supersymmetric XXX spin chains associated to $\mathfrak{gl}_{1|1}$</h4><ol>
-<li>Perfect integrability and Gaudin models</li>
-<li>Jacobi-Trudi identity and Drinfeld functor for super Yangian</li>
-<li>Solutions of \(\mathfrak{gl}_{m|n}\) XXX Bethe ansatz equation and rational difference operators</li>
-<li>Bethe ansatz equations for orthosymplectic Lie superalgebra and self-dual superspaces</li>
-<li>Gelfand-Tsetlin bases of representations for super Yangian and quantum affine superalgebra</li>
-<li>A note on odd reflections of super Yangian and Bethe ansatz</li>
-</ol>
-<h4 id="Perfect-integrability-and-Gaudin-models-1"><a href="#Perfect-integrability-and-Gaudin-models-1" class="headerlink" title="Perfect integrability and Gaudin models"></a>Perfect integrability and Gaudin models</h4><ol>
-<li>Bethe ansatz equations for orthosymplectic Lie superalgebra and self-dual superspaces</li>
-</ol>
-<h4 id="Jacobi-Trudi-identity-and-Drinfeld-functor-for-super-Yangian-1"><a href="#Jacobi-Trudi-identity-and-Drinfeld-functor-for-super-Yangian-1" class="headerlink" title="Jacobi-Trudi identity and Drinfeld functor for super Yangian"></a>Jacobi-Trudi identity and Drinfeld functor for super Yangian</h4><ol>
-<li>Bethe ansatz equations for orthosymplectic Lie superalgebra and self-dual superspaces</li>
-<li>Gelfand-Tsetlin bases of representations for super Yangian and quantum affine superalgebra</li>
-<li>Schur-Weyl duality for quantum toroidal superalgebras</li>
-<li>A note on odd reflections of super Yangian and Bethe ansatz</li>
-</ol>
-<h4 id="Gelfand-Tsetlin-bases-of-representations-for-super-Yangian-and-quantum-affine-superalgebra-1"><a href="#Gelfand-Tsetlin-bases-of-representations-for-super-Yangian-and-quantum-affine-superalgebra-1" class="headerlink" title="Gelfand-Tsetlin bases of representations for super Yangian and quantum affine superalgebra"></a>Gelfand-Tsetlin bases of representations for super Yangian and quantum affine superalgebra</h4><ol>
-<li>Schur-Weyl duality for quantum toroidal superalgebras</li>
-<li>A note on odd reflections of super Yangian and Bethe ansatz</li>
-</ol>
-<h4 id="Bethe-ansatz-equations-for-orthosymplectic-Lie-superalgebra-and-self-dual-superspaces-1"><a href="#Bethe-ansatz-equations-for-orthosymplectic-Lie-superalgebra-and-self-dual-superspaces-1" class="headerlink" title="Bethe ansatz equations for orthosymplectic Lie superalgebra and self-dual superspaces"></a>Bethe ansatz equations for orthosymplectic Lie superalgebra and self-dual superspaces</h4><ol>
-<li>A note on odd reflections of super Yangian and Bethe ansatz</li>
-</ol>
-]]></content>
-  </entry>
-  <entry>
     <title>Homepage</title>
     <url>//index.html</url>
     <content><![CDATA[<h3 id="Personal-Information"><a href="#Personal-Information" class="headerlink" title="Personal Information"></a><a href="#Personal-Information" title="Personal Information"></a>Personal Information</h3><p>I am a Visiting Assistant Professor at <a href="https://www.math.du.edu/">University of Denver</a> and my mentor is <a href="https://cs.du.edu/~alinshaw/">Andrew Linshaw</a>. I received my Ph.D. in Mathematics from <a href="https://math.iupui.edu/">Purdue University Indianapolis (IUPUI)</a>, advised by <a href="https://www.math.iupui.edu/~mukhin/">Evgeny Mukhin</a>. </p>
@@ -180,6 +84,128 @@
 ]]></content>
   </entry>
   <entry>
+    <title>Citations by others</title>
+    <url>//citations.html</url>
+    <content><![CDATA[<h2 id="Independent-citations"><a href="#Independent-citations" class="headerlink" title="Independent citations"></a>Independent citations</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Total: 18.5</span><br></pre></td></tr></table></figure>
+
+<h4 id="On-the-Gaudin-model-associated-to-Lie-algebras-of-classical-types"><a href="#On-the-Gaudin-model-associated-to-Lie-algebras-of-classical-types" class="headerlink" title="On the Gaudin model associated to Lie algebras of classical types"></a>On the Gaudin model associated to Lie algebras of classical types</h4><ol>
+<li><a href="https://doi.org/10.1093/imrn/rny245">L Rybnikov, A proof of the Gaudin Bethe Ansatz conjecture</a><br><img src="https://raw.githubusercontent.com/howlifeus/pic/master/202207241149119.png"></li>
+<li><a href="https://arxiv.org/abs/2009.12243">Peng Liu, Wei-Dong Ruan, Yang-Yang functions, Monodromy and knot polynomials</a><br><img src="https://raw.githubusercontent.com/howlifeus/pic/master/202207241152365.png"><br><img src="https://raw.githubusercontent.com/howlifeus/pic/master/202207241153353.png"></li>
+</ol>
+<h4 id="Self-dual-Grassmannian-Wronski-map-and-representations-of-mathfrak-gl-N-mathfrak-sp-2r-mathfrak-so-2r-1"><a href="#Self-dual-Grassmannian-Wronski-map-and-representations-of-mathfrak-gl-N-mathfrak-sp-2r-mathfrak-so-2r-1" class="headerlink" title="Self-dual Grassmannian, Wronski map, and representations of \(\mathfrak{gl}_N\), \(\mathfrak{sp}_{2r}\), \(\mathfrak{so}_{2r+1}\)"></a>Self-dual Grassmannian, Wronski map, and representations of \(\mathfrak{gl}_N\), \(\mathfrak{sp}_{2r}\), \(\mathfrak{so}_{2r+1}\)</h4><ol>
+<li><a href="https://bookstore.ams.org/surv-229/">A Molev, Sugawara operators for classical Lie algebras</a><br><img src="https://raw.githubusercontent.com/howlifeus/pic/master/202207241155886.png"></li>
+<li><a href="https://arxiv.org/abs/1907.11924">J Levinson, K Purbhoo, A topological proof of the Shapiro-Shapiro conjecture</a><br><img src="https://raw.githubusercontent.com/howlifeus/pic/master/202207241157456.png"></li>
+</ol>
+<h4 id="Solutions-of-mathfrak-gl-m-n-XXX-Bethe-ansatz-equation-and-rational-difference-operators"><a href="#Solutions-of-mathfrak-gl-m-n-XXX-Bethe-ansatz-equation-and-rational-difference-operators" class="headerlink" title="Solutions of \(\mathfrak{gl}_{m|n}\) XXX Bethe ansatz equation and rational difference operators"></a>Solutions of \(\mathfrak{gl}_{m|n}\) XXX Bethe ansatz equation and rational difference operators</h4><ol>
+<li><p><a href="https://arxiv.org/abs/1907.08124">JM Maillet, G Niccoli, L Vignoli, Separation of variables bases for integrable $gl_{\mathcal M|\mathcal N}$ and Hubbard models</a> [204,209]<br><img src="https://raw.githubusercontent.com/howlifeus/pic/master/202207241204807.png"><br><img src="https://raw.githubusercontent.com/howlifeus/pic/master/202207241205782.png"><br><img src="https://raw.githubusercontent.com/howlifeus/pic/master/202207241205008.png"><br><img src="https://raw.githubusercontent.com/howlifeus/pic/master/202207241205582.png"></p>
+</li>
+<li><p><a href="https://arxiv.org/abs/2004.02865">D Chernyak, S Leurent, D Volin, Completeness of Wronskian Bethe equations for rational $\mathfrak{gl}(m|n)$ spin chain</a><br><img src="https://raw.githubusercontent.com/howlifeus/pic/master/202207241212722.png"><br><img src="https://raw.githubusercontent.com/howlifeus/pic/master/202207241212862.png"></p>
+</li>
+<li><p><a href="https://etheses.whiterose.ac.uk/28790/1/Gerrard_203033043_CorrectedThesis.pdf">AJ Gerrard, Nested algebraic Bethe ansaetz for orthogonal and symplectic spin chains</a> Only cited in reference</p>
+</li>
+</ol>
+<h4 id="Perfect-integrability-and-Gaudin-models"><a href="#Perfect-integrability-and-Gaudin-models" class="headerlink" title="Perfect integrability and Gaudin models"></a>Perfect integrability and Gaudin models</h4><ol>
+<li><a href="https://arxiv.org/abs/2201.03087">E. Mukhin, A. Varchenko, Frobenius-like structure in Gaudin model</a><br><img src="https://raw.githubusercontent.com/howlifeus/pic/master/202207241218669.png"></li>
+</ol>
+<h4 id="On-the-supersymmetric-XXX-spin-chains-associated-to-mathfrak-gl-1-1"><a href="#On-the-supersymmetric-XXX-spin-chains-associated-to-mathfrak-gl-1-1" class="headerlink" title="On the supersymmetric XXX spin chains associated to $\mathfrak{gl}_{1|1}$"></a>On the supersymmetric XXX spin chains associated to $\mathfrak{gl}_{1|1}$</h4><ol>
+<li><a href="https://arxiv.org/abs/1907.08124">JM Maillet, G Niccoli, L Vignoli, Separation of variables bases for integrable $gl_{\mathcal M|\mathcal N}$ and Hubbard models</a> [209]<br><img src="https://raw.githubusercontent.com/howlifeus/pic/master/202207241204807.png"><br><img src="https://raw.githubusercontent.com/howlifeus/pic/master/202207241205983.png"> </li>
+<li><a href="https://arxiv.org/abs/2004.02865">D Chernyak, S Leurent, D Volin, Completeness of Wronskian Bethe equations for rational $\mathfrak{gl}(m|n)$ spin chain</a> [11]<br><img src="https://raw.githubusercontent.com/howlifeus/pic/master/202207241212722.png"></li>
+<li><a href="https://iopscience.iop.org/article/10.1088/1751-8121/ac491b/pdf">A. Liashyk, S. Pakuliak, Recurrence relations for off-shell Bethe vectors in trigonometric integrable models</a><br><img src="https://raw.githubusercontent.com/howlifeus/pic/master/202207241223860.png"></li>
+</ol>
+<h4 id="Jacobi-Trudi-identity-and-Drinfeld-functor-for-super-Yangian"><a href="#Jacobi-Trudi-identity-and-Drinfeld-functor-for-super-Yangian" class="headerlink" title="Jacobi-Trudi identity and Drinfeld functor for super Yangian"></a>Jacobi-Trudi identity and Drinfeld functor for super Yangian</h4><ol>
+<li><a href="https://www.sciencedirect.com/science/article/pii/S0550321321002601?via=ihub">Zengo Tsuboi, Boson-Fermion correspondence, QQ-relations and Wronskian solutions of the T-system</a><br><img src="https://raw.githubusercontent.com/howlifeus/pic/master/202207241238076.png"><br><img src="https://raw.githubusercontent.com/howlifeus/pic/master/202207241239946.png"></li>
+<li><a href="http://www.tara.tcd.ie/bitstream/handle/2262/97300/Paul_Ryan_PhD_Final.pdf?sequence=1">Paul Ryan, Integrable systems, separation of variables and the Yang-Baxter equation</a><br><img src="https://raw.githubusercontent.com/howlifeus/pic/master/202207241246737.png"></li>
+<li><a href="https://arxiv.org/abs/2004.02865">D Chernyak, S Leurent, D Volin, Completeness of Wronskian Bethe equations for rational $\mathfrak{gl}(m|n)$ spin chain</a><br><img src="https://raw.githubusercontent.com/howlifeus/pic/master/202207241212007.png"></li>
+<li>A. Molev, Representations of the super Yangians of types A and C<br><img src="https://raw.githubusercontent.com/howlifeus/pic/master/202207241250972.png"></li>
+</ol>
+<h4 id="A-note-on-odd-reflections-of-super-Yangian-and-Bethe-ansatz"><a href="#A-note-on-odd-reflections-of-super-Yangian-and-Bethe-ansatz" class="headerlink" title="A note on odd reflections of super Yangian and Bethe ansatz"></a>A note on odd reflections of super Yangian and Bethe ansatz</h4><ol>
+<li><a href="https://link.springer.com/article/10.1007/s11005-021-01501-2">A. Molev, Odd reflections in the Yangian associated with \(\mathfrak{gl}_{m|n}\)</a><br><img src="https://raw.githubusercontent.com/howlifeus/pic/master/202207241251508.png"></li>
+<li>A. Molev, Representations of the super Yangians of types A and C<br><img src="https://raw.githubusercontent.com/howlifeus/pic/master/202207241249686.png"></li>
+</ol>
+<h4 id="Gelfand-Tsetlin-bases-of-representations-for-super-Yangian-and-quantum-affine-superalgebra"><a href="#Gelfand-Tsetlin-bases-of-representations-for-super-Yangian-and-quantum-affine-superalgebra" class="headerlink" title="Gelfand-Tsetlin bases of representations for super Yangian and quantum affine superalgebra"></a>Gelfand-Tsetlin bases of representations for super Yangian and quantum affine superalgebra</h4><ol>
+<li><a href="https://arxiv.org/pdf/2012.14986.pdf">Robert G. Donnelly and Molly W. Dunkum, Gelfand-Tsetlin-type weight bases for all special linear Lie algebra representations corresponding to skew Schur functions</a><br><img src="https://raw.githubusercontent.com/howlifeus/pic/master/202207241300756.png"></li>
+</ol>
+<h4 id="Bethe-ansatz-equations-for-orthosymplectic-Lie-superalgebra-and-self-dual-superspaces"><a href="#Bethe-ansatz-equations-for-orthosymplectic-Lie-superalgebra-and-self-dual-superspaces" class="headerlink" title="Bethe ansatz equations for orthosymplectic Lie superalgebra and self-dual superspaces"></a>Bethe ansatz equations for orthosymplectic Lie superalgebra and self-dual superspaces</h4><ol>
+<li><a href="https://arxiv.org/pdf/2109.06164.pdf">Simon Ekhammar, D. Volin, Monodromy Bootstrap for SU(2|2) Quantum Spectral Curves: From Hubbard model to AdS3/CFT2</a><br><img src="https://raw.githubusercontent.com/howlifeus/pic/master/202207241304386.png"></li>
+</ol>
+<h2 id="Self-citations"><a href="#Self-citations" class="headerlink" title="Self citations"></a>Self citations</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Total: 29 + 6 (Thesis)</span><br></pre></td></tr></table></figure>
+
+<h4 id="On-the-Gaudin-model-associated-to-Lie-algebras-of-classical-types-1"><a href="#On-the-Gaudin-model-associated-to-Lie-algebras-of-classical-types-1" class="headerlink" title="On the Gaudin model associated to Lie algebras of classical types"></a>On the Gaudin model associated to Lie algebras of classical types</h4><ol>
+<li>Self-dual Grassmannian, Wronski map, and representations of \(\mathfrak{gl}_N\), \(\mathfrak{sp}_{2r}\), \(\mathfrak{so}_{2r+1}\)</li>
+<li>Lower Bounds for Numbers of Real Self-Dual Spaces in Problems of Schubert Calculus</li>
+<li>On the Gaudin model of type G$_2$</li>
+</ol>
+<h4 id="Self-dual-Grassmannian-Wronski-map-and-representations-of-mathfrak-gl-N-mathfrak-sp-2r-mathfrak-so-2r-1-1"><a href="#Self-dual-Grassmannian-Wronski-map-and-representations-of-mathfrak-gl-N-mathfrak-sp-2r-mathfrak-so-2r-1-1" class="headerlink" title="Self-dual Grassmannian, Wronski map, and representations of \(\mathfrak{gl}_N\), \(\mathfrak{sp}_{2r}\), \(\mathfrak{so}_{2r+1}\)"></a>Self-dual Grassmannian, Wronski map, and representations of \(\mathfrak{gl}_N\), \(\mathfrak{sp}_{2r}\), \(\mathfrak{so}_{2r+1}\)</h4><ol>
+<li>Lower Bounds for Numbers of Real Self-Dual Spaces in Problems of Schubert Calculus</li>
+<li>On the Gaudin model of type G$_2$</li>
+<li>Perfect integrability and Gaudin models</li>
+<li>Bethe ansatz equations for orthosymplectic Lie superalgebra and self-dual superspaces</li>
+</ol>
+<h4 id="Lower-Bounds-for-Numbers-of-Real-Self-Dual-Spaces-in-Problems-of-Schubert-Calculus"><a href="#Lower-Bounds-for-Numbers-of-Real-Self-Dual-Spaces-in-Problems-of-Schubert-Calculus" class="headerlink" title="Lower Bounds for Numbers of Real Self-Dual Spaces in Problems of Schubert Calculus"></a>Lower Bounds for Numbers of Real Self-Dual Spaces in Problems of Schubert Calculus</h4><ol>
+<li>Perfect integrability and Gaudin models</li>
+<li>Bethe ansatz equations for orthosymplectic Lie superalgebra and self-dual superspaces</li>
+</ol>
+<h4 id="On-the-Gaudin-model-of-type-G-2"><a href="#On-the-Gaudin-model-of-type-G-2" class="headerlink" title="On the Gaudin model of type G$_2$"></a>On the Gaudin model of type G$_2$</h4><ol>
+<li>Lower Bounds for Numbers of Real Self-Dual Spaces in Problems of Schubert Calculus</li>
+<li>Perfect integrability and Gaudin models</li>
+</ol>
+<h4 id="Solutions-of-mathfrak-gl-m-n-XXX-Bethe-ansatz-equation-and-rational-difference-operators-1"><a href="#Solutions-of-mathfrak-gl-m-n-XXX-Bethe-ansatz-equation-and-rational-difference-operators-1" class="headerlink" title="Solutions of \(\mathfrak{gl}_{m|n}\) XXX Bethe ansatz equation and rational difference operators"></a>Solutions of \(\mathfrak{gl}_{m|n}\) XXX Bethe ansatz equation and rational difference operators</h4><ol>
+<li>On the supersymmetric XXX spin chains associated to $\mathfrak{gl}_{1|1}$</li>
+<li>Jacobi-Trudi identity and Drinfeld functor for super Yangian</li>
+<li>Gelfand-Tsetlin bases of representations for super Yangian and quantum affine superalgebra</li>
+<li>Bethe ansatz equations for orthosymplectic Lie superalgebra and self-dual superspaces</li>
+<li>A note on odd reflections of super Yangian and Bethe ansatz</li>
+</ol>
+<h4 id="On-the-supersymmetric-XXX-spin-chains-associated-to-mathfrak-gl-1-1-1"><a href="#On-the-supersymmetric-XXX-spin-chains-associated-to-mathfrak-gl-1-1-1" class="headerlink" title="On the supersymmetric XXX spin chains associated to $\mathfrak{gl}_{1|1}$"></a>On the supersymmetric XXX spin chains associated to $\mathfrak{gl}_{1|1}$</h4><ol>
+<li>Perfect integrability and Gaudin models</li>
+<li>Jacobi-Trudi identity and Drinfeld functor for super Yangian</li>
+<li>Solutions of \(\mathfrak{gl}_{m|n}\) XXX Bethe ansatz equation and rational difference operators</li>
+<li>Bethe ansatz equations for orthosymplectic Lie superalgebra and self-dual superspaces</li>
+<li>Gelfand-Tsetlin bases of representations for super Yangian and quantum affine superalgebra</li>
+<li>A note on odd reflections of super Yangian and Bethe ansatz</li>
+</ol>
+<h4 id="Perfect-integrability-and-Gaudin-models-1"><a href="#Perfect-integrability-and-Gaudin-models-1" class="headerlink" title="Perfect integrability and Gaudin models"></a>Perfect integrability and Gaudin models</h4><ol>
+<li>Bethe ansatz equations for orthosymplectic Lie superalgebra and self-dual superspaces</li>
+</ol>
+<h4 id="Jacobi-Trudi-identity-and-Drinfeld-functor-for-super-Yangian-1"><a href="#Jacobi-Trudi-identity-and-Drinfeld-functor-for-super-Yangian-1" class="headerlink" title="Jacobi-Trudi identity and Drinfeld functor for super Yangian"></a>Jacobi-Trudi identity and Drinfeld functor for super Yangian</h4><ol>
+<li>Bethe ansatz equations for orthosymplectic Lie superalgebra and self-dual superspaces</li>
+<li>Gelfand-Tsetlin bases of representations for super Yangian and quantum affine superalgebra</li>
+<li>Schur-Weyl duality for quantum toroidal superalgebras</li>
+<li>A note on odd reflections of super Yangian and Bethe ansatz</li>
+</ol>
+<h4 id="Gelfand-Tsetlin-bases-of-representations-for-super-Yangian-and-quantum-affine-superalgebra-1"><a href="#Gelfand-Tsetlin-bases-of-representations-for-super-Yangian-and-quantum-affine-superalgebra-1" class="headerlink" title="Gelfand-Tsetlin bases of representations for super Yangian and quantum affine superalgebra"></a>Gelfand-Tsetlin bases of representations for super Yangian and quantum affine superalgebra</h4><ol>
+<li>Schur-Weyl duality for quantum toroidal superalgebras</li>
+<li>A note on odd reflections of super Yangian and Bethe ansatz</li>
+</ol>
+<h4 id="Bethe-ansatz-equations-for-orthosymplectic-Lie-superalgebra-and-self-dual-superspaces-1"><a href="#Bethe-ansatz-equations-for-orthosymplectic-Lie-superalgebra-and-self-dual-superspaces-1" class="headerlink" title="Bethe ansatz equations for orthosymplectic Lie superalgebra and self-dual superspaces"></a>Bethe ansatz equations for orthosymplectic Lie superalgebra and self-dual superspaces</h4><ol>
+<li>A note on odd reflections of super Yangian and Bethe ansatz</li>
+</ol>
+]]></content>
+  </entry>
+  <entry>
+    <title>Teaching</title>
+    <url>//teach.html</url>
+    <content><![CDATA[<h3 id="University-of-Denver"><a href="#University-of-Denver" class="headerlink" title="University of Denver"></a>University of Denver</h3><ul>
+<li>  MATH 1952 Calculus II, 2021 Spring</li>
+<li>  MATH 2070 Introduction to differential equations, 2021 Winter </li>
+<li>  MATH 1150 Introduction to Cryptography, 2021 Winter</li>
+<li>  MATH 1951 Calculus I, 2020 Fall (2 sessions)</li>
+</ul>
+<h3 id="IUPUI"><a href="#IUPUI" class="headerlink" title="IUPUI"></a>IUPUI</h3><ul>
+<li>  MATH 16500: Analytic Geometry and Calculus I, 2020 Summer I</li>
+<li>  MATH 15300: College Algebra, 2020 Spring</li>
+<li>  MATH 22100: Calculus for Technology I, 2020 Spring</li>
+<li>  MATH 15400: Trigonometry, 2019 Fall (2 sessions)</li>
+<li>  MATH 26600: Ordinary Differential Equations, 2019 Summer II</li>
+<li>  MATH 22100: Calculus for Technology I, 2019 Spring</li>
+<li>  MATH 11100: Intermediate Algebra, 2018 Fall</li>
+<li>  MATH 15400: Trigonometry, 2018 Summer II</li>
+<li>  MATH 11000: Fundamentals of Algebra, 2018 Spring</li>
+<li>  MATH 16500: Integrated Calculus and Analytic Geometry I, 2017 Fall (recitation, 2 sessions)</li>
+</ul>
+]]></content>
+  </entry>
+  <entry>
     <title>Research</title>
     <url>//research.html</url>
     <content><![CDATA[<h3 id="Research-Interests"><a href="#Research-Interests" class="headerlink" title="Research Interests"></a><a href="#Research-Interests" title="Research Interests"></a>Research Interests</h3><p>Generally speaking, I am interested in <a href="https://arxiv.org/list/math.RT/recent">Representation Theory</a> and <a href="https://arxiv.org/list/math.QA/recent">Quantum Algebras</a>.</p>
@@ -214,35 +240,6 @@
 ]]></content>
   </entry>
   <entry>
-    <title>Teaching</title>
-    <url>//teach.html</url>
-    <content><![CDATA[<h3 id="University-of-Denver"><a href="#University-of-Denver" class="headerlink" title="University of Denver"></a>University of Denver</h3><ul>
-<li>  MATH 1952 Calculus II, 2021 Spring</li>
-<li>  MATH 2070 Introduction to differential equations, 2021 Winter </li>
-<li>  MATH 1150 Introduction to Cryptography, 2021 Winter</li>
-<li>  MATH 1951 Calculus I, 2020 Fall (2 sessions)</li>
-</ul>
-<h3 id="IUPUI"><a href="#IUPUI" class="headerlink" title="IUPUI"></a>IUPUI</h3><ul>
-<li>  MATH 16500: Analytic Geometry and Calculus I, 2020 Summer I</li>
-<li>  MATH 15300: College Algebra, 2020 Spring</li>
-<li>  MATH 22100: Calculus for Technology I, 2020 Spring</li>
-<li>  MATH 15400: Trigonometry, 2019 Fall (2 sessions)</li>
-<li>  MATH 26600: Ordinary Differential Equations, 2019 Summer II</li>
-<li>  MATH 22100: Calculus for Technology I, 2019 Spring</li>
-<li>  MATH 11100: Intermediate Algebra, 2018 Fall</li>
-<li>  MATH 15400: Trigonometry, 2018 Summer II</li>
-<li>  MATH 11000: Fundamentals of Algebra, 2018 Spring</li>
-<li>  MATH 16500: Integrated Calculus and Analytic Geometry I, 2017 Fall (recitation, 2 sessions)</li>
-</ul>
-]]></content>
-  </entry>
-  <entry>
-    <title>Step-by-step guide to Webassign</title>
-    <url>//webassign.html</url>
-    <content><![CDATA[<p><img src="/img/webassign/1.png"><br><img src="/img/webassign/2.png"><br><img src="/img/webassign/3.png"><br><img src="/img/webassign/4.png"><br><img src="/img/webassign/5.png"><br><img src="/img/webassign/6.png"><br><img src="/img/webassign/7.png"><br><img src="/img/webassign/8.png"><br><img src="/img/webassign/9.png"><br><img src="/img/webassign/10.png"><br><img src="/img/webassign/11.png"><br><img src="/img/webassign/12.png"></p>
-]]></content>
-  </entry>
-  <entry>
     <title>Reviews</title>
     <url>//reviews.html</url>
     <content><![CDATA[<h2 id="Independent-citations"><a href="#Independent-citations" class="headerlink" title="Independent citations"></a>Independent citations</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Total: 20 (+3) + 1?</span><br></pre></td></tr></table></figure>
@@ -259,6 +256,12 @@
 <li>   Transformation Groups *1</li>
 <li>   Algebras and Representation Theory *2</li>
 </ol>
+]]></content>
+  </entry>
+  <entry>
+    <title>Step-by-step guide to Webassign</title>
+    <url>//webassign.html</url>
+    <content><![CDATA[<p><img src="/img/webassign/1.png"><br><img src="/img/webassign/2.png"><br><img src="/img/webassign/3.png"><br><img src="/img/webassign/4.png"><br><img src="/img/webassign/5.png"><br><img src="/img/webassign/6.png"><br><img src="/img/webassign/7.png"><br><img src="/img/webassign/8.png"><br><img src="/img/webassign/9.png"><br><img src="/img/webassign/10.png"><br><img src="/img/webassign/11.png"><br><img src="/img/webassign/12.png"></p>
 ]]></content>
   </entry>
 </search>
